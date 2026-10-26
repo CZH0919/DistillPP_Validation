@@ -1,0 +1,22 @@
+{
+  "metric": "motion_smoothness",
+  "gpu": 1,
+  "attempt": 2,
+  "timeout_pid": 1432946,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "60m",
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/evaluate_s2.py",
+    "--metric",
+    "motion_smoothness",
+    "--gpu",
+    "1",
+    "--attempt",
+    "2"
+  ],
+  "time": 1792153101.4818404
+}

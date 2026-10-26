@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M03_seed42",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed42/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "2056de3c9cf7568d3f1fb3e687128a70aeeb6fa1399375cd2713107ff1007818"
+    },
+    {
+      "pair_id": "M03_seed42",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed42/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "08d03b0058b78e356c86f1a034a62c40942146db5c6a13c0ab19250c8251ac55"
+    },
+    {
+      "pair_id": "M03_seed1234",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed1234/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "87425aee17192d925a1a6473899a97e4b5ca48b81ad023e7c5a6cf7093093adb"
+    },
+    {
+      "pair_id": "M03_seed1234",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed1234/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "894c2701015b9e76cf651c7ac5f0799dc0323a9d22c64edbde978c006606965e"
+    },
+    {
+      "pair_id": "M03_seed2026",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed2026/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "6b6a5b28752925cd5609604cb4d8d742d77e9cd92db0a6fd7eeeaf493d1a1ede"
+    },
+    {
+      "pair_id": "M03_seed2026",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed2026/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "7d61701c9fdf0cad95a522f5c50f8a46dc31c9b85c5a8dd8feb280676a907522"
+    }
+  ],
+  "aggregate": 0.5,
+  "scoring_seconds": 20.63410205580294
+}

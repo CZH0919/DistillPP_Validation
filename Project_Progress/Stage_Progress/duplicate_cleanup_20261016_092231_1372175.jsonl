@@ -1,0 +1,8 @@
+{"event": "validated", "inventory_sha256": "7d7202f8f1e6313e99ac4490b168fc7fc57d0e1db0dae395e92c5433a687837a", "target": "/data/chenjiayu/models/Wan2.1-T2V-14B"}
+{"event": "unlinked", "name": "LICENSE.txt"}
+{"event": "unlinked", "name": "README.md"}
+{"event": "unlinked", "name": "Wan2.1_VAE.pth"}
+{"event": "unlinked", "name": "config.json"}
+{"event": "unlinked", "name": "diffusion_pytorch_model-00001-of-00006.safetensors"}
+{"event": "unlinked", "name": "diffusion_pytorch_model-00002-of-00006.safetensors.changzihe.part"}
+{"event": "completed", "directory_removed": true}

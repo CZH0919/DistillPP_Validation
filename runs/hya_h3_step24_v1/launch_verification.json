@@ -1,0 +1,248 @@
+{
+  "checked_beijing": "2026-10-25T00:45:31.060617+08:00",
+  "status": {
+    "status": "running",
+    "controller_alive": true,
+    "new_videos": 0,
+    "expected_new_videos": 288,
+    "videos_by_group": {
+      "step2_lambda_0p1": 0,
+      "step2_lambda_0p3": 0,
+      "step2_lambda_0p5": 0,
+      "step4_lambda_0p1": 0,
+      "step4_lambda_0p3": 0,
+      "step4_lambda_0p5": 0
+    },
+    "videos_per_group": 48,
+    "new_scores": 0,
+    "expected_new_scores": 480,
+    "scores_by_metric": {
+      "subject_consistency": 0,
+      "multiple_objects": 0,
+      "dynamic_degree": 0
+    },
+    "max_workers": 4,
+    "gpu_selection": "currently idle, dynamic",
+    "active": [
+      {
+        "task": "gen_HYA_MOTION_01",
+        "gpu": 1,
+        "pid": 963469,
+        "alive": true,
+        "progress": {
+          "stage": "student_step",
+          "time_unix": 1792860296.5205126,
+          "pid": 963469,
+          "prompt_id": "HYA_MOTION_01",
+          "variant": "step2_lambda_0p1",
+          "completed": 0,
+          "total": 5
+        }
+      },
+      {
+        "task": "gen_HYA_MOTION_02",
+        "gpu": 2,
+        "pid": 963470,
+        "alive": true,
+        "progress": {
+          "stage": "student_step",
+          "time_unix": 1792860296.5029953,
+          "pid": 963470,
+          "prompt_id": "HYA_MOTION_02",
+          "variant": "step2_lambda_0p3",
+          "completed": 0,
+          "total": 5
+        }
+      },
+      {
+        "task": "gen_HYA_MOTION_03",
+        "gpu": 3,
+        "pid": 963471,
+        "alive": true,
+        "progress": {
+          "stage": "student_step",
+          "time_unix": 1792860296.516927,
+          "pid": 963471,
+          "prompt_id": "HYA_MOTION_03",
+          "variant": "step2_lambda_0p5",
+          "completed": 0,
+          "total": 5
+        }
+      },
+      {
+        "task": "gen_HYA_MOTION_04",
+        "gpu": 4,
+        "pid": 963472,
+        "alive": true,
+        "progress": {
+          "stage": "student_step",
+          "time_unix": 1792860296.5148954,
+          "pid": 963472,
+          "prompt_id": "HYA_MOTION_04",
+          "variant": "step4_lambda_0p1",
+          "completed": 0,
+          "total": 5
+        }
+      }
+    ],
+    "gpu_cooldowns": {},
+    "errors": {}
+  },
+  "processes": [
+    {
+      "pid": 963464,
+      "ppid": 1,
+      "pgrp": 963464,
+      "session": 963464,
+      "tty_nr": 0,
+      "stdin": "/dev/null",
+      "stdout": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_step24_v1/controller.log"
+    },
+    {
+      "pid": 963469,
+      "ppid": 963464,
+      "pgrp": 963469,
+      "session": 963469,
+      "tty_nr": 0,
+      "stdin": "/dev/null",
+      "stdout": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_step24_v1/logs/gen_HYA_MOTION_01_attempt01.log"
+    },
+    {
+      "pid": 963470,
+      "ppid": 963464,
+      "pgrp": 963470,
+      "session": 963470,
+      "tty_nr": 0,
+      "stdin": "/dev/null",
+      "stdout": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_step24_v1/logs/gen_HYA_MOTION_02_attempt01.log"
+    },
+    {
+      "pid": 963471,
+      "ppid": 963464,
+      "pgrp": 963471,
+      "session": 963471,
+      "tty_nr": 0,
+      "stdin": "/dev/null",
+      "stdout": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_step24_v1/logs/gen_HYA_MOTION_03_attempt01.log"
+    },
+    {
+      "pid": 963472,
+      "ppid": 963464,
+      "pgrp": 963472,
+      "session": 963472,
+      "tty_nr": 0,
+      "stdin": "/dev/null",
+      "stdout": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_step24_v1/logs/gen_HYA_MOTION_04_attempt01.log"
+    }
+  ],
+  "gpu_snapshot": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "27843",
+        "143771",
+        "100"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "48347",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "48347",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "48347",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "48347",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "0",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [
+      [
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "902556",
+        "27832"
+      ],
+      [
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "963469",
+        "48336"
+      ],
+      [
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "963470",
+        "48336"
+      ],
+      [
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "963471",
+        "48336"
+      ],
+      [
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "963472",
+        "48336"
+      ]
+    ],
+    "time_unix": 1792860337.704989
+  },
+  "host_available_gib": 1848.0996475219727,
+  "disk_free_gib": 1291.1415939331055,
+  "frozen_files_verified": 6,
+  "reused_files_verified": 298,
+  "worker_logs": [
+    {
+      "name": "gen_HYA_MOTION_01_attempt01.log",
+      "tail": "H3_PROGRESS {\"stage\": \"load_models\", \"prompt_id\": \"HYA_MOTION_01\"}\nH3_PROGRESS {\"stage\": \"student_warmup\", \"prompt_id\": \"HYA_MOTION_01\", \"variant\": \"step2_lambda_0p1\"}\nH3_PROGRESS {\"stage\": \"student_step\", \"prompt_id\": \"HYA_MOTION_01\", \"variant\": \"step2_lambda_0p1\", \"completed\": 0, \"total\": 5}\n"
+    },
+    {
+      "name": "gen_HYA_MOTION_02_attempt01.log",
+      "tail": "H3_PROGRESS {\"stage\": \"load_models\", \"prompt_id\": \"HYA_MOTION_02\"}\nH3_PROGRESS {\"stage\": \"student_warmup\", \"prompt_id\": \"HYA_MOTION_02\", \"variant\": \"step2_lambda_0p3\"}\nH3_PROGRESS {\"stage\": \"student_step\", \"prompt_id\": \"HYA_MOTION_02\", \"variant\": \"step2_lambda_0p3\", \"completed\": 0, \"total\": 5}\n"
+    },
+    {
+      "name": "gen_HYA_MOTION_03_attempt01.log",
+      "tail": "H3_PROGRESS {\"stage\": \"load_models\", \"prompt_id\": \"HYA_MOTION_03\"}\nH3_PROGRESS {\"stage\": \"student_warmup\", \"prompt_id\": \"HYA_MOTION_03\", \"variant\": \"step2_lambda_0p5\"}\nH3_PROGRESS {\"stage\": \"student_step\", \"prompt_id\": \"HYA_MOTION_03\", \"variant\": \"step2_lambda_0p5\", \"completed\": 0, \"total\": 5}\n"
+    },
+    {
+      "name": "gen_HYA_MOTION_04_attempt01.log",
+      "tail": "H3_PROGRESS {\"stage\": \"load_models\", \"prompt_id\": \"HYA_MOTION_04\"}\nH3_PROGRESS {\"stage\": \"student_warmup\", \"prompt_id\": \"HYA_MOTION_04\", \"variant\": \"step4_lambda_0p1\"}\nH3_PROGRESS {\"stage\": \"student_step\", \"prompt_id\": \"HYA_MOTION_04\", \"variant\": \"step4_lambda_0p1\", \"completed\": 0, \"total\": 5}\n"
+    }
+  ]
+}

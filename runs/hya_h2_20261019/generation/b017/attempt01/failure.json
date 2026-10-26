@@ -1,0 +1,6 @@
+{
+  "status": "conflict",
+  "error": "ResourceConflict(\"Unrecognized process on GPU 0: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '2988825', '818']]\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_generate.py\", line 192, in main\n    rec = generate(row, arm, model, vae, payload, info, admitted, out, i == 0, log)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_generate.py\", line 108, in generate\n    ensure_exclusive(gpu); torch.cuda.synchronize(); timer = time.perf_counter()\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_common.py\", line 87, in ensure_exclusive\n    raise ResourceConflict('Unrecognized process on GPU '+str(index)+': '+str(other))\nhya_h2_common.ResourceConflict: Unrecognized process on GPU 0: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '2988825', '818']]\n",
+  "time_unix": 1792391117.017267
+}

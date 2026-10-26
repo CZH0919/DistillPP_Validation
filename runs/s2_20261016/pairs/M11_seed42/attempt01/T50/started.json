@@ -1,0 +1,23 @@
+{
+  "pair_id": "M11_seed42",
+  "prompt_id": "M11",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is playing piano",
+  "seed": 42,
+  "worker_id": 4,
+  "global_sequence": 46,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+  "pid": 1394260,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "4391627653ad5e6511cfc7613b2cde6a2fdeef3d29afae55249a6aed44645514",
+  "unix_start": 1792151251.281247,
+  "gpu_count": 1,
+  "offload": false
+}

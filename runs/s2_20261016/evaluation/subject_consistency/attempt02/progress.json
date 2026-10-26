@@ -1,0 +1,15 @@
+{
+  "phase": "scoring",
+  "metric": "subject_consistency",
+  "completed_videos": 90,
+  "prompt_id": "M15",
+  "unix_time": 1792153096.7770243,
+  "pid": 1431269,
+  "gpu": [
+    "2",
+    "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "1087",
+    "143771",
+    "0"
+  ]
+}

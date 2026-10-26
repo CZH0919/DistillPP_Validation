@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M15_seed1234",
+  "prompt_id": "M15",
+  "stratum": "scene_motion",
+  "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+  "seed": 1234,
+  "worker_id": 2,
+  "global_sequence": 23,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "shared_positive_text_encoding_seconds": 0.06084529310464859,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed1234/attempt01/T50/result.json",
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed1234/attempt01/S4/result.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_14",
+  "prompt": "A surfboard and a tennis racket. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "c3dd9aabb66544202e21c4969f0f86fc42d97d6c37d0f5aaa12450c421c2c8e8",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "885e0b8d354ab90d22c0d8dab1419620a2588d8a6e27feb8f5f87c9ba5a4c43f",
+    "pooled": "f672bba11dca5f5ceebcf9750bafc564be97cb887a213d936b03a70a87de9c38",
+    "clip_input_ids": "49115511d77bb34f5b715200ba6aecfb6797589499df0b930d2ea4e947f3598e",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 31.04205171763897,
+  "llama_encode_seconds": 0.04727213643491268,
+  "clip_encode_seconds": 0.20305819250643253,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_14.7c4e35bb84d048efbb5df54138e49d25.pt",
+  "file_sha256": "d4d5324a76e45d6ec7f1ff41ac0347c2dfdf983770c57562b1449e4e1195d7f6"
+}

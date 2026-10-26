@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_02",
+  "prompt": "A white refrigerator and a pair of long, narrow skis. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 116,
+    "clip_with_special": 20
+  },
+  "hashes": {
+    "context": "fb86a6c4d18d8f23ff758a13d14271ade849bdaeb5d0ae3566e8b28d91204bf0",
+    "mask": "7b39e2887c4e21df7c0c3be63a77ba46b2eccc4c2b0130506813509101f0a8e7",
+    "llama_input_ids": "2e8d94f31d0aa9d537b4ea88006afc54c61bc3fcd2df54b2b6bf7fb066e6b108",
+    "pooled": "b6efbe8dc3eb7a3b15dcf61c2e81fbb4677ef764c1cda9b41a8983418b95610a",
+    "clip_input_ids": "3b7ee007c08b06ce9f6f10161a954358c3b6a879a933575d483f624441de635f",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.611480930820107,
+  "llama_encode_seconds": 0.2673814631998539,
+  "clip_encode_seconds": 0.02673192135989666,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_02.c432aa8c342a4a38873d745be82eda76.pt",
+  "file_sha256": "2a24f6e55eec6c000893b818885871983edd694e4d05b7d7c59dc05700f3b509"
+}

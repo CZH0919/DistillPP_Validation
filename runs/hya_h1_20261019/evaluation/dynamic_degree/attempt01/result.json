@@ -1,0 +1,41 @@
+{
+  "scope": "H1_ACCEPTANCE_NOT_QUALIFICATION",
+  "metric": "dynamic_degree",
+  "status": "passed",
+  "source_sha256": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb",
+  "vbench_source_sha256": {
+    "vbench/dynamic_degree.py": "2e93d3a7af38bfbe459c19c9d127894f687424a0bc534dbf7e6571d17b24dff7",
+    "vbench/utils.py": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064"
+  },
+  "admission": {
+    "physical_gpu": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 2947215,
+    "initial_snapshot": {
+      "gpu": [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      "processes": []
+    },
+    "lock_scope": "this project only; not a cluster reservation"
+  },
+  "load_scoring_seconds": 19.463563742116094,
+  "aggregate": 0.0,
+  "videos": [
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/T50/attempt01/H1_smoke.mp4",
+      "video_results": false
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/S5/attempt01/H1_smoke.mp4",
+      "video_results": false
+    }
+  ],
+  "peak_allocated_gib": 2.1143431663513184,
+  "audit": [],
+  "network_attempts": []
+}

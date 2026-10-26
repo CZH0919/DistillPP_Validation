@@ -1,0 +1,23 @@
+{
+  "pair_id": "M07_seed2026",
+  "prompt_id": "M07",
+  "stratum": "human_motion",
+  "prompt": "A person is laughing",
+  "seed": 2026,
+  "worker_id": 3,
+  "global_sequence": 45,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "c4de30649e899d197e10d8aabfbf5a90fe5e0627f12492f2a5dea973a8b23314",
+  "positive_context_sha256": "ed574f37e6a574658e98af70bf58e0e82a6f14ff9c935aadb53868075f722891",
+  "unix_start": 1792151211.0469573,
+  "gpu_count": 1,
+  "offload": false
+}

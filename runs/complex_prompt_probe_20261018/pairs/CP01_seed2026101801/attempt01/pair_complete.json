@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "pair_id": "CP01_seed2026101801",
+  "prompt_id": "CP01",
+  "domain": "exploratory_complex_prompt",
+  "stratum": "exploratory_complex_prompt",
+  "cluster_id": "CP01",
+  "prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows.",
+  "eval_prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows.",
+  "primary_metrics": [],
+  "seed": 2026101801,
+  "worker_id": 0,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "worker_sequence": 0,
+  "shared_positive_text_encoding_seconds": 0.03178226761519909,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/complex_prompt_probe_20261018/pairs/CP01_seed2026101801/attempt01/T50/result.json",
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/complex_prompt_probe_20261018/pairs/CP01_seed2026101801/attempt01/S4/result.json"
+  }
+}

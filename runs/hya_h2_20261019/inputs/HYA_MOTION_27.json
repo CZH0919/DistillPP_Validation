@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_27",
+  "prompt": "A sheep running to join a group of other sheep. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "69c69394f5f4fc90e2ffd5e6e57815bac6e45eba0527379647cea11e004a99c3",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "45fddbde4da12bf063ea2c1555b41384cf28a8bc6ccfbbff0948918d73510b4f",
+    "pooled": "b4f4fb24507678474142f6fcf6023c97e51e0a86496f8739082aea69d45782dd",
+    "clip_input_ids": "55672d8f361a46e80b3c723485837527e89a4da1b86125221b7cc5e59074fb4b",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 33.49573099799454,
+  "llama_encode_seconds": 0.2411529030650854,
+  "clip_encode_seconds": 0.028258761391043663,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_27.6872f4134fae434c94acbef3c04594ea.pt",
+  "file_sha256": "6fb22a17563f4a69508cc1b24731e55848974c89ab1f4d27cce4b615b2ac3748"
+}

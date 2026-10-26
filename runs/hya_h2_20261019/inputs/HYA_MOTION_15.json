@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_15",
+  "prompt": "A cat running happily. Realistic, Natural lighting, Cheerful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 13
+  },
+  "hashes": {
+    "context": "75829c61d5258aad219d51d2da7f2d09e2b4726eed4d9407366ae7b27484a69b",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "4b64a26a05b853249ea7d1ff8b9c342778a321cffe7ba5171a8bbfbb525fb81c",
+    "pooled": "54735ac3f590f05297f1e316f861db13e82e3b498717b2889abfdc1774bd4dfd",
+    "clip_input_ids": "1496b37b0c8c101b953030a48da7e0afae9797d93131726fac5d322a3efbb2df",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 36.513510251417756,
+  "llama_encode_seconds": 1.4168151281774044,
+  "clip_encode_seconds": 0.1650598831474781,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_15.4158fadaf22d49998b82937340c31413.pt",
+  "file_sha256": "831e2cb5d1efc3be0ef80c57d318922a49b7ea0da0056e20325a309c9696b8f5"
+}

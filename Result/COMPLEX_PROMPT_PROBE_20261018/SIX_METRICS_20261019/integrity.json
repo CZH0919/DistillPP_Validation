@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "unix_time": 1792369362.7707143,
+  "video_hashes_verified_now": [
+    {
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/complex_prompt_probe_20261018/T50/CP01_seed2026101801.mp4",
+      "video_sha256": "c5e9a1f2491181b9d38f814bf22dc2f44cb4559f5cfd9877cf7f381f11e2b828"
+    },
+    {
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/complex_prompt_probe_20261018/S4/CP01_seed2026101801.mp4",
+      "video_sha256": "460f369245dc083c165be9d62b9ed948f981845d26cc82515aa0f83503b3c73e"
+    }
+  ],
+  "source_files_verified": 276,
+  "evaluation_resources_rehashed_before_run": 8,
+  "resource_size_mtime_unchanged_after_run": true,
+  "metric_count": 6,
+  "score_count": 12,
+  "all_worker_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "occupancy": [
+    {
+      "metric": "imaging_quality",
+      "observations": 1,
+      "error": null
+    },
+    {
+      "metric": "subject_consistency",
+      "observations": 1,
+      "error": null
+    },
+    {
+      "metric": "motion_smoothness",
+      "observations": 1,
+      "error": null
+    },
+    {
+      "metric": "dynamic_degree",
+      "observations": 2,
+      "error": null
+    },
+    {
+      "metric": "aesthetic_quality",
+      "observations": 2,
+      "error": null
+    },
+    {
+      "metric": "overall_consistency",
+      "observations": 1,
+      "error": null
+    }
+  ],
+  "network_attempts": [],
+  "raw_result_sha256": {
+    "runs/complex_prompt_eval_20261019/evaluation/imaging_quality/attempt01/result.json": "6fb573e7b24a61421e47da3c4aefea43a0c4c7a1a53b0206c42fde595824c212",
+    "runs/complex_prompt_eval_20261019/evaluation/subject_consistency/attempt01/result.json": "3e48da4a44271d04b4b44520c6191b68010c8fe176c0eba8c4f03482c67023ba",
+    "runs/complex_prompt_eval_20261019/evaluation/motion_smoothness/attempt01/result.json": "3eac4fe96efa1653742b9ce86ad374f5b30e22a064243d028569791ff889e147",
+    "runs/complex_prompt_eval_20261019/evaluation/dynamic_degree/attempt01/result.json": "be86511aadb331c4bfa5777697fd998879d2ef8bdf8b6cb837337ccef6645f02",
+    "runs/complex_prompt_eval_20261019/evaluation/aesthetic_quality/attempt01/result.json": "f215c3a55339905faf0b3c96e5bbe045979e47c3c0c8e1e3e3aacbc5f3efd498",
+    "runs/complex_prompt_eval_20261019/evaluation/overall_consistency/attempt01/result.json": "94d944410216d8fa13f8b4434ee358dd6a8fa651574abde5ad2d536fb823e3cc"
+  },
+  "preflight_sha256": "b7f50457ae40c9b232ac52aa9782b38ab8452ab8832621c83c2dbc2a7db9a9dc",
+  "config_sha256": "85a15d05cadb55af7730ceba269bde8f279264b64f5d43c064c7ee6f499652a2",
+  "finalizer_sha256": "66078ae51ae9c89f75507e30bbb0763b9caa39d9b611c42dbb7cf91fb263c7a8",
+  "gpu_snapshot_after": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "0",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": []
+  },
+  "preflight_note": "Initial preflight exited 1 because Git discovered an ancestor repository instead of an archive checkout. No GPU work began. Repaired only new validation code to verify fixed source archive bytes; subsequent preflight exited 0.",
+  "output_sha256": {
+    "evaluation_timing.csv": "4d918ec8258ced516f7343a9508f4322ee960dbe439eeaae1a6a2ee6b7d53d65",
+    "metrics_per_video.csv": "a24e3cc68e9013ab3d7aba22fd65d6bdb0bb1393e0ff98c8e5d5e22dec662b41",
+    "paired_differences.csv": "b92ebe94ba92451818774e62afaa9ad9440fde0febde1a73529ef7a1e84aa437",
+    "raw_metric_reports.json": "aa35df85c6ec8efd027ef25db4b6c5f0fdc13a4563fa13e1be86e903bc2a3558",
+    "summary.json": "cfa8063b05a2dca7091faf95a8b38582464f9f0c367eeffdf05607562b85fded"
+  }
+}

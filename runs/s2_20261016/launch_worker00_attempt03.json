@@ -1,0 +1,25 @@
+{
+  "worker": 0,
+  "gpu": 6,
+  "attempt": 3,
+  "timeout_pid": 1420851,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "90m",
+    "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_worker.py",
+    "--gpu",
+    "6",
+    "--worker",
+    "0",
+    "--attempt",
+    "3",
+    "--pair-ids",
+    "M09_seed42"
+  ],
+  "time": 1792151394.2889946,
+  "reason": "GPU0 external PID appeared; only unfinished M09_seed42 retried, same pair/order/seed/config"
+}

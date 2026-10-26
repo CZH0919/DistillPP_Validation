@@ -1,0 +1,87 @@
+{
+  "repository": "facebookresearch/dino",
+  "commit": "7c446df5b9f45747937fb0d72314eb9f7b66930a",
+  "note": "Unmodified pinned source files; nonessential large media omitted. No code has been executed.",
+  "files": [
+    {
+      "path": ".github/CODE_OF_CONDUCT.md",
+      "git_blob_sha1": "0f7ad8bfc173eac554f0b6ef7c684861e8014bbe",
+      "bytes": 244
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "git_blob_sha1": "9361d4090b86e2107879b531f238d6909caa9e5c",
+      "bytes": 164
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "b09cd7856d58590578ee1a4f3ad45d1310a97f87",
+      "bytes": 11324
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "affca658f19b5509920ec065797b6abb88149982",
+      "bytes": 22561
+    },
+    {
+      "path": "eval_copy_detection.py",
+      "git_blob_sha1": "73dcd507893f204a47a5036cc61bd65b30cf1ead",
+      "bytes": 12631
+    },
+    {
+      "path": "eval_image_retrieval.py",
+      "git_blob_sha1": "999f8c9009a9abcc28308c5995c286f65b1522ac",
+      "bytes": 9288
+    },
+    {
+      "path": "eval_knn.py",
+      "git_blob_sha1": "fe99a26049cda2d764086727223e6cc9a8f2bfb8",
+      "bytes": 11128
+    },
+    {
+      "path": "eval_linear.py",
+      "git_blob_sha1": "cdef16b473d216889b493aa0c7a63e15f945092c",
+      "bytes": 13256
+    },
+    {
+      "path": "eval_video_segmentation.py",
+      "git_blob_sha1": "08a18c475db9cbadb29d2e0f22113c0cc9efed49",
+      "bytes": 11835
+    },
+    {
+      "path": "hubconf.py",
+      "git_blob_sha1": "3709271ed2b52bb86fbeb70fc02bc47d1add207e",
+      "bytes": 5653
+    },
+    {
+      "path": "main_dino.py",
+      "git_blob_sha1": "cade9873dcb1d1c6c69ddba61dbdcf3f01dd7540",
+      "bytes": 22945
+    },
+    {
+      "path": "run_with_submitit.py",
+      "git_blob_sha1": "33d4116f2ff512b39d0cec5c936f999df1ac80fe",
+      "bytes": 4374
+    },
+    {
+      "path": "utils.py",
+      "git_blob_sha1": "9586250123a125a83ea2679e121b1b0ef8089916",
+      "bytes": 28039
+    },
+    {
+      "path": "video_generation.py",
+      "git_blob_sha1": "94da9836ad0e9bd8dccf0f989b93a93ed11cfd7e",
+      "bytes": 13669
+    },
+    {
+      "path": "vision_transformer.py",
+      "git_blob_sha1": "f69a7ad0522500ca2a85305a789be5ca6ac474d0",
+      "bytes": 11150
+    },
+    {
+      "path": "visualize_attention.py",
+      "git_blob_sha1": "4288265b9b8865bebfcaad1d350a114da35ff055",
+      "bytes": 9389
+    }
+  ]
+}

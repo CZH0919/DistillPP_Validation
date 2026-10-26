@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_16",
+  "prompt": "A hair dryer and a toothbrush. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "8de35408fbeda5962da9106fe1c414b95a49328f5d8ce37b2edc7f7f543cab46",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "32fa56c4c4f585bf48cfced761bda60373879ab5d1d3b0f4700620ca2ff3c4de",
+    "pooled": "2aa93c9ae3ec7a3492d4a60aa1d78a29225375a3bb3665c0279fc5fd820d0318",
+    "clip_input_ids": "c06eed1f1447f368366a267d1fcf2066a820db5b05ebd473fd7a811330d4585e",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 19.042205972597003,
+  "llama_encode_seconds": 0.04697794280946255,
+  "clip_encode_seconds": 0.004139872267842293,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_16.df78123f9f77462bbb4037837e51e2b0.pt",
+  "file_sha256": "2a95780322a199da26a7132dc3636dcc15f0f53447b166e54ae045f7f611f174"
+}

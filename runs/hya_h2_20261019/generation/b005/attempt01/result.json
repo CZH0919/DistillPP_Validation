@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "block": "b005",
+  "prompt_ids": [
+    "HYA_SCENE_09",
+    "HYA_SCENE_13"
+  ],
+  "admission": {
+    "index": 5,
+    "uuid": "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+    "pid": 3028388,
+    "snapshot": {
+      "gpus": [
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "5",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792406480.8405683
+    }
+  },
+  "arm_order": [
+    "T50",
+    "S5"
+  ],
+  "model_cpu_load_seconds": {
+    "T50": 15.532593917101622,
+    "S5": 0.18838068470358849
+  },
+  "finished_unix": 1792411264.4387538
+}

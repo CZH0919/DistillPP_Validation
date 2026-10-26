@@ -1,0 +1,110 @@
+{
+  "status": "launch_accepted",
+  "run_id": "hya_h2_20261019",
+  "verified_unix": 1792381727.1235178,
+  "controller_process": {
+    "pid": 2959832,
+    "ppid": 1,
+    "process_group": 2959832,
+    "session": 2959832,
+    "tty_nr": 0,
+    "fd0": "/dev/null",
+    "fd1": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/controller.log",
+    "fd2": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/controller.log"
+  },
+  "logout_policy": {
+    "exit_code": 0,
+    "stdout": "b false\n",
+    "stderr": ""
+  },
+  "live_snapshot": {
+    "status": "running",
+    "controller_pid": 2959832,
+    "controller_alive": true,
+    "heartbeat_age_seconds": 12.6,
+    "verified_video_slots": 0,
+    "committed_videos": 0,
+    "total_videos": 128,
+    "completed_pairs": 0,
+    "total_pairs": 64,
+    "completed_scores": 0,
+    "total_scores": 224,
+    "hours_since_launch": 0.08,
+    "active": [
+      {
+        "task": "gen_b000",
+        "gpu": 0,
+        "pid": 2959841,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_b000_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792381726.1765163,
+          "pid": 2959841,
+          "block": "b000",
+          "prompt_id": "HYA_MOTION_01",
+          "arm": "S5",
+          "completed": 2,
+          "total": 5,
+          "step_seconds": 35.181224731728435
+        }
+      },
+      {
+        "task": "gen_b008",
+        "gpu": 1,
+        "pid": 2959842,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_b008_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792381719.568256,
+          "pid": 2959842,
+          "block": "b008",
+          "prompt_id": "HYA_MOTION_02",
+          "arm": "T50",
+          "completed": 2,
+          "total": 50,
+          "step_seconds": 34.9068630579859
+        }
+      },
+      {
+        "task": "gen_b016",
+        "gpu": 2,
+        "pid": 2959843,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_b016_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792381716.970936,
+          "pid": 2959843,
+          "block": "b016",
+          "prompt_id": "HYA_MOTION_03",
+          "arm": "S5",
+          "completed": 2,
+          "total": 5,
+          "step_seconds": 34.7804685998708
+        }
+      },
+      {
+        "task": "gen_b024",
+        "gpu": 3,
+        "pid": 2959844,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_b024_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792381716.1739728,
+          "pid": 2959844,
+          "block": "b024",
+          "prompt_id": "HYA_MOTION_04",
+          "arm": "T50",
+          "completed": 2,
+          "total": 50,
+          "step_seconds": 34.92512543313205
+        }
+      }
+    ],
+    "paused": []
+  },
+  "scope": "startup acceptance only; not completion of videos or evaluation; H2 continues in background; S3 not started"
+}

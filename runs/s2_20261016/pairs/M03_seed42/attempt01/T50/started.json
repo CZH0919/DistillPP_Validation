@@ -1,0 +1,23 @@
+{
+  "pair_id": "M03_seed42",
+  "prompt_id": "M03",
+  "stratum": "animal_motion",
+  "prompt": "a horse galloping across an open field",
+  "seed": 42,
+  "worker_id": 5,
+  "global_sequence": 40,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+  "pid": 1394294,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "978f2e7f3e80144aa3d73c6b379009b30890cd82eb498e70bbdce62af0ca14a5",
+  "unix_start": 1792150668.551652,
+  "gpu_count": 1,
+  "offload": false
+}

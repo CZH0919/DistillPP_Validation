@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_06",
+  "prompt": "A person gives a presentation to a room full of colleagues. Realistic, Indoor lighting, Professional",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 20
+  },
+  "hashes": {
+    "context": "8c94a5cc8807a073b25e6e66609eb9a0d19d90ec36efef6dc0901bbee6ed4ac9",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "4426b86124ad0e9ee4b7881fc2695d43e87f2491093bf76079decf844833f789",
+    "pooled": "818ec8991571463ee124325fab7c50f91c7978951cd214acb0d58210793fb768",
+    "clip_input_ids": "d04a802d788d702237307633628f71090a74771faa027cb491f3c9de52336218",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 55.6740439068526,
+  "llama_encode_seconds": 0.03300263173878193,
+  "clip_encode_seconds": 0.1463314052671194,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_06.e3f57bb73c744c4f97389815b8b1b2d7.pt",
+  "file_sha256": "5b0d1e0c7f3fc5593eb8f6ab14f6fcf4d0bf4d385a5280f5103623e9398ac47d"
+}

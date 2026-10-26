@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "original_numpy": "1.26.4",
+  "local_numpy": "2.4.3",
+  "recomputed_from": "576-row metrics CSV and 96-row timing CSV",
+  "max_absolute_score_or_CI_error": 0.0,
+  "qualification_decision_identical": true,
+  "completed_formal_pairs_across_attempts": 48,
+  "worker_attempts": 9,
+  "warmup_equivalence": {
+    "T50": {
+      "completed_warmups": 8,
+      "all_match_S1": true,
+      "final_latent_sha256": "14a0278cb0523a82acc809c8465fd1fe7a72ce534114b8c911e5638e62f2de8e"
+    },
+    "S4": {
+      "completed_warmups": 8,
+      "all_match_S1": true,
+      "final_latent_sha256": "d4b39d29c340ad800cb359ed8c3e2b0cc504e27e4f1e76718a2e23dd0018f22f"
+    }
+  },
+  "positive_condition_hash_consistent_per_prompt": 16,
+  "initial_noise_hash_consistent_per_seed": 3,
+  "student_initial_cast_metadata": "CPU-derived expected BF16 cast/hash/error outside timing; actual native runtime state dtype asserted each step. S1 records the actual GPU cast, and all completed S2 warmup endpoints match S1."
+}

@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "arm": "S5",
+  "prompt_id": "HYA_OBJECTS_04",
+  "seed": 2026101901,
+  "prompt": "A green broccoli and a blue backpack are placed next to each other. Realistic, Indoor lighting, Casual",
+  "inputs": {
+    "prompt_id": "HYA_OBJECTS_04",
+    "prompt": "A green broccoli and a blue backpack are placed next to each other. Realistic, Indoor lighting, Casual",
+    "seed": 2026101901,
+    "tokens": {
+      "llama_with_template": 117,
+      "clip_with_special": 22
+    },
+    "hashes": {
+      "context": "bc7957e972806b354c832275fc0deb317e05bc9fcbdeba02551f5a73556a952b",
+      "mask": "d55eeaaafc4381b22801da009091934031109cb4a569cbea5ef5580547bab49f",
+      "llama_input_ids": "08b874c2d1b6a886484e415c66071099d78072a9d36b22fc67dd8e1ad6d618c0",
+      "pooled": "7837d2e2b2744e1db13ef33ae856aec736b0fcc9b485079c47613f278742cccc",
+      "clip_input_ids": "597ac878327952a2334681b9c025ea8197ee65ef20a8588057bb01c95c834799",
+      "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+    },
+    "dtypes": {
+      "context": "torch.float16",
+      "mask": "torch.int64",
+      "llama_input_ids": "torch.int64",
+      "pooled": "torch.float16",
+      "clip_input_ids": "torch.int64",
+      "noise": "torch.float32"
+    },
+    "text_encoder_load_encode_seconds": 17.646050456911325,
+    "llama_encode_seconds": 0.21984971314668655,
+    "clip_encode_seconds": 0.026880597695708275,
+    "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_04.756b1f3eea7a4d1db7d775bab55b5245.pt",
+    "file_sha256": "fec41a1b6f8ae4abc43df1d62c521d248fa7fed048341f4910c60e02594a2de2"
+  },
+  "admission": {
+    "index": 4,
+    "uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+    "pid": 3142083,
+    "snapshot": {
+      "gpus": [
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792424956.885336
+    }
+  },
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792426992.9287596,
+  "model_to_gpu_seconds": 7.625820484012365,
+  "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+  "actual_initial_latent_dtype": "torch.float16",
+  "warmup_seconds": 36.39575280994177,
+  "first_prediction_sha256": "a191c17a85c080fa5adde96ac01612bdd1eeb2d7269c50cd702a9f86afd4fdba",
+  "warmup_repeat_exact": true,
+  "denoising_seconds": 179.41289440356195,
+  "steps": [
+    {
+      "step": 0,
+      "timestep": 1000.0,
+      "sigma": 1.0,
+      "next_sigma": 0.9655172228813171,
+      "seconds": 35.801400147378445,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 1,
+      "timestep": 965.5172119140625,
+      "sigma": 0.9655172228813171,
+      "next_sigma": 0.9130434393882751,
+      "seconds": 35.8805823083967,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 2,
+      "timestep": 913.04345703125,
+      "sigma": 0.9130434393882751,
+      "next_sigma": 0.8235293626785278,
+      "seconds": 35.91706633195281,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 3,
+      "timestep": 823.5293579101562,
+      "sigma": 0.8235293626785278,
+      "next_sigma": 0.6363636255264282,
+      "seconds": 35.93150557205081,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 4,
+      "timestep": 636.3636474609375,
+      "sigma": 0.6363636255264282,
+      "next_sigma": 0.0,
+      "seconds": 35.88234004378319,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    }
+  ],
+  "formal_path_dit_calls": 5,
+  "extra_warmup_dit_calls": 1,
+  "final_latent_sha256": "78567de1a51371a006d90697f5dd67bf0eee068a6199e16394dc5d0e833f39e3",
+  "denoise_peak_allocated_gib": 43.14194869995117,
+  "denoise_peak_reserved_gib": 47.314453125,
+  "model_offload_seconds": 12.095500877127051,
+  "vae_to_gpu_seconds": 0.17875587940216064,
+  "vae_decode_seconds": 32.68593652360141,
+  "decode_peak_allocated_gib": 7.232814788818359,
+  "vae_offload_seconds": 0.10737654566764832,
+  "encoding": {
+    "codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "fps": 24
+  },
+  "export_seconds": 4.147519700229168,
+  "video": {
+    "sha256": "3593ac4777be4a462db2e4312eb272f62063d413848a95509190800520225e6a",
+    "bytes": 2370275,
+    "frames_decord": 129,
+    "frames_opencv": 129,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "sample_pixel_std": 62.81872271680259
+  },
+  "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/r_b030_0/attempt02/S5/HYA_OBJECTS_04.mp4",
+  "hot_denoise_decode_seconds": 212.09883092716336,
+  "video_wall_seconds": 296.4832775592804,
+  "network_attempts": [],
+  "finished_unix": 1792427291.0061417
+}

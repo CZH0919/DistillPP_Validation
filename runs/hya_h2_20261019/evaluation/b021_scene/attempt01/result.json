@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b021",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792414062.2023253,
+  "admission": {
+    "index": 2,
+    "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "pid": 3050577,
+    "snapshot": {
+      "gpus": [
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792414069.037606
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_11",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "74fdad6dd873920a4782ba52b0d6941b37537feab319f8edfe09b6be3eb50ed3",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_11.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_11.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_11",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "5ce78b385926fbb067c49f586ac85e4844f61ca58feb91ac9b8446064bb6f657",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_11.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_11.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_15",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "4e62bf29de99f6c45add0fbb62e06913296a50857fb741aff871f041c0f0df0a",
+      "metric": "scene",
+      "score": 0.75,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_15.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_15.mp4",
+        "video_results": 0.75,
+        "success_frame_count": 12,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_15",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "5e92ae359d6ea301b15555b13fa1779d18a10f0aa9821f84f5e09960b1148d0f",
+      "metric": "scene",
+      "score": 0.625,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_15.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_15.mp4",
+        "video_results": 0.625,
+        "success_frame_count": 10,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.34375,
+  "load_scoring_seconds": 16.59521477110684,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_11.mp4",
+      "scene_frame_captions": [
+        "a man cooking food in pans on a stove in a kitchen",
+        "a man cooking food in pans on a stove in a kitchen",
+        "a man cooking food in pans on a stove in a kitchen",
+        "a man cooking food in pans on a stove in a kitchen",
+        "a man cooking food in pans on a stove in a kitchen",
+        "a man cooking food in pans on a stove in a kitchen",
+        "a woman cooking some food in a pan on a stove",
+        "a woman cooking some food in a pan on a stove",
+        "a woman cooking some food in a pan on a stove",
+        "a person cooking some food in pans on a stove",
+        "a person cooking some food in pans on a stove",
+        "a person cooking some food in pans on a stove",
+        "a person cooking some food in a pan on a stove",
+        "a person cooking some food in a pan on a stove",
+        "a person cooking some food in a pan on a stove",
+        "a person cooking some food in a pan on a stove"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_11.mp4",
+      "scene_frame_captions": [
+        "a person in a kitchen preparing food on trays",
+        "a person in a kitchen preparing food on trays",
+        "a person in a kitchen preparing food on trays",
+        "a person in a kitchen preparing food on trays",
+        "a person in a kitchen preparing food on trays",
+        "a person in a kitchen preparing food on trays",
+        "a man in a kitchen with trays of food and bowls on the counter",
+        "a man in a kitchen with trays of food and bowls on the counter",
+        "a man in a kitchen with trays of food and bowls on the counter",
+        "a person in a kitchen with bowls of food",
+        "a person in a kitchen with bowls of food",
+        "a person in a kitchen with bowls of food",
+        "a person in a kitchen preparing food in a pan",
+        "a person in a kitchen preparing food in a pan",
+        "a person in a kitchen preparing food in a pan",
+        "a person in a kitchen preparing some food in a pan"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_15.mp4",
+      "scene_frame_captions": [
+        "people eating lunch at long tables in a large room",
+        "people eating lunch at long tables in a large room",
+        "people eating lunch at long tables in a large room",
+        "people sitting at tables eating lunch in a cafeteria",
+        "people sitting at tables eating lunch in a cafeteria",
+        "people sitting at tables eating lunch in a cafeteria",
+        "people eating lunch in a cafeteria or restaurant sitting at tables",
+        "people eating lunch in a cafeteria or restaurant sitting at tables",
+        "people eating lunch in a cafeteria or restaurant sitting at tables",
+        "people sitting at tables eating food in a cafeteria",
+        "people sitting at tables eating food in a cafeteria",
+        "people sitting at tables eating food in a cafeteria",
+        "students sitting at long tables eating food in a cafeteria",
+        "students sitting at long tables eating food in a cafeteria",
+        "students sitting at long tables eating food in a cafeteria",
+        "people eating food at long tables in a large room"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_15.mp4",
+      "scene_frame_captions": [
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "a cafeteria filled with long tables and people eating",
+        "students eating at long tables in a large room",
+        "students eating at long tables in a large room",
+        "students eating at long tables in a large room",
+        "students eating at long tables in a large room",
+        "students eating at long tables in a large room",
+        "students eating at long tables in a large room",
+        "a cafeteria filled with long tables and people eating"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792414092.22708
+}

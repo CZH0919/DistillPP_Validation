@@ -1,0 +1,21 @@
+{
+  "skipped_document_links": [
+    {
+      "path": "detectron2-1e3e13bbf607b54f62205c4c33922521822fb298/docs/notes/contributing.md",
+      "target": "../../.github/CONTRIBUTING.md"
+    },
+    {
+      "path": "detectron2-1e3e13bbf607b54f62205c4c33922521822fb298/docs/tutorials/builtin_datasets.md",
+      "target": "../../datasets/README.md"
+    },
+    {
+      "path": "detectron2-1e3e13bbf607b54f62205c4c33922521822fb298/docs/tutorials/getting_started.md",
+      "target": "../../GETTING_STARTED.md"
+    },
+    {
+      "path": "detectron2-1e3e13bbf607b54f62205c4c33922521822fb298/docs/tutorials/install.md",
+      "target": "../../INSTALL.md"
+    }
+  ],
+  "source_commit": "1e3e13bbf607b54f62205c4c33922521822fb298"
+}

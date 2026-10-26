@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "arm": "S5",
+  "prompt_id": "HYA_SCENE_02",
+  "seed": 2026101901,
+  "prompt": "An industrial area with factories and industrial buildings. Realistic, Natural lighting",
+  "inputs": {
+    "prompt_id": "HYA_SCENE_02",
+    "prompt": "An industrial area with factories and industrial buildings. Realistic, Natural lighting",
+    "seed": 2026101901,
+    "tokens": {
+      "llama_with_template": 110,
+      "clip_with_special": 15
+    },
+    "hashes": {
+      "context": "56c95523194038f1124300dc5716ff53ebb170ed9c18c4061a8cf14a3cdea917",
+      "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+      "llama_input_ids": "33980935a48f920004ac37f4b2ce1bbe25a7d015955967823792911c6031ab9b",
+      "pooled": "54cdf18fee60a016f746e0be7b3fa84616966b9ef059ff403dc7b9fc01109ea5",
+      "clip_input_ids": "6c33af4f3875fa90d8a4cbd404ce06159397c0f4d3309e3931ead7eecadcdf31",
+      "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+    },
+    "dtypes": {
+      "context": "torch.float16",
+      "mask": "torch.int64",
+      "llama_input_ids": "torch.int64",
+      "pooled": "torch.float16",
+      "clip_input_ids": "torch.int64",
+      "noise": "torch.float32"
+    },
+    "text_encoder_load_encode_seconds": 40.98560563288629,
+    "llama_encode_seconds": 0.22284581512212753,
+    "clip_encode_seconds": 0.15401849895715714,
+    "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_02.5eae583fdd53497aa8424ef52b255a04.pt",
+    "file_sha256": "d45cd8dc6d3f0e132c75044dc82ca7acde7994705a8ca9bbd1afa9543699498b"
+  },
+  "admission": {
+    "index": 3,
+    "uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+    "pid": 3014266,
+    "snapshot": {
+      "gpus": [
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792401689.633533
+    }
+  },
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792405833.8038967,
+  "model_to_gpu_seconds": 7.9729577749967575,
+  "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+  "actual_initial_latent_dtype": "torch.float16",
+  "warmup_seconds": 34.815407674759626,
+  "first_prediction_sha256": "d3acc4cf59330db71b5d37b69aaf937f012ff732796941a66b08e855fde71f13",
+  "warmup_repeat_exact": true,
+  "denoising_seconds": 175.61787030473351,
+  "steps": [
+    {
+      "step": 0,
+      "timestep": 1000.0,
+      "sigma": 1.0,
+      "next_sigma": 0.9655172228813171,
+      "seconds": 35.0098991189152,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 1,
+      "timestep": 965.5172119140625,
+      "sigma": 0.9655172228813171,
+      "next_sigma": 0.9130434393882751,
+      "seconds": 35.11307107843459,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 2,
+      "timestep": 913.04345703125,
+      "sigma": 0.9130434393882751,
+      "next_sigma": 0.8235293626785278,
+      "seconds": 35.169241424649954,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 3,
+      "timestep": 823.5293579101562,
+      "sigma": 0.8235293626785278,
+      "next_sigma": 0.6363636255264282,
+      "seconds": 35.196756057441235,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 4,
+      "timestep": 636.3636474609375,
+      "sigma": 0.6363636255264282,
+      "next_sigma": 0.0,
+      "seconds": 35.12890262529254,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    }
+  ],
+  "formal_path_dit_calls": 5,
+  "extra_warmup_dit_calls": 1,
+  "final_latent_sha256": "0bab8f7254018575f02cb64aaece5ca6d4b94e571df9657f618b71adf3a32f00",
+  "denoise_peak_allocated_gib": 43.14194869995117,
+  "denoise_peak_reserved_gib": 47.314453125,
+  "model_offload_seconds": 12.233635857701302,
+  "vae_to_gpu_seconds": 0.17340399138629436,
+  "vae_decode_seconds": 33.40781593695283,
+  "decode_peak_allocated_gib": 7.232814788818359,
+  "vae_offload_seconds": 0.12089448422193527,
+  "encoding": {
+    "codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "fps": 24
+  },
+  "export_seconds": 6.056815790012479,
+  "video": {
+    "sha256": "e026714293e978b0f17f08d0d04baf1e0328e3e7a0e6d5d13f4f354103fce038",
+    "bytes": 5762404,
+    "frames_decord": 129,
+    "frames_opencv": 129,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "sample_pixel_std": 66.02124606475999
+  },
+  "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b012/attempt01/S5/HYA_SCENE_02.mp4",
+  "hot_denoise_decode_seconds": 209.02568624168634,
+  "video_wall_seconds": 287.14296102523804,
+  "network_attempts": [],
+  "finished_unix": 1792406122.489347
+}

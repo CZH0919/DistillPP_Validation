@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M03_seed2026",
+  "prompt_id": "M03",
+  "stratum": "animal_motion",
+  "prompt": "a horse galloping across an open field",
+  "seed": 2026,
+  "worker_id": 4,
+  "global_sequence": 4,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "shared_positive_text_encoding_seconds": 0.06653422117233276,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed2026/attempt01/T50/result.json",
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M03_seed2026/attempt01/S4/result.json"
+  }
+}

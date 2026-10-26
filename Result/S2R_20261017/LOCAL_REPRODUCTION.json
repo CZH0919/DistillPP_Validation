@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "local_python": "3.14.3",
+  "local_numpy": "2.4.3",
+  "remote_numpy": "1.26.4",
+  "reconstructed_videos": 192,
+  "reconstructed_metric_values": 576,
+  "compared_float_count": 421,
+  "max_absolute_difference": 0.0,
+  "tolerance": 1e-10,
+  "qualification_same": true,
+  "errors": [],
+  "sources": {
+    "statistics.json": "38fab1b417a5aa76b78a153b7dc6e3cdc9202d55eff4abc399b93676ebd0f784",
+    "metrics_per_video.csv": "8856df82351cb46511596e8b931c698016cfa892c30f7ecec37d0ce4828e7dda",
+    "timing_per_video.csv": "3f846f11f2766372f1f98d9ee8ef5021531fc24acabfc32e83f230974f347148",
+    "prompt_means.csv": "565a53f420ba24bf70146ce052c60dee642d5d959952ea15194514788101450b"
+  }
+}

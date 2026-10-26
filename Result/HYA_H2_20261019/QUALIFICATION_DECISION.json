@@ -1,0 +1,34 @@
+{
+  "stage": "S2-HYA/H2",
+  "decision_date": "2026-10-20",
+  "rule_source": "Researcher instruction during result review in this conversation",
+  "rule": "Higher tested mean establishes a teacher win in that quality dimension; CI crossing zero is not an admission gate.",
+  "rule_timing": "Updated after reviewing this batch results; original data and frozen execution protocol unchanged.",
+  "quality_dimensions_tested": 4,
+  "teacher_wins": [
+    "subject_consistency",
+    "multiple_objects"
+  ],
+  "student_higher": [
+    "background_consistency",
+    "scene"
+  ],
+  "qualification_status": "teacher_advantage_established_on_two_tested_dimensions_by_researcher_mean_rule",
+  "preferred_target_retained_from_plan": "subject_consistency",
+  "alternative_teacher_winning_target": "multiple_objects",
+  "guardrail": {
+    "metric": "dynamic_degree",
+    "T50": 0.84375,
+    "S5": 0.84375,
+    "T50_dynamic_count": 27,
+    "S5_dynamic_count": 27,
+    "paired_n": 32,
+    "interpretation": "motion guardrail, equal on all pairs, no automatic threshold"
+  },
+  "original_interval_rule_candidates": [],
+  "confidence_intervals_retained_as_reference": true,
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "S3_started": false,
+  "S3_authorized_by_this_update": false,
+  "next_step": "Await researcher next-stage task; no new experiment or algorithm modification in this review."
+}

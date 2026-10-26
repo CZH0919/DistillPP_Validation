@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b004",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792406408.0554554,
+  "admission": {
+    "index": 3,
+    "uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+    "pid": 3027888,
+    "snapshot": {
+      "gpus": [
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792406418.2070436
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_01",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "1968a7d540cb662639bdb7c37bc435998eeb4a81dfe334b4123331784150ddf7",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_01.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_01.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_01",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "4a962a7602e0bda5273a3662c5b0dc62823046367505c03c06ae99ec5e122de3",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_01.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_01.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_05",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "8b246e5fffc9bf161725ad6adba91ffe25d65b0f7bdc0452d556c261fe3f7384",
+      "metric": "scene",
+      "score": 0.625,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_05.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_05.mp4",
+        "video_results": 0.625,
+        "success_frame_count": 10,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_05",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "5dc3bdd8bd54fe8592b478ec81c9188b36244363e25b8e908bec8da5fcc94e79",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_05.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_05.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.90625,
+  "load_scoring_seconds": 42.166500475257635,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_01.mp4",
+      "scene_frame_captions": [
+        "a red and white lighthouse next to the ocean",
+        "a red and white lighthouse next to the ocean",
+        "a red and white lighthouse next to the ocean",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_01.mp4",
+      "scene_frame_captions": [
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water",
+        "a red and white lighthouse next to a body of water"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_05.mp4",
+      "scene_frame_captions": [
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a woman sitting at a desk in front of a computer monitor",
+        "a woman sitting at a desk in front of a computer monitor",
+        "a woman sitting at a desk in front of a computer monitor",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a woman sitting at a desk in front of a man on a computer",
+        "a woman sitting at a desk in front of a man on a computer",
+        "a woman sitting at a desk in front of a man on a computer",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office",
+        "a man and a woman sitting at a desk in an office"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_05.mp4",
+      "scene_frame_captions": [
+        "a man and a woman working at computers in an office",
+        "a man and a woman working at computers in an office",
+        "a man and a woman working at computers in an office",
+        "a man sitting at a desk in an office",
+        "a man sitting at a desk in an office",
+        "a man sitting at a desk in an office",
+        "a woman working at a desk in an office",
+        "a woman working at a desk in an office",
+        "a woman working at a desk in an office",
+        "a woman sitting at a desk in an office",
+        "a woman sitting at a desk in an office",
+        "a woman sitting at a desk in an office",
+        "an office with people at desks and computers",
+        "an office with people at desks and computers",
+        "an office with people at desks and computers",
+        "a man and a woman sitting at desks in an office"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792406480.8310275
+}

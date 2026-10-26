@@ -1,0 +1,23 @@
+{
+  "pair_id": "M16_seed42",
+  "prompt_id": "M16",
+  "stratum": "scene_motion",
+  "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+  "seed": 42,
+  "worker_id": 4,
+  "global_sequence": 39,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+  "pid": 1394260,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "1cd3e495a303955ea3f5f0494ff4c5a52f860886cae558a9798c6a02c099c311",
+  "unix_start": 1792150686.6274781,
+  "gpu_count": 1,
+  "offload": false
+}

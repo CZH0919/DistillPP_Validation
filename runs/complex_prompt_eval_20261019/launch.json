@@ -1,0 +1,15 @@
+{
+  "pid": 2897232,
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-B",
+    "-u",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/evaluate_complex_prompt_probe.py",
+    "--run-all"
+  ],
+  "unix_start": 1792369201.4634614,
+  "gpu": 6,
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "mode": "one bounded detached sequential evaluation, no periodic automation",
+  "expected_scores": 12
+}

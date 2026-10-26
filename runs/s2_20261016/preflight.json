@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "time": 1792146976.8427927,
+  "generation_files": 24,
+  "generation_validation": "prior full SHA256 plus unchanged size and mtime",
+  "evaluation_full_hashes_now": 8,
+  "disk_free_gib": 978.6987800598145,
+  "input_sha256": {
+    "Project_Plan/BASELINE_SETTINGS.json": "614b5ecb0c7b83ba3d0f648e543596b61f8b080a3bda1a0a0e0eae481353bf12",
+    "Project_Plan/PROMPTS_QUALIFICATION.json": "0564339aac19877ef03b776575eaaf4df2c97b60dc599eef2cf11ed496ad3ad0",
+    "Project_Plan/RESOURCE_MANIFEST.json": "284f74030cecb7ae3a29c7198359e599b12d8c5991be15ca11b4c5d7a67c802b",
+    "Project_Plan/WAN_KEY_RENAME_RULES.json": "3c13b14cc8f824dab0f3717021209ef9e57c38e3b2464f2ac95cd5b660183588",
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/s1_common.py": "8be5811a83a03c36dcc412122e11a8360134dbf617aae0b5938c1bfc0e0b4281",
+    "tools/run_s2_worker.py": "c4482222641aedbb3b28545d224d09e81fe5eaf1df7d4e48b3e3c6da77bc91e3",
+    "tools/s2_common.py": "99a9862265596874eff7df6f79e09392860a2346d938e152e36d4d42a010107a"
+  },
+  "preflight_correction": "First check expected literal passed instead of existing S1_PASSED; exited 1 before creating batch or any GPU process. Literal corrected against S1 evidence."
+}

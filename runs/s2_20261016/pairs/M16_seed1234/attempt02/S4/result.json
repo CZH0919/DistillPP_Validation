@@ -1,0 +1,88 @@
+{
+  "pair_id": "M16_seed1234",
+  "prompt_id": "M16",
+  "stratum": "scene_motion",
+  "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+  "seed": 1234,
+  "worker_id": 0,
+  "global_sequence": 35,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+  "pid": 1393918,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "1cd3e495a303955ea3f5f0494ff4c5a52f860886cae558a9798c6a02c099c311",
+  "unix_start": 1792151170.566643,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.0035025011748075485,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "8a5e04624fee5a3e35829b64582120b6cef4594fc756455da156795ec65e3355",
+  "student_initial_cast_max_abs_error": 0.015624046325683594,
+  "denoise_seconds": 17.454997738823295,
+  "forward_count": 4,
+  "vae_seconds": 11.083068327978253,
+  "denoise_plus_vae_seconds": 28.538066066801548,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.0859375,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.11283513903617859,
+    "std": 0.9211583137512207,
+    "min": -3.90625,
+    "max": 3.96875
+  },
+  "final_latent_sha256": "eb31af978ed94cb5738eeeb4429eb8cb4042ef170935ef3267fb238e829942b7",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.3128091096878052,
+    "std": 0.5914000868797302,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "0c9f68b0e9f7277c937bc4d74731e43ddcdaf8f116be572aa55fcefddb1223be",
+    "bytes": 2519027,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 74.82911660971169,
+    "decoded_first_frame_sha256": "08baaa8ff1bc78639d8d345b7a2efbd981f51673964e477e5dd49d1a4625384a"
+  },
+  "export_and_decode_check_seconds": 4.417949412018061,
+  "unix_end": 1792151203.5685017,
+  "network_attempts": []
+}

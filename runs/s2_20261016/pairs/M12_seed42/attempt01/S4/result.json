@@ -1,0 +1,88 @@
+{
+  "pair_id": "M12_seed42",
+  "prompt_id": "M12",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is folding clothes",
+  "seed": 42,
+  "worker_id": 6,
+  "global_sequence": 6,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1394336,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "98d68262713b2240fcf634f59d7c243553c19a64941a787e6b14cd25dc70bb55",
+  "unix_start": 1792148345.157444,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.0036854632198810577,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "635b5301aea471a58e4ce5fb9e581cae6f754ecd2d8ce0e7dbf620349908f19f",
+  "student_initial_cast_max_abs_error": 0.015438079833984375,
+  "denoise_seconds": 17.450986390933394,
+  "forward_count": 4,
+  "vae_seconds": 11.084403201937675,
+  "denoise_plus_vae_seconds": 28.53538959287107,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.1640625,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.06497633457183838,
+    "std": 1.033285140991211,
+    "min": -4.4375,
+    "max": 4.28125
+  },
+  "final_latent_sha256": "0851ec625b44edda6eccb7a5858384fd6a2c396408c99fb602761cc72f35e15b",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.06505835801362991,
+    "std": 0.6680082678794861,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "98ff09df864dd38952e6d59bcda7818a7c580be28e615f7d843f525541f3d0ca",
+    "bytes": 1062633,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 84.82722231302377,
+    "decoded_first_frame_sha256": "9990049ff26d99995f59368d457b3fb22af91b23e72acc5580983bd1accb9744"
+  },
+  "export_and_decode_check_seconds": 2.538897205144167,
+  "unix_end": 1792148376.274958,
+  "network_attempts": []
+}

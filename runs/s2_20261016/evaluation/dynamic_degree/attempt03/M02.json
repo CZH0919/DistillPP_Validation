@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "pair_id": "M02_seed42",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed42/attempt02/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "17251edc7df84bad8cf8a8b3b97785408dbe4f58e9d288a3060e007b0942a745"
+    },
+    {
+      "pair_id": "M02_seed42",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed42/attempt02/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "0c44ee10c91b528336519ed120a023229084cff1430da58a3581b48bc7d261cd"
+    },
+    {
+      "pair_id": "M02_seed1234",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed1234/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "68e4faa4dfe180a32fa97c7aa7b620829de17ca7a67aea11c9dc12b3c0bc0e67"
+    },
+    {
+      "pair_id": "M02_seed1234",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed1234/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "c8e42b1a2777035a45d94fdd9a26ccef2bbedea33055fe53ebe6d04c1d67ea43"
+    },
+    {
+      "pair_id": "M02_seed2026",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed2026/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "195c9afa8e91e290ce0d048f669d59b983a850c521235e8e9dce96a26868de35"
+    },
+    {
+      "pair_id": "M02_seed2026",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M02_seed2026/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "b97dcddbc9f0db501179bdca2c845e399329a670ffb9a1df64ea9d54b422b9ab"
+    }
+  ],
+  "aggregate": 0.3333333333333333,
+  "scoring_seconds": 20.592049742117524,
+  "reused_from": {
+    "path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/evaluation/dynamic_degree/attempt02/M02.json",
+    "sha256": "7ec12e0fe94e3ba68514b4fcda8f9539165a4535837126c8872f3a07d4172015",
+    "prompt_id": "M02"
+  }
+}

@@ -1,0 +1,700 @@
+{
+  "arm": "T50",
+  "status": "passed",
+  "scope": "H1_ACCEPTANCE_ONLY_NOT_QUALIFICATION",
+  "prompt": "A brown dog and a white cat walk together along a stone path in a sunlit garden. A steady wide shot keeps both animals visible as they move past green plants.",
+  "seed": 2026101900,
+  "protocol_sha256": "b629e14890626e37224a1dea7a0ebe9262d0d8175785d2161db64d49a03548ed",
+  "source_hashes": {
+    "hya_common.py": "7d9f51fbef35e388aa32825497c844627903116d4dd7432b05796e47237e14b1",
+    "hya_generate_smoke.py": "11e2193c481dfb6dbea0c73d0d3e22d001ef457c04a1c58eea72b8698252c708"
+  },
+  "admission": {
+    "physical_gpu": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 2934932,
+    "initial_snapshot": {
+      "gpu": [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      "processes": []
+    },
+    "lock_scope": "this project only; not a cluster reservation"
+  },
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "scheduler_contract": {
+    "5": {
+      "sigmas": [
+        1.0,
+        0.9655172228813171,
+        0.9130434393882751,
+        0.8235293626785278,
+        0.6363636255264282,
+        0.0
+      ],
+      "timesteps": [
+        1000.0,
+        965.5172119140625,
+        913.04345703125,
+        823.5293579101562,
+        636.3636474609375
+      ],
+      "max_euler_error": 0,
+      "persistent_state": "float32 after every native Euler step"
+    },
+    "50": {
+      "sigmas": [
+        1.0,
+        0.9970930218696594,
+        0.9940828680992126,
+        0.990963876247406,
+        0.987730085849762,
+        0.984375,
+        0.980891764163971,
+        0.9772727489471436,
+        0.9735099673271179,
+        0.9695945382118225,
+        0.9655172228813171,
+        0.9612675309181213,
+        0.9568344950675964,
+        0.9522059559822083,
+        0.9473683834075928,
+        0.9423077702522278,
+        0.9370079040527344,
+        0.931451678276062,
+        0.9256197810173035,
+        0.9194915294647217,
+        0.9130434393882751,
+        0.90625,
+        0.8990825414657593,
+        0.8915094137191772,
+        0.8834951519966125,
+        0.875,
+        0.8659793734550476,
+        0.8563829660415649,
+        0.8461538553237915,
+        0.8352272510528564,
+        0.8235293626785278,
+        0.8109755516052246,
+        0.797468364238739,
+        0.7828947901725769,
+        0.767123281955719,
+        0.75,
+        0.7313432693481445,
+        0.7109375,
+        0.6885245442390442,
+        0.6637930870056152,
+        0.6363636255264282,
+        0.6057692766189575,
+        0.5714285373687744,
+        0.532608687877655,
+        0.4883720576763153,
+        0.4374999701976776,
+        0.37837836146354675,
+        0.30882352590560913,
+        0.22580644488334656,
+        0.125,
+        0.0
+      ],
+      "timesteps": [
+        1000.0,
+        997.093017578125,
+        994.0828857421875,
+        990.9638671875,
+        987.7301025390625,
+        984.375,
+        980.8917846679688,
+        977.2727661132812,
+        973.5099487304688,
+        969.5945434570312,
+        965.5172119140625,
+        961.2675170898438,
+        956.83447265625,
+        952.2059326171875,
+        947.368408203125,
+        942.3078002929688,
+        937.0079345703125,
+        931.45166015625,
+        925.6197509765625,
+        919.4915161132812,
+        913.04345703125,
+        906.25,
+        899.08251953125,
+        891.5093994140625,
+        883.4951782226562,
+        875.0,
+        865.9793701171875,
+        856.3829956054688,
+        846.1538696289062,
+        835.2272338867188,
+        823.5293579101562,
+        810.9755249023438,
+        797.4683837890625,
+        782.894775390625,
+        767.123291015625,
+        750.0,
+        731.34326171875,
+        710.9375,
+        688.5245361328125,
+        663.7930908203125,
+        636.3636474609375,
+        605.769287109375,
+        571.4285278320312,
+        532.6087036132812,
+        488.3720703125,
+        437.4999694824219,
+        378.37835693359375,
+        308.8235168457031,
+        225.8064422607422,
+        125.0
+      ],
+      "max_euler_error": 0,
+      "persistent_state": "float32 after every native Euler step"
+    }
+  },
+  "inputs": {
+    "prompt": "A brown dog and a white cat walk together along a stone path in a sunlit garden. A steady wide shot keeps both animals visible as they move past green plants.",
+    "seed": 2026101900,
+    "scope": "H1 smoke only, outside formal panel",
+    "tokens": {
+      "llama_with_template": 130,
+      "llama_crop_start": 95,
+      "llama_max_with_template": 351,
+      "clip_with_special": 36
+    },
+    "hashes": {
+      "context": "fba8c5ee880bbf0a32da4964bee602e8adc05d686a5e72c755cf02290f1931ad",
+      "mask": "025eb948dd001bea415350b563edc79db86f75afb3802c9294a80be7179f8ff7",
+      "llama_input_ids": "3cfaf30a209d8f5601833874a1ae587c07eb8781644c4f5ff3eec408a104dd01",
+      "pooled": "9610a580ae4e4919b2592e8cb3a7e1395a3c85153dcbe87cdf89c8061591f32b",
+      "clip_input_ids": "ddf8b99185c4dfc3f88ecbf9303c958d5d88d7d84140b8afb030a6fabc22389c",
+      "noise": "842f31090e83d6bc01252251d8483fb0890bc4dcdbc6074a05755d4f8f24f06b"
+    },
+    "dtypes": {
+      "context": "torch.float16",
+      "mask": "torch.int64",
+      "llama_input_ids": "torch.int64",
+      "pooled": "torch.float16",
+      "clip_input_ids": "torch.int64",
+      "noise": "torch.float32"
+    },
+    "text_encoder_load_encode_seconds": 13.207005256786942,
+    "llama_encode_seconds": 0.20652682706713676,
+    "clip_encode_seconds": 0.04845094867050648,
+    "initial_latent_policy": "same CPU FP32 source explicitly supplied; cast to native prompt dtype FP16 before first step; subsequent native Euler state FP32",
+    "file_sha256": "ce306847a90cc496c79ee0b18801167d9fc5d100d4cb5b144a7facf177b844da"
+  },
+  "weight_mapping": {
+    "native_tensors": 856,
+    "source_tensors": 1264,
+    "all_tensors_bitwise_roundtrip": true
+  },
+  "model_load_seconds": 14.826547564938664,
+  "actual_initial_latent_sha256": "8b0af6541b9d56f36930fb9b0582665453957d673fb6a9a75ec2220a3120da37",
+  "actual_initial_latent_dtype": "torch.float16",
+  "warmup_seconds": 36.891531908884645,
+  "first_prediction_sha256": "8836ae576f2e747a2f90b51f1e7800ccebba53e849fabfa0e6e3615bc06f7ed9",
+  "warmup_repeat_exact": true,
+  "denoising_seconds": 1753.545675167814,
+  "steps": [
+    {
+      "step": 0,
+      "timestep": 1000.0,
+      "sigma": 1.0,
+      "next_sigma": 0.9970930218696594,
+      "seconds": 35.033318316563964,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 1,
+      "timestep": 997.093017578125,
+      "sigma": 0.9970930218696594,
+      "next_sigma": 0.9940828680992126,
+      "seconds": 35.061522863805294,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 2,
+      "timestep": 994.0828857421875,
+      "sigma": 0.9940828680992126,
+      "next_sigma": 0.990963876247406,
+      "seconds": 35.08386101014912,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 3,
+      "timestep": 990.9638671875,
+      "sigma": 0.990963876247406,
+      "next_sigma": 0.987730085849762,
+      "seconds": 35.06435905210674,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 4,
+      "timestep": 987.7301025390625,
+      "sigma": 0.987730085849762,
+      "next_sigma": 0.984375,
+      "seconds": 35.02868143282831,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 5,
+      "timestep": 984.375,
+      "sigma": 0.984375,
+      "next_sigma": 0.980891764163971,
+      "seconds": 35.00790558569133,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 6,
+      "timestep": 980.8917846679688,
+      "sigma": 0.980891764163971,
+      "next_sigma": 0.9772727489471436,
+      "seconds": 35.020619347691536,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 7,
+      "timestep": 977.2727661132812,
+      "sigma": 0.9772727489471436,
+      "next_sigma": 0.9735099673271179,
+      "seconds": 35.03396886959672,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 8,
+      "timestep": 973.5099487304688,
+      "sigma": 0.9735099673271179,
+      "next_sigma": 0.9695945382118225,
+      "seconds": 34.97994817979634,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 9,
+      "timestep": 969.5945434570312,
+      "sigma": 0.9695945382118225,
+      "next_sigma": 0.9655172228813171,
+      "seconds": 35.02937479317188,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 10,
+      "timestep": 965.5172119140625,
+      "sigma": 0.9655172228813171,
+      "next_sigma": 0.9612675309181213,
+      "seconds": 35.06601313315332,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 11,
+      "timestep": 961.2675170898438,
+      "sigma": 0.9612675309181213,
+      "next_sigma": 0.9568344950675964,
+      "seconds": 35.07655935175717,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 12,
+      "timestep": 956.83447265625,
+      "sigma": 0.9568344950675964,
+      "next_sigma": 0.9522059559822083,
+      "seconds": 35.086700681596994,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 13,
+      "timestep": 952.2059326171875,
+      "sigma": 0.9522059559822083,
+      "next_sigma": 0.9473683834075928,
+      "seconds": 35.071476720273495,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 14,
+      "timestep": 947.368408203125,
+      "sigma": 0.9473683834075928,
+      "next_sigma": 0.9423077702522278,
+      "seconds": 35.11153900809586,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 15,
+      "timestep": 942.3078002929688,
+      "sigma": 0.9423077702522278,
+      "next_sigma": 0.9370079040527344,
+      "seconds": 35.101092429831624,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 16,
+      "timestep": 937.0079345703125,
+      "sigma": 0.9370079040527344,
+      "next_sigma": 0.931451678276062,
+      "seconds": 35.103236842900515,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 17,
+      "timestep": 931.45166015625,
+      "sigma": 0.931451678276062,
+      "next_sigma": 0.9256197810173035,
+      "seconds": 35.10462217219174,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 18,
+      "timestep": 925.6197509765625,
+      "sigma": 0.9256197810173035,
+      "next_sigma": 0.9194915294647217,
+      "seconds": 35.08150739222765,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 19,
+      "timestep": 919.4915161132812,
+      "sigma": 0.9194915294647217,
+      "next_sigma": 0.9130434393882751,
+      "seconds": 35.094920841977,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 20,
+      "timestep": 913.04345703125,
+      "sigma": 0.9130434393882751,
+      "next_sigma": 0.90625,
+      "seconds": 35.120542926713824,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 21,
+      "timestep": 906.25,
+      "sigma": 0.90625,
+      "next_sigma": 0.8990825414657593,
+      "seconds": 35.12022293172777,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 22,
+      "timestep": 899.08251953125,
+      "sigma": 0.8990825414657593,
+      "next_sigma": 0.8915094137191772,
+      "seconds": 35.098241191357374,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 23,
+      "timestep": 891.5093994140625,
+      "sigma": 0.8915094137191772,
+      "next_sigma": 0.8834951519966125,
+      "seconds": 35.061055939644575,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 24,
+      "timestep": 883.4951782226562,
+      "sigma": 0.8834951519966125,
+      "next_sigma": 0.875,
+      "seconds": 35.097439747303724,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 25,
+      "timestep": 875.0,
+      "sigma": 0.875,
+      "next_sigma": 0.8659793734550476,
+      "seconds": 35.097989588975906,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 26,
+      "timestep": 865.9793701171875,
+      "sigma": 0.8659793734550476,
+      "next_sigma": 0.8563829660415649,
+      "seconds": 35.11127398908138,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 27,
+      "timestep": 856.3829956054688,
+      "sigma": 0.8563829660415649,
+      "next_sigma": 0.8461538553237915,
+      "seconds": 35.07731291092932,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 28,
+      "timestep": 846.1538696289062,
+      "sigma": 0.8461538553237915,
+      "next_sigma": 0.8352272510528564,
+      "seconds": 35.10242212191224,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 29,
+      "timestep": 835.2272338867188,
+      "sigma": 0.8352272510528564,
+      "next_sigma": 0.8235293626785278,
+      "seconds": 35.022111378610134,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 30,
+      "timestep": 823.5293579101562,
+      "sigma": 0.8235293626785278,
+      "next_sigma": 0.8109755516052246,
+      "seconds": 35.04101705737412,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 31,
+      "timestep": 810.9755249023438,
+      "sigma": 0.8109755516052246,
+      "next_sigma": 0.797468364238739,
+      "seconds": 35.07000948488712,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 32,
+      "timestep": 797.4683837890625,
+      "sigma": 0.797468364238739,
+      "next_sigma": 0.7828947901725769,
+      "seconds": 35.06358877196908,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 33,
+      "timestep": 782.894775390625,
+      "sigma": 0.7828947901725769,
+      "next_sigma": 0.767123281955719,
+      "seconds": 35.04860218241811,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 34,
+      "timestep": 767.123291015625,
+      "sigma": 0.767123281955719,
+      "next_sigma": 0.75,
+      "seconds": 35.082919938489795,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 35,
+      "timestep": 750.0,
+      "sigma": 0.75,
+      "next_sigma": 0.7313432693481445,
+      "seconds": 35.05285504646599,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 36,
+      "timestep": 731.34326171875,
+      "sigma": 0.7313432693481445,
+      "next_sigma": 0.7109375,
+      "seconds": 35.066525653004646,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 37,
+      "timestep": 710.9375,
+      "sigma": 0.7109375,
+      "next_sigma": 0.6885245442390442,
+      "seconds": 35.09275011718273,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 38,
+      "timestep": 688.5245361328125,
+      "sigma": 0.6885245442390442,
+      "next_sigma": 0.6637930870056152,
+      "seconds": 35.1089218724519,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 39,
+      "timestep": 663.7930908203125,
+      "sigma": 0.6637930870056152,
+      "next_sigma": 0.6363636255264282,
+      "seconds": 35.1115139182657,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 40,
+      "timestep": 636.3636474609375,
+      "sigma": 0.6363636255264282,
+      "next_sigma": 0.6057692766189575,
+      "seconds": 35.0986591167748,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 41,
+      "timestep": 605.769287109375,
+      "sigma": 0.6057692766189575,
+      "next_sigma": 0.5714285373687744,
+      "seconds": 35.03848029486835,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 42,
+      "timestep": 571.4285278320312,
+      "sigma": 0.5714285373687744,
+      "next_sigma": 0.532608687877655,
+      "seconds": 35.056670086458325,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 43,
+      "timestep": 532.6087036132812,
+      "sigma": 0.532608687877655,
+      "next_sigma": 0.4883720576763153,
+      "seconds": 35.042238119989634,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 44,
+      "timestep": 488.3720703125,
+      "sigma": 0.4883720576763153,
+      "next_sigma": 0.4374999701976776,
+      "seconds": 35.015122981742024,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 45,
+      "timestep": 437.4999694824219,
+      "sigma": 0.4374999701976776,
+      "next_sigma": 0.37837836146354675,
+      "seconds": 35.077567752450705,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 46,
+      "timestep": 378.37835693359375,
+      "sigma": 0.37837836146354675,
+      "next_sigma": 0.30882352590560913,
+      "seconds": 35.07407360710204,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 47,
+      "timestep": 308.8235168457031,
+      "sigma": 0.30882352590560913,
+      "next_sigma": 0.22580644488334656,
+      "seconds": 35.086349254474044,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 48,
+      "timestep": 225.8064422607422,
+      "sigma": 0.22580644488334656,
+      "next_sigma": 0.125,
+      "seconds": 35.06997290067375,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 49,
+      "timestep": 125.0,
+      "sigma": 0.125,
+      "next_sigma": 0.0,
+      "seconds": 35.097996259108186,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    }
+  ],
+  "formal_path_dit_calls": 50,
+  "extra_warmup_dit_calls": 1,
+  "final_latent_sha256": "c50b9c105acc3f17c31502a4f319e68b3667bff45f0adf9092c7b7a28aa69546",
+  "denoise_peak_allocated_gib": 43.14194869995117,
+  "denoise_peak_reserved_gib": 47.314453125,
+  "vae_load_seconds": 0.25363839231431484,
+  "vae_tiling": {
+    "tile_sample_min_height": 256,
+    "tile_sample_min_width": 256,
+    "tile_sample_min_num_frames": 16,
+    "tile_sample_stride_height": 192,
+    "tile_sample_stride_width": 192,
+    "tile_sample_stride_num_frames": 12
+  },
+  "vae_decode_seconds": 32.36425240710378,
+  "decode_peak_allocated_gib": 7.232815265655518,
+  "encoding": {
+    "codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "fps": 24
+  },
+  "export_seconds": 4.55209269374609,
+  "video": {
+    "sha256": "fd88101959cda44f3f28b27ce919809d69d1a5c1a65bf1112227a7a3ddbf87c0",
+    "bytes": 3105206,
+    "frames_decord": 129,
+    "frames_opencv": 129,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "sample_pixel_std": 79.26028998642478
+  },
+  "precision": {
+    "dit": "BF16 weights/autocast",
+    "text_encoders": "FP16 native defaults",
+    "initial_latent": "FP16 after shared FP32 source cast",
+    "persistent_state": "FP32 after step",
+    "vae": "FP16 autocast, FP32 latent divided by scaling_factor=0.476986"
+  },
+  "attention": "unmodified native AccVideo full bidirectional FlashAttention 2; no caching, quantization or sparse attention",
+  "hot_denoise_decode_seconds": 1785.9099275749177,
+  "network_attempts": []
+}

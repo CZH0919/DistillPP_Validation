@@ -1,0 +1,321 @@
+prompt_id,group,metric,score,source
+HYA_MOTION_17,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_17,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_21,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_21,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_03,T50,subject_consistency,0.9793386468663812,H2 reused
+HYA_MOTION_03,S5,subject_consistency,0.9726194150280207,H2 reused
+HYA_MOTION_07,T50,subject_consistency,0.8844780444633216,H2 reused
+HYA_MOTION_07,S5,subject_consistency,0.9316324435640126,H2 reused
+HYA_MOTION_26,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_26,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_30,T50,dynamic_degree,0.0,H2 reused
+HYA_MOTION_30,S5,dynamic_degree,0.0,H2 reused
+HYA_MOTION_11,T50,subject_consistency,0.9732095550280064,H2 reused
+HYA_MOTION_11,S5,subject_consistency,0.9857169785536826,H2 reused
+HYA_MOTION_15,T50,subject_consistency,0.9364331068936735,H2 reused
+HYA_MOTION_15,S5,subject_consistency,0.9089012707117945,H2 reused
+HYA_MOTION_01,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_01,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_05,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_05,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_09,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_09,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_13,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_13,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_03,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_03,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_07,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_07,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_26,T50,subject_consistency,0.9737786271143705,H2 reused
+HYA_MOTION_26,S5,subject_consistency,0.961874392349273,H2 reused
+HYA_MOTION_30,T50,subject_consistency,0.9844979331828654,H2 reused
+HYA_MOTION_30,S5,subject_consistency,0.9860248726326972,H2 reused
+HYA_MOTION_12,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_12,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_16,T50,dynamic_degree,0.0,H2 reused
+HYA_MOTION_16,S5,dynamic_degree,0.0,H2 reused
+HYA_OBJECTS_03,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_03,S5,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_07,T50,multiple_objects,0.4375,H2 reused
+HYA_OBJECTS_07,S5,multiple_objects,0.0625,H2 reused
+HYA_MOTION_01,T50,subject_consistency,0.9457219657488167,H2 reused
+HYA_MOTION_01,S5,subject_consistency,0.9284188158344477,H2 reused
+HYA_MOTION_05,T50,subject_consistency,0.8910838766023517,H2 reused
+HYA_MOTION_05,S5,subject_consistency,0.7743875700398348,H2 reused
+HYA_MOTION_20,T50,subject_consistency,0.9657858919817954,H2 reused
+HYA_MOTION_20,S5,subject_consistency,0.9647898024413735,H2 reused
+HYA_MOTION_24,T50,subject_consistency,0.9145551084075123,H2 reused
+HYA_MOTION_24,S5,subject_consistency,0.8652374444063753,H2 reused
+HYA_MOTION_04,T50,subject_consistency,0.9773469655774534,H2 reused
+HYA_MOTION_04,S5,subject_consistency,0.9734662666451186,H2 reused
+HYA_MOTION_08,T50,subject_consistency,0.9734484266955405,H2 reused
+HYA_MOTION_08,S5,subject_consistency,0.9531825520098209,H2 reused
+HYA_MOTION_27,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_27,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_31,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_31,S5,dynamic_degree,1.0,H2 reused
+HYA_OBJECTS_01,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_01,S5,multiple_objects,0.375,H2 reused
+HYA_OBJECTS_05,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_05,S5,multiple_objects,0.4375,H2 reused
+HYA_OBJECTS_11,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_11,S5,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_15,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_15,S5,multiple_objects,0.0,H2 reused
+HYA_MOTION_19,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_19,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_23,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_23,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_09,T50,subject_consistency,0.9813560049515218,H2 reused
+HYA_MOTION_09,S5,subject_consistency,0.9773309959564358,H2 reused
+HYA_MOTION_13,T50,subject_consistency,0.9874086398631334,H2 reused
+HYA_MOTION_13,S5,subject_consistency,0.9003230349626392,H2 reused
+HYA_MOTION_27,T50,subject_consistency,0.9026614567264915,H2 reused
+HYA_MOTION_27,S5,subject_consistency,0.9154791685286909,H2 reused
+HYA_MOTION_31,T50,subject_consistency,0.9458058550953865,H2 reused
+HYA_MOTION_31,S5,subject_consistency,0.9551951717585325,H2 reused
+HYA_OBJECTS_02,T50,multiple_objects,0.25,H2 reused
+HYA_OBJECTS_02,S5,multiple_objects,0.0,H2 reused
+HYA_OBJECTS_06,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_06,S5,multiple_objects,0.4375,H2 reused
+HYA_MOTION_02,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_02,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_06,T50,dynamic_degree,0.0,H2 reused
+HYA_MOTION_06,S5,dynamic_degree,0.0,H2 reused
+HYA_OBJECTS_12,T50,multiple_objects,0.4375,H2 reused
+HYA_OBJECTS_12,S5,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_16,T50,multiple_objects,0.0625,H2 reused
+HYA_OBJECTS_16,S5,multiple_objects,0.9375,H2 reused
+HYA_OBJECTS_04,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_04,S5,multiple_objects,0.75,H2 reused
+HYA_OBJECTS_08,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_08,S5,multiple_objects,1.0,H2 reused
+HYA_MOTION_10,T50,subject_consistency,0.9761064907070249,H2 reused
+HYA_MOTION_10,S5,subject_consistency,0.9629980295430869,H2 reused
+HYA_MOTION_14,T50,subject_consistency,0.9580042930319905,H2 reused
+HYA_MOTION_14,S5,subject_consistency,0.9526790373492986,H2 reused
+HYA_MOTION_28,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_28,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_32,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_32,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_10,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_10,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_14,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_14,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_25,T50,subject_consistency,0.9590758185368031,H2 reused
+HYA_MOTION_25,S5,subject_consistency,0.9294963008724153,H2 reused
+HYA_MOTION_29,T50,subject_consistency,0.9098395467735827,H2 reused
+HYA_MOTION_29,S5,subject_consistency,0.8064429683145136,H2 reused
+HYA_MOTION_02,T50,subject_consistency,0.9236508572939783,H2 reused
+HYA_MOTION_02,S5,subject_consistency,0.9655325005296618,H2 reused
+HYA_MOTION_06,T50,subject_consistency,0.9869644974824041,H2 reused
+HYA_MOTION_06,S5,subject_consistency,0.9963035797700286,H2 reused
+HYA_MOTION_17,T50,subject_consistency,0.9725522908847779,H2 reused
+HYA_MOTION_17,S5,subject_consistency,0.9466959647834301,H2 reused
+HYA_MOTION_21,T50,subject_consistency,0.9758787287864834,H2 reused
+HYA_MOTION_21,S5,subject_consistency,0.9574883885215968,H2 reused
+HYA_MOTION_04,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_04,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_08,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_08,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_12,T50,subject_consistency,0.8872694409219548,H2 reused
+HYA_MOTION_12,S5,subject_consistency,0.9276552654337138,H2 reused
+HYA_MOTION_16,T50,subject_consistency,0.9789828562643379,H2 reused
+HYA_MOTION_16,S5,subject_consistency,0.9910748859401792,H2 reused
+HYA_MOTION_11,T50,dynamic_degree,0.0,H2 reused
+HYA_MOTION_11,S5,dynamic_degree,0.0,H2 reused
+HYA_MOTION_15,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_15,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_20,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_20,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_24,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_24,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_28,T50,subject_consistency,0.8983710344182327,H2 reused
+HYA_MOTION_28,S5,subject_consistency,0.8790952379349619,H2 reused
+HYA_MOTION_32,T50,subject_consistency,0.9765005263034254,H2 reused
+HYA_MOTION_32,S5,subject_consistency,0.9661984106060117,H2 reused
+HYA_MOTION_18,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_18,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_22,T50,dynamic_degree,0.0,H2 reused
+HYA_MOTION_22,S5,dynamic_degree,0.0,H2 reused
+HYA_OBJECTS_09,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_09,S5,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_13,T50,multiple_objects,0.0,H2 reused
+HYA_OBJECTS_13,S5,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_10,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_10,S5,multiple_objects,0.4375,H2 reused
+HYA_OBJECTS_14,T50,multiple_objects,1.0,H2 reused
+HYA_OBJECTS_14,S5,multiple_objects,1.0,H2 reused
+HYA_MOTION_25,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_25,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_29,T50,dynamic_degree,1.0,H2 reused
+HYA_MOTION_29,S5,dynamic_degree,1.0,H2 reused
+HYA_MOTION_18,T50,subject_consistency,0.944053818937391,H2 reused
+HYA_MOTION_18,S5,subject_consistency,0.9371227810624987,H2 reused
+HYA_MOTION_22,T50,subject_consistency,0.9910589191131294,H2 reused
+HYA_MOTION_22,S5,subject_consistency,0.9811327487695962,H2 reused
+HYA_MOTION_19,T50,subject_consistency,0.9618080907966942,H2 reused
+HYA_MOTION_19,S5,subject_consistency,0.967439096653834,H2 reused
+HYA_MOTION_23,T50,subject_consistency,0.9612644258886576,H2 reused
+HYA_MOTION_23,S5,subject_consistency,0.9909101177472621,H2 reused
+HYA_MOTION_01,lambda_0p1,subject_consistency,0.9238466965034604,correction objective evaluation
+HYA_MOTION_01,lambda_0p3,subject_consistency,0.9283715605270118,correction objective evaluation
+HYA_MOTION_02,lambda_0p3,subject_consistency,0.9656838665250689,correction objective evaluation
+HYA_MOTION_02,lambda_0p1,subject_consistency,0.964747270103544,correction objective evaluation
+HYA_MOTION_03,lambda_0p1,subject_consistency,0.964358946075663,correction objective evaluation
+HYA_MOTION_03,lambda_0p3,subject_consistency,0.9675611678976566,correction objective evaluation
+HYA_MOTION_04,lambda_0p3,subject_consistency,0.970276863547042,correction objective evaluation
+HYA_MOTION_04,lambda_0p1,subject_consistency,0.9728799781296402,correction objective evaluation
+HYA_MOTION_05,lambda_0p1,subject_consistency,0.7884784514317289,correction objective evaluation
+HYA_MOTION_05,lambda_0p3,subject_consistency,0.806444414309226,correction objective evaluation
+HYA_MOTION_06,lambda_0p3,subject_consistency,0.9969088586512953,correction objective evaluation
+HYA_MOTION_06,lambda_0p1,subject_consistency,0.9965622765012085,correction objective evaluation
+HYA_MOTION_07,lambda_0p1,subject_consistency,0.9334483041893691,correction objective evaluation
+HYA_MOTION_07,lambda_0p3,subject_consistency,0.9261157331056893,correction objective evaluation
+HYA_MOTION_08,lambda_0p3,subject_consistency,0.9514765492640436,correction objective evaluation
+HYA_MOTION_08,lambda_0p1,subject_consistency,0.9549776951316744,correction objective evaluation
+HYA_MOTION_09,lambda_0p1,subject_consistency,0.9768291253130883,correction objective evaluation
+HYA_MOTION_09,lambda_0p3,subject_consistency,0.9759766657371074,correction objective evaluation
+HYA_MOTION_10,lambda_0p3,subject_consistency,0.9618193961214274,correction objective evaluation
+HYA_MOTION_10,lambda_0p1,subject_consistency,0.9619933736976236,correction objective evaluation
+HYA_MOTION_11,lambda_0p1,subject_consistency,0.9863190222531557,correction objective evaluation
+HYA_MOTION_11,lambda_0p3,subject_consistency,0.9884076740127057,correction objective evaluation
+HYA_MOTION_12,lambda_0p3,subject_consistency,0.9246646477840841,correction objective evaluation
+HYA_MOTION_12,lambda_0p1,subject_consistency,0.9223374235443771,correction objective evaluation
+HYA_MOTION_13,lambda_0p1,subject_consistency,0.9238284328021109,correction objective evaluation
+HYA_MOTION_13,lambda_0p3,subject_consistency,0.9375363131985068,correction objective evaluation
+HYA_MOTION_14,lambda_0p3,subject_consistency,0.9504401315934956,correction objective evaluation
+HYA_MOTION_14,lambda_0p1,subject_consistency,0.9515074028167874,correction objective evaluation
+HYA_MOTION_15,lambda_0p1,subject_consistency,0.9087526567745954,correction objective evaluation
+HYA_MOTION_15,lambda_0p3,subject_consistency,0.9204303664155304,correction objective evaluation
+HYA_MOTION_16,lambda_0p3,subject_consistency,0.9890535690356046,correction objective evaluation
+HYA_MOTION_16,lambda_0p1,subject_consistency,0.9907071355264634,correction objective evaluation
+HYA_MOTION_17,lambda_0p1,subject_consistency,0.945237411186099,correction objective evaluation
+HYA_MOTION_17,lambda_0p3,subject_consistency,0.9379472192376852,correction objective evaluation
+HYA_MOTION_18,lambda_0p3,subject_consistency,0.9454668841790408,correction objective evaluation
+HYA_MOTION_18,lambda_0p1,subject_consistency,0.9408060463611037,correction objective evaluation
+HYA_MOTION_19,lambda_0p1,subject_consistency,0.9695846128743142,correction objective evaluation
+HYA_MOTION_19,lambda_0p3,subject_consistency,0.972500327276066,correction objective evaluation
+HYA_MOTION_20,lambda_0p3,subject_consistency,0.9589811090845615,correction objective evaluation
+HYA_MOTION_20,lambda_0p1,subject_consistency,0.9639193394687027,correction objective evaluation
+HYA_MOTION_21,lambda_0p1,subject_consistency,0.9607060912530869,correction objective evaluation
+HYA_MOTION_21,lambda_0p3,subject_consistency,0.9569533180911094,correction objective evaluation
+HYA_MOTION_22,lambda_0p3,subject_consistency,0.9813681815285236,correction objective evaluation
+HYA_MOTION_22,lambda_0p1,subject_consistency,0.9794647109229118,correction objective evaluation
+HYA_MOTION_23,lambda_0p1,subject_consistency,0.9912822004407644,correction objective evaluation
+HYA_MOTION_23,lambda_0p3,subject_consistency,0.9908548914827406,correction objective evaluation
+HYA_MOTION_24,lambda_0p3,subject_consistency,0.8846099509391934,correction objective evaluation
+HYA_MOTION_24,lambda_0p1,subject_consistency,0.875422314973548,correction objective evaluation
+HYA_MOTION_25,lambda_0p1,subject_consistency,0.9133808373007923,correction objective evaluation
+HYA_MOTION_25,lambda_0p3,subject_consistency,0.9178127117920667,correction objective evaluation
+HYA_MOTION_26,lambda_0p3,subject_consistency,0.9601385146379471,correction objective evaluation
+HYA_MOTION_26,lambda_0p1,subject_consistency,0.9593963036313653,correction objective evaluation
+HYA_MOTION_27,lambda_0p1,subject_consistency,0.9195898452308029,correction objective evaluation
+HYA_MOTION_27,lambda_0p3,subject_consistency,0.9143882803618908,correction objective evaluation
+HYA_MOTION_28,lambda_0p3,subject_consistency,0.8755619395524263,correction objective evaluation
+HYA_MOTION_28,lambda_0p1,subject_consistency,0.872544571524486,correction objective evaluation
+HYA_MOTION_29,lambda_0p1,subject_consistency,0.8099726604996249,correction objective evaluation
+HYA_MOTION_29,lambda_0p3,subject_consistency,0.8029674458084628,correction objective evaluation
+HYA_MOTION_30,lambda_0p3,subject_consistency,0.9876917011570185,correction objective evaluation
+HYA_MOTION_30,lambda_0p1,subject_consistency,0.9883747473359108,correction objective evaluation
+HYA_MOTION_31,lambda_0p1,subject_consistency,0.9608421910088509,correction objective evaluation
+HYA_MOTION_31,lambda_0p3,subject_consistency,0.9655886471737176,correction objective evaluation
+HYA_MOTION_32,lambda_0p3,subject_consistency,0.9610643053893,correction objective evaluation
+HYA_MOTION_32,lambda_0p1,subject_consistency,0.9656135553959757,correction objective evaluation
+HYA_MOTION_01,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_01,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_02,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_02,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_03,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_03,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_04,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_04,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_05,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_05,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_06,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_06,lambda_0p1,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_07,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_07,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_08,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_08,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_09,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_09,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_10,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_10,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_11,lambda_0p1,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_11,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_12,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_12,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_13,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_13,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_14,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_14,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_15,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_15,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_16,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_16,lambda_0p1,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_17,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_17,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_18,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_18,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_19,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_19,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_20,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_20,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_21,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_21,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_22,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_22,lambda_0p1,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_23,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_23,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_24,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_24,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_25,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_25,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_26,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_26,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_27,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_27,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_28,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_28,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_29,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_29,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_30,lambda_0p3,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_30,lambda_0p1,dynamic_degree,0.0,correction objective evaluation
+HYA_MOTION_31,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_31,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_32,lambda_0p3,dynamic_degree,1.0,correction objective evaluation
+HYA_MOTION_32,lambda_0p1,dynamic_degree,1.0,correction objective evaluation
+HYA_OBJECTS_01,lambda_0p1,multiple_objects,0.3125,correction objective evaluation
+HYA_OBJECTS_01,lambda_0p3,multiple_objects,0.25,correction objective evaluation
+HYA_OBJECTS_02,lambda_0p3,multiple_objects,0.125,correction objective evaluation
+HYA_OBJECTS_02,lambda_0p1,multiple_objects,0.0,correction objective evaluation
+HYA_OBJECTS_03,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_03,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_04,lambda_0p3,multiple_objects,0.6875,correction objective evaluation
+HYA_OBJECTS_04,lambda_0p1,multiple_objects,0.75,correction objective evaluation
+HYA_OBJECTS_05,lambda_0p1,multiple_objects,0.5,correction objective evaluation
+HYA_OBJECTS_05,lambda_0p3,multiple_objects,0.4375,correction objective evaluation
+HYA_OBJECTS_06,lambda_0p3,multiple_objects,0.75,correction objective evaluation
+HYA_OBJECTS_06,lambda_0p1,multiple_objects,0.625,correction objective evaluation
+HYA_OBJECTS_07,lambda_0p1,multiple_objects,0.0,correction objective evaluation
+HYA_OBJECTS_07,lambda_0p3,multiple_objects,0.25,correction objective evaluation
+HYA_OBJECTS_08,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_08,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_09,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_09,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_10,lambda_0p3,multiple_objects,0.3125,correction objective evaluation
+HYA_OBJECTS_10,lambda_0p1,multiple_objects,0.5625,correction objective evaluation
+HYA_OBJECTS_11,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_11,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_12,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_12,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_13,lambda_0p1,multiple_objects,0.625,correction objective evaluation
+HYA_OBJECTS_13,lambda_0p3,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_14,lambda_0p3,multiple_objects,0.9375,correction objective evaluation
+HYA_OBJECTS_14,lambda_0p1,multiple_objects,1.0,correction objective evaluation
+HYA_OBJECTS_15,lambda_0p1,multiple_objects,0.0,correction objective evaluation
+HYA_OBJECTS_15,lambda_0p3,multiple_objects,0.0,correction objective evaluation
+HYA_OBJECTS_16,lambda_0p3,multiple_objects,0.375,correction objective evaluation
+HYA_OBJECTS_16,lambda_0p1,multiple_objects,0.9375,correction objective evaluation

@@ -1,0 +1,284 @@
+{
+  "status": "passed",
+  "cleanup_log": "/data/chenjiayu/changzihe/DistillPP_Validation/Project_Progress/Stage_Progress/duplicate_cleanup_20261016_092231_1372175.jsonl",
+  "generation_evidence": "previous full hashes + unchanged sizes/mtimes",
+  "generation_files": [
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/config.json",
+      "bytes": 466,
+      "mtime_ns": 1767602607618694475
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00001-of-00012.safetensors",
+      "bytes": 4863171808,
+      "mtime_ns": 1767602610317624368
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00002-of-00012.safetensors",
+      "bytes": 4919594456,
+      "mtime_ns": 1767602611676589080
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00003-of-00012.safetensors",
+      "bytes": 4919465128,
+      "mtime_ns": 1767602610950607930
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00004-of-00012.safetensors",
+      "bytes": 4919594536,
+      "mtime_ns": 1767602611161602451
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00005-of-00012.safetensors",
+      "bytes": 4919465224,
+      "mtime_ns": 1767602612072578798
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00006-of-00012.safetensors",
+      "bytes": 4919594552,
+      "mtime_ns": 1767602611695588586
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00007-of-00012.safetensors",
+      "bytes": 4919465224,
+      "mtime_ns": 1767602611866584146
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00008-of-00012.safetensors",
+      "bytes": 4919594552,
+      "mtime_ns": 1767602612557566207
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00009-of-00012.safetensors",
+      "bytes": 4919465224,
+      "mtime_ns": 1767602613167550372
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00010-of-00012.safetensors",
+      "bytes": 4919594552,
+      "mtime_ns": 1767602613828533214
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00011-of-00012.safetensors",
+      "bytes": 4919465224,
+      "mtime_ns": 1767602614374519043
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00012-of-00012.safetensors",
+      "bytes": 3095607280,
+      "mtime_ns": 1767602613496541832
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model.safetensors.index.json",
+      "bytes": 97307,
+      "mtime_ns": 1767602612255574047
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/LICENSE.txt",
+      "bytes": 11357,
+      "mtime_ns": 1776754963481675975
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/README.md",
+      "bytes": 2333,
+      "mtime_ns": 1776754962420700119
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/Wan2.1_VAE.pth",
+      "bytes": 507609880,
+      "mtime_ns": 1776755130981851788
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/config.json",
+      "bytes": 250,
+      "mtime_ns": 1776754965034640632
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/distill_model.pt",
+      "bytes": 28577333801,
+      "mtime_ns": 1776758946189564435
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/special_tokens_map.json",
+      "bytes": 6623,
+      "mtime_ns": 1776754970806509254
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/spiece.model",
+      "bytes": 4548313,
+      "mtime_ns": 1776754986741146389
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/tokenizer.json",
+      "bytes": 16837417,
+      "mtime_ns": 1776754977656353298
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/tokenizer_config.json",
+      "bytes": 61728,
+      "mtime_ns": 1776754973383450588
+    },
+    {
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/models_t5_umt5-xxl-enc-bf16.pth",
+      "bytes": 11361920418,
+      "mtime_ns": 1776757467094539539
+    }
+  ],
+  "evaluation_rehashed_now": [
+    {
+      "id": "DINO ViT-B/16",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e"
+    },
+    {
+      "id": "MUSIQ SPAQ",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/pyiqa_model/musiq_spaq_ckpt-358bb6af.pth",
+      "sha256": "358bb6af275e28ea56821d44fb55c6cb83645db11f394d3ad65b2d149965ab50"
+    },
+    {
+      "id": "AMT-S",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/amt_model/amt-s.pth",
+      "sha256": "07e7e03405c213fe4405678db9b42d05671e48c56faf6a441b99bb0047d3cf77"
+    },
+    {
+      "id": "RAFT Things",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+      "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+    },
+    {
+      "id": "OpenAI CLIP ViT-L/14 (224px)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/clip_model/ViT-L-14.pt",
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    },
+    {
+      "id": "LAION aesthetic predictor V1 linear head",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/aesthetic_model/emb_reader/sa_0_4_vit_l_14_linear.pth",
+      "sha256": "2cd4e60f4f24ae3bcd57b847b13c1f3ba27edc28cc1a7f9ce74ee9f421243cba"
+    },
+    {
+      "id": "ViCLIP InternVid-10M-FLT (VBench packaged checkpoint)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/ViClip-InternVid-10M-FLT.pth",
+      "sha256": "7a4d6ad6eac6632db3693f4b97f9f8f6445b65b1e139a6fc6686150522238c56"
+    },
+    {
+      "id": "OpenAI CLIP BPE vocabulary for ViCLIP and CLIP",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    }
+  ],
+  "source_checks": [
+    {
+      "group": "generation",
+      "stdout": "Source verified: /data/chenjiayu/changzihe/DistillPP_Validation/src/Wan2.1\nSource verified: /data/chenjiayu/changzihe/DistillPP_Validation/src/LightX2V\nPinned generation source trees ready; no models loaded.\n"
+    },
+    {
+      "group": "evaluation",
+      "stdout": "Source verified: /data/chenjiayu/changzihe/DistillPP_Validation/src/VBench\nSource verified: /data/chenjiayu/changzihe/DistillPP_Validation/src/DINO\nSource verified: /data/chenjiayu/changzihe/DistillPP_Validation/src/CLIP\nPinned source trees and vocabulary ready; no models loaded.\n"
+    }
+  ],
+  "dependency_checks": {
+    "changzihe": {
+      "pip_check_exit": 1,
+      "known_decord_tag_warning": true,
+      "output": "decord 0.6.0 is not supported on this platform\n"
+    },
+    "changzihe_eval": {
+      "pip_check_exit": 1,
+      "known_decord_tag_warning": true,
+      "output": "decord 0.6.0 is not supported on this platform\n"
+    }
+  },
+  "eval_cpu_check": {
+    "metric_imports": true,
+    "viclip_tokens_including_special": {
+      "M01": 10,
+      "M02": 6,
+      "M03": 10,
+      "M04": 14,
+      "M05": 7,
+      "M06": 7,
+      "M07": 6,
+      "M08": 7,
+      "M09": 6,
+      "M10": 7,
+      "M11": 7,
+      "M12": 7,
+      "M13": 16,
+      "M14": 10,
+      "M15": 13,
+      "M16": 18,
+      "S1_SMOKE": 24
+    },
+    "cuda_initialized": false,
+    "clip_source": "/data/chenjiayu/changzihe/DistillPP_Validation/src/CLIP/clip/__init__.py",
+    "pyiqa": "0.1.13"
+  },
+  "gpu_snapshot": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "71654",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [
+      [
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "1689341",
+        "71642"
+      ]
+    ]
+  },
+  "formal_qualification_started": false
+}

@@ -1,0 +1,68 @@
+{
+  "pair_id": "warmup",
+  "prompt_id": "warmup",
+  "stratum": "nonformal",
+  "prompt": "A blue toy boat drifts across a garden pond, leaving gentle ripples in soft daylight. Static camera.",
+  "seed": 2026101601,
+  "arm": "S4",
+  "warmup": true,
+  "status": "passed",
+  "worker_id": 4,
+  "gpu_uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+  "pid": 1394260,
+  "initial_latent_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+  "positive_context_sha256": "829f37ccad53b2e3f755622cef8f135727be7ff075231c69ff7f7b09d315dd82",
+  "unix_start": 1792147822.498711,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.003683183342218399,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "462a9a1d87eb3a2e67a991941b5adb033f0819258d614c8d7439610ea2010b3c",
+  "student_initial_cast_max_abs_error": 0.015556812286376953,
+  "denoise_seconds": 17.96107129380107,
+  "forward_count": 4,
+  "vae_seconds": 11.082559499889612,
+  "denoise_plus_vae_seconds": 29.04363079369068,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.046875,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.04162042587995529,
+    "std": 1.0146480798721313,
+    "min": -4.03125,
+    "max": 4.375
+  },
+  "final_latent_sha256": "d4b39d29c340ad800cb359ed8c3e2b0cc504e27e4f1e76718a2e23dd0018f22f",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.2506027817726135,
+    "std": 0.6710134744644165,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "unix_end": 1792147851.5903482,
+  "network_attempts": []
+}

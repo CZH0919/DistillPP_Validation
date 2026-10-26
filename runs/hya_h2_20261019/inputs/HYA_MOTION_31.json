@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_31",
+  "prompt": "A dog running happily. Realistic, Natural lighting, Cheerful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 13
+  },
+  "hashes": {
+    "context": "b6a073ee2519f55decc5d5795bc8be8c2de8552de0a11bd4ce516e6bf9ce37d9",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "5d9fb1705e4d6aef3e5e846e8b3c46a66128102efc79d99b2e6f6b43a906e6ce",
+    "pooled": "caa4cecf0438f956a4ce5db78d96d6a428c674fda232c2571bafbdea64776aa5",
+    "clip_input_ids": "927447fe8c1c32a8fbcb110d3bde582183d00495c51802573afe7cc482097181",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 33.13925593160093,
+  "llama_encode_seconds": 0.04125295951962471,
+  "clip_encode_seconds": 0.12902443297207355,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_31.30bf3695f0214de6a266ff666becbae4.pt",
+  "file_sha256": "7a20db4d57c52f53ff43a50fd0b2aedd7f611c54c137838a0ee949aef96b20d7"
+}

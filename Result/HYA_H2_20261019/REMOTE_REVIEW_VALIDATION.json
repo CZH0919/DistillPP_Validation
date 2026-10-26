@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checked_unix": 1792474029.5940838,
+  "audit_seconds": 2.551018714904785,
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "complete_sha256": "d941688f7f6434603b25a5bc31dd59b25b94de15c83faca685dd9718fe176564",
+  "original_result_files_hash_checked": 6,
+  "frozen_files_hash_checked": 263,
+  "resources_size_mtime_unchanged_since_startup_full_hash": 40,
+  "scheduling_adapters_hash_checked": 3,
+  "preserved_recovery_files_hash_checked": 356,
+  "pair_count": 64,
+  "scores": 224,
+  "archived_videos": {
+    "T50": 64,
+    "S5": 64
+  },
+  "raw_and_archive_video_hash_checks": 256,
+  "shared_input_tensor_files_hash_checked": 64,
+  "same_device_and_input_pairs": 64,
+  "generation_decode_geometry_records_checked": 128,
+  "generation_weight_mapping_proofs": 36,
+  "completed_pairs_retained_from_later_conflicted_block": [
+    {
+      "block_attempt": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b020/attempt01",
+      "valid_committed_prompts": [
+        "HYA_SCENE_03"
+      ],
+      "later_failure_unix": 1792406437.9670632
+    }
+  ],
+  "unique_files_hashed": 719,
+  "active_recorded_processes": [],
+  "attempts": 114,
+  "attempt_returncodes": {
+    "0": 87,
+    "75": 20,
+    "-15": 3,
+    "None": 4
+  },
+  "resource_conflict_failure_records": 20,
+  "adopted_success_returncode_unavailable_but_result_verified": 4,
+  "S3_started": false,
+  "limits": [
+    "Current audit rehashed videos and checked saved double-decoder acceptance; no new decoding or GPU scoring.",
+    "Resource identity was fully hashed at startup; this audit checks its recorded manifest digest and unchanged size/mtime, without rereading large weights.",
+    "Successful worker exit codes adopted across supervisors remain null, not fabricated as zero."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "teacher_shards": 12,
+  "native_keys": 1095,
+  "student_keys": 1095,
+  "teacher_keys": 1095,
+  "teacher_dtype": "F32",
+  "student_dtypes": [
+    "torch.bfloat16"
+  ],
+  "mapping_bijective": true,
+  "all_shapes_match": true,
+  "native_shard_spot_checked_tensors": 189,
+  "native_shard_sample_bytes_per_copy": 24192,
+  "cuda_initialized": false,
+  "full_weight_hashes_checked": false,
+  "real_model_load_or_forward_tested": false
+}

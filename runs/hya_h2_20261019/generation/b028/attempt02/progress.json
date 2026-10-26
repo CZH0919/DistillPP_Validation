@@ -1,0 +1,8 @@
+{
+  "stage": "model_to_gpu",
+  "time_unix": 1792407000.6517236,
+  "pid": 3031007,
+  "block": "b028",
+  "prompt_id": "HYA_SCENE_04",
+  "arm": "T50"
+}

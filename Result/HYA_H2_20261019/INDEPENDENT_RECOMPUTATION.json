@@ -1,0 +1,284 @@
+{
+  "status": "passed",
+  "independent_of_finalizer_import": true,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "numpy_version": "2.4.3",
+  "bootstrap_seed": 20261019,
+  "bootstrap_repetitions": 20000,
+  "numeric_comparisons": 87,
+  "maximum_absolute_error": 0.0,
+  "raw_scores": 224,
+  "paired_metric_rows": 112,
+  "timing_rows": 128,
+  "metrics": [
+    {
+      "metric": "subject_consistency",
+      "prompt_count": 32,
+      "T50_mean": 0.9524466169168591,
+      "S5_mean": 0.9410264221642137,
+      "T50_minus_S5": 0.01142019475264533,
+      "ci_low": -0.0034278499441597887,
+      "ci_high": 0.028425338827332787,
+      "teacher_higher": 21,
+      "equal": 0,
+      "student_higher": 11,
+      "T50_min": 0.8844780444633216,
+      "T50_max": 0.9910589191131294,
+      "S5_min": 0.7743875700398348,
+      "S5_max": 0.9963035797700286,
+      "teacher_advantage_candidate": false,
+      "ci_level": 0.9875
+    },
+    {
+      "metric": "background_consistency",
+      "prompt_count": 16,
+      "T50_mean": 0.976544976234436,
+      "S5_mean": 0.9787616729736328,
+      "T50_minus_S5": -0.0022166967391967773,
+      "ci_low": -0.007105129957199097,
+      "ci_high": 0.002415852248668697,
+      "teacher_higher": 7,
+      "equal": 0,
+      "student_higher": 9,
+      "T50_min": 0.9495716094970703,
+      "T50_max": 0.998565673828125,
+      "S5_min": 0.9598064422607422,
+      "S5_max": 0.9936141967773438,
+      "teacher_advantage_candidate": false,
+      "ci_level": 0.9875
+    },
+    {
+      "metric": "scene",
+      "prompt_count": 16,
+      "T50_mean": 0.4140625,
+      "S5_mean": 0.53515625,
+      "T50_minus_S5": -0.12109375,
+      "ci_low": -0.421875,
+      "ci_high": 0.16796875,
+      "teacher_higher": 4,
+      "equal": 7,
+      "student_higher": 5,
+      "T50_min": 0.0,
+      "T50_max": 1.0,
+      "S5_min": 0.0,
+      "S5_max": 1.0,
+      "teacher_advantage_candidate": false,
+      "ci_level": 0.9875
+    },
+    {
+      "metric": "multiple_objects",
+      "prompt_count": 16,
+      "T50_mean": 0.76171875,
+      "S5_mean": 0.65234375,
+      "T50_minus_S5": 0.109375,
+      "ci_low": -0.22658691406249998,
+      "ci_high": 0.41796875,
+      "teacher_higher": 8,
+      "equal": 5,
+      "student_higher": 3,
+      "T50_min": 0.0,
+      "T50_max": 1.0,
+      "S5_min": 0.0,
+      "S5_max": 1.0,
+      "teacher_advantage_candidate": false,
+      "ci_level": 0.9875
+    },
+    {
+      "metric": "dynamic_degree",
+      "prompt_count": 32,
+      "T50_mean": 0.84375,
+      "S5_mean": 0.84375,
+      "T50_minus_S5": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "teacher_higher": 0,
+      "equal": 32,
+      "student_higher": 0,
+      "T50_min": 0.0,
+      "T50_max": 1.0,
+      "S5_min": 0.0,
+      "S5_max": 1.0,
+      "teacher_advantage_candidate": null,
+      "ci_level": 0.95,
+      "dynamic_counts": {
+        "T50": 27,
+        "S5": 27,
+        "both_dynamic": 27,
+        "both_static": 5,
+        "T_dynamic_S_static": 0,
+        "T_static_S_dynamic": 0
+      }
+    }
+  ],
+  "timing": {
+    "T50": {
+      "median_seconds": 1786.2717206897214,
+      "q1": 1782.7090871431865,
+      "q3": 1797.3756058425643,
+      "iqr": 14.666518699377775,
+      "total_seconds": 114651.6280105114,
+      "n": 64
+    },
+    "S5": {
+      "median_seconds": 208.01323403045535,
+      "q1": 207.58649009419605,
+      "q3": 209.27284628991038,
+      "iqr": 1.6863561957143247,
+      "total_seconds": 13347.965299995616,
+      "n": 64
+    },
+    "ratio_of_medians": 8.587298442887496,
+    "median_paired_ratio": 8.593423258910402,
+    "ratio_of_medians_95ci": [
+      8.569974507333214,
+      8.599851572729603
+    ]
+  },
+  "final_video_cost_fields": {
+    "T50": {
+      "denoising_seconds": {
+        "median_seconds": 1753.4443281088024,
+        "total_seconds": 112551.32827377692
+      },
+      "vae_decode_seconds": {
+        "median_seconds": 32.79603949282318,
+        "total_seconds": 2100.2997367344797
+      },
+      "hot_denoise_decode_seconds": {
+        "median_seconds": 1786.2717206897214,
+        "total_seconds": 114651.6280105114
+      },
+      "warmup_seconds": {
+        "median_seconds": 34.51183054037392,
+        "total_seconds": 1264.2578793670982
+      },
+      "model_to_gpu_seconds": {
+        "median_seconds": 6.019319769926369,
+        "total_seconds": 436.2568199187517
+      },
+      "model_offload_seconds": {
+        "median_seconds": 12.160085461102426,
+        "total_seconds": 779.8943895883858
+      },
+      "vae_to_gpu_seconds": {
+        "median_seconds": 0.21284590475261211,
+        "total_seconds": 30.11061054840684
+      },
+      "vae_offload_seconds": {
+        "median_seconds": 0.13114995416253805,
+        "total_seconds": 9.065496806055307
+      },
+      "export_seconds": {
+        "median_seconds": 5.049293000251055,
+        "total_seconds": 324.09776658192277
+      },
+      "video_wall_seconds": {
+        "median_seconds": 2011.9975032806396,
+        "total_seconds": 128461.32334017754
+      }
+    },
+    "S5": {
+      "denoising_seconds": {
+        "median_seconds": 175.1768240146339,
+        "total_seconds": 11242.738735938445
+      },
+      "vae_decode_seconds": {
+        "median_seconds": 32.682675927877426,
+        "total_seconds": 2105.2265640571713
+      },
+      "hot_denoise_decode_seconds": {
+        "median_seconds": 208.01323403045535,
+        "total_seconds": 13347.965299995616
+      },
+      "warmup_seconds": {
+        "median_seconds": 34.659191376529634,
+        "total_seconds": 1281.8214706033468
+      },
+      "model_to_gpu_seconds": {
+        "median_seconds": 7.701280755922198,
+        "total_seconds": 537.4615032039583
+      },
+      "model_offload_seconds": {
+        "median_seconds": 12.09909316059202,
+        "total_seconds": 777.4488609582186
+      },
+      "vae_to_gpu_seconds": {
+        "median_seconds": 0.20399744994938374,
+        "total_seconds": 28.179391061887145
+      },
+      "vae_offload_seconds": {
+        "median_seconds": 0.12088008783757687,
+        "total_seconds": 9.557500613853335
+      },
+      "export_seconds": {
+        "median_seconds": 5.119238806888461,
+        "total_seconds": 333.4497149325907
+      },
+      "video_wall_seconds": {
+        "median_seconds": 285.5811948776245,
+        "total_seconds": 17657.5795481205
+      }
+    }
+  },
+  "attempt_outcomes": {
+    "0": {
+      "count": 87,
+      "summed_worker_wall_seconds": 144140.46524238586,
+      "generation": 31,
+      "evaluation": 56
+    },
+    "75": {
+      "count": 20,
+      "summed_worker_wall_seconds": 16642.80248618126,
+      "generation": 19,
+      "evaluation": 1
+    },
+    "-15": {
+      "count": 3,
+      "summed_worker_wall_seconds": 1038.803254365921,
+      "generation": 3,
+      "evaluation": 0
+    },
+    "None": {
+      "count": 4,
+      "summed_worker_wall_seconds": 9581.137670993805,
+      "generation": 4,
+      "evaluation": 0
+    }
+  },
+  "offpanel_completed_video_attempts": {
+    "count": 6,
+    "hot_denoise_decode_seconds": 2835.6604469064623,
+    "video_wall_seconds": 3423.902820825577,
+    "paths": [
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b006/attempt01/S5/HYA_OBJECTS_01.json",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b013/attempt01/S5/HYA_SCENE_10.json",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b017/attempt01/T50/HYA_MOTION_11.json",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b020/attempt01/S5/HYA_SCENE_07.json",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b022/attempt01/S5/HYA_OBJECTS_03.json",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b022/attempt01/S5/HYA_OBJECTS_07.json"
+    ]
+  },
+  "shared_text_inputs_load_encode_total_seconds": 2356.8266615439206,
+  "completed_generation_block_load_totals_seconds": {
+    "T50": 197.6437468379736,
+    "S5": 55.86100633814931
+  },
+  "completed_generation_block_result_files": 35,
+  "committed_evaluation_load_scoring_total_seconds": 4749.821688303724,
+  "first_dispatch_beijing": "2026-10-19T11:43:57+08:00",
+  "completed_beijing": "2026-10-20T00:59:57+08:00",
+  "elapsed_seconds_including_waits_and_recovery": 47759.662774086,
+  "original_interval_rule_candidates": [],
+  "current_researcher_mean_rule_winners": [
+    "subject_consistency",
+    "multiple_objects"
+  ],
+  "decision": "Researcher updated qualification during result review: higher mean wins the tested dimension. Teacher wins subject_consistency and multiple_objects. S3 remains unstarted.",
+  "limits": [
+    "Summed worker wall time includes CPU loading, lock waits and scoring; it is not GPU kernel time or pure retry waste.",
+    "Offpanel complete video costs are part of attempt wall costs, not additive to them.",
+    "Load totals from completed block results omit failed blocks without result.json; not a full cold-start benchmark.",
+    "Fixed seed, selected prompt panel, approximate simultaneous bootstrap intervals."
+  ]
+}

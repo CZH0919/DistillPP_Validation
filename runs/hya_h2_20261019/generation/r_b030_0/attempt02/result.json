@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "block": "r_b030_0",
+  "prompt_ids": [
+    "HYA_OBJECTS_04"
+  ],
+  "admission": {
+    "index": 4,
+    "uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+    "pid": 3142083,
+    "snapshot": {
+      "gpus": [
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792424956.885336
+    }
+  },
+  "arm_order": [
+    "T50",
+    "S5"
+  ],
+  "model_cpu_load_seconds": {
+    "T50": 4.161093143746257,
+    "S5": 0.1972708310931921
+  },
+  "finished_unix": 1792427292.2826004
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_09",
+  "prompt": "A microwave and a frisbee. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "766e04bac9e3b646fcfa5562aa6b719c55a98e2b95431122ba3cbef50ed05a10",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "6dfa14cafdf75e221be0ceb5f7818e914e8cef126580a015d75e7de7185af0ed",
+    "pooled": "1d444ffaec54466be3b09af44f2cf61ca77b44657d3ce3325ed01b3883241dec",
+    "clip_input_ids": "c5614362f52b34f4e2fb4cbc137756a679fe491e043eddb73467808484bea72a",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 21.638440607115626,
+  "llama_encode_seconds": 0.2749648354947567,
+  "clip_encode_seconds": 0.19851922430098057,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_09.d9f8a10561d1426b9c9708c1ed915652.pt",
+  "file_sha256": "c4cbbb5f5760c3e08de3aacd05504aa4d09e77d873feeb97c15396d8c67abf2f"
+}

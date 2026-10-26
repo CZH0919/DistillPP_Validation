@@ -1,0 +1,29 @@
+{
+  "status": "first_formal_pair_passed",
+  "pair_id": "VB0283_seed1529987743",
+  "shared_noise_and_context": true,
+  "checks": [
+    {
+      "arm": "T50",
+      "forward_count": 100,
+      "seconds": 494.52059010602534,
+      "frames": 81,
+      "video_sha256": "ac652cce0ef47494acb0d36ea2e0e847eed22f23e8d890b67708c4d8c3c9c6c4",
+      "initial_latent_sha256": "f1425fa66d3001e476fca53761d72caf120802032bfc6761b34300bcd7ca1be9",
+      "positive_context_sha256": "45c3362f0d43ea74f37486da470b9249a33ca0e1916d3ac042972a811bd38e87",
+      "same_as_warmup_final_latent": true
+    },
+    {
+      "arm": "S4",
+      "forward_count": 4,
+      "seconds": 28.589548639953136,
+      "frames": 81,
+      "video_sha256": "88333be5ca7dfe227673b0efebd729f666460c1f0d67a97f29481e209328f651",
+      "initial_latent_sha256": "f1425fa66d3001e476fca53761d72caf120802032bfc6761b34300bcd7ca1be9",
+      "positive_context_sha256": "45c3362f0d43ea74f37486da470b9249a33ca0e1916d3ac042972a811bd38e87",
+      "same_as_warmup_final_latent": true
+    }
+  ],
+  "evaluation_not_yet_started": true,
+  "scope": "runtime acceptance only, not a teacher quality conclusion"
+}

@@ -1,0 +1,662 @@
+{
+  "run_id": "hya_h2_20261019",
+  "stage": "H2",
+  "created_unix": 1792381408.3578093,
+  "protocol_id": "HYA_720P_QUALIFICATION_V2_20261019",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "authorization": {
+    "H2": true,
+    "S3": false,
+    "source": "User explicitly requested formal H2 background multi-GPU generation and evaluation in this turn"
+  },
+  "blocks": [
+    {
+      "id": "b000",
+      "shard": 0,
+      "ordinal": 0,
+      "prompt_ids": [
+        "HYA_MOTION_01",
+        "HYA_MOTION_05"
+      ]
+    },
+    {
+      "id": "b001",
+      "shard": 0,
+      "ordinal": 1,
+      "prompt_ids": [
+        "HYA_MOTION_09",
+        "HYA_MOTION_13"
+      ]
+    },
+    {
+      "id": "b002",
+      "shard": 0,
+      "ordinal": 2,
+      "prompt_ids": [
+        "HYA_MOTION_17",
+        "HYA_MOTION_21"
+      ]
+    },
+    {
+      "id": "b003",
+      "shard": 0,
+      "ordinal": 3,
+      "prompt_ids": [
+        "HYA_MOTION_25",
+        "HYA_MOTION_29"
+      ]
+    },
+    {
+      "id": "b004",
+      "shard": 0,
+      "ordinal": 4,
+      "prompt_ids": [
+        "HYA_SCENE_01",
+        "HYA_SCENE_05"
+      ]
+    },
+    {
+      "id": "b005",
+      "shard": 0,
+      "ordinal": 5,
+      "prompt_ids": [
+        "HYA_SCENE_09",
+        "HYA_SCENE_13"
+      ]
+    },
+    {
+      "id": "b006",
+      "shard": 0,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_01",
+        "HYA_OBJECTS_05"
+      ]
+    },
+    {
+      "id": "b007",
+      "shard": 0,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_09",
+        "HYA_OBJECTS_13"
+      ]
+    },
+    {
+      "id": "b008",
+      "shard": 1,
+      "ordinal": 0,
+      "prompt_ids": [
+        "HYA_MOTION_02",
+        "HYA_MOTION_06"
+      ]
+    },
+    {
+      "id": "b009",
+      "shard": 1,
+      "ordinal": 1,
+      "prompt_ids": [
+        "HYA_MOTION_10",
+        "HYA_MOTION_14"
+      ]
+    },
+    {
+      "id": "b010",
+      "shard": 1,
+      "ordinal": 2,
+      "prompt_ids": [
+        "HYA_MOTION_18",
+        "HYA_MOTION_22"
+      ]
+    },
+    {
+      "id": "b011",
+      "shard": 1,
+      "ordinal": 3,
+      "prompt_ids": [
+        "HYA_MOTION_26",
+        "HYA_MOTION_30"
+      ]
+    },
+    {
+      "id": "b012",
+      "shard": 1,
+      "ordinal": 4,
+      "prompt_ids": [
+        "HYA_SCENE_02",
+        "HYA_SCENE_06"
+      ]
+    },
+    {
+      "id": "b013",
+      "shard": 1,
+      "ordinal": 5,
+      "prompt_ids": [
+        "HYA_SCENE_10",
+        "HYA_SCENE_14"
+      ]
+    },
+    {
+      "id": "b014",
+      "shard": 1,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_02",
+        "HYA_OBJECTS_06"
+      ]
+    },
+    {
+      "id": "b015",
+      "shard": 1,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_10",
+        "HYA_OBJECTS_14"
+      ]
+    },
+    {
+      "id": "b016",
+      "shard": 2,
+      "ordinal": 0,
+      "prompt_ids": [
+        "HYA_MOTION_03",
+        "HYA_MOTION_07"
+      ]
+    },
+    {
+      "id": "b017",
+      "shard": 2,
+      "ordinal": 1,
+      "prompt_ids": [
+        "HYA_MOTION_11",
+        "HYA_MOTION_15"
+      ]
+    },
+    {
+      "id": "b018",
+      "shard": 2,
+      "ordinal": 2,
+      "prompt_ids": [
+        "HYA_MOTION_19",
+        "HYA_MOTION_23"
+      ]
+    },
+    {
+      "id": "b019",
+      "shard": 2,
+      "ordinal": 3,
+      "prompt_ids": [
+        "HYA_MOTION_27",
+        "HYA_MOTION_31"
+      ]
+    },
+    {
+      "id": "b020",
+      "shard": 2,
+      "ordinal": 4,
+      "prompt_ids": [
+        "HYA_SCENE_03",
+        "HYA_SCENE_07"
+      ]
+    },
+    {
+      "id": "b021",
+      "shard": 2,
+      "ordinal": 5,
+      "prompt_ids": [
+        "HYA_SCENE_11",
+        "HYA_SCENE_15"
+      ]
+    },
+    {
+      "id": "b022",
+      "shard": 2,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_03",
+        "HYA_OBJECTS_07"
+      ]
+    },
+    {
+      "id": "b023",
+      "shard": 2,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_11",
+        "HYA_OBJECTS_15"
+      ]
+    },
+    {
+      "id": "b024",
+      "shard": 3,
+      "ordinal": 0,
+      "prompt_ids": [
+        "HYA_MOTION_04",
+        "HYA_MOTION_08"
+      ]
+    },
+    {
+      "id": "b025",
+      "shard": 3,
+      "ordinal": 1,
+      "prompt_ids": [
+        "HYA_MOTION_12",
+        "HYA_MOTION_16"
+      ]
+    },
+    {
+      "id": "b026",
+      "shard": 3,
+      "ordinal": 2,
+      "prompt_ids": [
+        "HYA_MOTION_20",
+        "HYA_MOTION_24"
+      ]
+    },
+    {
+      "id": "b027",
+      "shard": 3,
+      "ordinal": 3,
+      "prompt_ids": [
+        "HYA_MOTION_28",
+        "HYA_MOTION_32"
+      ]
+    },
+    {
+      "id": "b028",
+      "shard": 3,
+      "ordinal": 4,
+      "prompt_ids": [
+        "HYA_SCENE_04",
+        "HYA_SCENE_08"
+      ]
+    },
+    {
+      "id": "b029",
+      "shard": 3,
+      "ordinal": 5,
+      "prompt_ids": [
+        "HYA_SCENE_12",
+        "HYA_SCENE_16"
+      ]
+    },
+    {
+      "id": "b030",
+      "shard": 3,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_04",
+        "HYA_OBJECTS_08"
+      ]
+    },
+    {
+      "id": "b031",
+      "shard": 3,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_12",
+        "HYA_OBJECTS_16"
+      ]
+    }
+  ],
+  "initial_gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "maximum_workers": 4,
+  "admission_snapshot": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "4",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "0",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [
+      [
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "2959406",
+        "14"
+      ]
+    ],
+    "time_unix": 1792381408.2741194
+  },
+  "host_available_gib": 1870.1765785217285,
+  "disk_free_gib": 862.643440246582,
+  "environments": {
+    "generation": {
+      "torch": "2.8.0+cu128",
+      "transformers": "4.51.3",
+      "diffusers": "0.35.1",
+      "decord": "0.6.0",
+      "numpy": "1.26.4"
+    },
+    "evaluation": {
+      "torch": "2.8.0",
+      "transformers": "4.37.2",
+      "diffusers": null,
+      "decord": "0.6.0",
+      "numpy": "1.26.4"
+    }
+  },
+  "frozen_files": {
+    "Project_Plan/HUNYUAN_ACCVIDEO_PROTOCOL.json": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+    "Project_Plan/HUNYUAN_ACCVIDEO_RESOURCES.json": "d0f55c57fb850fef41e25328140730afd19cb4bafc6af350e0704c2fc361d1da",
+    "Project_Plan/HYA_H2_EXECUTION_POLICY.json": "d599824b60d1ef6940f8a7e8c397c5b847c43f99db646b77f33ed2b0ce69af94",
+    "Project_Plan/HYA_RUNTIME_CONTRACT.json": "4f07fb9e69e7ce463b530ca22ecbd030b33b75855e137d8c911341254a659475",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/constants.py": "9d4aa4d8642e85f3101f2b5c936b06666ac1160b12f84734f7ba519cffaaad6b",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/diffusion/schedulers/scheduling_flow_match_discrete.py": "c6ad4d7b05157d920752680085768d6bc9466250875b22e0dd0428633f2d4e1e",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/idle_config.py": "8540d8d5096aa5576cdb6602398b50728e4c35e5a4ea7a82aa02c7d624bb5a05",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/__init__.py": "2b29912a7c1981904c7e73b6cec5ff16c7a76a5c6554b66ef4b71d1d88ab4ff8",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/activation_layers.py": "1e509b5e5f9527d199d6f0206f452e56fdb1bd25ce3ccc06fb47f3a16060ca39",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/attenion.py": "c0b6c4af12580711cd73f08d760388792106976998ea34adca47ff5f43e8da1f",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/embed_layers.py": "c9c3d06abaee07538bf6b100e747068c28e72aa893ee4df4904004fb0be00ffc",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/fp8_optimization.py": "1ae46fadd0d74743792943f5ebf846f010483a8e4a84c9f42605959cba57f57b",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/mlp_layers.py": "88a6a91b07a32fb277dc558be7393d8972fb451b1ea2b47ebeacbadfb9e11e6b",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/models.py": "f7dbb937aa3df5866d2bdc17a5453db09eef17baac1caaac01593b343a5d840c",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/modulate_layers.py": "188b1fdd3f3b800a9ab1447d458efac3849d53a604b07816a0af1cd2c814bbd8",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/norm_layers.py": "e43953e83626d8372949fb272c3a1b2eee1bb000263fae5c18a3c107a72b6be8",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/posemb_layers.py": "0c0f905b7a2427b249969bc9c663bc9d20eca41d0ab19c405d9d2ce3c37a0ef7",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/modules/token_refiner.py": "9bd42eb5b6213bfd1f8e33e963c07435cc216a334a7460f5868fe6cc5572bd2e",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/parallel_states.py": "208527c193ec7289b08851c87714a6d77e479729a040f4b4d510e66d774367b2",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/text_encoder/__init__.py": "7cb3c20983b7d9b1318c5adc995ce3fb15ffb52eb93da209be3d26ac9861c472",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/utils/helpers.py": "a0586c37b515bd3834491b352cdd7ea607ecfbc64efc7ea836bb3201419c5f6e",
+    "Project_Plan/hya_sources/AccVideo_reference/models/hunyuan/vae/__init__.py": "28759a35d10bf1457ae639de7b02692e43ab662b524f128896c870ad409fe6a7",
+    "src/CLIP/clip/__init__.py": "d7930eb290ebed432116795c91473200d098451a94c0aedd4ae0f934f97955e8",
+    "src/CLIP/clip/clip.py": "9540f200fbf8145479fa655382a56dab048d238cc698b9cbd8df3b6d86d3f1b6",
+    "src/CLIP/clip/model.py": "9902cbe5ee90a1da2aa3e6f043e8a23dc1f8831193b963785c9af03d5c7bef2c",
+    "src/CLIP/clip/simple_tokenizer.py": "d1b09f10ed3d1e2c343619cb98cbfacb92363dd8607526a43aa7fe2d60d15bad",
+    "src/DINO/SOURCE_PROVENANCE.json": "bfee0adb75f262068bc8f8213f1ce3e7e8d994622c7c493b82d0f0555d63eba2",
+    "src/DINO/eval_copy_detection.py": "77b44b8a82114c156dc945b4aa77157ff5582ec35736e552299e4cb03b12898c",
+    "src/DINO/eval_image_retrieval.py": "5a8d661ec0b3b6384a8cffc8970835a038b09d162a77eaf3f42a10b6c5586f8f",
+    "src/DINO/eval_knn.py": "b23ec5ca3cb64b1453be8e4dacdc41b24e035a98e081e707aacbcc650d6b3d0e",
+    "src/DINO/eval_linear.py": "747e8a8861d65fc675d4d382f48678febd352e2ddaa07c1bd91eef53c176884b",
+    "src/DINO/eval_video_segmentation.py": "f17eb52954b89e3bc5cef99186fafe23826bd97810c9de6953715832b94b1d67",
+    "src/DINO/hubconf.py": "fa80babf82c71d2123e23b05061eb1991a1fbc9877238f250b2a25023e910f72",
+    "src/DINO/main_dino.py": "74ef2afb9e16ab859370e1eb18455de0797d1202851c92d8191f06ccc05b28c7",
+    "src/DINO/run_with_submitit.py": "fb14a2c6e90702f768fa7d70c63688c7c7d05ec3fcb2e2a4002ca5daa800e104",
+    "src/DINO/utils.py": "962a97e1acda1c986dfd921275325e4083f9016dddadcf018f1ccf03fa600eab",
+    "src/DINO/video_generation.py": "26a02a7c52f9ddd47c1f4516426426c73d35a8fbaf0c26417ebc6b0d6a1c433c",
+    "src/DINO/vision_transformer.py": "b1f998d5f49ab43666b9fc6d007c5f6540c3ead2e8645e144f74045f63ff44d7",
+    "src/DINO/visualize_attention.py": "f908e5c1857ef36d7f24c86a9c5a22dae2628bf1b6c46af4b9f608f839a7d6c1",
+    "src/VBench/vbench/VBench_full_info.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd",
+    "src/VBench/vbench/__init__.py": "ed75ffe21eda639114cae10a0c81565f6f4b290b844895f4d4574fded2fc8cda",
+    "src/VBench/vbench/aesthetic_quality.py": "baa1894c2543483901a444af9aabe0701b1f937bf304141c53019a45b27abc57",
+    "src/VBench/vbench/appearance_style.py": "166b291abe55b0ac28ff4c937469e42cc2aa135c308ab06665518837956deb2a",
+    "src/VBench/vbench/background_consistency.py": "7def92057819df0dad01c857eecf3b39b8b555c8cdfe881a672cc2b19dc226b4",
+    "src/VBench/vbench/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/cli/evaluate.py": "3be41b69f410849122f043cd9c419cf5edefebea8c6e70358f99468968d7516b",
+    "src/VBench/vbench/cli/static_filter.py": "5fb6dda50a7e310e584ca9ab704ca399cd049398ec61958bfe17d95fabe5fedb",
+    "src/VBench/vbench/cli/vbench.py": "d37ad947303a9e16cbe75031777063ed114f81c7135071e8db7a9f960439222d",
+    "src/VBench/vbench/color.py": "03baffc12508fd7ce6c70a227d6794bbc7152c24ba2d2c447a816974466db3d7",
+    "src/VBench/vbench/distributed.py": "13178b64ac62d71a01339ce6d8e29452163e7a653016a7e2d3af907e0d51f3fe",
+    "src/VBench/vbench/dynamic_degree.py": "2e93d3a7af38bfbe459c19c9d127894f687424a0bc534dbf7e6571d17b24dff7",
+    "src/VBench/vbench/human_action.py": "4cee71a1e09e0b2f7e1a8126300c9250be19e3866f49004c8b69b4a5a15e8945",
+    "src/VBench/vbench/imaging_quality.py": "ac6c648cb4d5e82cd29c63be04977e9288c3540558cf12f979e66bef3e1f9e3a",
+    "src/VBench/vbench/launch/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/launch/evaluate.py": "f691f91f41be8bb74ea29beba5d3c77ef9cfa6e856351b463799e7793e24d2c0",
+    "src/VBench/vbench/motion_smoothness.py": "5ddc43f246b64e23d10540b8f9e6c302686e6a1ac9fa4e9942b5bd043d89e0b9",
+    "src/VBench/vbench/multiple_objects.py": "fa5047aa560158f017e46dea3ae763ed083df08ece63e47f61a7ea4fc55be672",
+    "src/VBench/vbench/object_class.py": "8d4c4a7feee52503e3d27f8aba0ed467cbc356ed75da2598367b572237e05db2",
+    "src/VBench/vbench/overall_consistency.py": "325beb4503699b08d441a467710240097c15c2267fe92dbed1ed8cdfaa96103e",
+    "src/VBench/vbench/scene.py": "f14c423710c812af2be953db619ed6e8b478acdc44f1df775815adfa30171965",
+    "src/VBench/vbench/spatial_relationship.py": "26f09a111dac904d1a92ae5bd1c332a029cebd22610d62376a09d7d634950270",
+    "src/VBench/vbench/subject_consistency.py": "55f5c9a3e5be543380a709b94712903fa67a76340c3c0cb2414ac090dbd1b78d",
+    "src/VBench/vbench/temporal_flickering.py": "c2c892034d1652c9390f213308c18b77ae20a87bd52fc50a125294ce83af4e83",
+    "src/VBench/vbench/temporal_style.py": "9f9e950efca4673721d0a07ea83137be9ebdc9aef2364f412300ba979beef57a",
+    "src/VBench/vbench/third_party/RAFT/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/RAFT/alt_cuda_corr/setup.py": "89cc35a737f913a25bedd08dc522c12f56aa1afe814701e8fc7dc19c9d8d4a9f",
+    "src/VBench/vbench/third_party/RAFT/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/RAFT/core/corr.py": "f147a59672010c07671802c76e8d3d47e16cddb7573b750298b40639c2411053",
+    "src/VBench/vbench/third_party/RAFT/core/datasets.py": "f809bc29103b71744c8c03f13e95e5a0e9a898a0dad67d9ccd4acfba2e5f2805",
+    "src/VBench/vbench/third_party/RAFT/core/extractor.py": "f6b65d4f4df27001d9c11194f71b84a9799de3231f9d1672cbcf3a052fec79dc",
+    "src/VBench/vbench/third_party/RAFT/core/raft.py": "dfa382fe9d21b22f65db72401d1ee1016b7e9f5aa25610fd112bff78b7957563",
+    "src/VBench/vbench/third_party/RAFT/core/update.py": "7302f91ffc24c85cf739a25feb17d9d1e537f7344a2ddc331daf8ab9db6c3f74",
+    "src/VBench/vbench/third_party/RAFT/core/utils_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/RAFT/core/utils_core/augmentor.py": "0672da08db6c127ced5d8835381c294d6b7b5b90286916a8f72784bd0e0c8dca",
+    "src/VBench/vbench/third_party/RAFT/core/utils_core/flow_viz.py": "72595c16479265fea80add4f1691b4e35321b898f3da0a0f2ee19f6f8d831d26",
+    "src/VBench/vbench/third_party/RAFT/core/utils_core/frame_utils.py": "ef3b214054e581700451215a72bb4fed202588c8d66483c90249127b6305d9d0",
+    "src/VBench/vbench/third_party/RAFT/core/utils_core/utils.py": "125ca33c84f60c19359c875002e9301fe0404b3256c6efec718b26589d7fdd5a",
+    "src/VBench/vbench/third_party/ViCLIP/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/ViCLIP/simple_tokenizer.py": "4b5ac7e201ec4b4bd592b4666b61b4c54319b6957ce6d82e9f6832a83b4dfa7c",
+    "src/VBench/vbench/third_party/ViCLIP/viclip.py": "20ce529588ab24c7ebfcbb3caba4f5c7980be8d61a6056dfaeff19a3dc63f20b",
+    "src/VBench/vbench/third_party/ViCLIP/viclip_text.py": "fa942eb215bc8b889f49a03018a51316759dd2ac249d8934f674c891d4887fd9",
+    "src/VBench/vbench/third_party/ViCLIP/viclip_vision.py": "d945f45db262803115d011debd46418e8d5b462e35a40959c3b7431a8a3a3dbb",
+    "src/VBench/vbench/third_party/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/benchmarks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/benchmarks/adobe240.py": "96461ab13b01ee83f31986ec0e4a89bba5fc14f75b3aead64b49f3440ad2bea6",
+    "src/VBench/vbench/third_party/amt/benchmarks/gopro.py": "d48bd6a2f153aa4c11e204e876848144817f2241bd1d2ec60ccf27423e96e0c8",
+    "src/VBench/vbench/third_party/amt/benchmarks/snu_film.py": "6615faa685a128d0e3ca6c806e7864ee8ddfcf16d57ccade00fb3379bd67dc4c",
+    "src/VBench/vbench/third_party/amt/benchmarks/speed_parameters.py": "2f22a92e57300e32b33b10f08f9da1bfe1dc211118e9a3c922af9678fd1efaed",
+    "src/VBench/vbench/third_party/amt/benchmarks/ucf101.py": "a8b8fa203ae7a26f69318b20be3ad97d99ddac8e3fd2a01a3100394561528bd6",
+    "src/VBench/vbench/third_party/amt/benchmarks/vimeo90k.py": "f617d527e0e57942387bd7c71b2fe601cb6fd9cdea29610f3ffad2682f3d727a",
+    "src/VBench/vbench/third_party/amt/benchmarks/vimeo90k_tta.py": "da4eb3c121da8b10cdb00ef36aebb24bef165cde582cf6cd358a8fa8017209d4",
+    "src/VBench/vbench/third_party/amt/benchmarks/xiph.py": "8e8319bb6ba136c007196a4953f7357671ce5dc2a11dd3e2d7b8c431ee26da7e",
+    "src/VBench/vbench/third_party/amt/cfgs/AMT-G.yaml": "3d80b280edaf925d10f41a46b38a80eca9384c9aa5bbae59c73cabb9bff23466",
+    "src/VBench/vbench/third_party/amt/cfgs/AMT-L.yaml": "4badacacfe31e5d88ca244fac846509ced97b5180867ffbbf67199397e0067b4",
+    "src/VBench/vbench/third_party/amt/cfgs/AMT-S.yaml": "a77746791b1d02c839f40791fb82adb28c5058cf3735b2657a4a965a789ce0a8",
+    "src/VBench/vbench/third_party/amt/cfgs/AMT-S_gopro.yaml": "cafcdd0edfd352bdd1328c75aa218b1ee52b5e52d6ed00fc5d44f3450654e2fe",
+    "src/VBench/vbench/third_party/amt/cfgs/IFRNet.yaml": "fdbce7fd3d31c947e5d46bc4b34d0b2a0031aa5079f8ed2789164f0647f1b361",
+    "src/VBench/vbench/third_party/amt/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/datasets/adobe_datasets.py": "eb4a0d142af6d4712c991611d1e3a2b392b1851ae653a6b5774e2fb09730fe1c",
+    "src/VBench/vbench/third_party/amt/datasets/gopro_datasets.py": "5199b0faada241c3dfb7b969ae178998421c68686a3ac46ffe850af6f140c53f",
+    "src/VBench/vbench/third_party/amt/datasets/vimeo_datasets.py": "4b7727a4346f1fa6a036bb675906e0e04fce3805e15ac62740c23b43dca45671",
+    "src/VBench/vbench/third_party/amt/environment.yaml": "a113703566f4e373a51c325c54fa2e55b6713f0bf24431e8bcfb6f6020bf97fc",
+    "src/VBench/vbench/third_party/amt/flow_generation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/flow_generation/gen_flow.py": "c13ae9f33f01d01494aa519eb24ffe252fb14489cb1d10c3be044535d46572a8",
+    "src/VBench/vbench/third_party/amt/flow_generation/liteflownet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/flow_generation/liteflownet/correlation/correlation.py": "8a56ba5fa1d71bf26fb77c35900c29456db723365731ccbcf9a5d5173e19d9a8",
+    "src/VBench/vbench/third_party/amt/flow_generation/liteflownet/run.py": "761e39960163a88fd1c54f5fe55f629e2e52a31abae69ea2a7748c2513b55928",
+    "src/VBench/vbench/third_party/amt/losses/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/losses/loss.py": "2908559c34b109aba843bc9225bc3ac4189ab328145e17b0d5ef6dd8fc1378e9",
+    "src/VBench/vbench/third_party/amt/metrics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/metrics/psnr_ssim.py": "89726310e995a7bd4b67c985f1f55322222f4a43e34d91ee974f19ac1db04706",
+    "src/VBench/vbench/third_party/amt/networks/AMT-G.py": "2238e3e6342882414499f5b1ffc3410c59e2daf8d5dccd961b98b05a67f081f5",
+    "src/VBench/vbench/third_party/amt/networks/AMT-L.py": "4e0ea65e20dd46bbf46785ebc52df600786eda46efe4563eaa6a7763932fbc1e",
+    "src/VBench/vbench/third_party/amt/networks/AMT-S.py": "4f43e4aa0c4feeaa481587f441d924ee4267d7e722dc19bfda8ab15b3c917879",
+    "src/VBench/vbench/third_party/amt/networks/IFRNet.py": "7422df6bab09c70ca0a4e0ef6ab108392f17367694f9efb9c82135456ae550a8",
+    "src/VBench/vbench/third_party/amt/networks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/networks/blocks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/networks/blocks/feat_enc.py": "944327e3f6c2b0325370394b11fd114dfe202f9d3793405911b7783d2d1e1122",
+    "src/VBench/vbench/third_party/amt/networks/blocks/ifrnet.py": "b9b30645c0736dbfaecceb96f0c288087ba7bd69f9d5813fcaf8770cb1de2dda",
+    "src/VBench/vbench/third_party/amt/networks/blocks/multi_flow.py": "a0eb10747b5f5855f790805f75579f923b75ae1195341bed05d5ed56fd255f37",
+    "src/VBench/vbench/third_party/amt/networks/blocks/raft.py": "6b0cd578c27f97a8b03ed05f0a77982f426abad1b03173ea72a9529e558f38cd",
+    "src/VBench/vbench/third_party/amt/train.py": "fe5c248500f3b17b988223bfe7770a69cd0dc176ec94119962d728769029944f",
+    "src/VBench/vbench/third_party/amt/trainers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/trainers/base_trainer.py": "5427a44c40ea8534f690484736a345dc7ee9240648480c7e7055cd17b66f4751",
+    "src/VBench/vbench/third_party/amt/trainers/logger.py": "b318b9af49e18c1c5b20368e30bd6ab213f99f86782863fa47f48ff54a76aebd",
+    "src/VBench/vbench/third_party/amt/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/amt/utils/build_utils.py": "10cb0a2bb264b9155c2c5b5a0a10b9acb9780859699a7b359baabac3cdb416bd",
+    "src/VBench/vbench/third_party/amt/utils/dist_utils.py": "cab1ebe516b0a2eb7011aef404971c00fe093cd1eb0131a9983c386aba26c083",
+    "src/VBench/vbench/third_party/amt/utils/flow_utils.py": "d17e346884de6d0818f1b4d908261fa8642f72a0872295af44421cc2b12e4dbe",
+    "src/VBench/vbench/third_party/amt/utils/utils.py": "4ad8dab6ef649d30a22567b1018abca372010821e9c3df1d45b21dc73f36a465",
+    "src/VBench/vbench/third_party/grit_model.py": "2c3d8b3aa498810e7670cb7db3c400ae7f14c9a9f8fc8c1e10d20ead28d36690",
+    "src/VBench/vbench/third_party/grit_src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/__init__.py": "039f0317ed09ef04e2d666ace2ce73f7f04e02362b23f863435a4be395ea7201",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/config.py": "93174727ad38dd792ddc7b17e97c8f723c1daddadd26fa441ee2192ad42a15e7",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/bifpn.py": "71d907741f1c57f09667e690de7750586c79b2bdb9b5096003d1f0f4887e5cc9",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/bifpn_fcos.py": "70f306ea0767d7f3864748217a56f8ac772f39d7315fbc6ea0c40260857eed39",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/dla.py": "7daa1b26c230d561a7009b1bd8d4e987fd1befb9e57142b754265f125034614f",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/dlafpn.py": "632335f1af55ec6a7d61f9d335c7ad14b50214ee3012352bc13215dfafd83611",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/fpn_p5.py": "3d3f554fe33680596cceef28c0f5124d8fcda30b4066a1aa5a494b0c690fc4ba",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/backbone/res2net.py": "89468a9a8c573a8dd0d92dda97ba38b84f3981a44e344a5359746c30537e4708",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/debug.py": "e8c77adc0df9d70ab2fc9001640898e28691175963a7aa61f255b369dbcfd133",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/dense_heads/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/dense_heads/centernet.py": "ba2ad34fde7c1a2403be0c2827f81c2aebde4315fa8384fc23d1f6f93c55f4ec",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/dense_heads/centernet_head.py": "56b28cc8c0799fd9bff6e2a41d1a2c36e7711385b68052ed233eb8f788c27d2e",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/dense_heads/utils.py": "3bf22e5311cea542c528db91edd668d476e7303f476915c1792f4fdbfbaa3e19",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/layers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/layers/deform_conv.py": "8ec6b591bc25d8b4093ac99baa2531d1fa6feaf87d074f77a24f721ee41dd496",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/layers/heatmap_focal_loss.py": "aeae37f7ef5d9d2f2c9407c9e99945d0d495b526e28ca606242438995d00746d",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/layers/iou_loss.py": "96a26361d191ac780c9a9ef4d2c97327a195e79605628a1c11fda2b6eca20300",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/layers/ml_nms.py": "53ec4f53609dfa3955b296bdf78420b04f5f885233de85b09e4dbc409795a851",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/meta_arch/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/meta_arch/centernet_detector.py": "15d1dec8e6e3ccbf84108be00955a37792b1f333837442c60832f7b0bbc03418",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/roi_heads/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/roi_heads/custom_fast_rcnn.py": "6082647e1740c92eb3a8e53083c9e6452c863e36771ef05f3785a540c307f9ee",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/roi_heads/custom_roi_heads.py": "d8ffc1c87d54eb3cf92714de4605b166d85b2a8f41110b4d31e4fde9d8d1c1a4",
+    "src/VBench/vbench/third_party/grit_src/centernet2/centernet/modeling/roi_heads/fed_loss.py": "429cd8924c1ea2e965121542c4dc5ae248b75703e199912ffbf682e0a77393af",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/Base-CenterNet-FPN.yaml": "835daa7555e1fdc171353bd17b9a42e9dceb09141c7b5408fb39b845a4fcea33",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/Base-CenterNet2.yaml": "0bf6334cddaa0c36e9e899efa8ac45aceead0a8c60a6bd3e3536f60025be427a",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/Base_S4_DLA.yaml": "00ac7fbc8f0b334f5b60122735c6ea8353623099732af2a6ef05356fc62bedb1",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet-FPN_R50_1x.yaml": "6e6b11dd0c06d6628065216482f26f99ab47b0b0e4964bd59e9a03e517888645",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet-S4_DLA_8x.yaml": "75b4d203076d5e08b34cb9b3e33f06e7a12a920e0928c22b7a1db80df13f958c",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2-F_R50_1x.yaml": "637e0722d6d75338952a44d30f6dc5da74fb6161677f922de97559c5556c0390",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_DLA-BiFPN-P3_24x.yaml": "f7ff930f67d52769f6ca3c18df9bc2e0fc96f290260a7809ec68deb691036887",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_DLA-BiFPN-P3_4x.yaml": "f7ff930f67d52769f6ca3c18df9bc2e0fc96f290260a7809ec68deb691036887",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_DLA-BiFPN-P5_640_16x.yaml": "8a982db9e4dbdd53b1ac905cb9d6b66fff704b60286cfc90a0465d4a64468ed7",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_DLA-BiFPN-P5_640_16x_ST.yaml": "8e04689eccfa51d5232fda131cceb6175dd4be7148bdda83e076f4784cd7bd3f",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_DLA-fcosBiFPN-P5_640_16x_ST.yaml": "3dce7847b311061ffa6a446450d75cc70485a4c78cee0c6067b327384d8e353b",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_R2-101-DCN-BiFPN_1280_4x.yaml": "1dc753d9c7b6828a6b2704de1ad013c11cd7a1bf4fc9eeaa3b6e40d494fc224f",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_R2-101-DCN-BiFPN_4x+4x_1560_ST.yaml": "0fc710bb0baf3860f5c09dfe497a6133e806113bc3d157479525b21b1447c304",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_R2-101-DCN_896_4x.yaml": "5c13e6a91522f10ef70af1e1dd8e7af2129a06a178c5fcd0e6e39d54cb32e593",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_R50_1x.yaml": "56ee55ceae7c2802792fb5b16f58c56fe896a305f423d634ca03f7bad48f0193",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/CenterNet2_X101-DCN_2x.yaml": "e2a72940713e1df6db3604e7c19a995c1b9660b4fff0b49f249ac8a865716869",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/LVIS_CenterNet2_R50_1x.yaml": "c114c52d5ad82a2b0ebe2fe4fc198ab851d7a4667dd029debfcd7cbf841536f5",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/LVIS_CenterNet2_R50_Fed_1x.yaml": "703e8e5389b001fe760d5c941565956cd57b0d42cb8ad74ebf843994db2ba810",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/O365_CenterNet2_R50_1x.yaml": "feeb2da40772d6706c136be4f304cc5e0b4fd075437aa117d36d0eddd97ba47d",
+    "src/VBench/vbench/third_party/grit_src/centernet2/configs/nuImages_CenterNet2_DLA_640_8x.yaml": "bccc4e202e0b8f37d86e467f1014833fc62af524074ed894b2967067f6bcde98",
+    "src/VBench/vbench/third_party/grit_src/centernet2/predictor.py": "ac3ba62e8a180d83cf449fe34877a0d7e136fe74a3b01f8722428185d6af2ca3",
+    "src/VBench/vbench/third_party/grit_src/centernet2/train_net.py": "36a46231772d9f06117e37687baea967d6885c4072adb5b4881c3036c9fb907f",
+    "src/VBench/vbench/third_party/grit_src/configs/Base.yaml": "d7ced8d2439bab7bbd11f5301993e7c80c522239f54c21e618cc097672c6bd06",
+    "src/VBench/vbench/third_party/grit_src/configs/GRiT_B_DenseCap.yaml": "ce1221f8ac7a96104bea3a576335c335ddbe9763288adf0652ac035a86adb63c",
+    "src/VBench/vbench/third_party/grit_src/configs/GRiT_B_DenseCap_ObjectDet.yaml": "2761eec2d4a2f29072655a7a424606c9040a0f3d26d6f678b24b411332688561",
+    "src/VBench/vbench/third_party/grit_src/configs/GRiT_B_ObjectDet.yaml": "de18062a32b44d2534effd7dfe92215a01e90eafe3e3a1b0cc613557dcbf813d",
+    "src/VBench/vbench/third_party/grit_src/configs/GRiT_H_ObjectDet.yaml": "24263e8a140a4b7721816ff08810af5a6620167c33346c9a5d33b4fe5bcab65b",
+    "src/VBench/vbench/third_party/grit_src/configs/GRiT_L_ObjectDet.yaml": "a483a13243bd148f78463d7687fa432bc7b6696844d0f8b8a3d30da0c8989097",
+    "src/VBench/vbench/third_party/grit_src/grit/__init__.py": "8c60231f152d1c7d0d68390c9bcae9a6baa15bee855f60ef70649831563c7023",
+    "src/VBench/vbench/third_party/grit_src/grit/config.py": "e93cd0d2fecbd04e04af08f5de26f1453edcfcf06035638cef98795ea7d6d9ea",
+    "src/VBench/vbench/third_party/grit_src/grit/custom_solver.py": "81918a2128853a861f7f0f2a63d70c420b6005bede426933ec5aaf7643e4ce2c",
+    "src/VBench/vbench/third_party/grit_src/grit/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/data/custom_build_augmentation.py": "b3c8539c9616196dcc1d8e6c6fe3dc2319c37cc27da05f8d4633c50314419889",
+    "src/VBench/vbench/third_party/grit_src/grit/data/custom_dataset_dataloader.py": "e6e764f6a9d204cf06e9194e519912f4b16b0dadafdc696890a5ebdd70b0707d",
+    "src/VBench/vbench/third_party/grit_src/grit/data/custom_dataset_mapper.py": "9ac2e511f8c7f085d4e82ddc24ee9f2930640cac27c04c6f823728a90441c921",
+    "src/VBench/vbench/third_party/grit_src/grit/data/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/data/datasets/grit_coco.py": "007328629761fa3e571806c69ea6c8f411ad3d5a15e5b7f4fd347b9de88317a6",
+    "src/VBench/vbench/third_party/grit_src/grit/data/datasets/object365.py": "927b108b6cdf3d09d9ad30bac60b2330d1aa37a831e5a6091f16032888f452f2",
+    "src/VBench/vbench/third_party/grit_src/grit/data/datasets/vg.py": "b2cad62c9d4304ba500c6ed9cef1f0f5bb33c682a692200fe10eeb698017ee73",
+    "src/VBench/vbench/third_party/grit_src/grit/data/transforms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/data/transforms/custom_augmentation_impl.py": "355e5a3436cda020b110c7f7bb602ec13eac85f258eaf5cce16c53852c6bfdd7",
+    "src/VBench/vbench/third_party/grit_src/grit/data/transforms/custom_transform.py": "7f43cdd375413efb004092aa132196aab44de02b362e61309b1355882003b71c",
+    "src/VBench/vbench/third_party/grit_src/grit/evaluation/eval.py": "21134582405c1a951c81e3fdda792bdab6c5ec3112224654053c9979bcfb715d",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/backbone/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/backbone/utils.py": "711d9955377afa748f39d7040bd77fa7e027b0c8cb9bfafe10e59d34a761372f",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/backbone/vit.py": "8863b73bb2632980afc2a2d43b33e87585cd0aa010fd1b8db62532d771f80b79",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/meta_arch/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/meta_arch/grit.py": "404251a321621d0ffd46edbcc77cd59f41c22c778e6387bef850344c1a87b11f",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/roi_heads/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/roi_heads/grit_fast_rcnn.py": "9db98f44c5b9d39451fd44e604981b791b2cb61f63c34b11df4cae58989ec306",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/roi_heads/grit_roi_heads.py": "1114f0e07bbdc27594cef7c37a67c5e85a7e0f4cc6c7a40a912512dbe32b0aea",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/soft_nms.py": "5fceff03d8a889aba4a2b1e451fff3c4fce2ae362401ff741be3d6bca9011d01",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/text/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/text/file_utils.py": "b4652b542e5d4401b998e3cf32e72871f774a454ec686dee3553c3f751222fda",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/text/load_text_token.py": "7acea1b3a51cad396238ba4b1df60b482b3bf211b519488df38f3e04b47da2e2",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/text/modeling_bert.py": "2b3f32f6c363f31be32b6fb697d4298fed04cfefed76ab2d4d7754b09aacd709",
+    "src/VBench/vbench/third_party/grit_src/grit/modeling/text/text_decoder.py": "92f5c8420af2e8d78ca532094e28d9439c7d61f778a1f94c700768dcda788190",
+    "src/VBench/vbench/third_party/grit_src/grit/predictor.py": "7b51a15605e15b10c881fac97c75a543abf7b12f13417663be38ff0fa6e79270",
+    "src/VBench/vbench/third_party/grit_src/image_dense_captions.py": "ab74a73f0f31256de63512badfb8921804bb48284e1d3c5baa01be8445cf802b",
+    "src/VBench/vbench/third_party/tag2Text/__init__.py": "d7a74aba55dc7151e765db928f61f67e16a5994e59f68529931ba7596517834e",
+    "src/VBench/vbench/third_party/tag2Text/config_swinB_384.json": "fff8ddeb898145c9e78628b303eda35ac33e5b49bfbc3d5f07336617f7f0cf6f",
+    "src/VBench/vbench/third_party/tag2Text/med.py": "2090e14ddc6809ff89b7f833b7b0023a39a67d75fba26b347f54a3c7737c17b7",
+    "src/VBench/vbench/third_party/tag2Text/med_config.json": "d8b5029cc3c0124313d17009d043f0701bbe497f3721fa4ceb818720fe665326",
+    "src/VBench/vbench/third_party/tag2Text/q2l_config.json": "39d5c0275509e5a117b4a2bf9b70221a90a319527935f9bd42eccee2384c06da",
+    "src/VBench/vbench/third_party/tag2Text/swin_transformer.py": "b19a111c4eabd67c634562424a9716fd37ccd181dca04f8a41c7717f5186cb7f",
+    "src/VBench/vbench/third_party/tag2Text/tag2text.py": "04c58678031a138ceadfcf7650d79fac8627a919335562c4638f2205febf16a2",
+    "src/VBench/vbench/third_party/tag2Text/tag_class.py": "8e33d5653fc4f5f1792bad82e64dcbf4a004dacf633b8e8d6a811ae07b7a73bf",
+    "src/VBench/vbench/third_party/tag2Text/vit.py": "c16ef04bd471dc4d6ea1cae57982891670949bd9117ad209750bc88622539454",
+    "src/VBench/vbench/third_party/umt/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/VBench/vbench/third_party/umt/datasets/__init__.py": "d4c81415006ecbd6bf0778ab6a1efdbcb098baec97a6ab32ed01aaab4a00bf4f",
+    "src/VBench/vbench/third_party/umt/datasets/build.py": "5a7bace79b3bcae4c3b2d9d9d1f892c110383994334ad8fd78bccfdc9799411e",
+    "src/VBench/vbench/third_party/umt/datasets/kinetics.py": "e102493e838f10a6e646f25da81775af0e096a844d738784ad8db6f9cd8ec532",
+    "src/VBench/vbench/third_party/umt/datasets/kinetics_sparse.py": "4b3a38e9666f061e181642c393f69e38070a012f729351335163d7c476ec95f6",
+    "src/VBench/vbench/third_party/umt/datasets/mae.py": "a3699c6f75c951438445d3a6233efc11ff6f21057c764a6a5f27251a9de3c4ad",
+    "src/VBench/vbench/third_party/umt/datasets/masking_generator.py": "2ec5b75f9ca6911fdd1be43a14c0a2ca7466ac760f8259e22a354e13f643f2c9",
+    "src/VBench/vbench/third_party/umt/datasets/mixup.py": "27fb430a79ada615f9ad8ca45252ea61496a0e3f1271ceeda4e7142e6858c5b6",
+    "src/VBench/vbench/third_party/umt/datasets/rand_augment.py": "cb8f92500b26cdc1d740d9206d04e1c7bd2d959f4c24cef4337efce1e183709a",
+    "src/VBench/vbench/third_party/umt/datasets/random_erasing.py": "cf7f9c96eb6f486dd144934544ce88b85e2f91e156ab4294b2ab4ae64368d005",
+    "src/VBench/vbench/third_party/umt/datasets/ssv2.py": "c8167c5a1513a3bcaf144624e03eaa2b6722e2a7ed1e6cdc48edbfde3590cb45",
+    "src/VBench/vbench/third_party/umt/datasets/transforms.py": "196347027838bcbd6c954724387cdb87f7fa589ba84677ab43b55260ce853ac9",
+    "src/VBench/vbench/third_party/umt/datasets/video_transforms.py": "c8bf61cc40fc706141011eb21ac09cbc5002ac5a275e5d69882e63b1321c1871",
+    "src/VBench/vbench/third_party/umt/datasets/volume_transforms.py": "a1d098d4d2cdce75bdc7303fe3d8ad8bf8ccec9025f2a754bd08e2e2271d9219",
+    "src/VBench/vbench/third_party/umt/functional.py": "19c11a6295729f36f83cb5fd10b1d692c5c50643974fd6e70ebebb4b6f4ca4f7",
+    "src/VBench/vbench/third_party/umt/models/__init__.py": "852243c874dcbe25336da3fe44948ddb9c0652f7637c7655adc03bf45f74f63b",
+    "src/VBench/vbench/third_party/umt/models/clip.py": "40678428352247dcaf2e3b74558ed1fbdce784780f983fb7ae3b375188fb0463",
+    "src/VBench/vbench/third_party/umt/models/modeling_finetune.py": "7cc8a963cfc3e36a546b94fa70255d8479d174589830c340117e04cae1509d06",
+    "src/VBench/vbench/third_party/umt/models/modeling_pretrain.py": "a0b1633e5ceb77d930b9b64376b9f32e280e00da3d388bb2a804768275dfa992",
+    "src/VBench/vbench/third_party/umt/models/modeling_pretrain_umt.py": "e055354103c067aa824ab5aff52b4f2cce372721bab97e834a791b328a8c3f13",
+    "src/VBench/vbench/utils.py": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064",
+    "tools/hya_common.py": "7d9f51fbef35e388aa32825497c844627903116d4dd7432b05796e47237e14b1",
+    "tools/hya_evaluate_smoke.py": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb",
+    "tools/hya_generate_smoke.py": "11e2193c481dfb6dbea0c73d0d3e22d001ef457c04a1c58eea72b8698252c708",
+    "tools/hya_h2_common.py": "034fda463b2aacb70cd019eb9fb7a47d86cef1c71a25d5aeeeecbac86aa90c36",
+    "tools/hya_h2_controller.py": "25e834083ce01278f907d12f62a53f4c0193a537a6059c209ef25bcfdad1887d",
+    "tools/hya_h2_evaluate.py": "931fbd683b74300a53a4cfee835302a8ad84edec7c9272858bdc2f53e1a38a76",
+    "tools/hya_h2_finalize.py": "cd48f58a7bf881d94b53d7e96befb15accfa4a3a9d1850e5786f407f48f26884",
+    "tools/hya_h2_generate.py": "8f49d9cd33281c41c9f5562d0ca03dc68e78c9ee888d32246cf808d68326ce61",
+    "tools/hya_h2_launch.py": "18e498d85a5a415e5733085311124671230e652d2246d95a163ca5a3d89778ca",
+    "tools/hya_h2_prepare.py": "413b788fd818bee18961d8b22c47495f09eeffae0d8324edca1204cd248301d8",
+    "tools/hya_h2_selftest.py": "3dfe228cc01edf9d382500f559b13eae4b478799fc1d566dbf28cda9ab6a2462",
+    "tools/hya_h2_status.py": "6c33664373d909bf4821fefa4ec7701aa7cb25170f6b2b0af1ca36f6fb8c6f9d",
+    "runs/hya_h2_20261019/protocol.json": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59"
+  },
+  "resource_verification_sha256": "31ae280173e7c95f8ccb1334ca24165856fa943dd203b9a7983599a1a7aa3a5c",
+  "cpu_selftest_sha256": "ffaa205493a21df3c5147536e0954f79c275771f06f5c9dde393bd4a77370181"
+}

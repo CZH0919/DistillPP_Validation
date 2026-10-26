@@ -1,0 +1,45 @@
+{
+  "scope": "H1_ACCEPTANCE_NOT_QUALIFICATION",
+  "metric": "background_consistency",
+  "status": "passed",
+  "source_sha256": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb",
+  "vbench_source_sha256": {
+    "vbench/background_consistency.py": "7def92057819df0dad01c857eecf3b39b8b555c8cdfe881a672cc2b19dc226b4",
+    "vbench/utils.py": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064"
+  },
+  "admission": {
+    "physical_gpu": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 2947405,
+    "initial_snapshot": {
+      "gpu": [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      "processes": []
+    },
+    "lock_scope": "this project only; not a cluster reservation"
+  },
+  "load_scoring_seconds": 7.217454737052321,
+  "aggregate": 0.9621171951293945,
+  "videos": [
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/T50/attempt01/H1_smoke.mp4",
+      "video_results": 0.9628887176513672,
+      "video_sim": 123.249755859375,
+      "cnt_per_video": 128
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/S5/attempt01/H1_smoke.mp4",
+      "video_results": 0.9613456726074219,
+      "video_sim": 123.05224609375,
+      "cnt_per_video": 128
+    }
+  ],
+  "peak_allocated_gib": 0.6166729927062988,
+  "audit": [],
+  "network_attempts": []
+}

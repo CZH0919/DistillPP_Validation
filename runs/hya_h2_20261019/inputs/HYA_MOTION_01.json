@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_01",
+  "prompt": "A giraffe running to join a herd of its kind. Realistic, Natural lighting, Dynamic",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "95e2caa8fbd6e8c0ff3506e66255ba80f1b5a9539d1f209ddb5b647d3dbacbf7",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "bac4a3715e7732a2d53c10b5bdc07a14ed8e35623e7840c7fc8e2242be53e2c0",
+    "pooled": "c55d6696062cbd56f02f3946a06ca467d5b9bb619d2a9c0aad7966f25400280d",
+    "clip_input_ids": "16a659bf40904d30597a3a76dbe5f729094f01321f40d516097e44001353be4b",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 95.41281697712839,
+  "llama_encode_seconds": 2.3093559350818396,
+  "clip_encode_seconds": 0.20557298511266708,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_01.cbe23fa621f6422398a48921695372e1.pt",
+  "file_sha256": "aeda9408781c34c15f2fa5a6217d2c923ab953b3133d4813129382e4d62a01eb"
+}

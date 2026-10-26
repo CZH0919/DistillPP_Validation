@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--require-hashes",
+    "--no-deps",
+    "--no-build-isolation",
+    "--disable-pip-version-check",
+    "--timeout",
+    "30",
+    "--retries",
+    "2",
+    "-r",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/dependencies/resolved_additions.txt"
+  ],
+  "returncode": 0,
+  "seconds": 3.726630687713623
+}

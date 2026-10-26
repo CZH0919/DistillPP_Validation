@@ -1,0 +1,23 @@
+{
+  "pair_id": "M06_seed42",
+  "prompt_id": "M06",
+  "stratum": "human_motion",
+  "prompt": "A person is stretching leg",
+  "seed": 42,
+  "worker_id": 3,
+  "global_sequence": 17,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "7d315da5dde3e83052ba9b1868118d664ac54e71788f5e8984682f05835434ed",
+  "unix_start": 1792149000.911073,
+  "gpu_count": 1,
+  "offload": false
+}

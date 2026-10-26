@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_11",
+  "prompt": "A boat sailing smoothly on a calm lake. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 113,
+    "clip_with_special": 17
+  },
+  "hashes": {
+    "context": "badb5a013561afc4683fc8eb985ef4c0e89dd0f7779cfce6cb5fd99630528aeb",
+    "mask": "62536f83603fe54daeab612fc58257882873088c142e7c2d1c7d792931674fd3",
+    "llama_input_ids": "f0d91c4114399f69c60343eb2015f2f2a7fbb69c67cbbe22109c472d03d63012",
+    "pooled": "83f4a0b2841c9f4e8cab20dfcc8cac96bd97b818829b9c9fc09de7a3313c56d1",
+    "clip_input_ids": "3da8fb03869e62b2305981683e102a386b607b67cf3692b63e4aa10c391725ea",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 49.17049929499626,
+  "llama_encode_seconds": 0.21725321747362614,
+  "clip_encode_seconds": 0.13065389916300774,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_11.988d6fa69dee47c295a6a1af5987b3b8.pt",
+  "file_sha256": "83f0e77fb41e39a550e28e826bfc1987dc9ae796bc190674d81dac93f603f662"
+}

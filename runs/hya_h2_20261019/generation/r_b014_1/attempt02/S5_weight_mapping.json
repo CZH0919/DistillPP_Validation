@@ -1,0 +1,4 @@
+{
+  "native_tensors": 856,
+  "loader": "original author PT; weights_only=True, mmap=True"
+}

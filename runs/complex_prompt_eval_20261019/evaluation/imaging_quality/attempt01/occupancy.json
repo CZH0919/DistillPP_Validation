@@ -1,0 +1,16 @@
+{
+  "observations": [
+    {
+      "unix_time": 1792369214.440957,
+      "gpu": [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      "processes": []
+    }
+  ],
+  "error": null
+}

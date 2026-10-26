@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "exit_code": 0,
+  "unix_time": 1792272977.7634788,
+  "report_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Result/S2R_20261017/REPORT.md",
+  "s3_started": false,
+  "qualification_ready": false,
+  "integrity": {
+    "accepted_pairs": 96,
+    "videos": 192,
+    "valid_assigned_metric_values": 576,
+    "metrics_per_video": 3,
+    "unique_video_hashes": 192,
+    "same_noise_context_gpu_within_pair": true,
+    "full_decoders_passed": true,
+    "frames_dimensions_fps_passed": true,
+    "nonfinite_scores": 0,
+    "technical_anomalies": [],
+    "generation_metadata_changed": [],
+    "archived_videos": 192
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "date_beijing": "2026-10-19",
+  "status": "recommended_next_qualification_candidate_not_experiment_authorization",
+  "recommended_pair": "HunyuanVideo T2V 13B original 50-step -> AccVideo HunyuanT2V 5-step",
+  "setting": {
+    "height": 720,
+    "width": 1280,
+    "frames": 129,
+    "export_fps_from_code": 24
+  },
+  "assets": {
+    "teacher": {
+      "repo_id": "tencent/HunyuanVideo",
+      "revision": "6204ad6aea1a77ff5aba337c88278bb9500eb37d",
+      "private": false,
+      "gated": false,
+      "file": "hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states.pt",
+      "bytes": 25642314002,
+      "hub_lfs_sha256": "00f4be6dcdc12c9f9a0a412a1000a4ace857c384f2834e6a23b78e3e5d7cac6a",
+      "verification": "Hub API metadata and anonymous HEAD HTTP 200; no checkpoint body downloaded or rehashed locally"
+    },
+    "student": {
+      "repo_id": "aejion/AccVideo",
+      "revision": "c10d0cb593a7080a23f79c7aed9c7db35026510b",
+      "private": false,
+      "gated": false,
+      "file": "accvideo-t2v-5-steps/diffusion_pytorch_model.pt",
+      "bytes": 25642454926,
+      "hub_lfs_sha256": "c2c45bf82147276213cbd69e690fdb6b821f6945b1f2bc51f268caf0d12cceaf",
+      "verification": "Hub API metadata and anonymous HEAD HTTP 200; no checkpoint body downloaded or rehashed locally"
+    }
+  },
+  "accvideo_code_commit": "a2752d2f6990a1363713f1d57907bd28e3ad365c",
+  "vbench_reference_commit": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+  "paper": "https://arxiv.org/html/2503.19462",
+  "paper_table_5_full_16_metrics_100_scale": {
+    "subject_consistency": {
+      "teacher": 97.37,
+      "student": 94.2,
+      "teacher_minus_student": 3.17
+    },
+    "background_consistency": {
+      "teacher": 97.76,
+      "student": 96.87,
+      "teacher_minus_student": 0.89
+    },
+    "temporal_flickering": {
+      "teacher": 99.44,
+      "student": 99.01,
+      "teacher_minus_student": 0.43
+    },
+    "motion_smoothness": {
+      "teacher": 98.99,
+      "student": 98.9,
+      "teacher_minus_student": 0.09
+    },
+    "dynamic_degree": {
+      "teacher": 70.83,
+      "student": 75.55,
+      "teacher_minus_student": -4.72
+    },
+    "aesthetic_quality": {
+      "teacher": 60.36,
+      "student": 60.61,
+      "teacher_minus_student": -0.25
+    },
+    "imaging_quality": {
+      "teacher": 67.56,
+      "student": 66.7,
+      "teacher_minus_student": 0.86
+    },
+    "object_class": {
+      "teacher": 86.1,
+      "student": 89.71,
+      "teacher_minus_student": -3.61
+    },
+    "multiple_objects": {
+      "teacher": 68.55,
+      "student": 66.35,
+      "teacher_minus_student": 2.2
+    },
+    "human_action": {
+      "teacher": 94.4,
+      "student": 94.0,
+      "teacher_minus_student": 0.4
+    },
+    "color": {
+      "teacher": 91.6,
+      "student": 94.61,
+      "teacher_minus_student": -3.01
+    },
+    "spatial_relationship": {
+      "teacher": 68.68,
+      "student": 71.74,
+      "teacher_minus_student": -3.06
+    },
+    "scene": {
+      "teacher": 53.88,
+      "student": 50.75,
+      "teacher_minus_student": 3.13
+    },
+    "appearance_style": {
+      "teacher": 19.8,
+      "student": 20.16,
+      "teacher_minus_student": -0.36
+    },
+    "temporal_style": {
+      "teacher": 23.89,
+      "student": 23.44,
+      "teacher_minus_student": 0.45
+    },
+    "overall_consistency": {
+      "teacher": 26.44,
+      "student": 26.92,
+      "teacher_minus_student": -0.48
+    }
+  },
+  "paper_aggregate": {
+    "teacher": {
+      "total": 83.24,
+      "quality": 85.09,
+      "semantic": 75.82
+    },
+    "student": {
+      "total": 82.77,
+      "quality": 84.38,
+      "semantic": 76.34
+    }
+  },
+  "evidence_limit": "720p teacher values are quoted from VBench leaderboard, while student values were evaluated by AccVideo authors. Not an author-run paired-seed teacher/student experiment; no published confidence interval or exact-seed reproducibility bundle verified. No local teacher advantage yet.",
+  "source_fact": "Denoiser attention is noncausal and processes full video tokens. A causal VAE does not imply a causal denoiser. Student checkpoint genuinely step-distilled from Hunyuan via synthetic trajectories and adversarial loss.",
+  "proposed_primary_metric": "subject_consistency",
+  "metric_proposal_status": "not a frozen protocol; preserve diagnostic tradeoffs and dynamic motion guard; flickering requires separate static-filter protocol",
+  "excluded_or_deprioritized": {
+    "VideoCrafter2->pure VCM": "No matching publicly released pure VCM checkpoint verified in official author model listing; do not substitute reward-trained T2V-Turbo.",
+    "VideoCrafter2->T2V-Turbo": "Public weights; reward-trained student generally stronger. Some teacher component margins small and baseline is also leaderboard-sourced.",
+    "CogVideoX-2B->DCM": "Paper has teacher advantages, but current official HF listing only DCM_HY and DCM_WAN; no CogVideoX student verified.",
+    "HunyuanVideo->DCM": "Public Hunyuan student, but teacher quality aggregate is 85.00 vs student 85.12; teacher semantic margin is 79.34 vs78.67 with no detailed dimension table verified.",
+    "AnimateDiff->AnimateDiff-Lightning": "Published FVD compares students to generated teacher videos, measuring distributional fidelity, not independent real-data evidence of teacher quality superiority.",
+    "HunyuanVideo->FastHunyuan": "Public model card qualitative comparator uses teacher only 6 steps, not full 50-step teacher.",
+    "AnimateLCM/PCM": "Reviewed video tables mainly compare few-step original samplers, not objective full-step teacher superiority.",
+    "OSV/SVD": "Teacher FVD advantage reported, but no publicly downloadable exact OSV checkpoint and complete evaluation inputs verified; also changes T2V to I2V."
+  },
+  "checks": [
+    {
+      "name": "vbench_prompts_readme",
+      "url": "https://raw.githubusercontent.com/Vchitect/VBench/fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490/prompts/README.md",
+      "method": "GET",
+      "status": 200,
+      "content_length": "6511",
+      "bytes": 6511,
+      "sha256": "7f90b414d60e4075e5c21685aaa046686e7a11ca52f36872353744b919b1198a",
+      "nonempty_lines": 92
+    },
+    {
+      "name": "vbench_hunyuan_prompts",
+      "url": "https://raw.githubusercontent.com/Vchitect/VBench/fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490/prompts/augmented_prompts/hunyuan_all_dimension.txt",
+      "method": "GET",
+      "status": 200,
+      "content_length": "83603",
+      "bytes": 83603,
+      "sha256": "bb1f6c7c27390eb268ef1e25faa196169ee7dc8a30741290bdd9c30c5970d9fe",
+      "nonempty_lines": 946
+    },
+    {
+      "name": "vbench_all_prompts",
+      "url": "https://raw.githubusercontent.com/Vchitect/VBench/fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490/prompts/all_dimension.txt",
+      "method": "GET",
+      "status": 200,
+      "content_length": "39729",
+      "bytes": 39729,
+      "sha256": "f9b50654f81ab732b9235d5bb91f0c3a4d152fac19249ce3a3a9185b2d80d8c3",
+      "nonempty_lines": 946
+    },
+    {
+      "name": "vbench_fullinfo",
+      "url": "https://raw.githubusercontent.com/Vchitect/VBench/fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490/vbench/VBench_full_info.json",
+      "method": "GET",
+      "status": 200,
+      "content_length": "228118",
+      "bytes": 228118,
+      "sha256": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+    },
+    {
+      "name": "teacher_head",
+      "url": "https://huggingface.co/tencent/HunyuanVideo/resolve/6204ad6aea1a77ff5aba337c88278bb9500eb37d/hunyuan-video-t2v-720p/transformers/mp_rank_00_model_states.pt",
+      "method": "HEAD",
+      "status": 200,
+      "content_length": "25642314002",
+      "body_downloaded": false
+    },
+    {
+      "name": "student_head",
+      "url": "https://huggingface.co/aejion/AccVideo/resolve/c10d0cb593a7080a23f79c7aed9c7db35026510b/accvideo-t2v-5-steps/diffusion_pytorch_model.pt",
+      "method": "HEAD",
+      "status": 200,
+      "content_length": "25642454926",
+      "body_downloaded": false
+    }
+  ],
+  "evidence_files_sha256": {
+    "tmp\\model_selection_20261019\\accvideo_hf.json": "e4ba9cfbda75aa461800f6db067d4920b2ae49f5402748d5f65e8048546bf089",
+    "tmp\\model_selection_20261019\\accvideo_source_manifest.json": "c5c5ed7ebdfdbda290e20e2048ce5240296cdcd53e1ca58afa58683641580b44",
+    "tmp\\model_selection_20261019\\accvideo_tree.json": "d73a75dca7b85e67049b15fa59a98660e7166bb9a44e3b6cee8dcf2884537ee3",
+    "tmp\\model_selection_20261019\\dcm_hf.json": "2624faa40e78bff0751d6a5da00899ba6b59f3779f93d41265e331345010a04f",
+    "tmp\\model_selection_20261019\\dcm_tree.json": "3e092c3bb68cbb55378893673fa422b576d147b30d3e4f4921c1efc545d467e0",
+    "tmp\\model_selection_20261019\\hunyuan_hf.json": "b794b356a4d945f7a03d0f67bf6d082dbe8583b0b80ed05593f4e0dc8cab1b6a",
+    "tmp\\model_selection_20261019\\prompt_and_head_checks.json": "acbf0d3754c3308c8c83f959306507155b621878dbaf2be168e29aa09a80762d",
+    "tmp\\model_selection_20261019\\turbo_author_hf.json": "efde148d7478f85500838aedc001f4b05232918f5ae4c3d74319bd177aac5226",
+    "tmp\\model_selection_20261019\\vbench_all_prompts.txt": "f9b50654f81ab732b9235d5bb91f0c3a4d152fac19249ce3a3a9185b2d80d8c3",
+    "tmp\\model_selection_20261019\\vbench_fullinfo.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd",
+    "tmp\\model_selection_20261019\\vbench_hunyuan_prompts.txt": "bb1f6c7c27390eb268ef1e25faa196169ee7dc8a30741290bdd9c30c5970d9fe",
+    "tmp\\model_selection_20261019\\vbench_prompts_readme.txt": "7f90b414d60e4075e5c21685aaa046686e7a11ca52f36872353744b919b1198a"
+  },
+  "remote_access_this_turn": false,
+  "model_downloaded": false,
+  "gpu_started": false,
+  "s3_started": false
+}

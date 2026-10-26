@@ -1,0 +1,101 @@
+{
+  "time_unix": 1792425259.477266,
+  "status": {
+    "status": "running",
+    "controller_pid": 3144075,
+    "controller_alive": true,
+    "heartbeat_age_seconds": 15.5,
+    "verified_video_slots": 116,
+    "committed_videos": 116,
+    "total_videos": 128,
+    "completed_pairs": 58,
+    "total_pairs": 64,
+    "completed_scores": 208,
+    "total_scores": 224,
+    "hours_since_launch": 12.17,
+    "active": [
+      {
+        "task": "gen_r_b014_0",
+        "gpu": 3,
+        "pid": 3133919,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_r_b014_0_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792425221.3938835,
+          "pid": 3133919,
+          "block": "r_b014_0",
+          "prompt_id": "HYA_OBJECTS_02",
+          "arm": "T50",
+          "completed": 19,
+          "total": 50,
+          "step_seconds": 35.092918215319514
+        }
+      },
+      {
+        "task": "gen_r_b014_1",
+        "gpu": 5,
+        "pid": 3139506,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_r_b014_1_attempt02.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792425231.9554374,
+          "pid": 3139506,
+          "block": "r_b014_1",
+          "prompt_id": "HYA_OBJECTS_06",
+          "arm": "T50",
+          "completed": 10,
+          "total": 50,
+          "step_seconds": 35.6598986890167
+        }
+      },
+      {
+        "task": "gen_r_b028_1",
+        "gpu": 6,
+        "pid": 3133912,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_r_b028_1_attempt01.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792425221.2700582,
+          "pid": 3133912,
+          "block": "r_b028_1",
+          "prompt_id": "HYA_SCENE_08",
+          "arm": "T50",
+          "completed": 19,
+          "total": 50,
+          "step_seconds": 34.97536292485893
+        }
+      },
+      {
+        "task": "gen_r_b030_0",
+        "gpu": 4,
+        "pid": 3142083,
+        "alive": true,
+        "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/logs/gen_r_b030_0_attempt02.log",
+        "progress": {
+          "stage": "denoising",
+          "time_unix": 1792425247.8651738,
+          "pid": 3142083,
+          "block": "r_b030_0",
+          "prompt_id": "HYA_OBJECTS_04",
+          "arm": "T50",
+          "completed": 6,
+          "total": 50,
+          "step_seconds": 35.90264338068664
+        }
+      }
+    ],
+    "paused": []
+  },
+  "controller_process": {
+    "pid": 3144075,
+    "ppid": 1,
+    "sid": 3144075,
+    "tty_nr": 0,
+    "fd0": "/dev/null"
+  },
+  "log_tail": "u 4 pid 3133914\nH2_DISPATCH gen_r_b030_1 gpu 1 pid 3133917\nH2_DISPATCH gen_r_b014_0 gpu 3 pid 3133919\nH2_DISPATCH gen_r_b030_0 gpu 7 pid 3133921\nH2_DISPATCH gen_r_b014_1 gpu 5 pid 3139506\nH2_DISPATCH gen_r_b030_1 gpu 7 pid 3139507\nH2_DISPATCH gen_r_b028_0 gpu 1 pid 3141993\nH2_DISPATCH gen_r_b030_0 gpu 4 pid 3142083\nH2_STABLE_DISPATCH_POLICY {'new_tasks_only_on': [3, 6], 'existing_workers_adopted': True}\nH2_PARALLEL_POLICY {'preference': [3, 6], 'maximum_workers': 6, 'one_pair_per_worker': True}\n",
+  "verified_scope": "New dispatch restricted to GPU 3 and 6; existing healthy GPU 4 and 5 workers adopted without interruption. H2 remains incomplete; S3 not started."
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_28",
+  "prompt": "A motorcycle is slowing down to stop. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "ca2e0be87cf706edf059bd5f281f893dbd7bf6d02f58dfc6e1d01453295a403a",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "7e433125295095a3d2ee0f6288f4b88259dc039c8ea496280ee832b9d11509fc",
+    "pooled": "9b9d6dc0ee120333ab5217c12fd390dfa5e986f89122b1f22a29f155464eba55",
+    "clip_input_ids": "dc8cfd9cbe55054cea7de9243998838e190b700f306ad1bf7c5fdca2d7da4829",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.846863009035587,
+  "llama_encode_seconds": 0.20808415859937668,
+  "clip_encode_seconds": 0.029347995296120644,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_28.11b7e818a769488592ecc240d1434363.pt",
+  "file_sha256": "6837f8814de24d867cbbae052a4e1ea6be402d6dcc367c88ccca8ed6da003870"
+}

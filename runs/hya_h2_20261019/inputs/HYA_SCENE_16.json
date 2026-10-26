@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_16",
+  "prompt": "A large store with aisles of shelves filled with various food and household products. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 119,
+    "clip_with_special": 24
+  },
+  "hashes": {
+    "context": "c05be07dd27d253cd980a6b73bd2d767df0ccc17664419fcd4e761b29c5a268e",
+    "mask": "a1192507d93ceba2d61008ce73d32ae86639fd4381928a19eed06a2367582546",
+    "llama_input_ids": "80ae080efe3d8190663aff14de886a5536554c2f1e718951a637261f21ddf346",
+    "pooled": "bc84192ff64613c0ad2ea1682d9b49203a665ee1388fadcec5f43545cfc1a402",
+    "clip_input_ids": "de12634fd3b1a06ce845607432743c2b049a6728dbfdfbee3ae474ed363dde8f",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 33.00395227596164,
+  "llama_encode_seconds": 0.04096175730228424,
+  "clip_encode_seconds": 0.05810234695672989,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_16.3c99c06d677d4e8983317a023ac99939.pt",
+  "file_sha256": "a7677fd988350f845813fa0b97b1ae48b055e393c20442313ea885b3cc99115f"
+}

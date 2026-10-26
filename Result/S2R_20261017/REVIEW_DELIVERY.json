@@ -1,0 +1,65 @@
+{
+  "status": "synced_and_hash_verified",
+  "completed_at_beijing": "2026-10-18T15:00:27.921753+08:00",
+  "scope": "Only S2-R review scripts, reports and progress; original scientific inputs and results unchanged; no videos or model files copied locally.",
+  "core_files_verified": 38,
+  "core_bytes": 2903529,
+  "review_files": [
+    {
+      "path": "tools/audit_s2r_completed_remote.py",
+      "sha256": "a4fcbd0fa58fe38bfe7362268d266c9836345b6895c2efc82ab2b1b5a005c5be",
+      "bytes": 9771
+    },
+    {
+      "path": "tools/review_s2r_statistics.py",
+      "sha256": "86207a446c7b1a5205595ae247547d761f99c12321b4d490229d0ac87727cbeb",
+      "bytes": 8380
+    },
+    {
+      "path": "Result/S2R_20261017/LOCAL_REPRODUCTION.json",
+      "sha256": "da2f60050eb00aa408935d09d9cd0d3e426a705448266aa209120f99a4e9dbc9",
+      "bytes": 704
+    },
+    {
+      "path": "Result/S2R_20261017/INDEPENDENT_STATISTICS_REVIEW.json",
+      "sha256": "01499893798534f34f012458c2a58ff0a2b74ffa0970c28e1204cb2624cd4353",
+      "bytes": 6859
+    },
+    {
+      "path": "Result/S2R_20261017/INTEGRITY_REVIEW.json",
+      "sha256": "fcc96e24a668614acaa53cd41007e2a17c0c84c36c4f5853454626934a9b2822",
+      "bytes": 1298
+    },
+    {
+      "path": "Result/S2R_20261017/REVIEW_AND_INTERPRETATION.md",
+      "sha256": "acc5696a0bd87182fc4a87a8af411a2b1e236c4c9d9a6b29448c0a269d57f618",
+      "bytes": 12444
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/S2R_QUALIFICATION.md",
+      "sha256": "8db4cb1feaef555f98cdcbaa207ec8ea1016926bce6da264b6d13f6809b36054",
+      "bytes": 2498
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/S2R_CORE_SYNC.json",
+      "sha256": "b58ebba5e541ecaf83f038c57904cabfc0e693e588181208c3436b4efb9345a3",
+      "bytes": 6367
+    },
+    {
+      "path": "Project_Progress/Total_Progress.md",
+      "sha256": "6de0560e5452cf352a417b0a1ba79dc9e2e645ee85e7923c46374fe4df2b8aea",
+      "bytes": 7168
+    },
+    {
+      "path": "Project_Plan/OFFICIAL_QUALIFICATION_V2.md",
+      "sha256": "356f711bc76f088f082c88e261bd782c6eb249db1569f6ba2fc23adbed5dbe4e",
+      "bytes": 12065
+    },
+    {
+      "path": "Project_Plan/EXPERIMENT_PLAN.md",
+      "sha256": "2893f234e68ea0351f115ab15ccccb70ff81d223792c37d7a716c32815572ac4",
+      "bytes": 27369
+    }
+  ],
+  "s3_started": false
+}

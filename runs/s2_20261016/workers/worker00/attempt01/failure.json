@@ -1,0 +1,271 @@
+{
+  "status": "failed",
+  "worker_id": 0,
+  "attempt": 1,
+  "admission": {
+    "physical_index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1392600,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "gpu_uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+  "assigned": [
+    {
+      "pair_id": "M01_seed1234",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 1234,
+      "worker_id": 0,
+      "global_sequence": 0,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M15_seed42",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 7,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M09_seed2026",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 2026,
+      "worker_id": 0,
+      "global_sequence": 14,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M05_seed42",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 21,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M02_seed42",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 28,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M16_seed1234",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 1234,
+      "worker_id": 0,
+      "global_sequence": 35,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M09_seed42",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 42,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    }
+  ],
+  "torch": "2.8.0+cu128",
+  "gpu_name": "NVIDIA H200 NVL",
+  "timing": "CUDA synchronized wall time; denoise + VAE; no per-step tensor diagnostics or I/O",
+  "memory_scope": "Both DiTs, T5 and VAE resident on the same single GPU; no offload",
+  "diagnostics": "10-second CPU occupancy/progress thread; small overhead is included, not subtracted",
+  "common_load_seconds": 9.661443477496505,
+  "teacher_load_audit": {
+    "keys": 1095,
+    "missing": 0,
+    "unexpected": 0,
+    "parameter_storage": "float32 native",
+    "forward_autocast": "bfloat16 native",
+    "fp32_operations": "native time embeddings, norm/modulation and output head",
+    "on_disk_conversion": false
+  },
+  "teacher_load_seconds": 27.636235086247325,
+  "student_load_seconds": 22.280513796955347,
+  "student_load_audit": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "student_config": {
+    "do_mm_calib": false,
+    "cpu_offload": false,
+    "shared_cpu_weights": false,
+    "shared_cpu_weight_scope": "auto",
+    "shared_cpu_weight_strict_numa": true,
+    "shared_cpu_weight_register_chunk_mb": 128,
+    "max_area": false,
+    "vae_stride": [
+      4,
+      8,
+      8
+    ],
+    "patch_size": [
+      1,
+      2,
+      2
+    ],
+    "feature_caching": "NoCaching",
+    "teacache_thresh": 0.26,
+    "use_ret_steps": false,
+    "use_bfloat16": true,
+    "lora_configs": null,
+    "lora_merge_force_fp32": false,
+    "parallel": false,
+    "seq_parallel": false,
+    "cfg_parallel": false,
+    "pipefusion_parallel": false,
+    "enable_cfg": false,
+    "warmup": false,
+    "use_image_encoder": true,
+    "_class_name": "WanModel",
+    "_diffusers_version": "0.30.0",
+    "dim": 5120,
+    "eps": 1e-06,
+    "ffn_dim": 13824,
+    "freq_dim": 256,
+    "in_dim": 16,
+    "model_type": "t2v",
+    "num_heads": 40,
+    "num_layers": 40,
+    "out_dim": 16,
+    "text_len": 512,
+    "task": "t2v",
+    "model_cls": "wan2.1",
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "infer_steps": 4,
+    "distill_method": "dmd2",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "self_attn_1_type": "flash_attn2",
+    "cross_attn_1_type": "flash_attn2",
+    "rms_norm_type": "torch",
+    "layer_norm_type": "torch",
+    "modulate_type": "torch",
+    "rope_type": "torch_complex_rope",
+    "double_precision_rope": true,
+    "dit_quantized": false,
+    "lazy_load": false
+  },
+  "resident_allocated_gib": 90.89797782897949,
+  "warmup": {},
+  "error": "RuntimeError('Occupancy/progress monitor failed; own worker stops: RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [[\\'GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc\\', \\'1392948\\', \\'612\\']]\")')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_worker.py\", line 232, in main\n    run(args, output, admission, report)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_worker.py\", line 181, in run\n    report['warmup'][arm] = generate(arm, warm_pair, warm_context, negative, warm_initial, output/'warmup'/arm, True)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_worker.py\", line 78, in generate\n    monitor.check()\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/s2_common.py\", line 70, in check\n    raise RuntimeError('Occupancy/progress monitor failed; own worker stops: ' + self.error)\nRuntimeError: Occupancy/progress monitor failed; own worker stops: RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '1392948', '612']]\")\n"
+}

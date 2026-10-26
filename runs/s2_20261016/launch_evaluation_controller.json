@@ -1,0 +1,13 @@
+{
+  "timeout_pid": 1397203,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "5h",
+    "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_evaluation_controller.py"
+  ],
+  "time": 1792147804.7421758
+}

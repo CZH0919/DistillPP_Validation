@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M15_seed42",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed42/attempt02/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "3334d83ee3e87ff4d3e6576685270963d0a84a27f8fd4e8c1f477be708b82f08"
+    },
+    {
+      "pair_id": "M15_seed42",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed42/attempt02/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "3c3b329b13c6761850367c6f4664b74ece0cb33fbebb50c451e5e4e2328f3db2"
+    },
+    {
+      "pair_id": "M15_seed1234",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed1234/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "d4ccb237c3b15e62616a4b13a7632ddd23272d5690b25ecc67d70711d5eae46e"
+    },
+    {
+      "pair_id": "M15_seed1234",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed1234/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "8e2006d32c6607b0e70de73a55ece4d59f44c3264835e0b7aa66815b3929f7ac"
+    },
+    {
+      "pair_id": "M15_seed2026",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed2026/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "d45960f40c5bcbe14e1d84abab73b6d1d44bfac4c22ec677ac1bae60923e96db"
+    },
+    {
+      "pair_id": "M15_seed2026",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M15_seed2026/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 0.0,
+      "normalized_score": 0.0,
+      "source_returned_score": 0.0,
+      "video_sha256": "f0d930bbb1ccaa29a15ee261a799a4a9ce1f354964cb750087413f8202bcdf2d"
+    }
+  ],
+  "aggregate": 0.0,
+  "scoring_seconds": 20.738756949082017
+}

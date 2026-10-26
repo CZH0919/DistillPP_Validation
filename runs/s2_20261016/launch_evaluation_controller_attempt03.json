@@ -1,0 +1,15 @@
+{
+  "timeout_pid": 1431106,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "150m",
+    "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/retry_s2_evaluation.py"
+  ],
+  "time": 1792152866.0679946,
+  "max_parallel": 2,
+  "excluded_gpu": 0
+}

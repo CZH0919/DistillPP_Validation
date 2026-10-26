@@ -1,0 +1,20 @@
+{
+  "pid": 2205787,
+  "unix_start": 1792311284.258798,
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+    "-B",
+    "tools/run_complex_prompt_probe.py",
+    "--gpu",
+    "6",
+    "--worker",
+    "0",
+    "--attempt",
+    "1"
+  ],
+  "gpu": 6,
+  "max_videos": 2,
+  "detached": true,
+  "prompt_tokens": 286,
+  "s3_started": false
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_16",
+  "prompt": "A cow bends down to drink water from a river. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 20
+  },
+  "hashes": {
+    "context": "d4a0568304deaadd16ad646a584823345fe6903d3ecc5f6655b290d47338f72d",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "4ad25a2ac4a225dc6558cab32b6cd1e2c3db995d1bf149448546c29f2ad41171",
+    "pooled": "b3158802788d260c6d87015d84297fab840fe4c7df1da1b9e5aa56c6df0720d1",
+    "clip_input_ids": "25ce5f9f02a9ac58de6b78ad35bb2803fee1a966a9e6bd7f1de9b50b94f758c3",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 25.700387939810753,
+  "llama_encode_seconds": 0.04174710251390934,
+  "clip_encode_seconds": 0.14694584161043167,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_16.be6980883d514684a0643a945a983c2d.pt",
+  "file_sha256": "ba86a8448d59202080c50d2b330956e9f0461a10434b8ba9a7d7e78b0f840f5c"
+}

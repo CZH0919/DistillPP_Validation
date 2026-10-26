@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M06_seed1234",
+  "prompt_id": "M06",
+  "stratum": "human_motion",
+  "prompt": "A person is stretching leg",
+  "seed": 1234,
+  "worker_id": 2,
+  "global_sequence": 37,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.05906203202903271,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed1234/attempt01/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed1234/attempt01/T50/result.json"
+  }
+}

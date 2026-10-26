@@ -1,0 +1,736 @@
+{
+  "review_date": "2026-10-21",
+  "integrity": {
+    "status": "passed",
+    "records": 96,
+    "new_scores": 160,
+    "baseline_scores": 160,
+    "archive_counts": {
+      "lambda_0p1": 48,
+      "lambda_0p3": 48
+    },
+    "video_hashes_checked": 192,
+    "video_metadata": "all 1280x720, 129 frames, 24 FPS; saved decoder checks matched current hashes",
+    "prompts_seeds_inputs": "matched H2 for all 96",
+    "source_and_resource_metadata": "unchanged",
+    "paired_intervention_hash_matches_out_of_48": {
+      "renoise_noise_sha256": 48,
+      "query_sha256": 48,
+      "student_endpoint_sha256": 48,
+      "teacher_prediction_sha256": 48
+    },
+    "all_processes_exited": true,
+    "attempts": 56,
+    "successful_attempts": 51,
+    "resource_conflicts": [
+      {
+        "task": "gen_HYA_MOTION_01",
+        "attempt": 1,
+        "gpu": 5,
+        "wall_seconds": 267.0744526386261,
+        "error": "ResourceConflict(\"Unrecognized process on GPU 5: [['GPU-7d459912-b567-59fb-8abf-57c18713cb84', '3383240', '518']]\")",
+        "last_progress": {
+          "stage": "step_complete",
+          "time_unix": 1792481702.0359125,
+          "pid": 3379966,
+          "prompt_id": "HYA_MOTION_01",
+          "variant": "lambda_0p3",
+          "completed": 1,
+          "total": 5
+        },
+        "committed_videos_from_attempt": 0
+      },
+      {
+        "task": "gen_HYA_MOTION_03",
+        "attempt": 1,
+        "gpu": 7,
+        "wall_seconds": 284.69318890571594,
+        "error": "ResourceConflict(\"Unrecognized process on GPU 7: [['GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '3383241', '4682']]\")",
+        "last_progress": {
+          "stage": "step_complete",
+          "time_unix": 1792481715.9520133,
+          "pid": 3379968,
+          "prompt_id": "HYA_MOTION_03",
+          "variant": "lambda_0p1",
+          "completed": 1,
+          "total": 5
+        },
+        "committed_videos_from_attempt": 0
+      },
+      {
+        "task": "gen_HYA_MOTION_04",
+        "attempt": 1,
+        "gpu": 5,
+        "wall_seconds": 88.38953852653503,
+        "error": "ResourceConflict(\"Unrecognized process on GPU 5: [['GPU-7d459912-b567-59fb-8abf-57c18713cb84', '3384673', '4680']]\")",
+        "last_progress": {
+          "stage": "student_warmup",
+          "time_unix": 1792481761.6969373,
+          "pid": 3383731,
+          "prompt_id": "HYA_MOTION_04",
+          "variant": "lambda_0p3"
+        },
+        "committed_videos_from_attempt": 0
+      },
+      {
+        "task": "gen_HYA_MOTION_05",
+        "attempt": 1,
+        "gpu": 7,
+        "wall_seconds": 104.66452527046204,
+        "error": "ResourceConflict(\"Unrecognized process on GPU 7: [['GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '3384674', '1118']]\")",
+        "last_progress": {
+          "stage": "student_warmup",
+          "time_unix": 1792481766.8359945,
+          "pid": 3383732,
+          "prompt_id": "HYA_MOTION_05",
+          "variant": "lambda_0p1"
+        },
+        "committed_videos_from_attempt": 0
+      },
+      {
+        "task": "gen_HYA_MOTION_06",
+        "attempt": 1,
+        "gpu": 5,
+        "wall_seconds": 53.607970237731934,
+        "error": "ResourceConflict(\"Unrecognized process on GPU 5: [['GPU-7d459912-b567-59fb-8abf-57c18713cb84', '3386063', '832']]\")",
+        "last_progress": {
+          "stage": "load_models",
+          "time_unix": 1792481842.863797,
+          "pid": 3385499,
+          "prompt_id": "HYA_MOTION_06"
+        },
+        "committed_videos_from_attempt": 0
+      }
+    ],
+    "max_concurrency": 3,
+    "new_task_gpus": [
+      5,
+      6,
+      7
+    ],
+    "video_gpus": [
+      {
+        "variant": "lambda_0p1",
+        "gpu": 5,
+        "count": 15
+      },
+      {
+        "variant": "lambda_0p1",
+        "gpu": 6,
+        "count": 17
+      },
+      {
+        "variant": "lambda_0p1",
+        "gpu": 7,
+        "count": 16
+      },
+      {
+        "variant": "lambda_0p3",
+        "gpu": 5,
+        "count": 15
+      },
+      {
+        "variant": "lambda_0p3",
+        "gpu": 6,
+        "count": 17
+      },
+      {
+        "variant": "lambda_0p3",
+        "gpu": 7,
+        "count": 16
+      }
+    ],
+    "started_beijing": "2026-10-20T15:30:39.718156+08:00",
+    "completed_beijing": "2026-10-20T19:35:32.015087+08:00",
+    "wall_seconds": 14692.296931028366,
+    "sum_failed_attempt_wall_seconds": 798.429675579071,
+    "next_experiment_started": false
+  },
+  "independent_recalculation": {
+    "score_rows": 320,
+    "paired_rows": 160,
+    "maximum_summary_difference": 0.0,
+    "maximum_timing_difference_seconds": 0.0
+  },
+  "means": {
+    "subject_consistency": {
+      "T50": 0.9524466169168591,
+      "S5": 0.9410264221642137,
+      "lambda_0p1": 0.9418034884438384,
+      "lambda_0p3": 0.9429707251692889
+    },
+    "multiple_objects": {
+      "T50": 0.76171875,
+      "S5": 0.65234375,
+      "lambda_0p1": 0.64453125,
+      "lambda_0p3": 0.6328125
+    },
+    "dynamic_degree": {
+      "T50": 0.84375,
+      "S5": 0.84375,
+      "lambda_0p1": 0.84375,
+      "lambda_0p3": 0.8125
+    }
+  },
+  "metric_diagnostics": {
+    "subject_consistency": {
+      "lambda_0p1": {
+        "mean_delta": 0.0007770662796247052,
+        "median_delta": -0.00025818217545747757,
+        "positive_equal_negative": [
+          15,
+          0,
+          17
+        ],
+        "teacher_gap_recovered_fraction": 0.06804317233247784,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 21,
+            "mean_corrected_minus_student": 0.0006683415738821385
+          },
+          "tied": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          },
+          "student_higher": {
+            "n": 11,
+            "mean_corrected_minus_student": 0.0009846316269514236
+          }
+        },
+        "largest_gains": [
+          {
+            "prompt_id": "HYA_MOTION_13",
+            "prompt": "A car is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",
+            "teacher": 0.9874086398631334,
+            "student": 0.9003230349626392,
+            "corrected": 0.9238284328021109,
+            "delta": 0.023505397839471698
+          },
+          {
+            "prompt_id": "HYA_MOTION_05",
+            "prompt": "A truck slows down to stop. Realistic, Natural lighting, Casual",
+            "teacher": 0.8910838766023517,
+            "student": 0.7743875700398348,
+            "corrected": 0.7884784514317289,
+            "delta": 0.014090881391894072
+          },
+          {
+            "prompt_id": "HYA_MOTION_24",
+            "prompt": "a cat playing in the park. Realistic, Natural lighting, Peaceful",
+            "teacher": 0.9145551084075123,
+            "student": 0.8652374444063753,
+            "corrected": 0.875422314973548,
+            "delta": 0.010184870567172766
+          }
+        ],
+        "largest_losses": [
+          {
+            "prompt_id": "HYA_MOTION_25",
+            "prompt": "A dog enjoying a peaceful walk. Realistic, Natural lighting",
+            "teacher": 0.9590758185368031,
+            "student": 0.9294963008724153,
+            "corrected": 0.9133808373007923,
+            "delta": -0.016115463571622968
+          },
+          {
+            "prompt_id": "HYA_MOTION_03",
+            "prompt": "A horse galloping across an open field. Realistic, Natural lighting, Peaceful",
+            "teacher": 0.9793386468663812,
+            "student": 0.9726194150280207,
+            "corrected": 0.964358946075663,
+            "delta": -0.008260468952357769
+          },
+          {
+            "prompt_id": "HYA_MOTION_28",
+            "prompt": "A motorcycle is slowing down to stop. Realistic, Natural lighting, Casual",
+            "teacher": 0.8983710344182327,
+            "student": 0.8790952379349619,
+            "corrected": 0.872544571524486,
+            "delta": -0.006550666410475969
+          }
+        ],
+        "changed_motion_prompt_diagnostics": {
+          "changed": [],
+          "unchanged_motion_count": 32,
+          "unchanged_motion_mean_subject_delta": 0.0007770662796247052
+        }
+      },
+      "lambda_0p3": {
+        "mean_delta": 0.0019443030050751986,
+        "median_delta": -0.0011347607942298055,
+        "positive_equal_negative": [
+          12,
+          0,
+          20
+        ],
+        "teacher_gap_recovered_fraction": 0.17025130019125356,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 21,
+            "mean_corrected_minus_student": 0.002539218128991446
+          },
+          "tied": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          },
+          "student_higher": {
+            "n": 11,
+            "mean_corrected_minus_student": 0.0008085559503259984
+          }
+        },
+        "largest_gains": [
+          {
+            "prompt_id": "HYA_MOTION_13",
+            "prompt": "A car is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",
+            "teacher": 0.9874086398631334,
+            "student": 0.9003230349626392,
+            "corrected": 0.9375363131985068,
+            "delta": 0.03721327823586762
+          },
+          {
+            "prompt_id": "HYA_MOTION_05",
+            "prompt": "A truck slows down to stop. Realistic, Natural lighting, Casual",
+            "teacher": 0.8910838766023517,
+            "student": 0.7743875700398348,
+            "corrected": 0.806444414309226,
+            "delta": 0.03205684426939115
+          },
+          {
+            "prompt_id": "HYA_MOTION_24",
+            "prompt": "a cat playing in the park. Realistic, Natural lighting, Peaceful",
+            "teacher": 0.9145551084075123,
+            "student": 0.8652374444063753,
+            "corrected": 0.8846099509391934,
+            "delta": 0.01937250653281808
+          }
+        ],
+        "largest_losses": [
+          {
+            "prompt_id": "HYA_MOTION_25",
+            "prompt": "A dog enjoying a peaceful walk. Realistic, Natural lighting",
+            "teacher": 0.9590758185368031,
+            "student": 0.9294963008724153,
+            "corrected": 0.9178127117920667,
+            "delta": -0.011683589080348611
+          },
+          {
+            "prompt_id": "HYA_MOTION_17",
+            "prompt": "A motorcycle is cruising along a coastal highway. Realistic, Natural lighting, Casual",
+            "teacher": 0.9725522908847779,
+            "student": 0.9466959647834301,
+            "corrected": 0.9379472192376852,
+            "delta": -0.008748745545744896
+          },
+          {
+            "prompt_id": "HYA_MOTION_20",
+            "prompt": "A dog drinking water. Realistic, Natural indoor lighting, Casual",
+            "teacher": 0.9657858919817954,
+            "student": 0.9647898024413735,
+            "corrected": 0.9589811090845615,
+            "delta": -0.005808693356812
+          }
+        ],
+        "changed_motion_prompt_diagnostics": {
+          "changed": [
+            {
+              "prompt_id": "HYA_MOTION_19",
+              "prompt": "A person eating a burger. Realistic, Natural lighting, Casual",
+              "teacher": 0.9618080907966942,
+              "student": 0.967439096653834,
+              "corrected": 0.972500327276066,
+              "delta": 0.00506123062223196
+            }
+          ],
+          "unchanged_motion_count": 31,
+          "unchanged_motion_mean_subject_delta": 0.0018437569529088514
+        }
+      }
+    },
+    "multiple_objects": {
+      "lambda_0p1": {
+        "mean_delta": -0.0078125,
+        "median_delta": 0.0,
+        "positive_equal_negative": [
+          3,
+          10,
+          3
+        ],
+        "teacher_gap_recovered_fraction": -0.07142857142857142,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 8,
+            "mean_corrected_minus_student": 0.03125
+          },
+          "tied": {
+            "n": 5,
+            "mean_corrected_minus_student": 0.0
+          },
+          "student_higher": {
+            "n": 3,
+            "mean_corrected_minus_student": -0.125
+          }
+        },
+        "largest_gains": [
+          {
+            "prompt_id": "HYA_OBJECTS_06",
+            "prompt": "A fork and a potted plant. Realistic, Indoor lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.4375,
+            "corrected": 0.625,
+            "delta": 0.1875
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_10",
+            "prompt": "A cup and a couch. Realistic, Natural lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.4375,
+            "corrected": 0.5625,
+            "delta": 0.125
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_05",
+            "prompt": "A toothbrush and a sink. Realistic, Indoor lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.4375,
+            "corrected": 0.5,
+            "delta": 0.0625
+          }
+        ],
+        "largest_losses": [
+          {
+            "prompt_id": "HYA_OBJECTS_13",
+            "prompt": "A sandwich and a book with a clear cover. Realistic, Natural indoor lighting, Casual",
+            "teacher": 0.0,
+            "student": 1.0,
+            "corrected": 0.625,
+            "delta": -0.375
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_01",
+            "prompt": "A cat and a dog. Realistic, Natural lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.375,
+            "corrected": 0.3125,
+            "delta": -0.0625
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_07",
+            "prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+            "teacher": 0.4375,
+            "student": 0.0625,
+            "corrected": 0.0,
+            "delta": -0.0625
+          }
+        ]
+      },
+      "lambda_0p3": {
+        "mean_delta": -0.01953125,
+        "median_delta": 0.0,
+        "positive_equal_negative": [
+          3,
+          8,
+          5
+        ],
+        "teacher_gap_recovered_fraction": -0.17857142857142858,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 8,
+            "mean_corrected_minus_student": 0.0390625
+          },
+          "tied": {
+            "n": 5,
+            "mean_corrected_minus_student": -0.0125
+          },
+          "student_higher": {
+            "n": 3,
+            "mean_corrected_minus_student": -0.1875
+          }
+        },
+        "largest_gains": [
+          {
+            "prompt_id": "HYA_OBJECTS_06",
+            "prompt": "A fork and a potted plant. Realistic, Indoor lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.4375,
+            "corrected": 0.75,
+            "delta": 0.3125
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_07",
+            "prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+            "teacher": 0.4375,
+            "student": 0.0625,
+            "corrected": 0.25,
+            "delta": 0.1875
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_02",
+            "prompt": "A white refrigerator and a pair of long, narrow skis. Realistic, Indoor lighting, Casual",
+            "teacher": 0.25,
+            "student": 0.0,
+            "corrected": 0.125,
+            "delta": 0.125
+          }
+        ],
+        "largest_losses": [
+          {
+            "prompt_id": "HYA_OBJECTS_16",
+            "prompt": "A hair dryer and a toothbrush. Realistic, Indoor lighting, Casual",
+            "teacher": 0.0625,
+            "student": 0.9375,
+            "corrected": 0.375,
+            "delta": -0.5625
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_01",
+            "prompt": "A cat and a dog. Realistic, Natural lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.375,
+            "corrected": 0.25,
+            "delta": -0.125
+          },
+          {
+            "prompt_id": "HYA_OBJECTS_10",
+            "prompt": "A cup and a couch. Realistic, Natural lighting, Casual",
+            "teacher": 1.0,
+            "student": 0.4375,
+            "corrected": 0.3125,
+            "delta": -0.125
+          }
+        ]
+      }
+    },
+    "dynamic_degree": {
+      "lambda_0p1": {
+        "mean_delta": 0.0,
+        "median_delta": 0.0,
+        "positive_equal_negative": [
+          0,
+          32,
+          0
+        ],
+        "teacher_gap_recovered_fraction": null,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          },
+          "tied": {
+            "n": 32,
+            "mean_corrected_minus_student": 0.0
+          },
+          "student_higher": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          }
+        },
+        "largest_gains": [],
+        "largest_losses": []
+      },
+      "lambda_0p3": {
+        "mean_delta": -0.03125,
+        "median_delta": 0.0,
+        "positive_equal_negative": [
+          0,
+          31,
+          1
+        ],
+        "teacher_gap_recovered_fraction": null,
+        "teacher_advantage_subgroups_posthoc": {
+          "teacher_higher": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          },
+          "tied": {
+            "n": 32,
+            "mean_corrected_minus_student": -0.03125
+          },
+          "student_higher": {
+            "n": 0,
+            "mean_corrected_minus_student": null
+          }
+        },
+        "largest_gains": [],
+        "largest_losses": [
+          {
+            "prompt_id": "HYA_MOTION_19",
+            "prompt": "A person eating a burger. Realistic, Natural lighting, Casual",
+            "teacher": 1.0,
+            "student": 1.0,
+            "corrected": 0.0,
+            "delta": -1.0
+          }
+        ]
+      }
+    }
+  },
+  "timing": {
+    "T50": {
+      "n": 48,
+      "compute_median_seconds": 1787.575948718004,
+      "with_transfers_median_seconds": 1806.8974534645677,
+      "with_transfers_IQR_seconds": [
+        1801.910853763111,
+        1817.103836719878
+      ],
+      "wall_median_seconds": 2010.9479584693909
+    },
+    "S5": {
+      "n": 48,
+      "compute_median_seconds": 208.08708901517093,
+      "with_transfers_median_seconds": 229.03375036641955,
+      "with_transfers_IQR_seconds": [
+        227.29294524993747,
+        230.88937307149172
+      ],
+      "wall_median_seconds": 284.56057357788086
+    },
+    "lambda_0p1": {
+      "n": 48,
+      "compute_median_seconds": 243.08214218728244,
+      "with_transfers_median_seconds": 316.0849749073386,
+      "with_transfers_IQR_seconds": [
+        311.9962533386424,
+        323.53171101305634
+      ],
+      "wall_median_seconds": 394.34037816524506,
+      "teacher_speedup": 5.716492705780355,
+      "student_time_overhead_fraction": 0.3800803348923476,
+      "median_teacher_forward_seconds": 34.953797719441354,
+      "median_model_transfer_seconds": 71.33175252191722
+    },
+    "lambda_0p3": {
+      "n": 48,
+      "compute_median_seconds": 242.8828140385449,
+      "with_transfers_median_seconds": 315.7982523813844,
+      "with_transfers_IQR_seconds": [
+        311.44102798914537,
+        321.4771546688862
+      ],
+      "wall_median_seconds": 416.3356456756592,
+      "teacher_speedup": 5.721682877720322,
+      "student_time_overhead_fraction": 0.37882845596404313,
+      "median_teacher_forward_seconds": 34.91889100428671,
+      "median_model_transfer_seconds": 70.6314142094925
+    }
+  },
+  "decision": {
+    "subject_consistency": "both strengths improve the measured mean modestly",
+    "multiple_objects": "both strengths reduce the measured mean",
+    "dynamic_degree": "lambda 0.1 unchanged; lambda 0.3 loses one dynamic classification",
+    "joint_quality_gain": false,
+    "relative_teacher_speed_advantage": true,
+    "new_experiments_started": false
+  },
+  "teacher_advantage_subsets": {
+    "definition": "For each quality metric independently, select original H2 T50 > S5 at fixed seed 2026101901; identical prompt set for both strengths",
+    "seed": 2026101901,
+    "selection_uses_correction_scores": false,
+    "full_panel_retained": true,
+    "metrics": {
+      "subject_consistency": {
+        "full_prompt_count": 32,
+        "prompt_count": 21,
+        "prompt_ids": [
+          "HYA_MOTION_01",
+          "HYA_MOTION_03",
+          "HYA_MOTION_04",
+          "HYA_MOTION_05",
+          "HYA_MOTION_08",
+          "HYA_MOTION_09",
+          "HYA_MOTION_10",
+          "HYA_MOTION_13",
+          "HYA_MOTION_14",
+          "HYA_MOTION_15",
+          "HYA_MOTION_17",
+          "HYA_MOTION_18",
+          "HYA_MOTION_20",
+          "HYA_MOTION_21",
+          "HYA_MOTION_22",
+          "HYA_MOTION_24",
+          "HYA_MOTION_25",
+          "HYA_MOTION_26",
+          "HYA_MOTION_28",
+          "HYA_MOTION_29",
+          "HYA_MOTION_32"
+        ],
+        "variants": {
+          "lambda_0p1": {
+            "n": 21,
+            "teacher_mean": 0.9565570822950187,
+            "student_mean": 0.9285657822925021,
+            "corrected_mean": 0.9292341238663843,
+            "mean_corrected_minus_student": 0.0006683415738821385,
+            "improved": 7,
+            "tied": 0,
+            "degraded": 14
+          },
+          "lambda_0p3": {
+            "n": 21,
+            "teacher_mean": 0.9565570822950187,
+            "student_mean": 0.9285657822925021,
+            "corrected_mean": 0.9311050004214936,
+            "mean_corrected_minus_student": 0.002539218128991446,
+            "improved": 6,
+            "tied": 0,
+            "degraded": 15
+          }
+        }
+      },
+      "multiple_objects": {
+        "full_prompt_count": 16,
+        "prompt_count": 8,
+        "prompt_ids": [
+          "HYA_OBJECTS_01",
+          "HYA_OBJECTS_02",
+          "HYA_OBJECTS_04",
+          "HYA_OBJECTS_05",
+          "HYA_OBJECTS_06",
+          "HYA_OBJECTS_07",
+          "HYA_OBJECTS_10",
+          "HYA_OBJECTS_15"
+        ],
+        "variants": {
+          "lambda_0p1": {
+            "n": 8,
+            "teacher_mean": 0.8359375,
+            "student_mean": 0.3125,
+            "corrected_mean": 0.34375,
+            "mean_corrected_minus_student": 0.03125,
+            "improved": 3,
+            "tied": 3,
+            "degraded": 2
+          },
+          "lambda_0p3": {
+            "n": 8,
+            "teacher_mean": 0.8359375,
+            "student_mean": 0.3125,
+            "corrected_mean": 0.3515625,
+            "mean_corrected_minus_student": 0.0390625,
+            "improved": 3,
+            "tied": 2,
+            "degraded": 3
+          }
+        }
+      }
+    },
+    "motion_guard_on_subject_subset": {
+      "conditioning_metric": "subject_consistency",
+      "prompt_count": 21,
+      "variants": {
+        "lambda_0p1": {
+          "teacher_dynamic_count": 20,
+          "student_dynamic_count": 20,
+          "corrected_dynamic_count": 20,
+          "changed_pairs": 0
+        },
+        "lambda_0p3": {
+          "teacher_dynamic_count": 20,
+          "student_dynamic_count": 20,
+          "corrected_dynamic_count": 20,
+          "changed_pairs": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5180 @@
+[
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_01",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "lighthouse",
+    "caption": "a red and white lighthouse next to a body of water",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "industrial area",
+    "caption": "an aerial city with a large power plant and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory and other industrial buildings",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_02",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "industrial area",
+    "caption": "an aerial view of a large factory in a city",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "industrial",
+      "area"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "mansion",
+    "caption": "the front of a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "mansion",
+    "caption": "a large mansion on a sunny day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_03",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "mansion",
+    "caption": "a large mansion that looks like a palace",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "carrousel",
+    "caption": "a close up of a merry go round",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "carrousel",
+    "caption": "a merry go round with lots of people riding on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "carrousel",
+    "caption": "a merry go round with lots of people riding on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "carrousel",
+    "caption": "a merry go round with lots of people riding on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "carrousel",
+    "caption": "a merry go round with a bunch of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_04",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "carrousel",
+    "caption": "a merry go round with a lot of horses on it",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "carrousel"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a computer monitor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a computer monitor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a computer monitor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a man on a computer",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a man on a computer",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "office",
+    "caption": "a woman sitting at a desk in front of a man on a computer",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "office"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "office",
+    "caption": "a man and a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "office",
+    "caption": "a man and a woman working at computers in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "office",
+    "caption": "a man and a woman working at computers in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "office",
+    "caption": "a man and a woman working at computers in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "office",
+    "caption": "a man sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "office",
+    "caption": "a man sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "office",
+    "caption": "a man sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "office",
+    "caption": "a woman working at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "office",
+    "caption": "a woman working at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "office",
+    "caption": "a woman working at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "office",
+    "caption": "a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "office",
+    "caption": "a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "office",
+    "caption": "a woman sitting at a desk in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "office",
+    "caption": "an office with people at desks and computers",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "office",
+    "caption": "an office with people at desks and computers",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "office",
+    "caption": "an office with people at desks and computers",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_05",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "office",
+    "caption": "a man and a woman sitting at desks in an office",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "basement",
+    "caption": "a basement with concrete floors and unfinished walls",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "basement",
+    "caption": "a basement with concrete floors and unfinished walls",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "basement",
+    "caption": "a basement with concrete floors and unfinished walls",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "basement",
+    "caption": "a room with a concrete floor in a garage",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "basement",
+    "caption": "a room in a garage that is being remodeled",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_06",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "basement",
+    "caption": "a room in a garage with a water heater on the floor",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "basement"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "classroom",
+    "caption": "a teacher giving a class to a group of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "classroom",
+    "caption": "a teacher instructs a class of students",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "classroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "classroom",
+    "caption": "people sitting at desks in a classroom",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_07",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "classroom",
+    "caption": "a classroom with students sitting at their desks",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "glacier",
+    "caption": "a glacier with a large chunk of ice in it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "glacier",
+    "caption": "a glacier with a large chunk of ice in it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "glacier",
+    "caption": "a glacier with a large chunk of ice in it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "glacier",
+    "caption": "the glacier is melting and the water is melting",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "glacier",
+    "caption": "a large chunk of ice has broken off from the glacier",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "glacier",
+    "caption": "a large chunk of ice has broken off from the glacier",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "glacier",
+    "caption": "a large chunk of ice has broken off from the glacier",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "glacier",
+    "caption": "a large chunk of ice has broken off from the glacier",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "glacier",
+    "caption": "a large chunk of ice is melting into a smaller chunk of ice",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "glacier"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "glacier",
+    "caption": "a large chunk of ice is melting into a smaller chunk of ice",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "glacier"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "glacier",
+    "caption": "a large chunk of ice is melting into a smaller chunk of ice",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "glacier"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_08",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "glacier",
+    "caption": "the glacier is very blue and icy",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "iceberg",
+    "caption": "an iceberg in the ocean with a piece of ice floating on top of it",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_09",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "iceberg",
+    "caption": "an iceberg floating in the ocean",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "indoor library",
+    "caption": "a room with a table, bookshelves and a window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor",
+      "library"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "indoor library",
+    "caption": "a library with large windows and bookshelves with books on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "indoor library",
+    "caption": "a library with large windows and bookshelves with books on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "indoor library",
+    "caption": "a library with large windows and bookshelves with books on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves, and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves, and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves, and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "indoor library",
+    "caption": "a library with large bookshelves, a table, and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "indoor library",
+    "caption": "a library with large bookshelves, a table, and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "indoor library",
+    "caption": "a library with large bookshelves, a table, and a large window",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_10",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "indoor library",
+    "caption": "a library with a large window, bookshelves and a table in the middle of the room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "indoor"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "restaurant",
+    "caption": "a man cooking food in pans on a stove in a kitchen",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "restaurant",
+    "caption": "a woman cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "restaurant",
+    "caption": "a woman cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "restaurant",
+    "caption": "a woman cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "restaurant",
+    "caption": "a person cooking some food in pans on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "restaurant",
+    "caption": "a person cooking some food in pans on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "restaurant",
+    "caption": "a person cooking some food in pans on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "restaurant",
+    "caption": "a person cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "restaurant",
+    "caption": "a person cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "restaurant",
+    "caption": "a person cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "restaurant",
+    "caption": "a person cooking some food in a pan on a stove",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food on trays",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "restaurant",
+    "caption": "a man in a kitchen with trays of food and bowls on the counter",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "restaurant",
+    "caption": "a man in a kitchen with trays of food and bowls on the counter",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "restaurant",
+    "caption": "a man in a kitchen with trays of food and bowls on the counter",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "restaurant",
+    "caption": "a person in a kitchen with bowls of food",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "restaurant",
+    "caption": "a person in a kitchen with bowls of food",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "restaurant",
+    "caption": "a person in a kitchen with bowls of food",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food in a pan",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food in a pan",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing food in a pan",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_11",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "restaurant",
+    "caption": "a person in a kitchen preparing some food in a pan",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "restaurant"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "forest road",
+    "caption": "aerial view of green forest and road in the mountains",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "forest road",
+    "caption": "aerial view of a road in the forest with green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "forest road",
+    "caption": "aerial view of a road in the middle of a forest of green trees",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_12",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "forest road",
+    "caption": "aerial view of a road in the woods and mountains",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "forest"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "windmill",
+    "caption": "a water tower that is very tall in the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "windmill",
+    "caption": "a water tower spewing water into the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "windmill",
+    "caption": "a water tower spewing water into the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "windmill",
+    "caption": "a water tower spewing water into the air",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "windmill",
+    "caption": "a view of the observation tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "windmill",
+    "caption": "a smoke stack on top of a tower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "windmill",
+    "caption": "a windmill in a field on a cloudy day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "windmill",
+    "caption": "a windmill in a field on a cloudy day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "windmill",
+    "caption": "a windmill in a field on a cloudy day",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "windmill",
+    "caption": "a windmill that is blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "windmill",
+    "caption": "a windmill that is blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "windmill",
+    "caption": "a windmill that is blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "windmill",
+    "caption": "a wind turbine in the middle of a field",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "windmill",
+    "caption": "a wind turbine in the middle of a field",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "windmill",
+    "caption": "a wind turbine in the middle of a field",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "windmill",
+    "caption": "a group of windmills blowing in the wind",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_13",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "windmill",
+    "caption": "wind turbines in a field on a cloudy day",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "windmill"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "bathroom",
+    "caption": "a white toilet and sink in a small room with a shower",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "bathroom"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "bathroom",
+    "caption": "a bathroom with a white toilet, sink, tub and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_14",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "bathroom",
+    "caption": "a bathroom with a toilet, sink, and shower",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "cafeteria",
+    "caption": "people eating lunch at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "cafeteria",
+    "caption": "people eating lunch at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "cafeteria",
+    "caption": "people eating lunch at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating lunch in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating lunch in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating lunch in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "cafeteria",
+    "caption": "people eating lunch in a cafeteria or restaurant sitting at tables",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "cafeteria",
+    "caption": "people eating lunch in a cafeteria or restaurant sitting at tables",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "cafeteria",
+    "caption": "people eating lunch in a cafeteria or restaurant sitting at tables",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "cafeteria",
+    "caption": "people sitting at tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "cafeteria",
+    "caption": "students sitting at long tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "cafeteria",
+    "caption": "students sitting at long tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "cafeteria",
+    "caption": "students sitting at long tables eating food in a cafeteria",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "cafeteria",
+    "caption": "people eating food at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "cafeteria",
+    "caption": "students eating at long tables in a large room",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "cafeteria"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_15",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "cafeteria",
+    "caption": "a cafeteria filled with long tables and people eating",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 3,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 11,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 19,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 27,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 35,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 43,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 51,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 59,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 67,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 75,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 83,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 91,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 99,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 107,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 115,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "T50",
+    "frame_index": 124,
+    "label": "supermarket",
+    "caption": "an aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 3,
+    "label": "supermarket",
+    "caption": "people are shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 11,
+    "label": "supermarket",
+    "caption": "people are shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 19,
+    "label": "supermarket",
+    "caption": "people are shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 27,
+    "label": "supermarket",
+    "caption": "a large aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 35,
+    "label": "supermarket",
+    "caption": "a large aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 43,
+    "label": "supermarket",
+    "caption": "a large aisle in a grocery store with food on the shelves",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 51,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 59,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 67,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 75,
+    "label": "supermarket",
+    "caption": "a person is shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 83,
+    "label": "supermarket",
+    "caption": "a person is shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 91,
+    "label": "supermarket",
+    "caption": "a person is shopping in a large supermarket with food on the shelves",
+    "official_hit": true,
+    "missing_label_tokens": []
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 99,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 107,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 115,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  },
+  {
+    "prompt_id": "HYA_SCENE_16",
+    "arm": "S5",
+    "frame_index": 124,
+    "label": "supermarket",
+    "caption": "a large aisle of food in a grocery store",
+    "official_hit": false,
+    "missing_label_tokens": [
+      "supermarket"
+    ]
+  }
+]

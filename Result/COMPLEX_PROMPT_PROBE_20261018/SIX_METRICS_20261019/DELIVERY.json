@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scope": "CP01 six-metric report and progress synchronized; no videos or weights transferred",
+  "files": [
+    {
+      "path": "Result/COMPLEX_PROMPT_PROBE_20261018/SIX_METRICS_20261019/REPORT.md",
+      "sha256": "54783185408b229352d849fb5b2e7fa1a67ef6509551c070e20181b574bb5459"
+    },
+    {
+      "path": "Result/COMPLEX_PROMPT_PROBE_20261018/SIX_METRICS_20261019/LOCAL_REVIEW.json",
+      "sha256": "64963d9f340b10d306cbe268660cb3e5c40e91d020b4081241b99b07323a6018"
+    },
+    {
+      "path": "Project_Progress/Total_Progress.md",
+      "sha256": "23862a74678b7f3295776eaf0ff419a6f0df5693677586da6fbb432a27732de2"
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/COMPLEX_PROMPT_OBSERVATION_20261018.md",
+      "sha256": "9dbf46433d4c238864df6e3df5519534b36b91f78d308f5f2f85c1be2bd9d4f6"
+    }
+  ]
+}

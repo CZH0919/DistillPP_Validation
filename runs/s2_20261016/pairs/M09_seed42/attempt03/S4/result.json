@@ -1,0 +1,88 @@
+{
+  "pair_id": "M09_seed42",
+  "prompt_id": "M09",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is drawing",
+  "seed": 42,
+  "worker_id": 0,
+  "global_sequence": 42,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1420852,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "e71a7144e72d02a92a9edf9f3254dddada40f5bf67630abd57436aed60100aad",
+  "unix_start": 1792152517.5766742,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.0034065619111061096,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "635b5301aea471a58e4ce5fb9e581cae6f754ecd2d8ce0e7dbf620349908f19f",
+  "student_initial_cast_max_abs_error": 0.015438079833984375,
+  "denoise_seconds": 17.565965335816145,
+  "forward_count": 4,
+  "vae_seconds": 11.088737634941936,
+  "denoise_plus_vae_seconds": 28.65470297075808,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.1640625,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": -0.01902780495584011,
+    "std": 0.9542832374572754,
+    "min": -3.75,
+    "max": 4.0
+  },
+  "final_latent_sha256": "32bc8a2665efde7b56c129de151fe8647872269d57a6203757db9f6b88e9fd4f",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.1352294534444809,
+    "std": 0.6088852286338806,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "167e2d1773c55509397f4458643065531224fb833ca7f825e9a41ded1946c9f0",
+    "bytes": 459656,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 77.46122128358222,
+    "decoded_first_frame_sha256": "d61e8c7e60a13a06d255c7cc9177e8f0eab0f98bac865ea945519a89723a47eb"
+  },
+  "export_and_decode_check_seconds": 2.6465892158448696,
+  "unix_end": 1792152548.9226654,
+  "network_attempts": []
+}

@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M06_seed42",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed42/attempt01/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9963766910226296,
+      "normalized_score": 0.9963766910226296,
+      "source_returned_score": 0.9963766910226296,
+      "video_sha256": "e94485f8ae94394b15a8b4af12be129f5975542ee04a493e008957974359b1b1"
+    },
+    {
+      "pair_id": "M06_seed42",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed42/attempt01/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9967538191825877,
+      "normalized_score": 0.9967538191825877,
+      "source_returned_score": 0.9967538191825877,
+      "video_sha256": "c03d7bb672a7cf756bdef1197b77d580c1a1a51b46ed87b2f4630b1ce8a9ff02"
+    },
+    {
+      "pair_id": "M06_seed1234",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed1234/attempt01/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9942006275400117,
+      "normalized_score": 0.9942006275400117,
+      "source_returned_score": 0.9942006275400117,
+      "video_sha256": "d61060ae93ed9d44d06894dd5143cfe7fb84844a93c6752c21e38f672ffaaa5e"
+    },
+    {
+      "pair_id": "M06_seed1234",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed1234/attempt01/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9940192119482675,
+      "normalized_score": 0.9940192119482675,
+      "source_returned_score": 0.9940192119482675,
+      "video_sha256": "5ad42a6b5f6f512ff0caa26013b9e35155f4cd057da76467e8eb2b288d28d2a5"
+    },
+    {
+      "pair_id": "M06_seed2026",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed2026/attempt01/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.99518044672129,
+      "normalized_score": 0.99518044672129,
+      "source_returned_score": 0.99518044672129,
+      "video_sha256": "c3d9eee3407a44a8b6342844385ef48a5c16357a26f036f84bcfb716da44f629"
+    },
+    {
+      "pair_id": "M06_seed2026",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M06_seed2026/attempt01/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9953544335151929,
+      "normalized_score": 0.9953544335151929,
+      "source_returned_score": 0.9953544335151929,
+      "video_sha256": "f707ea8c8842a01baaaa0772d417a9fea8021956e36294378c0b62342bdb6e94"
+    }
+  ],
+  "aggregate": 0.9953142049883299,
+  "scoring_seconds": 10.713556366041303
+}

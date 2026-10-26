@@ -1,0 +1,1106 @@
+{
+  "status": "failed",
+  "worker_id": 1,
+  "attempt": 2,
+  "admission": {
+    "physical_index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "39589",
+          "143771",
+          "71"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "39587",
+          "143771",
+          "95"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "39607",
+          "143771",
+          "100"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "109149",
+          "143771",
+          "100"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "85557",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "103559",
+          "143771",
+          "100"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "1680079",
+          "39576"
+        ],
+        [
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "1680061",
+          "39576"
+        ],
+        [
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "1680062",
+          "39596"
+        ],
+        [
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "1672240",
+          "109138"
+        ],
+        [
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "1672240",
+          "85546"
+        ],
+        [
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "1673728",
+          "103546"
+        ],
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1681314,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "gpu_uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+  "assigned": [
+    {
+      "pair_id": "VB0304_seed1993624635",
+      "prompt_id": "VB0304",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "523417f941cdc741",
+      "prompt": "A playful golden retriever puppy with sparkling amber eyes, wagging its tail excitedly, drinks from a small ceramic bowl filled with cool, clear water. The puppy has fluffy white fur and a soft, floppy ear. The bowl is positioned at an angle, adding a dynamic element to the scene. The puppy's tongue lolls out as it takes slow, deep sips, occasionally splashing a bit of water. The background is a lush green backyard with tall grass and wildflowers, gently swaying in a warm breeze. Soft natural lighting casts shadows and highlights the puppy's adorable features. The scene captures the joy and innocence of the moment, with the dog's joyful expression and fluid movements. Mid-shot, front-facing view.",
+      "eval_prompt": "a dog drinking water",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0304",
+        "domain": "motion",
+        "t5_generation_tokens": 177,
+        "viclip_eval_tokens_with_special": 6,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 0
+    },
+    {
+      "pair_id": "VB0733_seed1529987743",
+      "prompt_id": "VB0733",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "d5048b194c09e31e",
+      "prompt": "CG fantasy digital art, a corgi's head depicted as an explosion of a nebula. The corgi's face is rendered in vibrant colors, with swirling nebula-like patterns surrounding each feature. The eyes glow with an ethereal light, and the nose and whiskers form intricate star formations. The fur transforms into a cosmic landscape, with swirling galaxies and shooting stars. The background is a deep, indigo void dotted with tiny stars. Soft lighting casts a gentle glow, creating a dreamy atmosphere. The corgi stands alone in the vastness of space, with the nebula exploding outward from its head. The scene is filled with vibrant hues of blue, purple, and gold. Low-angle, wide-shot view.",
+      "eval_prompt": "A corgi's head depicted as an explosion of a nebula",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0733",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 172,
+        "viclip_eval_tokens_with_special": 13,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 1
+    },
+    {
+      "pair_id": "VB0278_seed1454077509",
+      "prompt_id": "VB0278",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "2ce14380cdaa4e4b",
+      "prompt": "An aircraft in mid-flight, a large commercial jetliner taking off from an airport runway at dawn. The sky is painted with soft pastel hues, transitioning from a deep navy to a pale lavender. The plane is sleek and modern, with its wingspan stretching across the frame. Its engines roar as they lift off, creating a powerful yet serene atmosphere. The sun peeks over the horizon, casting a golden glow on the landscape below. Passengers inside are dressed in business attire, their faces illuminated by the bright interior lights. The plane ascends steadily, leaving a trail of condensed water vapor in its wake. The ground crew watches with pride and anticipation, waving goodbye. The background is a bustling airport terminal, with travelers rushing to catch their flights and security checkpoints. The scene captures the essence of a momentous departure, filled with excitement and anticipation. Wide shot of the aircraft in flight, medium shot of passengers boarding, close-up of the engine's exhaust, and a panoramic view of the airport.",
+      "eval_prompt": "an airplane taking off",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0278",
+        "domain": "motion",
+        "t5_generation_tokens": 226,
+        "viclip_eval_tokens_with_special": 6,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 2
+    },
+    {
+      "pair_id": "VB0766_seed1454077509",
+      "prompt_id": "VB0766",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "3ef1d04089c1ea23",
+      "prompt": "CG game concept digital art, a majestic great white shark swimming gracefully in a crystal-clear Caribbean ocean. The water is a deep blue, with tiny bubbles trailing behind the shark's fins as it glides smoothly through the waves. The shark's body is sleek and smooth, with a greyish-white coloration and sharp, pointed teeth. Its dorsal fin and tail flicker with a subtle iridescence. The ocean floor is dotted with colorful coral reefs and schools of vibrant fish, creating a mesmerizing underwater world. Sunlight filters down from above, casting a warm golden glow on the scene. The shark swims towards the viewer, its large black eyes focused and alert. The background is a vast expanse of turquoise water, with the horizon barely visible beyond the reef. Low-angle view, focusing on the shark's perspective.",
+      "eval_prompt": "A shark swimming in clear Caribbean ocean",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0766",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 198,
+        "viclip_eval_tokens_with_special": 9,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 3
+    },
+    {
+      "pair_id": "VB0259_seed1993624635",
+      "prompt_id": "VB0259",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "0e61e1a17c3b7925",
+      "prompt": "A person washing dishes in a modern kitchen setting. The individual is a middle-aged woman with shoulder-length wavy brown hair, wearing an apron and rubber gloves. She has a gentle smile as she scrubs the dishes under a bright kitchen faucet. The kitchen is well-lit with clean countertops and cabinets. She uses a sponge and scrub brush, rinsing each dish thoroughly before placing them in a drying rack. Soft ambient music plays in the background. Medium shot from above, capturing her focused expression and the dishes she is cleaning. Low-angle shot showing the sink and countertops. Handheld camera moves up and down as she works.",
+      "eval_prompt": "a person washing the dishes",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0259",
+        "domain": "motion",
+        "t5_generation_tokens": 141,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 4
+    },
+    {
+      "pair_id": "VB0732_seed1993624635",
+      "prompt_id": "VB0732",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "09a3f1506ae55769",
+      "prompt": "Vincent van Gogh's style, a serene boat sailing leisurely along the Seine River under the backdrop of the iconic Eiffel Tower. The boat is painted in shades of blues and greens with subtle brushstrokes, reflecting the calm water and vibrant sky. Gentle waves gently lap against the sides of the boat, creating a soothing rhythm. The passenger, a young French woman with flowing auburn hair and expressive eyes, sits comfortably, her hand resting lightly on the rail. She gazes out at the river, her face illuminated by the warm glow of the sunset. The Eiffel Tower stands tall and proud in the distance, its iron lattice work shimmering in the golden light. The background is a blend of the bustling city and serene river, with glimpses of Parisian architecture and foliage. Soft lighting enhances the dreamy atmosphere, capturing the essence of a tranquil evening in Paris. Medium shot of the boat and passenger, wide shot of the Eiffel Tower in the background.",
+      "eval_prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Vincent van Gogh",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0732",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 224,
+        "viclip_eval_tokens_with_special": 22,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 5
+    },
+    {
+      "pair_id": "VB0309_seed1454077509",
+      "prompt_id": "VB0309",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "468b76b88c204427",
+      "prompt": "CG animation digital art, a majestic horse galloping swiftly towards a herd of horses. The horse has deep brown fur with a white blaze across its face, expressive eyes, and powerful hooves. It runs with an effortless grace, its mane flowing behind it as it moves at breakneck speed. The herd of horses stands calmly nearby, their tails swishing gently. The landscape is a vast open field dotted with wildflowers and dotted with trees. The sun sets in the background, casting a warm golden glow over everything. Low-angle shot, wide-angle lens capturing the entire scene from above. Motion blurred horse chasing the herd.",
+      "eval_prompt": "a horse running to join a herd of its kind",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0309",
+        "domain": "motion",
+        "t5_generation_tokens": 150,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 6
+    },
+    {
+      "pair_id": "VB0744_seed1529987743",
+      "prompt_id": "VB0744",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "00795700baffb039",
+      "prompt": "CG game concept digital art, Gwen Stacy, a teenage girl with shoulder-length brown hair tied up in a ponytail, reading a thick novel under a streetlight. She wears a simple white blouse and a pair of dark denim jeans, with her feet bare. The book she is reading is a classic mystery novel. The background is a busy city street at night, with flickering streetlights casting shadows and neon signs lighting up the buildings. Gwen is sitting on a small bench, her posture relaxed as she focuses intently on her book. The city skyline is visible in the distance, with tall skyscrapers and twinkling lights. Soft, ambient city noises can be heard in the background. Darker tones with a gritty feel. Low-angle, medium shot, Gwen Stacy reading a book.",
+      "eval_prompt": "Gwen Stacy reading a book",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0744",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 176,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 7
+    },
+    {
+      "pair_id": "VB0265_seed1993624635",
+      "prompt_id": "VB0265",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "0296bdfbe70dd18d",
+      "prompt": "A whimsical winter scene captured in high-definition, a sleek black bicycle gracefully glides through a pristine snowy field. The snow-covered ground sparkles under the soft glow of a warm sunset. The bicycle has intricate patterns and accents in silver and gold, reflecting the sunlight beautifully. A young girl, with wavy blonde hair tied into a ponytail, is riding the bike, her expression filled with joy and excitement. She wears a cozy red coat and matching mittens, and a pair of stylish black boots. The field is dotted with small, colorful wildflowers, adding a pop of vibrant hues against the white backdrop. The sky is painted with soft, fluffy clouds, hinting at a gentle breeze. The background showcases a blend of natural and artificial elements, including a few scattered wooden fences and a quaint wooden barn in the distance. The camera moves smoothly from a wide angle capturing the vast expanse of the snowy field to a closer perspective on the girl and the bicycle, emphasizing their dynamic interaction. The overall scene exudes a sense of tranquility and adventure, perfect for an animated winter tale.",
+      "eval_prompt": "a bicycle gliding through a snowy field",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0265",
+        "domain": "motion",
+        "t5_generation_tokens": 255,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 8
+    },
+    {
+      "pair_id": "VB0713_seed1993624635",
+      "prompt_id": "VB0713",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "646b3b35a524e534",
+      "prompt": "Fantasy-themed cinematic visualization, a breathtaking fantasy landscape featuring towering ancient trees with glowing foliage and ethereal light filtering through their branches. The ground is covered in soft moss and wildflowers, with crystal-clear streams winding through the terrain. A majestic mountain range rises in the distance, shrouded in mist and adorned with wisps of smoke from hidden fires. In the foreground, a small village nestled among the trees, with thatched-roof cottages and intricate carvings adorning their walls. Villagers go about their daily lives, engaged in various activities such as tending to crops, crafting, and maintaining their homes. The sky above is painted with vibrant hues of pink, orange, and purple, casting a warm glow over the entire scene. The village elder stands at the entrance, watching over everything with a wise and kind expression. The camera pans across the lush greenery, capturing the intricate details of the forest and the serene atmosphere of the village. Low-angle shot, wide-angle lens.",
+      "eval_prompt": "a fantasy landscape",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0713",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 233,
+        "viclip_eval_tokens_with_special": 5,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 9
+    },
+    {
+      "pair_id": "VB0273_seed1454077509",
+      "prompt_id": "VB0273",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "688140a623ac3238",
+      "prompt": "A sleek black motorcycle weaving skillfully through a narrow city street corner. The rider, clad in tight leather gear, leans confidently into the turn with their helmet securely fastened. The motorcycle's tires screech lightly as it navigates the tight curve, showcasing impressive handling skills. The background features bustling traffic and illuminated buildings, adding to the dynamic atmosphere. The scene captures the essence of urban racing and adrenaline-pumping moments. Low-angle shot focusing on the rider and motorcycle, medium shot of the corner, and a wide shot of the intersection.",
+      "eval_prompt": "a motorcycle turning a corner",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0273",
+        "domain": "motion",
+        "t5_generation_tokens": 129,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 10
+    },
+    {
+      "pair_id": "VB0748_seed1993624635",
+      "prompt_id": "VB0748",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "62f8b153f0518ca4",
+      "prompt": "A beautiful coastal beach in spring, waves gently lapping on pristine white sand under the warm sun. In the style of Katsushika Hokusai, the beach is framed by lush greenery and tall palm trees. The sky is a soft azure, with wisps of fluffy white clouds. A lone figure in traditional Japanese attire, perhaps a samurai or a geisha, strolls along the edge of the water, their kimono billowing softly in the breeze. They turn to face the viewer, their expressive eyes reflecting a mix of contemplation and serenity. The scene is captured in the classic Ukiyo-e style, with intricate brushstrokes and vibrant colors. The beach is dotted with seashells and driftwood, adding to the serene atmosphere. The background features distant mountains and a serene harbor, creating a sense of tranquility and nostalgia. The composition is dynamic, with diagonal lines leading from the horizon to the figure, emphasizing the depth and beauty of the landscape. The shot is a sweeping medium shot, capturing the entire scene from the feet up.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0748",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 244,
+        "viclip_eval_tokens_with_special": 25,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 11
+    },
+    {
+      "pair_id": "VB0278_seed1993624635",
+      "prompt_id": "VB0278",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "2ce14380cdaa4e4b",
+      "prompt": "An aircraft in mid-flight, a large commercial jetliner taking off from an airport runway at dawn. The sky is painted with soft pastel hues, transitioning from a deep navy to a pale lavender. The plane is sleek and modern, with its wingspan stretching across the frame. Its engines roar as they lift off, creating a powerful yet serene atmosphere. The sun peeks over the horizon, casting a golden glow on the landscape below. Passengers inside are dressed in business attire, their faces illuminated by the bright interior lights. The plane ascends steadily, leaving a trail of condensed water vapor in its wake. The ground crew watches with pride and anticipation, waving goodbye. The background is a bustling airport terminal, with travelers rushing to catch their flights and security checkpoints. The scene captures the essence of a momentous departure, filled with excitement and anticipation. Wide shot of the aircraft in flight, medium shot of passengers boarding, close-up of the engine's exhaust, and a panoramic view of the airport.",
+      "eval_prompt": "an airplane taking off",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0278",
+        "domain": "motion",
+        "t5_generation_tokens": 226,
+        "viclip_eval_tokens_with_special": 6,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 12
+    },
+    {
+      "pair_id": "VB0720_seed1993624635",
+      "prompt_id": "VB0720",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "eebb009d8bf998a2",
+      "prompt": "Photorealistic astronaut riding a horse in the vast expanse of outer space. The astronaut, wearing a sleek, silver spacesuit with reflective panels, is astride a majestic steed adorned with metallic accents. Both the astronaut and horse are illuminated by the stark glow of stars and distant planets. The horse's coat is a blend of metallic silver and subtle blue hues, reflecting the cold, distant universe around them. The astronaut leans forward slightly, gripping the reigns tightly as they navigate the void. The horse moves with grace and purpose, its hooves creating a soft, rhythmic sound against the vacuum. The background showcases a surreal, star-filled cosmos, with nebulae and cosmic dust swirling around them. The image captures the awe-inspiring moment of this unlikely duo journeying through the cosmos. High-definition photorealistic rendering. Full-body astronaut and horse, medium shot in space environment.",
+      "eval_prompt": "An astronaut is riding a horse in the space in a photorealistic style.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0720",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 213,
+        "viclip_eval_tokens_with_special": 17,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 13
+    },
+    {
+      "pair_id": "VB0314_seed1993624635",
+      "prompt_id": "VB0314",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "99b18faccbfca5d8",
+      "prompt": "CG animation concept art, a gentle cow with a serene expression, lying down comfortably on a plush straw bed inside a rustic wooden barn. The barn walls are made of weathered boards, with intricate wooden beams overhead. The cow's coat is a soft golden brown, and it has a gentle, contented look as it chews its cud slowly. The barn is filled with the aroma of hay and hay bales stacked neatly against the walls. The lighting is warm and dim, casting soft shadows on the barn's interior. A few silhouetted farm animals peek out from behind the door, adding to the peaceful atmosphere. The cow's head is tilted slightly towards the viewer, with its long horns gently resting on the straw. The barn's exterior is seen through the open doorway, with a gentle breeze blowing through the open window. Detailed textures and realistic lighting, medium shot focusing on the cow's face and surroundings.",
+      "eval_prompt": "a cow chewing cud while resting in a tranquil barn",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0314",
+        "domain": "motion",
+        "t5_generation_tokens": 216,
+        "viclip_eval_tokens_with_special": 13,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 14
+    },
+    {
+      "pair_id": "VB0720_seed1529987743",
+      "prompt_id": "VB0720",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "eebb009d8bf998a2",
+      "prompt": "Photorealistic astronaut riding a horse in the vast expanse of outer space. The astronaut, wearing a sleek, silver spacesuit with reflective panels, is astride a majestic steed adorned with metallic accents. Both the astronaut and horse are illuminated by the stark glow of stars and distant planets. The horse's coat is a blend of metallic silver and subtle blue hues, reflecting the cold, distant universe around them. The astronaut leans forward slightly, gripping the reigns tightly as they navigate the void. The horse moves with grace and purpose, its hooves creating a soft, rhythmic sound against the vacuum. The background showcases a surreal, star-filled cosmos, with nebulae and cosmic dust swirling around them. The image captures the awe-inspiring moment of this unlikely duo journeying through the cosmos. High-definition photorealistic rendering. Full-body astronaut and horse, medium shot in space environment.",
+      "eval_prompt": "An astronaut is riding a horse in the space in a photorealistic style.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0720",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 213,
+        "viclip_eval_tokens_with_special": 17,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 15
+    },
+    {
+      "pair_id": "VB0296_seed1993624635",
+      "prompt_id": "VB0296",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "dbc8871c655c2114",
+      "prompt": "CG animation digital art, a majestic bird perched on a branch, diligently building a nest using twigs and leaves. The bird has vibrant plumage with iridescent feathers and piercing yellow eyes. It is carefully selecting each twig and leaf, placing them precisely to create a sturdy foundation. The background is a lush green forest with tall trees swaying gently in the breeze. Soft lighting highlights the intricate details of the bird's work. Low-angle view, medium shot focusing on the bird's focused expression and the progress of the nest-building.",
+      "eval_prompt": "a bird building a nest from twigs and leaves",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0296",
+        "domain": "motion",
+        "t5_generation_tokens": 130,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 16
+    },
+    {
+      "pair_id": "VB0749_seed1993624635",
+      "prompt_id": "VB0749",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "40dc2fb57147f85c",
+      "prompt": "Vincent van Gogh's style, a picturesque coastal beach during springtime, gentle waves lap against soft golden sand. The sky is a vibrant shade of blue with fluffy white clouds. A lone figure stands at the edge of the shore, dressed in a simple yet elegant white linen shirt and trousers. They hold a sketchbook in one hand and a paintbrush in the other, capturing the serene beauty of the scene. Soft sunlight filters through the leaves of nearby palm trees, casting dappled shadows on the sand. The figure's face is calm and focused, their expression one of deep appreciation and artistic inspiration. The background is filled with blooming wildflowers and vibrant greenery. Vibrant sunset colors glow in the distance, blending seamlessly into the tranquil ocean. Atmospheric perspective, soft focus, and subtle brushstrokes reminiscent of Van Gogh's technique. Wide shot of the entire beach, including the distant horizon.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0749",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 210,
+        "viclip_eval_tokens_with_special": 18,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 17
+    },
+    {
+      "pair_id": "VB0299_seed1454077509",
+      "prompt_id": "VB0299",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "e25884d63f048675",
+      "prompt": "A whimsical animated short film, a playful kitten with fluffy white fur and large green eyes, gracefully leaping and chasing after butterflies in a vibrant springtime park. The park is filled with lush green grass, colorful wildflowers, and tall trees swaying gently in the breeze. Birds flit about, singing melodiously. The kitten's tail flicks as it explores, occasionally stopping to sniff at interesting scents. It playsfully nuzzles against a friendly elderly woman sitting on a bench, who smiles warmly. Soft pastel colors and gentle animation style. Medium shot of the kitten in mid-play, followed by a close-up of the kitten's face and the woman's smile.",
+      "eval_prompt": "a cat playing in park",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0299",
+        "domain": "motion",
+        "t5_generation_tokens": 168,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 18
+    },
+    {
+      "pair_id": "VB0735_seed1454077509",
+      "prompt_id": "VB0735",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "96dd9ff93e1a8bff",
+      "prompt": "In a futuristic world where teleportation technology has become a reality, a bustling cityscape filled with towering skyscrapers and advanced architecture stands in the background. Amidst this backdrop, a group of diverse individuals, each with unique appearances and expressions, gather around a central chamber equipped with shimmering teleportation devices. The scene captures various stages of teleportation – from individuals floating mid-air before vanishing, to others appearing instantly in their destinations. The lighting is dramatic, with neon lights flickering and casting shadows across the faces of the teleportees. The camera moves between subjects, capturing moments of awe and excitement as they teleport, emphasizing the rapidity and efficiency of the new technology. The futuristic cityscape provides a vivid contrast to the serene yet chaotic scene within the teleportation chamber. Cinematic and high-tech visual style, focusing on the emotional impact of teleportation on the characters. Medium shot and wide shots showcasing the teleportation process.",
+      "eval_prompt": "A future where humans have achieved teleportation technology",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0735",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 218,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 19
+    },
+    {
+      "pair_id": "VB0299_seed1993624635",
+      "prompt_id": "VB0299",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "e25884d63f048675",
+      "prompt": "A whimsical animated short film, a playful kitten with fluffy white fur and large green eyes, gracefully leaping and chasing after butterflies in a vibrant springtime park. The park is filled with lush green grass, colorful wildflowers, and tall trees swaying gently in the breeze. Birds flit about, singing melodiously. The kitten's tail flicks as it explores, occasionally stopping to sniff at interesting scents. It playsfully nuzzles against a friendly elderly woman sitting on a bench, who smiles warmly. Soft pastel colors and gentle animation style. Medium shot of the kitten in mid-play, followed by a close-up of the kitten's face and the woman's smile.",
+      "eval_prompt": "a cat playing in park",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0299",
+        "domain": "motion",
+        "t5_generation_tokens": 168,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 20
+    },
+    {
+      "pair_id": "VB0766_seed1529987743",
+      "prompt_id": "VB0766",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "3ef1d04089c1ea23",
+      "prompt": "CG game concept digital art, a majestic great white shark swimming gracefully in a crystal-clear Caribbean ocean. The water is a deep blue, with tiny bubbles trailing behind the shark's fins as it glides smoothly through the waves. The shark's body is sleek and smooth, with a greyish-white coloration and sharp, pointed teeth. Its dorsal fin and tail flicker with a subtle iridescence. The ocean floor is dotted with colorful coral reefs and schools of vibrant fish, creating a mesmerizing underwater world. Sunlight filters down from above, casting a warm golden glow on the scene. The shark swims towards the viewer, its large black eyes focused and alert. The background is a vast expanse of turquoise water, with the horizon barely visible beyond the reef. Low-angle view, focusing on the shark's perspective.",
+      "eval_prompt": "A shark swimming in clear Caribbean ocean",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0766",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 198,
+        "viclip_eval_tokens_with_special": 9,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 21
+    },
+    {
+      "pair_id": "VB0286_seed1529987743",
+      "prompt_id": "VB0286",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "b8700c448ccb08d5",
+      "prompt": "CG animation concept art, a sleek and modern steam locomotive speeding down a straight track. The train accelerates rapidly, with smoke billowing out from its烟囱 as it gains momentum. The engine is painted in a deep metallic blue with silver accents, reflecting the sun's rays. Passengers are seen standing and moving about, their faces illuminated by the bright headlights. The train's wheels rotate quickly, emphasizing its powerful acceleration. Trees and buildings on the outskirts blur past as the train rushes forward. The background features a clear blue sky with fluffy white clouds. Dark shadows form along the tracks as the train speeds up. Low-angle shot from above, focusing on the engine's dynamic movement and the blurred scenery outside.",
+      "eval_prompt": "a train accelerating to gain speed",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0286",
+        "domain": "motion",
+        "t5_generation_tokens": 170,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 22
+    },
+    {
+      "pair_id": "VB0720_seed1454077509",
+      "prompt_id": "VB0720",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "eebb009d8bf998a2",
+      "prompt": "Photorealistic astronaut riding a horse in the vast expanse of outer space. The astronaut, wearing a sleek, silver spacesuit with reflective panels, is astride a majestic steed adorned with metallic accents. Both the astronaut and horse are illuminated by the stark glow of stars and distant planets. The horse's coat is a blend of metallic silver and subtle blue hues, reflecting the cold, distant universe around them. The astronaut leans forward slightly, gripping the reigns tightly as they navigate the void. The horse moves with grace and purpose, its hooves creating a soft, rhythmic sound against the vacuum. The background showcases a surreal, star-filled cosmos, with nebulae and cosmic dust swirling around them. The image captures the awe-inspiring moment of this unlikely duo journeying through the cosmos. High-definition photorealistic rendering. Full-body astronaut and horse, medium shot in space environment.",
+      "eval_prompt": "An astronaut is riding a horse in the space in a photorealistic style.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0720",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 213,
+        "viclip_eval_tokens_with_special": 17,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 23
+    },
+    {
+      "pair_id": "VB0259_seed1454077509",
+      "prompt_id": "VB0259",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "0e61e1a17c3b7925",
+      "prompt": "A person washing dishes in a modern kitchen setting. The individual is a middle-aged woman with shoulder-length wavy brown hair, wearing an apron and rubber gloves. She has a gentle smile as she scrubs the dishes under a bright kitchen faucet. The kitchen is well-lit with clean countertops and cabinets. She uses a sponge and scrub brush, rinsing each dish thoroughly before placing them in a drying rack. Soft ambient music plays in the background. Medium shot from above, capturing her focused expression and the dishes she is cleaning. Low-angle shot showing the sink and countertops. Handheld camera moves up and down as she works.",
+      "eval_prompt": "a person washing the dishes",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0259",
+        "domain": "motion",
+        "t5_generation_tokens": 141,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 24
+    },
+    {
+      "pair_id": "VB0707_seed1529987743",
+      "prompt_id": "VB0707",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "95a4fde6a5f328c7",
+      "prompt": "Golden fish swimming gracefully in the vast, crystal-clear ocean. The fish has vibrant scales shimmering in gold and orange hues, with iridescent patterns that catch the sunlight. It swims towards the camera with a determined and joyful expression, its tail flicking rapidly as it moves through the water. The ocean backdrop features deep blues and greens, with occasional rays of sunlight piercing through the surface, casting a warm glow. The scene is serene yet dynamic, with subtle waves gently caressing the sandy bottom. The camera moves from a wide angle to a close-up, capturing the fish's every movement and reflection. Golden light illuminates the fish, highlighting its beauty against the deep blue of the ocean. The overall atmosphere is peaceful and magical, filled with life and wonder. Medium shot, underwater perspective.",
+      "eval_prompt": "golden fish swimming in the ocean.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0707",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 184,
+        "viclip_eval_tokens_with_special": 9,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 25
+    },
+    {
+      "pair_id": "VB0309_seed1529987743",
+      "prompt_id": "VB0309",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "468b76b88c204427",
+      "prompt": "CG animation digital art, a majestic horse galloping swiftly towards a herd of horses. The horse has deep brown fur with a white blaze across its face, expressive eyes, and powerful hooves. It runs with an effortless grace, its mane flowing behind it as it moves at breakneck speed. The herd of horses stands calmly nearby, their tails swishing gently. The landscape is a vast open field dotted with wildflowers and dotted with trees. The sun sets in the background, casting a warm golden glow over everything. Low-angle shot, wide-angle lens capturing the entire scene from above. Motion blurred horse chasing the herd.",
+      "eval_prompt": "a horse running to join a herd of its kind",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0309",
+        "domain": "motion",
+        "t5_generation_tokens": 150,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 26
+    },
+    {
+      "pair_id": "VB0733_seed1993624635",
+      "prompt_id": "VB0733",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "d5048b194c09e31e",
+      "prompt": "CG fantasy digital art, a corgi's head depicted as an explosion of a nebula. The corgi's face is rendered in vibrant colors, with swirling nebula-like patterns surrounding each feature. The eyes glow with an ethereal light, and the nose and whiskers form intricate star formations. The fur transforms into a cosmic landscape, with swirling galaxies and shooting stars. The background is a deep, indigo void dotted with tiny stars. Soft lighting casts a gentle glow, creating a dreamy atmosphere. The corgi stands alone in the vastness of space, with the nebula exploding outward from its head. The scene is filled with vibrant hues of blue, purple, and gold. Low-angle, wide-shot view.",
+      "eval_prompt": "A corgi's head depicted as an explosion of a nebula",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0733",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 172,
+        "viclip_eval_tokens_with_special": 13,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 27
+    },
+    {
+      "pair_id": "VB0317_seed1454077509",
+      "prompt_id": "VB0317",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "d9474a6adddc41fc",
+      "prompt": "CG animation digital art, an African elephant taking a peaceful walk through a lush green forest at dawn. The elephant has a grayish-brown coat with soft folds and wrinkles, and gentle eyes. It walks slowly, with its trunk raised slightly, sniffing the air. The forest is filled with tall trees and vibrant greenery, with colorful flowers blooming. Birds fly overhead, chirping melodiously. The sky is a beautiful orange hue as the sun rises. The elephant moves gracefully, with each step careful and deliberate. The background features intricate foliage and subtle shadows. Soft lighting creates a warm and serene atmosphere. Low-angle shot from behind, focusing on the elephant's tranquil expression and movement.",
+      "eval_prompt": "an elephant taking a peaceful walk",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0317",
+        "domain": "motion",
+        "t5_generation_tokens": 163,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 28
+    },
+    {
+      "pair_id": "VB0732_seed1454077509",
+      "prompt_id": "VB0732",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "09a3f1506ae55769",
+      "prompt": "Vincent van Gogh's style, a serene boat sailing leisurely along the Seine River under the backdrop of the iconic Eiffel Tower. The boat is painted in shades of blues and greens with subtle brushstrokes, reflecting the calm water and vibrant sky. Gentle waves gently lap against the sides of the boat, creating a soothing rhythm. The passenger, a young French woman with flowing auburn hair and expressive eyes, sits comfortably, her hand resting lightly on the rail. She gazes out at the river, her face illuminated by the warm glow of the sunset. The Eiffel Tower stands tall and proud in the distance, its iron lattice work shimmering in the golden light. The background is a blend of the bustling city and serene river, with glimpses of Parisian architecture and foliage. Soft lighting enhances the dreamy atmosphere, capturing the essence of a tranquil evening in Paris. Medium shot of the boat and passenger, wide shot of the Eiffel Tower in the background.",
+      "eval_prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Vincent van Gogh",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0732",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 224,
+        "viclip_eval_tokens_with_special": 22,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 29
+    },
+    {
+      "pair_id": "VB0320_seed1529987743",
+      "prompt_id": "VB0320",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "fea94e715c3adfd4",
+      "prompt": "CG game concept digital art, a large brown bear standing in a dense forest clearing, its fur textured to resemble moss-covered earth. The bear has a keen, focused expression, nostrils flaring as it sniffs the crisp autumn air, searching meticulously for any sign of nearby prey. Its body language is alert and ready, tail flicking gently from side to side. The forest background is lush and vibrant, with towering trees casting dappled shadows on the ground. In the distance, a few birds take flight. The bear's fur is covered in fine, realistic detailing, from the subtle patterns to the individual hairs. A low-angle, medium shot perspective captures the bear's determined gaze and the intricate textures of its fur. The overall scene exudes a sense of nature's mystery and the bear's innate instincts.",
+      "eval_prompt": "a bear sniffing the air for scents of food",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0320",
+        "domain": "motion",
+        "t5_generation_tokens": 195,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 30
+    },
+    {
+      "pair_id": "VB0733_seed1454077509",
+      "prompt_id": "VB0733",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "d5048b194c09e31e",
+      "prompt": "CG fantasy digital art, a corgi's head depicted as an explosion of a nebula. The corgi's face is rendered in vibrant colors, with swirling nebula-like patterns surrounding each feature. The eyes glow with an ethereal light, and the nose and whiskers form intricate star formations. The fur transforms into a cosmic landscape, with swirling galaxies and shooting stars. The background is a deep, indigo void dotted with tiny stars. Soft lighting casts a gentle glow, creating a dreamy atmosphere. The corgi stands alone in the vastness of space, with the nebula exploding outward from its head. The scene is filled with vibrant hues of blue, purple, and gold. Low-angle, wide-shot view.",
+      "eval_prompt": "A corgi's head depicted as an explosion of a nebula",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0733",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 172,
+        "viclip_eval_tokens_with_special": 13,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 1,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 31
+    }
+  ],
+  "torch": "2.8.0+cu128",
+  "gpu_name": "NVIDIA H200 NVL",
+  "timing": "CUDA synchronized wall time; denoise + VAE; no per-step tensor diagnostics or I/O",
+  "memory_scope": "Both DiTs, T5 and VAE resident on the same single GPU; no offload",
+  "diagnostics": "10-second CPU occupancy/progress thread; small overhead is included, not subtracted",
+  "common_load_seconds": 10.19988319836557,
+  "teacher_load_audit": {
+    "keys": 1095,
+    "missing": 0,
+    "unexpected": 0,
+    "parameter_storage": "float32 native",
+    "forward_autocast": "bfloat16 native",
+    "fp32_operations": "native time embeddings, norm/modulation and output head",
+    "on_disk_conversion": false
+  },
+  "teacher_load_seconds": 42.60615813732147,
+  "student_load_seconds": 24.07288013584912,
+  "student_load_audit": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "student_config": {
+    "do_mm_calib": false,
+    "cpu_offload": false,
+    "shared_cpu_weights": false,
+    "shared_cpu_weight_scope": "auto",
+    "shared_cpu_weight_strict_numa": true,
+    "shared_cpu_weight_register_chunk_mb": 128,
+    "max_area": false,
+    "vae_stride": [
+      4,
+      8,
+      8
+    ],
+    "patch_size": [
+      1,
+      2,
+      2
+    ],
+    "feature_caching": "NoCaching",
+    "teacache_thresh": 0.26,
+    "use_ret_steps": false,
+    "use_bfloat16": true,
+    "lora_configs": null,
+    "lora_merge_force_fp32": false,
+    "parallel": false,
+    "seq_parallel": false,
+    "cfg_parallel": false,
+    "pipefusion_parallel": false,
+    "enable_cfg": false,
+    "warmup": false,
+    "use_image_encoder": true,
+    "_class_name": "WanModel",
+    "_diffusers_version": "0.30.0",
+    "dim": 5120,
+    "eps": 1e-06,
+    "ffn_dim": 13824,
+    "freq_dim": 256,
+    "in_dim": 16,
+    "model_type": "t2v",
+    "num_heads": 40,
+    "num_layers": 40,
+    "out_dim": 16,
+    "text_len": 512,
+    "task": "t2v",
+    "model_cls": "wan2.1",
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "infer_steps": 4,
+    "distill_method": "dmd2",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "self_attn_1_type": "flash_attn2",
+    "cross_attn_1_type": "flash_attn2",
+    "rms_norm_type": "torch",
+    "layer_norm_type": "torch",
+    "modulate_type": "torch",
+    "rope_type": "torch_complex_rope",
+    "double_precision_rope": true,
+    "dit_quantized": false,
+    "lazy_load": false
+  },
+  "resident_allocated_gib": 90.89797782897949,
+  "warmup": {},
+  "error": "RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '1681745', '34086']]\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2r_worker.py\", line 230, in main\n    run(args, output, admission, report)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2r_worker.py\", line 179, in run\n    report['warmup'][arm] = generate(arm, warm_pair, warm_context, negative, warm_initial, output/'warmup'/arm, True)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2r_worker.py\", line 77, in generate\n    ensure_no_other_process(admission['uuid'])\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/s1_common.py\", line 88, in ensure_no_other_process\n    raise RuntimeError('Another process appeared on selected GPU; stopping only this S1 process: ' + str(other))\nRuntimeError: Another process appeared on selected GPU; stopping only this S1 process: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '1681745', '34086']]\n"
+}

@@ -1,0 +1,8 @@
+{
+  "metric": "overall_consistency",
+  "gpu": 5,
+  "attempt": 2,
+  "timeout_pid": 1442090,
+  "exit_code": 0,
+  "elapsed_seconds": 110.12577414512634
+}

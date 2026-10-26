@@ -1,0 +1,1564 @@
+{
+  "status": "completed",
+  "pid": 3771997,
+  "birth": "1610632078",
+  "session_id": 3771997,
+  "started_unix": 1792540708.864761,
+  "updated_unix": 1792561915.4675124,
+  "tasks": {
+    "gen_HYA_MOTION_01": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3772003,
+          "birth": "1610632261",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792540710.6370225,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_01",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_01_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792542274.1013415,
+          "wall_seconds": 1563.4639356136322
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_02": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3772004,
+          "birth": "1610632261",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792540710.6385257,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_02",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_02_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792542274.101969,
+          "wall_seconds": 1563.4632394313812
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_03": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3772005,
+          "birth": "1610632262",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792540710.6401536,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_03",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_03_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792542274.10237,
+          "wall_seconds": 1563.4620237350464
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_04": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3772006,
+          "birth": "1610632262",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792540710.6417758,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_04",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_04_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792542290.8800774,
+          "wall_seconds": 1580.2381255626678
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_05": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3778710,
+          "birth": "1610788783",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792542275.8582926,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_05",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_05_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792543822.7335,
+          "wall_seconds": 1546.875121831894
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_06": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3778711,
+          "birth": "1610788784",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792542275.8599923,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_06",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_06_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792543784.5935717,
+          "wall_seconds": 1508.7334809303284
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_07": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3778712,
+          "birth": "1610788784",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792542275.8617904,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_07",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_07_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792543822.7337394,
+          "wall_seconds": 1546.8718988895416
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_08": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3778771,
+          "birth": "1610790471",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792542292.7341204,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_08",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_08_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792543822.7338505,
+          "wall_seconds": 1529.9996898174286
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_09": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3782969,
+          "birth": "1610939824",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792543786.2651381,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_09",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_09_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792545305.986087,
+          "wall_seconds": 1519.7208316326141
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_10": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3783190,
+          "birth": "1610943651",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792543824.5323982,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_10",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_10_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792545392.9206595,
+          "wall_seconds": 1568.3881340026855
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_11": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3783191,
+          "birth": "1610943651",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792543824.5337958,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_11",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_11_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792545392.9211195,
+          "wall_seconds": 1568.3872570991516
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_12": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3783192,
+          "birth": "1610943651",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792543824.5350568,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_12",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_12_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792545374.3575542,
+          "wall_seconds": 1549.8224062919617
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_13": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3788515,
+          "birth": "1611091954",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792545307.5611029,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_13",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_13_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792546837.8185196,
+          "wall_seconds": 1530.2573034763336
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_14": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3788812,
+          "birth": "1611098988",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792545377.902176,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_14",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_14_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792546983.0484216,
+          "wall_seconds": 1605.1461148262024
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_15": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3788915,
+          "birth": "1611100808",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792545396.105023,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_15",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_15_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792546926.0140133,
+          "wall_seconds": 1529.9088995456696
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_16": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3788916,
+          "birth": "1611100808",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792545396.1068516,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_16",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_16_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792546942.6831567,
+          "wall_seconds": 1546.5762042999268
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_17": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3793790,
+          "birth": "1611245150",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792546839.5190227,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_17",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_17_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792548451.7262852,
+          "wall_seconds": 1612.2069439888
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_18": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3794075,
+          "birth": "1611253964",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792546927.663462,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_18",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_18_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792548521.8290668,
+          "wall_seconds": 1594.1653263568878
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_19": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3795258,
+          "birth": "1611255907",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792546947.0938618,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_19",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_19_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792548503.6384115,
+          "wall_seconds": 1556.544233083725
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_20": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3798263,
+          "birth": "1611259750",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792546985.5219305,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_20",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_20_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792548539.7122002,
+          "wall_seconds": 1554.1899998188019
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_21": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3815897,
+          "birth": "1611406537",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792548453.3900833,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_21",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_21_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792549973.7198942,
+          "wall_seconds": 1520.3295421600342
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_22": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3816187,
+          "birth": "1611411879",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792548506.8100662,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_22",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_22_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792550058.082114,
+          "wall_seconds": 1551.2717809677124
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_23": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3816289,
+          "birth": "1611413667",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792548524.6930225,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_23",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_23_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792550041.704645,
+          "wall_seconds": 1517.011376619339
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_24": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3816351,
+          "birth": "1611415589",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792548543.916307,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_24",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_24_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792550110.7871494,
+          "wall_seconds": 1566.8705747127533
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_25": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3831575,
+          "birth": "1611558765",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792549975.6777308,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_25",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_25_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792551526.3277104,
+          "wall_seconds": 1550.6498577594757
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_26": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3832225,
+          "birth": "1611565504",
+          "gpu": 0,
+          "attempt": 1,
+          "started_unix": 1792550043.062458,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_26",
+            "--gpu",
+            "0",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_26_attempt01.log",
+          "returncode": 75,
+          "finished_unix": 1792550146.625408,
+          "wall_seconds": 103.56285524368286
+        },
+        {
+          "pid": 3836669,
+          "birth": "1611617506",
+          "gpu": 4,
+          "attempt": 2,
+          "started_unix": 1792550563.0804448,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_26",
+            "--gpu",
+            "4",
+            "--attempt",
+            "2"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_26_attempt02.log",
+          "returncode": 0,
+          "finished_unix": 1792552140.1468334,
+          "wall_seconds": 1577.0662622451782
+        }
+      ],
+      "not_before": 1792550176.626077,
+      "error": "ResourceConflict(\"Unrecognized process on GPU 0: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '3830285', '522']]\")"
+    },
+    "gen_HYA_MOTION_27": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3832300,
+          "birth": "1611567243",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792550060.4524567,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_27",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_27_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792551560.9199202,
+          "wall_seconds": 1500.4673380851746
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_28": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3832790,
+          "birth": "1611572517",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792550113.197962,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_28",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_28_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792551628.4433868,
+          "wall_seconds": 1515.2453060150146
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_29": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3841272,
+          "birth": "1611713998",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792551528.0020437,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_29",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_29_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792553183.2157543,
+          "wall_seconds": 1655.2135980129242
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_30": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3841436,
+          "birth": "1611717452",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792551562.5434391,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_30",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_30_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792553202.8016896,
+          "wall_seconds": 1640.2581148147583
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_31": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3841732,
+          "birth": "1611724349",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792551631.5122628,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_31",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_31_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792553299.7371352,
+          "wall_seconds": 1668.2247507572174
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_MOTION_32": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3843436,
+          "birth": "1611775382",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792552141.8448443,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_MOTION_32",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_MOTION_32_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792553824.5233333,
+          "wall_seconds": 1682.678407907486
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_01": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3848860,
+          "birth": "1611879976",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792553187.7818196,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_01",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_01_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792554713.692442,
+          "wall_seconds": 1525.910493850708
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_02": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3848972,
+          "birth": "1611882787",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792553215.8903055,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_02",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_02_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792554697.2468977,
+          "wall_seconds": 1481.3564851284027
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_03": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3849324,
+          "birth": "1611891312",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792553301.147235,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_03",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_03_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792554800.440674,
+          "wall_seconds": 1499.2933132648468
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_04": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3851178,
+          "birth": "1611943804",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792553826.0603511,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_04",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_04_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792555341.2234619,
+          "wall_seconds": 1515.1629874706268
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_05": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3854635,
+          "birth": "1612031065",
+          "gpu": 2,
+          "attempt": 1,
+          "started_unix": 1792554698.6723437,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_05",
+            "--gpu",
+            "2",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_05_attempt01.log",
+          "returncode": 75,
+          "finished_unix": 1792555039.7252734,
+          "wall_seconds": 341.0527935028076
+        },
+        {
+          "pid": 3856857,
+          "birth": "1612070537",
+          "gpu": 0,
+          "attempt": 2,
+          "started_unix": 1792555093.3950818,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_05",
+            "--gpu",
+            "0",
+            "--attempt",
+            "2"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_05_attempt02.log",
+          "returncode": 75,
+          "finished_unix": 1792555108.415916,
+          "wall_seconds": 15.02074146270752
+        },
+        {
+          "pid": 3857004,
+          "birth": "1612075582",
+          "gpu": 7,
+          "attempt": 3,
+          "started_unix": 1792555143.843814,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_05",
+            "--gpu",
+            "7",
+            "--attempt",
+            "3"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_05_attempt03.log",
+          "returncode": 75,
+          "finished_unix": 1792555158.8641915,
+          "wall_seconds": 15.02029800415039
+        },
+        {
+          "pid": 3857743,
+          "birth": "1612095464",
+          "gpu": 4,
+          "attempt": 4,
+          "started_unix": 1792555342.6634855,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_05",
+            "--gpu",
+            "4",
+            "--attempt",
+            "4"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_05_attempt04.log",
+          "returncode": 0,
+          "finished_unix": 1792556883.2823215,
+          "wall_seconds": 1540.6186759471893
+        }
+      ],
+      "not_before": 1792555188.8648117,
+      "error": "ResourceConflict(\"GPU no longer idle: {'gpus': [['7', 'GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '23', '143771', '0']], 'processes': [['GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '3856954', '24']], 'time_unix': 1792555145.4531462}\")"
+    },
+    "gen_HYA_OBJECTS_06": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3854815,
+          "birth": "1612032918",
+          "gpu": 1,
+          "attempt": 1,
+          "started_unix": 1792554717.2084234,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_06",
+            "--gpu",
+            "1",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_06_attempt01.log",
+          "returncode": 75,
+          "finished_unix": 1792555023.1894083,
+          "wall_seconds": 305.9808883666992
+        },
+        {
+          "pid": 3859425,
+          "birth": "1612138552",
+          "gpu": 7,
+          "attempt": 2,
+          "started_unix": 1792555773.5463843,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_06",
+            "--gpu",
+            "7",
+            "--attempt",
+            "2"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_06_attempt02.log",
+          "returncode": 0,
+          "finished_unix": 1792557297.065528,
+          "wall_seconds": 1523.5190241336823
+        }
+      ],
+      "not_before": 1792555053.190019,
+      "error": "ResourceConflict(\"Unrecognized process on GPU 1: [['GPU-b9157129-ac58-501d-c93d-b1cf622ff61b', '3856062', '30224']]\")"
+    },
+    "gen_HYA_OBJECTS_07": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3855136,
+          "birth": "1612041391",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792554801.9378924,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_07",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_07_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792556315.4724033,
+          "wall_seconds": 1513.5344007015228
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_08": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3856545,
+          "birth": "1612063668",
+          "gpu": 6,
+          "attempt": 1,
+          "started_unix": 1792555024.705042,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_08",
+            "--gpu",
+            "6",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_08_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792556541.5775557,
+          "wall_seconds": 1516.8724009990692
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_09": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3861935,
+          "birth": "1612192970",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792556317.719851,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_09",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_09_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792557837.8473897,
+          "wall_seconds": 1520.1274282932281
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_10": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3862682,
+          "birth": "1612215523",
+          "gpu": 5,
+          "attempt": 1,
+          "started_unix": 1792556543.2562556,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_10",
+            "--gpu",
+            "5",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_10_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792558095.6663413,
+          "wall_seconds": 1552.4099206924438
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_11": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3863846,
+          "birth": "1612249692",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792556884.9401436,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_11",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_11_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792558438.5624402,
+          "wall_seconds": 1553.622174024582
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_12": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3865202,
+          "birth": "1612291072",
+          "gpu": 6,
+          "attempt": 1,
+          "started_unix": 1792557298.7411091,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_12",
+            "--gpu",
+            "6",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_12_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792558818.3398945,
+          "wall_seconds": 1519.5986678600311
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_13": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3867033,
+          "birth": "1612345148",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792557839.5044408,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_13",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_13_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792559343.8570328,
+          "wall_seconds": 1504.3524668216705
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_14": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3867759,
+          "birth": "1612371045",
+          "gpu": 5,
+          "attempt": 1,
+          "started_unix": 1792558098.4731114,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_14",
+            "--gpu",
+            "5",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_14_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792559632.0157259,
+          "wall_seconds": 1533.542495250702
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_15": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3868709,
+          "birth": "1612405223",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792558440.257581,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_15",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_15_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792559990.0115836,
+          "wall_seconds": 1549.7538661956787
+        }
+      ],
+      "not_before": 0
+    },
+    "gen_HYA_OBJECTS_16": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3869805,
+          "birth": "1612443198",
+          "gpu": 6,
+          "attempt": 1,
+          "started_unix": 1792558820.00229,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--prompt",
+            "HYA_OBJECTS_16",
+            "--gpu",
+            "6",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/gen_HYA_OBJECTS_16_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792560344.8995035,
+          "wall_seconds": 1524.897132396698
+        }
+      ],
+      "not_before": 0
+    },
+    "eval_subject_consistency": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3874220,
+          "birth": "1612594184",
+          "gpu": 3,
+          "attempt": 1,
+          "started_unix": 1792560329.8623328,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--metric",
+            "subject_consistency",
+            "--gpu",
+            "3",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/eval_subject_consistency_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792561181.4750032,
+          "wall_seconds": 851.6125540733337
+        }
+      ],
+      "not_before": 0
+    },
+    "eval_multiple_objects": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3874221,
+          "birth": "1612594185",
+          "gpu": 4,
+          "attempt": 1,
+          "started_unix": 1792560329.8703458,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--metric",
+            "multiple_objects",
+            "--gpu",
+            "4",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/eval_multiple_objects_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792560926.2824645,
+          "wall_seconds": 596.4120275974274
+        }
+      ],
+      "not_before": 0
+    },
+    "eval_dynamic_degree": {
+      "status": "passed",
+      "attempts": [
+        {
+          "pid": 3874222,
+          "birth": "1612594185",
+          "gpu": 5,
+          "attempt": 1,
+          "started_unix": 1792560329.8778572,
+          "command": [
+            "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+            "-B",
+            "/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h3_timing_worker.py",
+            "--metric",
+            "dynamic_degree",
+            "--gpu",
+            "5",
+            "--attempt",
+            "1"
+          ],
+          "log_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_timing_v1/logs/eval_dynamic_degree_attempt01.log",
+          "returncode": 0,
+          "finished_unix": 1792561914.3427467,
+          "wall_seconds": 1584.464601278305
+        }
+      ],
+      "not_before": 0
+    }
+  },
+  "gpu_cooldowns": {
+    "0": 1792556908.4165235,
+    "1": 1792555623.1900153,
+    "2": 1792555639.7257915,
+    "7": 1792555758.864808
+  },
+  "gpu_conflicts": {
+    "0": 2,
+    "1": 1,
+    "2": 1,
+    "7": 1
+  },
+  "finalize_returncode": 0
+}

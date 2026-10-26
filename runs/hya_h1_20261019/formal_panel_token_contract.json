@@ -1,0 +1,329 @@
+{
+  "status": "passed",
+  "count": 64,
+  "max_native_llm_template_tokens": 123,
+  "max_clip_tokens": 28,
+  "no_formal_generation": true,
+  "rows": [
+    {
+      "id": "HYA_MOTION_01",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_MOTION_02",
+      "native_llm_template_tokens": 113,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_MOTION_03",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 17
+    },
+    {
+      "id": "HYA_MOTION_04",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 18
+    },
+    {
+      "id": "HYA_MOTION_05",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_MOTION_06",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 20
+    },
+    {
+      "id": "HYA_MOTION_07",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_MOTION_08",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 20
+    },
+    {
+      "id": "HYA_MOTION_09",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_MOTION_10",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_MOTION_11",
+      "native_llm_template_tokens": 113,
+      "clip_tokens": 17
+    },
+    {
+      "id": "HYA_MOTION_12",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_MOTION_13",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 18
+    },
+    {
+      "id": "HYA_MOTION_14",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_MOTION_15",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 13
+    },
+    {
+      "id": "HYA_MOTION_16",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 20
+    },
+    {
+      "id": "HYA_MOTION_17",
+      "native_llm_template_tokens": 112,
+      "clip_tokens": 17
+    },
+    {
+      "id": "HYA_MOTION_18",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_MOTION_19",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_MOTION_20",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_MOTION_21",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 18
+    },
+    {
+      "id": "HYA_MOTION_22",
+      "native_llm_template_tokens": 113,
+      "clip_tokens": 17
+    },
+    {
+      "id": "HYA_MOTION_23",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 13
+    },
+    {
+      "id": "HYA_MOTION_24",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_MOTION_25",
+      "native_llm_template_tokens": 108,
+      "clip_tokens": 13
+    },
+    {
+      "id": "HYA_MOTION_26",
+      "native_llm_template_tokens": 108,
+      "clip_tokens": 13
+    },
+    {
+      "id": "HYA_MOTION_27",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_MOTION_28",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_MOTION_29",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_MOTION_30",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_MOTION_31",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 13
+    },
+    {
+      "id": "HYA_MOTION_32",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_SCENE_01",
+      "native_llm_template_tokens": 123,
+      "clip_tokens": 28
+    },
+    {
+      "id": "HYA_SCENE_02",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_SCENE_03",
+      "native_llm_template_tokens": 117,
+      "clip_tokens": 21
+    },
+    {
+      "id": "HYA_SCENE_04",
+      "native_llm_template_tokens": 120,
+      "clip_tokens": 24
+    },
+    {
+      "id": "HYA_SCENE_05",
+      "native_llm_template_tokens": 119,
+      "clip_tokens": 25
+    },
+    {
+      "id": "HYA_SCENE_06",
+      "native_llm_template_tokens": 113,
+      "clip_tokens": 18
+    },
+    {
+      "id": "HYA_SCENE_07",
+      "native_llm_template_tokens": 118,
+      "clip_tokens": 22
+    },
+    {
+      "id": "HYA_SCENE_08",
+      "native_llm_template_tokens": 123,
+      "clip_tokens": 27
+    },
+    {
+      "id": "HYA_SCENE_09",
+      "native_llm_template_tokens": 112,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_SCENE_10",
+      "native_llm_template_tokens": 112,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_SCENE_11",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_SCENE_12",
+      "native_llm_template_tokens": 112,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_SCENE_13",
+      "native_llm_template_tokens": 115,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_SCENE_14",
+      "native_llm_template_tokens": 116,
+      "clip_tokens": 21
+    },
+    {
+      "id": "HYA_SCENE_15",
+      "native_llm_template_tokens": 118,
+      "clip_tokens": 23
+    },
+    {
+      "id": "HYA_SCENE_16",
+      "native_llm_template_tokens": 119,
+      "clip_tokens": 24
+    },
+    {
+      "id": "HYA_OBJECTS_01",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_02",
+      "native_llm_template_tokens": 116,
+      "clip_tokens": 20
+    },
+    {
+      "id": "HYA_OBJECTS_03",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_04",
+      "native_llm_template_tokens": 117,
+      "clip_tokens": 22
+    },
+    {
+      "id": "HYA_OBJECTS_05",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_06",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_OBJECTS_07",
+      "native_llm_template_tokens": 110,
+      "clip_tokens": 15
+    },
+    {
+      "id": "HYA_OBJECTS_08",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_09",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_10",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_11",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_12",
+      "native_llm_template_tokens": 109,
+      "clip_tokens": 14
+    },
+    {
+      "id": "HYA_OBJECTS_13",
+      "native_llm_template_tokens": 114,
+      "clip_tokens": 19
+    },
+    {
+      "id": "HYA_OBJECTS_14",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 16
+    },
+    {
+      "id": "HYA_OBJECTS_15",
+      "native_llm_template_tokens": 117,
+      "clip_tokens": 22
+    },
+    {
+      "id": "HYA_OBJECTS_16",
+      "native_llm_template_tokens": 111,
+      "clip_tokens": 15
+    }
+  ]
+}

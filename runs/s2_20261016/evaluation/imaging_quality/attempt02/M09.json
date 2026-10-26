@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M09_seed42",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed42/attempt03/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 73.70894264880522,
+      "normalized_score": 0.7370894264880522,
+      "source_returned_score": 73.70894264880522,
+      "video_sha256": "167e2d1773c55509397f4458643065531224fb833ca7f825e9a41ded1946c9f0"
+    },
+    {
+      "pair_id": "M09_seed42",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed42/attempt03/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 64.49902070598837,
+      "normalized_score": 0.6449902070598837,
+      "source_returned_score": 64.49902070598837,
+      "video_sha256": "eddf4581d1479a11da0ab1a1c3c1bfc6e669dfec4d5929b11a3d389968756dbf"
+    },
+    {
+      "pair_id": "M09_seed1234",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed1234/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 73.00926566418306,
+      "normalized_score": 0.7300926566418307,
+      "source_returned_score": 73.00926566418306,
+      "video_sha256": "db0a0fb6900cf3f8809f3036b804c726c1d8204223fcb29b199addaae94e4fbe"
+    },
+    {
+      "pair_id": "M09_seed1234",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed1234/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 77.31382572503738,
+      "normalized_score": 0.7731382572503738,
+      "source_returned_score": 77.31382572503738,
+      "video_sha256": "877a71aba621685249b59c9ffbee0a359c4032c4008dc020bb21485499ad8269"
+    },
+    {
+      "pair_id": "M09_seed2026",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed2026/attempt02/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 75.03329279393326,
+      "normalized_score": 0.7503329279393326,
+      "source_returned_score": 75.03329279393326,
+      "video_sha256": "0bd68b539b98e38842e103d922557743c20eac2cab5faeff4606db56093b83a6"
+    },
+    {
+      "pair_id": "M09_seed2026",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed2026/attempt02/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 73.89668434048876,
+      "normalized_score": 0.7389668434048876,
+      "source_returned_score": 73.89668434048876,
+      "video_sha256": "e0a8623bdd3e13117e3d3db291697462308aec2ed9e58902e88920d8b9016134"
+    }
+  ],
+  "aggregate": 0.7291017197973935,
+  "scoring_seconds": 6.888822806999087
+}

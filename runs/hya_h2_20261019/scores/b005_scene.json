@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b005",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792411301.8575583,
+  "admission": {
+    "index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "pid": 3041952,
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792411307.0804336
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_09",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "da00dc86be382ac7b1945e1ebb4f0a6af084a3daae625e452db8073b9cb1f5df",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_09.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_09.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_09",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "416c7b685666cdce949bb09af5c2d5e6b460ac5633a14f9a757bfb956f57ddfe",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_09.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_09.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_13",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "6b91c9e7c852ecacf9408b5c6619f6a253cbe4bb6eaa0301e97402bba43377b0",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_13.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_13.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_13",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "1c4d04fae3754edf9c8868922c1f8b37bf3cc9eeb2e5c5f1808b0f3d7df0f06b",
+      "metric": "scene",
+      "score": 0.75,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_13.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_13.mp4",
+        "video_results": 0.75,
+        "success_frame_count": 12,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.6875,
+  "load_scoring_seconds": 32.646682078018785,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_09.mp4",
+      "scene_frame_captions": [
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it",
+        "an iceberg in the ocean with a piece of ice floating on top of it"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_09.mp4",
+      "scene_frame_captions": [
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean",
+        "an iceberg floating in the ocean"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_13.mp4",
+      "scene_frame_captions": [
+        "a water tower that is very tall in the air",
+        "a water tower that is very tall in the air",
+        "a water tower that is very tall in the air",
+        "a water tower that is very tall in the air",
+        "a water tower that is very tall in the air",
+        "a water tower that is very tall in the air",
+        "a water tower spewing water into the air",
+        "a water tower spewing water into the air",
+        "a water tower spewing water into the air",
+        "a view of the observation tower",
+        "a view of the observation tower",
+        "a view of the observation tower",
+        "a view of the observation tower",
+        "a view of the observation tower",
+        "a view of the observation tower",
+        "a smoke stack on top of a tower"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_13.mp4",
+      "scene_frame_captions": [
+        "a windmill in a field on a cloudy day",
+        "a windmill in a field on a cloudy day",
+        "a windmill in a field on a cloudy day",
+        "a group of windmills blowing in the wind",
+        "a group of windmills blowing in the wind",
+        "a group of windmills blowing in the wind",
+        "a windmill that is blowing in the wind",
+        "a windmill that is blowing in the wind",
+        "a windmill that is blowing in the wind",
+        "a wind turbine in the middle of a field",
+        "a wind turbine in the middle of a field",
+        "a wind turbine in the middle of a field",
+        "a group of windmills blowing in the wind",
+        "a group of windmills blowing in the wind",
+        "a group of windmills blowing in the wind",
+        "wind turbines in a field on a cloudy day"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792411347.2051964
+}

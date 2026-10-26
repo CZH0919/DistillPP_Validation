@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "history": [
+    {
+      "metric": "imaging_quality",
+      "exit_code": 0,
+      "worker_pid": 2897233,
+      "unix_end": 1792369222.0507584
+    },
+    {
+      "metric": "subject_consistency",
+      "exit_code": 0,
+      "worker_pid": 2897295,
+      "unix_end": 1792369242.4302075
+    },
+    {
+      "metric": "motion_smoothness",
+      "exit_code": 0,
+      "worker_pid": 2897427,
+      "unix_end": 1792369265.5216637
+    },
+    {
+      "metric": "dynamic_degree",
+      "exit_code": 0,
+      "worker_pid": 2897516,
+      "unix_end": 1792369292.5749788
+    },
+    {
+      "metric": "aesthetic_quality",
+      "exit_code": 0,
+      "worker_pid": 2897736,
+      "unix_end": 1792369318.5732665
+    },
+    {
+      "metric": "overall_consistency",
+      "exit_code": 0,
+      "worker_pid": 2897856,
+      "unix_end": 1792369341.5621364
+    }
+  ],
+  "unix_time": 1792369341.562195,
+  "expected_scores": 12,
+  "s3_started": false
+}

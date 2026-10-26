@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_15",
+  "prompt": "A round pizza with various toppings and a person in a necktie. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 117,
+    "clip_with_special": 22
+  },
+  "hashes": {
+    "context": "0163bfae5dccf9fcbaaa5e5a7aebf961706075459ee3cdb40c0e3cf50c46d4d5",
+    "mask": "d55eeaaafc4381b22801da009091934031109cb4a569cbea5ef5580547bab49f",
+    "llama_input_ids": "483de7007442496052f23b490c09bff760eb4bb5d92af537187d9709aaa8295f",
+    "pooled": "efdb40045eebf6236130f6903b00f26de2c3a6313062c9344c8e885ffc4f6e7f",
+    "clip_input_ids": "6645ec3933b1b34c948693b61bfe7d702474ff48cb8e4fd898c392879125b180",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 22.265803296118975,
+  "llama_encode_seconds": 1.392672711983323,
+  "clip_encode_seconds": 0.003910599276423454,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_15.ec95018f96af4696af2145ee5c995fa8.pt",
+  "file_sha256": "327bb33df596af68d70d8ac3a1e3a4d169cdeafdf7aedff34f2ebbe014227f33"
+}

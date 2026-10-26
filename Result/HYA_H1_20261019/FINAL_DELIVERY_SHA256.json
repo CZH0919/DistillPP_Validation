@@ -1,0 +1,179 @@
+{
+  "stage": "H1",
+  "status": "passed",
+  "date": "2026-10-19",
+  "excludes": [
+    "videos",
+    "latents",
+    "model weights",
+    "conda environments",
+    "package caches"
+  ],
+  "files": [
+    {
+      "path": "Project_Plan/EXPERIMENT_PLAN.md",
+      "bytes": 14911,
+      "sha256": "628f2344b56b50d13c4eea45eed44fe1c61ff020e417e37e4ceaccf82a702731"
+    },
+    {
+      "path": "Project_Plan/DOWNLOAD_AND_SETUP.md",
+      "bytes": 6700,
+      "sha256": "9242d0489c7b19a446231f9d55130fadd56875de0b4b475f988ae930ffb34241"
+    },
+    {
+      "path": "Project_Plan/HYA_RUNTIME_CONTRACT.json",
+      "bytes": 5363,
+      "sha256": "4f07fb9e69e7ce463b530ca22ecbd030b33b75855e137d8c911341254a659475"
+    },
+    {
+      "path": "Project_Plan/HUNYUAN_ACCVIDEO_PROTOCOL.json",
+      "bytes": 91874,
+      "sha256": "b629e14890626e37224a1dea7a0ebe9262d0d8175785d2161db64d49a03548ed"
+    },
+    {
+      "path": "Project_Plan/HUNYUAN_ACCVIDEO_RESOURCES.json",
+      "bytes": 24957,
+      "sha256": "d0f55c57fb850fef41e25328140730afd19cb4bafc6af350e0704c2fc361d1da"
+    },
+    {
+      "path": "Project_Plan/requirements_hya_evaluation.txt",
+      "bytes": 299,
+      "sha256": "9f8eed0e9f075a222bcc2904bcc0c1c8dd817f5436e114e5c40403c3004a5d0d"
+    },
+    {
+      "path": "Project_Plan/hya_sources/AccVideo_reference_manifest.json",
+      "bytes": 4871,
+      "sha256": "6366339c16a0ae3f6b0e82b9f063410f8b32b812b156cfd37035f4caf4ecfbfd"
+    },
+    {
+      "path": "Project_Progress/Total_Progress.md",
+      "bytes": 13195,
+      "sha256": "0ea01174d907f3ccc44c25a4e9eab48f23737a87ccc4679ac64b26d3603df053"
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/HYA_H1_IMPLEMENTATION_ACCEPTANCE.md",
+      "bytes": 2325,
+      "sha256": "4631fdc790692329049b954b8e553378c9cb3b50fa33ec64af5b9521cf1284d1"
+    },
+    {
+      "path": "Result/HYA_H1_20261019/REPORT.md",
+      "bytes": 5948,
+      "sha256": "c73e6f7ea45197d4da31ed67942aaec2b3526ddd149328cf87d782e4a87bf752"
+    },
+    {
+      "path": "Result/HYA_H1_20261019/H1_ACCEPTANCE.json",
+      "bytes": 109578,
+      "sha256": "10bd89f7f0cfeb04bd143ed677987a39ad76ed7e61620e45381dbbe18e1c4137"
+    },
+    {
+      "path": "Result/HYA_H1_20261019/smoke_scores.csv",
+      "bytes": 1137,
+      "sha256": "24d750ede82724a9dd1da78a393c5d66e1355bf5f4c169bfbe3bbaf08d02317a"
+    },
+    {
+      "path": "Result/HYA_H1_20261019/PREPARATION_NOTES.json",
+      "bytes": 1455,
+      "sha256": "8fa3c1fc7b9dfbf65797adf2221a62caa82f951d0460a9cd65fde153f51969c7"
+    },
+    {
+      "path": "runs/hya_h1_20261019/resource_verification.json",
+      "bytes": 190,
+      "sha256": "6102858c07a652e2f5292a0a25efcb0932f2453f6e93932f304efc98fb9ae3e7"
+    },
+    {
+      "path": "runs/hya_h1_20261019/decord_tag_diagnostic.json",
+      "bytes": 624,
+      "sha256": "ff3a5970369d1ac6668945387bfb006d573e93cfe6d852bc9f3c8662660c8856"
+    },
+    {
+      "path": "runs/hya_h1_20261019/dependencies/before.json",
+      "bytes": 2841,
+      "sha256": "f2f656b40037b161d27924abf4ebd6e6722391beee254d57ed9c09202a0099ea"
+    },
+    {
+      "path": "runs/hya_h1_20261019/dependencies/after_all.json",
+      "bytes": 3366,
+      "sha256": "8c192b872c4364230f48faac4b845bceec6707476064299ab46123a22a9ab06c"
+    },
+    {
+      "path": "runs/hya_h1_20261019/dependencies/detectron2_wheel.json",
+      "bytes": 289,
+      "sha256": "a76b48e724cbe5a18ef56dab5f0cb213084ce54a78c60cc25da18ae557686a3f"
+    },
+    {
+      "path": "runs/hya_h1_20261019/formal_panel_token_contract.json",
+      "bytes": 7002,
+      "sha256": "57bb9333f07af2fa5f0c75c4a1db11e787c1e5763cd2fdc2bf0b1c96bb3d612a"
+    },
+    {
+      "path": "tools/hya_common.py",
+      "bytes": 13502,
+      "sha256": "7d9f51fbef35e388aa32825497c844627903116d4dd7432b05796e47237e14b1"
+    },
+    {
+      "path": "tools/hya_evaluate_smoke.py",
+      "bytes": 11636,
+      "sha256": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb"
+    },
+    {
+      "path": "tools/hya_finalize_h1.py",
+      "bytes": 12310,
+      "sha256": "b631698541c03efe18f0ac7c1feebef0b4f0bf6c230411d2e746be79270a19c2"
+    },
+    {
+      "path": "tools/hya_generate_smoke.py",
+      "bytes": 10293,
+      "sha256": "11e2193c481dfb6dbea0c73d0d3e22d001ef457c04a1c58eea72b8698252c708"
+    },
+    {
+      "path": "tools/hya_h1_controller.py",
+      "bytes": 1914,
+      "sha256": "07afcdb07bebe24eb40fac6ff68e7b80a5858739cbaa9dd985e03d25045d99b6"
+    },
+    {
+      "path": "tools/hya_h1_evaluation_controller.py",
+      "bytes": 2196,
+      "sha256": "a26f75a42000c8d848cb09cefa12badc87976dcd334ad65f1cbd7ed20b0a0464"
+    },
+    {
+      "path": "tools/hya_prepare_dependencies.py",
+      "bytes": 7091,
+      "sha256": "1caed4253439a93ba40cd8640fb54816e09e8adfbce9589681f86f15a1dc364c"
+    },
+    {
+      "path": "runs/hya_h1_20261019/generation/T50/attempt01/result.json",
+      "bytes": 20639,
+      "sha256": "e80ff8d6f24137dafa8d59dc143d90edeac64e1507310122189f581c38a307b3"
+    },
+    {
+      "path": "runs/hya_h1_20261019/generation/S5/attempt01/result.json",
+      "bytes": 9150,
+      "sha256": "81f17c885694497c4bf85d1adfa842eb7ead3f7fc4e483b002de45c020102912"
+    },
+    {
+      "path": "runs/hya_h1_20261019/evaluation/subject_consistency/attempt01/result.json",
+      "bytes": 1345,
+      "sha256": "b2dc11a10dc79b649f55e38e2adeb222d73eb3d851ec5d6240dffb1d0f728e0d"
+    },
+    {
+      "path": "runs/hya_h1_20261019/evaluation/dynamic_degree/attempt01/result.json",
+      "bytes": 1294,
+      "sha256": "06e649b74586d49871dd71f117ba6bee5f980f4aefc20356aa007ee1d087fc0b"
+    },
+    {
+      "path": "runs/hya_h1_20261019/evaluation/background_consistency/attempt01/result.json",
+      "bytes": 1479,
+      "sha256": "94d424a8d46bcd38b6fd621216e09466618722ba43eb16a3c5fe6b0db5aad75c"
+    },
+    {
+      "path": "runs/hya_h1_20261019/evaluation/scene/attempt01/result.json",
+      "bytes": 6581,
+      "sha256": "d8ea2655e4e26e1acd6cc3740e86771164202958455932bb527d52266e2793b9"
+    },
+    {
+      "path": "runs/hya_h1_20261019/evaluation/multiple_objects/attempt01/result.json",
+      "bytes": 26796,
+      "sha256": "ef41a639b3d81c5555455c83d0d44df5aa71b5f2485032d1a00ac4f440239a73"
+    }
+  ]
+}

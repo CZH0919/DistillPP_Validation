@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_19",
+  "prompt": "A person eating a burger. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "be7e8b4c0b9b390355658b7058783696ac83b3633e0c6ecd59b8c13847b1de69",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "4fc51c96ef5a79bda3e9257fdd472efdc3033012d2539d82d88e5b634720a281",
+    "pooled": "186c5a92c37f42739bae207c9edbb21d6fa3b9f4ec15f6796d75cf8fb848eb17",
+    "clip_input_ids": "86e392f7f2623b5b195b356db297839113186a2034328ff98f5df09dd2d2f9c2",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 39.51641701720655,
+  "llama_encode_seconds": 0.8948443625122309,
+  "clip_encode_seconds": 0.17687206156551838,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_19.7bb9e837009244a1b7b1450a6e2254d7.pt",
+  "file_sha256": "bf101c387bb987fd9e9567d84b56906d172851ab5ac5463bc96df3f107e239d0"
+}

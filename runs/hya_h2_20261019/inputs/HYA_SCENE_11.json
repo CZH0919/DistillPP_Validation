@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_11",
+  "prompt": "A place where food is prepared and served to customers. Realistic, Indoor lighting, Professional",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 114,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "04ce5004b294f8809293c10a8ca85c1f8f0beb03504830194ffd7ad5439e7c84",
+    "mask": "ef3a2225783ede44ed974308ca6e99170b2d2f548621203e58e5dba0d1dee0f2",
+    "llama_input_ids": "e50799a86d2d858a991e4e53c21311e2cea233f610016435abf2e4940b0fc14a",
+    "pooled": "0a5a4f4540ce9b9d0526e827199e3b5af6fa8b347a46a0a2c161b80ddb084631",
+    "clip_input_ids": "193b36f962fdd07a4236e81b9e7174704541933b0321d4b42ddf7cd8c6649432",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 82.06547011993825,
+  "llama_encode_seconds": 1.1456488482654095,
+  "clip_encode_seconds": 0.16757300682365894,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_11.4f85006a9c6146febaa209e3c82a113a.pt",
+  "file_sha256": "a1620314e02c6b8c5d86c343fdb7e74109e4b2c0c2715a6e40f3a9d457ed6516"
+}

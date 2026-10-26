@@ -1,0 +1,3 @@
+# Preserve exact file bytes: scientific manifests contain SHA-256 checksums.
+# Do not normalize frozen source/config/result line endings on add or checkout.
+* -text

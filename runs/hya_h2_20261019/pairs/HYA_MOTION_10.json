@@ -1,0 +1,702 @@
+{
+  "status": "passed",
+  "prompt_id": "HYA_MOTION_10",
+  "committed_unix": 1792389779.413374,
+  "records": {
+    "S5": {
+      "status": "passed",
+      "arm": "S5",
+      "prompt_id": "HYA_MOTION_10",
+      "seed": 2026101901,
+      "prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+      "inputs": {
+        "prompt_id": "HYA_MOTION_10",
+        "prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+        "seed": 2026101901,
+        "tokens": {
+          "llama_with_template": 109,
+          "clip_with_special": 14
+        },
+        "hashes": {
+          "context": "f02f80e1149e2bee20037c71f147acc8c5db931cacca75e8df711f587bddc6f9",
+          "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+          "llama_input_ids": "374da23f8c0f89d1821c6dbee71dadaf245baf520f3c878c2542a10ded5ae5f2",
+          "pooled": "a292a88be184047a4dd25fede41d124eba10b571d0f7a8774f573ed290f2945e",
+          "clip_input_ids": "4fead4a5a7ccc3a2143d71f74db894fafc8f55e31ebb916cc9f37e6201089b0c",
+          "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+        },
+        "dtypes": {
+          "context": "torch.float16",
+          "mask": "torch.int64",
+          "llama_input_ids": "torch.int64",
+          "pooled": "torch.float16",
+          "clip_input_ids": "torch.int64",
+          "noise": "torch.float32"
+        },
+        "text_encoder_load_encode_seconds": 44.85698287189007,
+        "llama_encode_seconds": 0.27284909412264824,
+        "clip_encode_seconds": 0.2619931101799011,
+        "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_10.a8332e80c1604007ad784f0041568d3b.pt",
+        "file_sha256": "3ddbdafe66adee86594dc43c06e0a6632bd81234e39b07ce7092cb127aa31973"
+      },
+      "admission": {
+        "index": 3,
+        "uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "pid": 2980291,
+        "snapshot": {
+          "gpus": [
+            [
+              "3",
+              "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+              "0",
+              "143771",
+              "0"
+            ]
+          ],
+          "processes": [],
+          "time_unix": 1792387095.8480682
+        }
+      },
+      "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+      "started_unix": 1792387208.1464317,
+      "model_to_gpu_seconds": 8.403508111834526,
+      "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+      "actual_initial_latent_dtype": "torch.float16",
+      "warmup_seconds": 35.06759502179921,
+      "first_prediction_sha256": "64764b6fd51e9f7293cde980724f0f272db35f3df0537d414ef77aca9819752c",
+      "warmup_repeat_exact": true,
+      "denoising_seconds": 175.58443710952997,
+      "steps": [
+        {
+          "step": 0,
+          "timestep": 1000.0,
+          "sigma": 1.0,
+          "next_sigma": 0.9655172228813171,
+          "seconds": 35.11651723831892,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 1,
+          "timestep": 965.5172119140625,
+          "sigma": 0.9655172228813171,
+          "next_sigma": 0.9130434393882751,
+          "seconds": 35.15974076464772,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 2,
+          "timestep": 913.04345703125,
+          "sigma": 0.9130434393882751,
+          "next_sigma": 0.8235293626785278,
+          "seconds": 35.074729884043336,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 3,
+          "timestep": 823.5293579101562,
+          "sigma": 0.8235293626785278,
+          "next_sigma": 0.6363636255264282,
+          "seconds": 35.10261377133429,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 4,
+          "timestep": 636.3636474609375,
+          "sigma": 0.6363636255264282,
+          "next_sigma": 0.0,
+          "seconds": 35.1308354511857,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        }
+      ],
+      "formal_path_dit_calls": 5,
+      "extra_warmup_dit_calls": 1,
+      "final_latent_sha256": "0c7598bb6cc9895f0d4fb2699c6f60aa783a1fc5178c31de783c5526ef7006e2",
+      "denoise_peak_allocated_gib": 43.14194869995117,
+      "denoise_peak_reserved_gib": 47.314453125,
+      "model_offload_seconds": 11.768504042178392,
+      "vae_to_gpu_seconds": 0.22062194161117077,
+      "vae_decode_seconds": 32.275831351056695,
+      "decode_peak_allocated_gib": 7.232814788818359,
+      "vae_offload_seconds": 0.20546755380928516,
+      "encoding": {
+        "codec": "libx264",
+        "crf": 18,
+        "preset": "medium",
+        "pixel_format": "yuv420p",
+        "fps": 24
+      },
+      "export_seconds": 7.102720208466053,
+      "video": {
+        "sha256": "3daf755a240b17f920123b1dca7ae00999d4d5d42de2c06ec82641e440296ae9",
+        "bytes": 8626891,
+        "frames_decord": 129,
+        "frames_opencv": 129,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "sample_pixel_std": 55.658173583183874
+      },
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b009/attempt01/S5/HYA_MOTION_10.mp4",
+      "hot_denoise_decode_seconds": 207.86026846058667,
+      "video_wall_seconds": 290.11553621292114,
+      "network_attempts": [],
+      "finished_unix": 1792387501.3049076,
+      "archive_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_10.mp4"
+    },
+    "T50": {
+      "status": "passed",
+      "arm": "T50",
+      "prompt_id": "HYA_MOTION_10",
+      "seed": 2026101901,
+      "prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+      "inputs": {
+        "prompt_id": "HYA_MOTION_10",
+        "prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+        "seed": 2026101901,
+        "tokens": {
+          "llama_with_template": 109,
+          "clip_with_special": 14
+        },
+        "hashes": {
+          "context": "f02f80e1149e2bee20037c71f147acc8c5db931cacca75e8df711f587bddc6f9",
+          "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+          "llama_input_ids": "374da23f8c0f89d1821c6dbee71dadaf245baf520f3c878c2542a10ded5ae5f2",
+          "pooled": "a292a88be184047a4dd25fede41d124eba10b571d0f7a8774f573ed290f2945e",
+          "clip_input_ids": "4fead4a5a7ccc3a2143d71f74db894fafc8f55e31ebb916cc9f37e6201089b0c",
+          "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+        },
+        "dtypes": {
+          "context": "torch.float16",
+          "mask": "torch.int64",
+          "llama_input_ids": "torch.int64",
+          "pooled": "torch.float16",
+          "clip_input_ids": "torch.int64",
+          "noise": "torch.float32"
+        },
+        "text_encoder_load_encode_seconds": 44.85698287189007,
+        "llama_encode_seconds": 0.27284909412264824,
+        "clip_encode_seconds": 0.2619931101799011,
+        "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_10.a8332e80c1604007ad784f0041568d3b.pt",
+        "file_sha256": "3ddbdafe66adee86594dc43c06e0a6632bd81234e39b07ce7092cb127aa31973"
+      },
+      "admission": {
+        "index": 3,
+        "uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "pid": 2980291,
+        "snapshot": {
+          "gpus": [
+            [
+              "3",
+              "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+              "0",
+              "143771",
+              "0"
+            ]
+          ],
+          "processes": [],
+          "time_unix": 1792387095.8480682
+        }
+      },
+      "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+      "started_unix": 1792387760.407254,
+      "model_to_gpu_seconds": 4.209552098065615,
+      "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+      "actual_initial_latent_dtype": "torch.float16",
+      "warmup_seconds": 34.78052270784974,
+      "first_prediction_sha256": "7f9253da2f98e92119a88faa8ae0e9a083025f46cdc737a50c0e1d3c45a075b4",
+      "warmup_repeat_exact": true,
+      "denoising_seconds": 1754.9816745221615,
+      "steps": [
+        {
+          "step": 0,
+          "timestep": 1000.0,
+          "sigma": 1.0,
+          "next_sigma": 0.9970930218696594,
+          "seconds": 35.01969604752958,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 1,
+          "timestep": 997.093017578125,
+          "sigma": 0.9970930218696594,
+          "next_sigma": 0.9940828680992126,
+          "seconds": 35.13030811958015,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 2,
+          "timestep": 994.0828857421875,
+          "sigma": 0.9940828680992126,
+          "next_sigma": 0.990963876247406,
+          "seconds": 35.225735468789935,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 3,
+          "timestep": 990.9638671875,
+          "sigma": 0.990963876247406,
+          "next_sigma": 0.987730085849762,
+          "seconds": 35.25235788151622,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 4,
+          "timestep": 987.7301025390625,
+          "sigma": 0.987730085849762,
+          "next_sigma": 0.984375,
+          "seconds": 35.28544194996357,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 5,
+          "timestep": 984.375,
+          "sigma": 0.984375,
+          "next_sigma": 0.980891764163971,
+          "seconds": 35.19132121838629,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 6,
+          "timestep": 980.8917846679688,
+          "sigma": 0.980891764163971,
+          "next_sigma": 0.9772727489471436,
+          "seconds": 35.130851628258824,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 7,
+          "timestep": 977.2727661132812,
+          "sigma": 0.9772727489471436,
+          "next_sigma": 0.9735099673271179,
+          "seconds": 35.121356481686234,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 8,
+          "timestep": 973.5099487304688,
+          "sigma": 0.9735099673271179,
+          "next_sigma": 0.9695945382118225,
+          "seconds": 35.157884703949094,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 9,
+          "timestep": 969.5945434570312,
+          "sigma": 0.9695945382118225,
+          "next_sigma": 0.9655172228813171,
+          "seconds": 35.13152242079377,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 10,
+          "timestep": 965.5172119140625,
+          "sigma": 0.9655172228813171,
+          "next_sigma": 0.9612675309181213,
+          "seconds": 35.21705866418779,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 11,
+          "timestep": 961.2675170898438,
+          "sigma": 0.9612675309181213,
+          "next_sigma": 0.9568344950675964,
+          "seconds": 35.19789425842464,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 12,
+          "timestep": 956.83447265625,
+          "sigma": 0.9568344950675964,
+          "next_sigma": 0.9522059559822083,
+          "seconds": 35.18448483198881,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 13,
+          "timestep": 952.2059326171875,
+          "sigma": 0.9522059559822083,
+          "next_sigma": 0.9473683834075928,
+          "seconds": 35.13524311594665,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 14,
+          "timestep": 947.368408203125,
+          "sigma": 0.9473683834075928,
+          "next_sigma": 0.9423077702522278,
+          "seconds": 35.14728343859315,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 15,
+          "timestep": 942.3078002929688,
+          "sigma": 0.9423077702522278,
+          "next_sigma": 0.9370079040527344,
+          "seconds": 35.16901849023998,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 16,
+          "timestep": 937.0079345703125,
+          "sigma": 0.9370079040527344,
+          "next_sigma": 0.931451678276062,
+          "seconds": 35.144159300252795,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 17,
+          "timestep": 931.45166015625,
+          "sigma": 0.931451678276062,
+          "next_sigma": 0.9256197810173035,
+          "seconds": 35.18545239046216,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 18,
+          "timestep": 925.6197509765625,
+          "sigma": 0.9256197810173035,
+          "next_sigma": 0.9194915294647217,
+          "seconds": 35.1223471686244,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 19,
+          "timestep": 919.4915161132812,
+          "sigma": 0.9194915294647217,
+          "next_sigma": 0.9130434393882751,
+          "seconds": 35.18237114138901,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 20,
+          "timestep": 913.04345703125,
+          "sigma": 0.9130434393882751,
+          "next_sigma": 0.90625,
+          "seconds": 35.24535498023033,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 21,
+          "timestep": 906.25,
+          "sigma": 0.90625,
+          "next_sigma": 0.8990825414657593,
+          "seconds": 35.2132618278265,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 22,
+          "timestep": 899.08251953125,
+          "sigma": 0.8990825414657593,
+          "next_sigma": 0.8915094137191772,
+          "seconds": 35.08684017509222,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 23,
+          "timestep": 891.5093994140625,
+          "sigma": 0.8915094137191772,
+          "next_sigma": 0.8834951519966125,
+          "seconds": 35.06737668812275,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 24,
+          "timestep": 883.4951782226562,
+          "sigma": 0.8834951519966125,
+          "next_sigma": 0.875,
+          "seconds": 35.040829515084624,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 25,
+          "timestep": 875.0,
+          "sigma": 0.875,
+          "next_sigma": 0.8659793734550476,
+          "seconds": 35.035711012780666,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 26,
+          "timestep": 865.9793701171875,
+          "sigma": 0.8659793734550476,
+          "next_sigma": 0.8563829660415649,
+          "seconds": 35.00004739314318,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 27,
+          "timestep": 856.3829956054688,
+          "sigma": 0.8563829660415649,
+          "next_sigma": 0.8461538553237915,
+          "seconds": 34.960964389145374,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 28,
+          "timestep": 846.1538696289062,
+          "sigma": 0.8461538553237915,
+          "next_sigma": 0.8352272510528564,
+          "seconds": 34.99280499666929,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 29,
+          "timestep": 835.2272338867188,
+          "sigma": 0.8352272510528564,
+          "next_sigma": 0.8235293626785278,
+          "seconds": 35.03917293064296,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 30,
+          "timestep": 823.5293579101562,
+          "sigma": 0.8235293626785278,
+          "next_sigma": 0.8109755516052246,
+          "seconds": 35.09409154765308,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 31,
+          "timestep": 810.9755249023438,
+          "sigma": 0.8109755516052246,
+          "next_sigma": 0.797468364238739,
+          "seconds": 35.16257006302476,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 32,
+          "timestep": 797.4683837890625,
+          "sigma": 0.797468364238739,
+          "next_sigma": 0.7828947901725769,
+          "seconds": 35.19668610394001,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 33,
+          "timestep": 782.894775390625,
+          "sigma": 0.7828947901725769,
+          "next_sigma": 0.767123281955719,
+          "seconds": 35.21105723641813,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 34,
+          "timestep": 767.123291015625,
+          "sigma": 0.767123281955719,
+          "next_sigma": 0.75,
+          "seconds": 35.215113040059805,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 35,
+          "timestep": 750.0,
+          "sigma": 0.75,
+          "next_sigma": 0.7313432693481445,
+          "seconds": 35.10108809545636,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 36,
+          "timestep": 731.34326171875,
+          "sigma": 0.7313432693481445,
+          "next_sigma": 0.7109375,
+          "seconds": 35.086092572659254,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 37,
+          "timestep": 710.9375,
+          "sigma": 0.7109375,
+          "next_sigma": 0.6885245442390442,
+          "seconds": 35.0606583468616,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 38,
+          "timestep": 688.5245361328125,
+          "sigma": 0.6885245442390442,
+          "next_sigma": 0.6637930870056152,
+          "seconds": 35.04177905805409,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 39,
+          "timestep": 663.7930908203125,
+          "sigma": 0.6637930870056152,
+          "next_sigma": 0.6363636255264282,
+          "seconds": 34.969511250033975,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 40,
+          "timestep": 636.3636474609375,
+          "sigma": 0.6363636255264282,
+          "next_sigma": 0.6057692766189575,
+          "seconds": 34.98530125245452,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 41,
+          "timestep": 605.769287109375,
+          "sigma": 0.6057692766189575,
+          "next_sigma": 0.5714285373687744,
+          "seconds": 34.97091746516526,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 42,
+          "timestep": 571.4285278320312,
+          "sigma": 0.5714285373687744,
+          "next_sigma": 0.532608687877655,
+          "seconds": 34.979099079966545,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 43,
+          "timestep": 532.6087036132812,
+          "sigma": 0.532608687877655,
+          "next_sigma": 0.4883720576763153,
+          "seconds": 34.95087075047195,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 44,
+          "timestep": 488.3720703125,
+          "sigma": 0.4883720576763153,
+          "next_sigma": 0.4374999701976776,
+          "seconds": 35.009635604918,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 45,
+          "timestep": 437.4999694824219,
+          "sigma": 0.4374999701976776,
+          "next_sigma": 0.37837836146354675,
+          "seconds": 35.06629564240575,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 46,
+          "timestep": 378.37835693359375,
+          "sigma": 0.37837836146354675,
+          "next_sigma": 0.30882352590560913,
+          "seconds": 34.99709374457598,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 47,
+          "timestep": 308.8235168457031,
+          "sigma": 0.30882352590560913,
+          "next_sigma": 0.22580644488334656,
+          "seconds": 34.951030598953366,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 48,
+          "timestep": 225.8064422607422,
+          "sigma": 0.22580644488334656,
+          "next_sigma": 0.125,
+          "seconds": 34.95881664939225,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 49,
+          "timestep": 125.0,
+          "sigma": 0.125,
+          "next_sigma": 0.0,
+          "seconds": 34.959813790395856,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        }
+      ],
+      "formal_path_dit_calls": 50,
+      "extra_warmup_dit_calls": 1,
+      "final_latent_sha256": "0258ec158986d838598df4637a73740099b88abf33138617fdba302e522c80bf",
+      "denoise_peak_allocated_gib": 43.14194869995117,
+      "denoise_peak_reserved_gib": 47.314453125,
+      "model_offload_seconds": 11.80719824694097,
+      "vae_to_gpu_seconds": 0.16655355133116245,
+      "vae_decode_seconds": 33.30502376332879,
+      "decode_peak_allocated_gib": 7.232814788818359,
+      "vae_offload_seconds": 0.10436056926846504,
+      "encoding": {
+        "codec": "libx264",
+        "crf": 18,
+        "preset": "medium",
+        "pixel_format": "yuv420p",
+        "fps": 24
+      },
+      "export_seconds": 5.879986355081201,
+      "video": {
+        "sha256": "1f082fca6edc6538724ea757c22a9776657298895a01f9315cf87f1b77055078",
+        "bytes": 5323270,
+        "frames_decord": 129,
+        "frames_opencv": 129,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "sample_pixel_std": 59.8165869332438
+      },
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b009/attempt01/T50/HYA_MOTION_10.mp4",
+      "hot_denoise_decode_seconds": 1788.2866982854903,
+      "video_wall_seconds": 2017.3725152015686,
+      "network_attempts": [],
+      "finished_unix": 1792389779.3408206,
+      "archive_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_10.mp4"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "endpoint": "https://hf-mirror.com",
+  "verify_only": false,
+  "inventory_only": false,
+  "manifest_version": 2,
+  "records": [
+    {
+      "id": "DINO ViT-B/16",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+      "status": "downloaded_verified",
+      "digest": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e"
+    },
+    {
+      "id": "MUSIQ SPAQ",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/pyiqa_model/musiq_spaq_ckpt-358bb6af.pth",
+      "status": "downloaded_verified",
+      "digest": "358bb6af275e28ea56821d44fb55c6cb83645db11f394d3ad65b2d149965ab50"
+    },
+    {
+      "id": "AMT-S",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/amt_model/amt-s.pth",
+      "status": "downloaded_verified",
+      "digest": "07e7e03405c213fe4405678db9b42d05671e48c56faf6a441b99bb0047d3cf77"
+    },
+    {
+      "id": "RAFT Things",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+      "status": "downloaded_verified",
+      "digest": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+    },
+    {
+      "id": "OpenAI CLIP ViT-L/14 (224px)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/clip_model/ViT-L-14.pt",
+      "status": "downloaded_verified",
+      "digest": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    },
+    {
+      "id": "LAION aesthetic predictor V1 linear head",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/aesthetic_model/emb_reader/sa_0_4_vit_l_14_linear.pth",
+      "status": "downloaded_verified",
+      "digest": "2cd4e60f4f24ae3bcd57b847b13c1f3ba27edc28cc1a7f9ce74ee9f421243cba"
+    },
+    {
+      "id": "ViCLIP InternVid-10M-FLT (VBench packaged checkpoint)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/ViClip-InternVid-10M-FLT.pth",
+      "status": "downloaded_verified",
+      "digest": "7a4d6ad6eac6632db3693f4b97f9f8f6445b65b1e139a6fc6686150522238c56"
+    },
+    {
+      "id": "OpenAI CLIP BPE vocabulary for ViCLIP and CLIP",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/bpe_simple_vocab_16e6.txt.gz",
+      "status": "downloaded_verified",
+      "digest": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a"
+    }
+  ],
+  "error": null,
+  "interrupted": false,
+  "active_asset": null
+}

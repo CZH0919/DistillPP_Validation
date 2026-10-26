@@ -1,0 +1,23 @@
+{
+  "pair_id": "M15_seed1234",
+  "prompt_id": "M15",
+  "stratum": "scene_motion",
+  "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+  "seed": 1234,
+  "worker_id": 2,
+  "global_sequence": 23,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+  "pid": 1393038,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "31edf6f7eda7b3e1c98f979af4fa8155da4ddbf5cc83b639ea42e98d6aa81ada",
+  "unix_start": 1792149264.2803264,
+  "gpu_count": 1,
+  "offload": false
+}

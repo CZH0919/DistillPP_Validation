@@ -1,0 +1,135 @@
+{
+  "status": "compute_complete",
+  "accepted_pairs": 96,
+  "completed_metrics": [
+    "aesthetic_quality",
+    "dynamic_degree",
+    "imaging_quality",
+    "motion_smoothness",
+    "overall_consistency",
+    "subject_consistency"
+  ],
+  "history": [
+    {
+      "job": "generation:1",
+      "pid": 1679464,
+      "gpu": 0,
+      "attempt": 1,
+      "unix_start": 1792218550.8067079,
+      "exit_code": 1,
+      "unix_end": 1792218657.3095345
+    },
+    {
+      "job": "generation:2",
+      "pid": 1679599,
+      "gpu": 1,
+      "attempt": 1,
+      "unix_start": 1792218555.8137183,
+      "exit_code": 1,
+      "unix_end": 1792218678.8120728
+    },
+    {
+      "job": "generation:1",
+      "pid": 1681314,
+      "gpu": 0,
+      "attempt": 2,
+      "unix_start": 1792218880.8209987,
+      "exit_code": 1,
+      "unix_end": 1792218987.865516
+    },
+    {
+      "job": "generation:2",
+      "pid": 1681503,
+      "gpu": 1,
+      "attempt": 2,
+      "unix_start": 1792218908.8106804,
+      "exit_code": 1,
+      "unix_end": 1792218987.8656049
+    },
+    {
+      "job": "generation:0",
+      "pid": 1673728,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792217429.4468515,
+      "adopted": true,
+      "start_ticks": 1578304142,
+      "exit_code": 0,
+      "unix_end": 1792235337.8112597
+    },
+    {
+      "job": "generation:1",
+      "pid": 1840773,
+      "gpu": 6,
+      "attempt": 3,
+      "unix_start": 1792235403.5809193,
+      "exit_code": 0,
+      "unix_end": 1792253272.5136366
+    },
+    {
+      "job": "generation:2",
+      "pid": 1936894,
+      "gpu": 6,
+      "attempt": 3,
+      "unix_start": 1792253339.8490858,
+      "exit_code": 0,
+      "unix_end": 1792271225.1960545
+    },
+    {
+      "job": "evaluation:imaging_quality",
+      "pid": 2070045,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792271291.449059,
+      "exit_code": 0,
+      "unix_end": 1792271498.1664386
+    },
+    {
+      "job": "evaluation:subject_consistency",
+      "pid": 2072147,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792271565.5969431,
+      "exit_code": 0,
+      "unix_end": 1792271749.0516007
+    },
+    {
+      "job": "evaluation:motion_smoothness",
+      "pid": 2073431,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792271815.4428732,
+      "exit_code": 0,
+      "unix_end": 1792272064.0663242
+    },
+    {
+      "job": "evaluation:dynamic_degree",
+      "pid": 2076248,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792272131.7692606,
+      "exit_code": 0,
+      "unix_end": 1792272554.0986814
+    },
+    {
+      "job": "evaluation:aesthetic_quality",
+      "pid": 2079104,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792272621.8586414,
+      "exit_code": 0,
+      "unix_end": 1792272764.6790924
+    },
+    {
+      "job": "evaluation:overall_consistency",
+      "pid": 2080479,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792272830.795079,
+      "exit_code": 0,
+      "unix_end": 1792272950.7190492
+    }
+  ],
+  "unix_time": 1792272950.7252765,
+  "s3_started": false
+}

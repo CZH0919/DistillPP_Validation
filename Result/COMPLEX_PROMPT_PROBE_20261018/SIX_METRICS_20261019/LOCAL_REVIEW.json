@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "score_count": 12,
+  "differences": 6,
+  "numeric_checks": 30,
+  "maximum_absolute_difference": 0.0,
+  "downloaded_files_sha256_verified": 21,
+  "tracked_pids_remaining": [],
+  "scope": "CPU data integrity and independent table arithmetic; GPU scoring was not rerun"
+}

@@ -1,0 +1,137 @@
+{
+  "scope": "User-authorized six-metric descriptive evaluation of the existing CP01 pair only",
+  "prompt_id": "CP01",
+  "seed": 2026101801,
+  "prompt_count": 1,
+  "seeds_per_prompt": 1,
+  "video_count": 2,
+  "metric_values": 12,
+  "metric_differences": [
+    {
+      "metric": "imaging_quality",
+      "T50": 0.7635068926399137,
+      "S4": 0.7736545374364029,
+      "T50_minus_S4": -0.010147644796489219,
+      "meaning": "quality_proxy"
+    },
+    {
+      "metric": "subject_consistency",
+      "T50": 0.9080983430147171,
+      "S4": 0.9461446851491928,
+      "T50_minus_S4": -0.038046342134475664,
+      "meaning": "quality_proxy"
+    },
+    {
+      "metric": "motion_smoothness",
+      "T50": 0.9888020785053472,
+      "S4": 0.9924233220865804,
+      "T50_minus_S4": -0.003621243581233169,
+      "meaning": "quality_proxy"
+    },
+    {
+      "metric": "dynamic_degree",
+      "T50": 1.0,
+      "S4": 0.0,
+      "T50_minus_S4": 1.0,
+      "meaning": "binary_motion_flag_not_quality"
+    },
+    {
+      "metric": "aesthetic_quality",
+      "T50": 0.570566713809967,
+      "S4": 0.565696120262146,
+      "T50_minus_S4": 0.004870593547821045,
+      "meaning": "quality_proxy"
+    },
+    {
+      "metric": "overall_consistency",
+      "T50": 0.11844082176685333,
+      "S4": 0.1646907478570938,
+      "T50_minus_S4": -0.04624992609024048,
+      "meaning": "native_truncated_prompt_similarity"
+    }
+  ],
+  "text_metadata": {
+    "original_text": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows.",
+    "tokens_with_special_before_truncation": 261,
+    "truncated": true,
+    "context_length": 32,
+    "effective_token_ids": [
+      49406,
+      320,
+      2688,
+      17033,
+      3127,
+      268,
+      2241,
+      267,
+      3272,
+      268,
+      2931,
+      3184,
+      2000,
+      2912,
+      320,
+      968,
+      4350,
+      18396,
+      3832,
+      269,
+      5840,
+      1237,
+      9391,
+      2087,
+      2403,
+      550,
+      7221,
+      2175,
+      281,
+      320,
+      786,
+      49407
+    ],
+    "effective_token_sha256": "b9e96a5c4d280dcf8d37ed69c687ed42458889afbc414139c403648047bc3a8f",
+    "policy": "Official native truncate=True; original task text preserved",
+    "effective_text_decoded": "a single continuous five - second , eye - level wide shot inside a sunlit pottery workshop . exactly two adults stand behind an oak table : a man "
+  },
+  "evaluation_timing": [
+    {
+      "metric": "imaging_quality",
+      "model_load_seconds": 5.086587116122246,
+      "scoring_seconds": 2.3059908244758844,
+      "peak_allocated_gib": 0.2142038345336914
+    },
+    {
+      "metric": "subject_consistency",
+      "model_load_seconds": 5.540227510035038,
+      "scoring_seconds": 2.137963956221938,
+      "peak_allocated_gib": 0.3684992790222168
+    },
+    {
+      "metric": "motion_smoothness",
+      "model_load_seconds": 5.227139588445425,
+      "scoring_seconds": 4.5293542835861444,
+      "peak_allocated_gib": 5.476468563079834
+    },
+    {
+      "metric": "dynamic_degree",
+      "model_load_seconds": 5.180219266563654,
+      "scoring_seconds": 7.727695701643825,
+      "peak_allocated_gib": 5.0924224853515625
+    },
+    {
+      "metric": "aesthetic_quality",
+      "model_load_seconds": 9.440272439271212,
+      "scoring_seconds": 1.3319496307522058,
+      "peak_allocated_gib": 1.1772809028625488
+    },
+    {
+      "metric": "overall_consistency",
+      "model_load_seconds": 9.1601892542094,
+      "scoring_seconds": 0.9009682834148407,
+      "peak_allocated_gib": 1.7660760879516602
+    }
+  ],
+  "confidence_intervals": null,
+  "qualification_conclusion": null,
+  "s3_started": false
+}

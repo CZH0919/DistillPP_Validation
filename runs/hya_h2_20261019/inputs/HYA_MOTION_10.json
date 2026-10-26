@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_10",
+  "prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "f02f80e1149e2bee20037c71f147acc8c5db931cacca75e8df711f587bddc6f9",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "374da23f8c0f89d1821c6dbee71dadaf245baf520f3c878c2542a10ded5ae5f2",
+    "pooled": "a292a88be184047a4dd25fede41d124eba10b571d0f7a8774f573ed290f2945e",
+    "clip_input_ids": "4fead4a5a7ccc3a2143d71f74db894fafc8f55e31ebb916cc9f37e6201089b0c",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 44.85698287189007,
+  "llama_encode_seconds": 0.27284909412264824,
+  "clip_encode_seconds": 0.2619931101799011,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_10.a8332e80c1604007ad784f0041568d3b.pt",
+  "file_sha256": "3ddbdafe66adee86594dc43c06e0a6632bd81234e39b07ce7092cb127aa31973"
+}

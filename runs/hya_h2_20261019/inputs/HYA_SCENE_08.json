@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_08",
+  "prompt": "A large body of ice with cracks and crevasses, slowly sliding down a mountain slope. Realistic, Natural lighting, Mysterious",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 123,
+    "clip_with_special": 27
+  },
+  "hashes": {
+    "context": "d71d27e49d06e43ba06bbf8a8ff3a2a52ad94d6e79572d2e63a1473f5aa73f63",
+    "mask": "c69f75627042de13d7b52518851e8006c6f17da713497b817dcaf7f7c9b5d703",
+    "llama_input_ids": "82b3a69b7b3b67d14d71d425877750e4099ef2f6cc17a1671af9d7988dbbb276",
+    "pooled": "522cfc7601d7d821dd63252ef50c35b82616eca8b70f5004f76ea28dcfb4fc68",
+    "clip_input_ids": "2890bc4a2bc33985e3ce9adf725f75b6d794d29b929e619183b87200432f557a",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.86769070290029,
+  "llama_encode_seconds": 0.04315581172704697,
+  "clip_encode_seconds": 0.003478752449154854,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_08.c061bdbad83f49dc940cc102324e575d.pt",
+  "file_sha256": "cf9ef06e1f22f4f809984d10de530935b8e61590152b0bc1c7bd151d48de01d3"
+}

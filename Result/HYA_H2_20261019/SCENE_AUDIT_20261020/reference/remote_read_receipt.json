@@ -1,0 +1,196 @@
+{
+  "checked_unix": 1792474718.2678835,
+  "files": [
+    {
+      "path": "src/VBench/vbench/scene.py",
+      "sha256": "f14c423710c812af2be953db619ed6e8b478acdc44f1df775815adfa30171965"
+    },
+    {
+      "path": "src/VBench/vbench/utils.py",
+      "sha256": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064"
+    },
+    {
+      "path": "src/VBench/vbench/VBench_full_info.json",
+      "sha256": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+    },
+    {
+      "path": "src/VBench/vbench/third_party/tag2Text/tag2text.py",
+      "sha256": "04c58678031a138ceadfcf7650d79fac8627a919335562c4638f2205febf16a2"
+    },
+    {
+      "path": "src/VBench/vbench/third_party/tag2Text/med.py",
+      "sha256": "2090e14ddc6809ff89b7f833b7b0023a39a67d75fba26b347f54a3c7737c17b7"
+    },
+    {
+      "path": "src/VBench/vbench/third_party/tag2Text/config_swinB_384.json",
+      "sha256": "fff8ddeb898145c9e78628b303eda35ac33e5b49bfbc3d5f07336617f7f0cf6f"
+    },
+    {
+      "path": "src/VBench/vbench/third_party/tag2Text/med_config.json",
+      "sha256": "d8b5029cc3c0124313d17009d043f0701bbe497f3721fa4ceb818720fe665326"
+    },
+    {
+      "path": "tools/hya_h2_evaluate.py",
+      "sha256": "931fbd683b74300a53a4cfee835302a8ad84edec7c9272858bdc2f53e1a38a76"
+    },
+    {
+      "path": "tools/hya_evaluate_smoke.py",
+      "sha256": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb"
+    },
+    {
+      "path": "tools/hya_h2_generate.py",
+      "sha256": "8f49d9cd33281c41c9f5562d0ca03dc68e78c9ee888d32246cf808d68326ce61"
+    },
+    {
+      "path": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_all_prompts.txt",
+      "sha256": "f9b50654f81ab732b9235d5bb91f0c3a4d152fac19249ce3a3a9185b2d80d8c3"
+    },
+    {
+      "path": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_hunyuan_prompts.txt",
+      "sha256": "bb1f6c7c27390eb268ef1e25faa196169ee7dc8a30741290bdd9c30c5970d9fe"
+    },
+    {
+      "path": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_fullinfo.json",
+      "sha256": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+    },
+    {
+      "path": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_prompts_readme.txt",
+      "sha256": "7f90b414d60e4075e5c21685aaa046686e7a11ca52f36872353744b919b1198a"
+    },
+    {
+      "path": "runs/hya_h2_20261019/protocol.json",
+      "sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b004_scene.json",
+      "sha256": "6709ae88d6c4456f28013709aeb41aaa08e38ad67cd6f9a2f69b88d69b643137"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b005_scene.json",
+      "sha256": "b9011723d84ef3fe367bd65ea72c9fb76006ceffcb2e231d95e59bd0263b8c0b"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b012_scene.json",
+      "sha256": "67ebc4a8440e5f5ed876d33b024327001092b6278d9b4f7b50d2b0a78cb02807"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b013_scene.json",
+      "sha256": "0804cb5b3cad1d08f6d789c47ad40205b8f841d28e382d4eb13fcd919906ea24"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b020_scene.json",
+      "sha256": "513bf2c1da4a173d352074be0b54b1a0163ddc960a9d3a38c5c42b1bd45edf88"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b021_scene.json",
+      "sha256": "33694a47f9b1fe265c3fa874a7a7aa67075499d23d366d5cd178ab88821a22fd"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b028_scene.json",
+      "sha256": "f1adeb1b6121eca6e021c092ead97250f98059ac454e4500e7ef8506bd2e5224"
+    },
+    {
+      "path": "runs/hya_h2_20261019/scores/b029_scene.json",
+      "sha256": "e72fd0a4c63a102a47e4654cbd6bdc6e2e92a3d6543115dba06879b52755a2e7"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_01.json",
+      "sha256": "3c34e7c6712c637ff5d98d863679cda921fd227ec22af2d88e4a11472194f239"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_02.json",
+      "sha256": "e7052f2bdba3aecbdb5c26f5e2c99ad271e1fe9871f0aec114769c812b2ec561"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_03.json",
+      "sha256": "2ee90119be6e9675206e76ddf828778a7a6facd86f9dd096bb9bf03b3e84d134"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_04.json",
+      "sha256": "6a003e4069a678341bda2395935f0ca03cf86fb4877eed05b8b13129f7b9aa24"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_05.json",
+      "sha256": "62d73f02d676cd554283fc020620627620dba697b2c3056e9c69353015ff5c20"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_06.json",
+      "sha256": "67490a1d9ae741154c90c22b870e31d2402f8cdf7c15fcace856ae3683e02fdf"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_07.json",
+      "sha256": "95feef55ad0edf7c63136eb33b42f4dda27290a0024d773ce7cec8f46e34920b"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_08.json",
+      "sha256": "b76b1c92c711d82d090ea025cead19a50da0e31710b0ed701e8348800d7d0ad4"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_09.json",
+      "sha256": "cfe2866a6a3ce4c33eb4e2e76cc7adf3c066cbb83cff9af0d0bccbb3e810d81f"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_10.json",
+      "sha256": "c62954b8627a90e4a0c6aa3e9e436ac2b5baa73ecdee34a1ef4493251cc172fb"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_11.json",
+      "sha256": "f96723f432db4568166e7fc251a64c71c7163ac440091b0c000f8d234859de9c"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_12.json",
+      "sha256": "9b9cdd0f7af85ecad4d84c2b57bc6df220640109c6d0237dfe1661e064e2205c"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_13.json",
+      "sha256": "c8972951e104a6beef7f1f8addcf5f979b746a8406a02bbfcf8c1eaab83c86a4"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_14.json",
+      "sha256": "6fb70e85ecc4a9f9f9ab81d7c44a34f2d7c157765c1f3084ecafc806e009cf3a"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_15.json",
+      "sha256": "998ec959c3ee9df6d56a4f4f09e6f0912d6ff941c8ddff4be71ec6f903d73a08"
+    },
+    {
+      "path": "runs/hya_h2_20261019/pairs/HYA_SCENE_16.json",
+      "sha256": "8de65fd888d04ab2f53b1562a03d89a56cf103c7174757563c80202d8bd6e620"
+    }
+  ],
+  "optional_missing": [
+    "src/AccVideo/README.md"
+  ],
+  "scene_assets_unchanged_since_full_hash": [
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth",
+      "bytes": 4478705095,
+      "mtime_ns": 1792375673910073899,
+      "sha256": "4ce96f0ce98f940a6680d567f66a38ccc9ca8c4e638e5f5c5c2e881a0e3502ac"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/model.safetensors",
+      "bytes": 440449768,
+      "mtime_ns": 1792375756208167330,
+      "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/config.json",
+      "bytes": 570,
+      "mtime_ns": 1792375757780130998,
+      "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/tokenizer_config.json",
+      "bytes": 48,
+      "mtime_ns": 1792375758443115676,
+      "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/vocab.txt",
+      "bytes": 231508,
+      "mtime_ns": 1792375759733085865,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  ]
+}

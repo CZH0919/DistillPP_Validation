@@ -1,0 +1,302 @@
+{
+  "arm": "student",
+  "attempt": 1,
+  "status": "failed",
+  "admission": {
+    "physical_index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1385252,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "settings": {
+    "protocol_id": "wan_lightx2v_qualification_v1",
+    "status": "PLANNED_NOT_RUNTIME_ACCEPTED",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "batch_size": 1,
+    "dit_precision": "Native mixed precision: Teacher FP32 parameters with BF16 autocast and native FP32 paths; Student BF16 parameters/forward",
+    "latent_state_precision": "float32 (native)",
+    "attention_backend": "flash_attn2",
+    "flash_attn_version": "2.8.3",
+    "prompt_enhancement": false,
+    "quantization": false,
+    "approximate_cache": false,
+    "torch_compile": false,
+    "negative_prompt": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+    "teacher": {
+      "steps": 50,
+      "sampler": "unipc",
+      "shift": 5,
+      "guidance_scale": 5,
+      "checkpoint_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer",
+      "checkpoint_format": "official Diffusers F32 safetensors; retain native FP32 parameter storage",
+      "repo_id": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+      "revision": "38ec498cb3208fb688890f8cc7e94ede2cbd7f68",
+      "loader_plan": "Map checkpoint keys in memory into native WanModel; retain native FP32 weights and explicit FP32 time/head paths; no converted on-disk copy",
+      "loader_runtime_accepted": false,
+      "parameter_storage_dtype": "float32",
+      "forward_autocast_dtype": "bfloat16"
+    },
+    "student": {
+      "steps": 4,
+      "distill_method": "dmd2",
+      "enable_cfg": false,
+      "sample_shift": 5,
+      "denoising_step_list": [
+        1000,
+        750,
+        500,
+        250
+      ],
+      "expected_sigmas": [
+        1,
+        0.9375,
+        0.8333333333333334,
+        0.625
+      ],
+      "terminal_sigma": 0,
+      "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+      "checkpoint_file": "distill_model.pt",
+      "repo_id": "lightx2v/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+      "revision": "b9baaa9a0c29226dea39043db647d1ced950bbea",
+      "loader_config_requirement": "omit dit_original_ckpt and transformer_model_path to select the supported original PT branch",
+      "loader_runtime_accepted": false
+    },
+    "export": {
+      "codec": "libx264",
+      "crf": 18,
+      "pixel_format": "yuv420p",
+      "frame_interpolation": false
+    },
+    "statistics": {
+      "cluster": "prompt",
+      "stratified": true,
+      "bootstrap_replicates": 10000,
+      "numpy_rng": "PCG64",
+      "seed": 20261016,
+      "quality_ci_level": 0.99,
+      "guard_ci_level": 0.95,
+      "target_priority": [
+        "imaging_quality",
+        "subject_consistency",
+        "overall_consistency",
+        "aesthetic_quality",
+        "motion_smoothness"
+      ]
+    },
+    "common_components": {
+      "native_config": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/config.json",
+      "t5": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/models_t5_umt5-xxl-enc-bf16.pth",
+      "vae": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/Wan2.1_VAE.pth",
+      "tokenizer": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl",
+      "policy": "read existing files directly; no shared directory modifications",
+      "vae_precision": "native FP32 parameters and decode; same implementation in both arms"
+    }
+  },
+  "s1_prompt": "A blue toy boat drifts across a garden pond, leaving gentle ripples in soft daylight. Static camera.",
+  "seed": 2026101601,
+  "torch": "2.8.0+cu128",
+  "device_name": "NVIDIA H200 NVL",
+  "scope": "S1_ONLY_NOT_QUALIFICATION",
+  "common_vae": "native WanVAE FP32 weights and decode for both arms",
+  "timing_kind": "S1 first full generation; diagnostics included; not a warmed benchmark",
+  "script_sha256": "4400d3c2e514b87a8f20e47683293fa9e76cbd0c6308ad5c1b0b0b4deec847e1",
+  "attention_backend": "flash_attn2",
+  "native_fa3_enabled": false,
+  "initial_latent_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+  "initial_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.0007973965839482844,
+    "std": 1.0008326768875122,
+    "min": -4.997402667999268,
+    "max": 4.913876056671143
+  },
+  "common_load_seconds": 7.847837168723345,
+  "text_seconds": 0.264198100194335,
+  "positive_context_sha256": "829f37ccad53b2e3f755622cef8f135727be7ff075231c69ff7f7b09d315dd82",
+  "positive_context": {
+    "shape": [
+      25,
+      4096
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": -1.5588188034598716e-05,
+    "std": 0.07311063259840012,
+    "min": -0.890625,
+    "max": 0.69140625
+  },
+  "common_components_resident": true,
+  "load_acceptance": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "resolved_student_config": {
+    "do_mm_calib": false,
+    "cpu_offload": false,
+    "shared_cpu_weights": false,
+    "shared_cpu_weight_scope": "auto",
+    "shared_cpu_weight_strict_numa": true,
+    "shared_cpu_weight_register_chunk_mb": 128,
+    "max_area": false,
+    "vae_stride": [
+      4,
+      8,
+      8
+    ],
+    "patch_size": [
+      1,
+      2,
+      2
+    ],
+    "feature_caching": "NoCaching",
+    "teacache_thresh": 0.26,
+    "use_ret_steps": false,
+    "use_bfloat16": true,
+    "lora_configs": null,
+    "lora_merge_force_fp32": false,
+    "parallel": false,
+    "seq_parallel": false,
+    "cfg_parallel": false,
+    "pipefusion_parallel": false,
+    "enable_cfg": false,
+    "warmup": false,
+    "use_image_encoder": true,
+    "_class_name": "WanModel",
+    "_diffusers_version": "0.30.0",
+    "dim": 5120,
+    "eps": 1e-06,
+    "ffn_dim": 13824,
+    "freq_dim": 256,
+    "in_dim": 16,
+    "model_type": "t2v",
+    "num_heads": 40,
+    "num_layers": 40,
+    "out_dim": 16,
+    "text_len": 512,
+    "task": "t2v",
+    "model_cls": "wan2.1",
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "infer_steps": 4,
+    "distill_method": "dmd2",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "self_attn_1_type": "flash_attn2",
+    "cross_attn_1_type": "flash_attn2",
+    "rms_norm_type": "torch",
+    "layer_norm_type": "torch",
+    "modulate_type": "torch",
+    "rope_type": "torch_complex_rope",
+    "double_precision_rope": true,
+    "dit_quantized": false,
+    "lazy_load": false
+  },
+  "dit_load_seconds": 18.182648887857795,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "resident_allocated_gib": 37.71607208251953,
+  "latent_at_entry_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s1_arm.py\", line 293, in main\n    run(args, output, admission, report)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s1_arm.py\", line 243, in run\n    assert latents.dtype == torch.float32\nAssertionError\n",
+  "network_attempts": []
+}

@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-10-20",
+  "current_qualification_rule": "researcher_confirmed_test_mean_comparison",
+  "original_COMPLETE_preserved": true,
+  "original_complete_sha256": "d941688f7f6434603b25a5bc31dd59b25b94de15c83faca685dd9718fe176564",
+  "sha256": {
+    "Result/HYA_H2_20261019/COMPLETE.json": "d941688f7f6434603b25a5bc31dd59b25b94de15c83faca685dd9718fe176564",
+    "Result/HYA_H2_20261019/INDEPENDENT_RECOMPUTATION.json": "84db95a7c05b587b7a2631b9c953d0712d7c35b1870b0c056015ebee810fbfa8",
+    "Result/HYA_H2_20261019/QUALIFICATION_DECISION.json": "3ee1b5e1501ac70768a161146e550f1ac0310801231d7693fc6ed9a1b7eec867",
+    "Result/HYA_H2_20261019/REMOTE_REVIEW_VALIDATION.json": "531d3bed1235a29483b71784260ca0a373facf9de59bdc8284850ce7aca4f194",
+    "Result/HYA_H2_20261019/REPORT.md": "376d8b37a911830e7a56281f925d4f87f9a167bf2927ef94c2d93e6f022925dd",
+    "Result/HYA_H2_20261019/REVIEW_AND_INTERPRETATION.md": "9fbc727d947f15a7bffee34199090a0b2cffcfbef2d6eaf7b98f55567fad7dd3",
+    "Result/HYA_H2_20261019/paired_scores.csv": "40c9e02fc4be80db0bf9f305f50f8a0e7901897032e509b65218208295d69660",
+    "Result/HYA_H2_20261019/raw_scores.csv": "79c219fd7cd340638e9773969c845ecb2b55e771137411ab71edbcf9577a7312",
+    "Result/HYA_H2_20261019/statistics.json": "04c962c5ede9d43c94c174c245b96144a2e3567aac44a08bdec4ead1c8c0b680",
+    "Result/HYA_H2_20261019/timing_per_video.csv": "959af63993207d15625fe8cd081bbfa39cdd609f65899bcedb1a967812379348",
+    "Result/HYA_H2_20261019/video_archive_sha256.json": "a3821036c6d49552f05170a508ae807870f6b52e7d99475075b6ef3f7c25e299",
+    "tools/hya_h2_review_remote_20261020.py": "d2945ee66477085e33b88b401b0059c43394fa6bba7080bf7189460a29608275",
+    "tools/hya_h2_review_local_20261020.py": "02f47948b818d5e3dd7517496535a68f4f12a5d3909ed33a07082b434b8085fa",
+    "Project_Plan/EXPERIMENT_PLAN.md": "e29bb26572b4dd7e1e3dabe568dffc17c62bcdfac95214658d5b3e3633b164c1",
+    "Project_Progress/Total_Progress.md": "93dd3ffe83d778882c2cb4015bf7c353daad569f62e5aca9ba1c59f4b53aaa2c",
+    "Project_Progress/Stage_Progress/HYA_H2_QUALIFICATION.md": "b50a8ae492de124a9179d79786408ce37175f32342ffbbb593489930dbd7e592",
+    "Project_Progress/HYA_H2_RUN_GUIDE.md": "9814bc5a19884b8157415bbffedab04aac23ac7472abe6a60fb8a065744aee1a"
+  },
+  "S3_started": false
+}

@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M16_seed42",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed42/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 77.64996780583888,
+      "normalized_score": 0.7764996780583888,
+      "source_returned_score": 77.64996780583888,
+      "video_sha256": "e428999e08ea12f1f509728b07bf6738e8c761cd464ff58e858cc6a6bb881b79"
+    },
+    {
+      "pair_id": "M16_seed42",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed42/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 76.9055532761562,
+      "normalized_score": 0.769055532761562,
+      "source_returned_score": 76.9055532761562,
+      "video_sha256": "3856d6d1f9ad9e619ff1ef92c534da6cea4c144df735866c0d71913f9e1d91fd"
+    },
+    {
+      "pair_id": "M16_seed1234",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed1234/attempt02/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 78.44900823522497,
+      "normalized_score": 0.7844900823522497,
+      "source_returned_score": 78.44900823522497,
+      "video_sha256": "0c9f68b0e9f7277c937bc4d74731e43ddcdaf8f116be572aa55fcefddb1223be"
+    },
+    {
+      "pair_id": "M16_seed1234",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed1234/attempt02/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 75.46885059497974,
+      "normalized_score": 0.7546885059497974,
+      "source_returned_score": 75.46885059497974,
+      "video_sha256": "fbf02102f1bb973dcc2a09d7f62f124acc7603a233d866c21fd5e0495f75c9ca"
+    },
+    {
+      "pair_id": "M16_seed2026",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed2026/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 77.37951255139009,
+      "normalized_score": 0.773795125513901,
+      "source_returned_score": 77.37951255139009,
+      "video_sha256": "2ee6e80683b31a3f7849bb74cd573b89a003afcc3b4082cd90f6e1277fa7edf5"
+    },
+    {
+      "pair_id": "M16_seed2026",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M16_seed2026/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 76.80428455494068,
+      "normalized_score": 0.7680428455494068,
+      "source_returned_score": 76.80428455494068,
+      "video_sha256": "97071fcada9ef2715dbeaa008e231925cdc6db7bcbc6ffde2e7a7216ffef5e9e"
+    }
+  ],
+  "aggregate": 0.7710952950308844,
+  "scoring_seconds": 7.2944560796022415
+}

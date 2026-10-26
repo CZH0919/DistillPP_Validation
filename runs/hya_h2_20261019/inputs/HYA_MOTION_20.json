@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_20",
+  "prompt": "A dog drinking water. Realistic, Natural indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "3162a0232797074ac997dbe2058e9a41336f19e8a1fffc40f98250d2d59ed043",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "ac02e372fca7d97c6a3de60264fbf326c36488601220e84bbde42b30c8901ec5",
+    "pooled": "c6e0cf3942721ae201d8fe7ac6e50f5464beca2644769739b803e940c2a7e3d1",
+    "clip_input_ids": "ad464ff43166929ce9b96b1536e906d86b30e39c3ab589759993c7ad90e7c76a",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.878734413534403,
+  "llama_encode_seconds": 0.21183300390839577,
+  "clip_encode_seconds": 0.026031924411654472,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_20.5d6c1905b10947eabb9c79e358eace80.pt",
+  "file_sha256": "e2ef65308171b393ff2f3073a09b2ebc8b93df0becc684579119451c058d48c2"
+}

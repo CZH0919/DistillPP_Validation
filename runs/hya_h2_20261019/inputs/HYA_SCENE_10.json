@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_10",
+  "prompt": "An indoor library with shelves of books. Realistic, Indoor lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 112,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "f4cf814c9e2ece6a39c9c8de92422c8d0a13c117c637e7f3a71e34dfb73cc1b5",
+    "mask": "708d1c5f407dab241eb51e21f0d9bb7303fff2b149cd809d834e566b6dda7eac",
+    "llama_input_ids": "15bc3b49b7b2e9195b7db94e7b6f2f94bf5c08e8050cd9e7a330974fe037ad47",
+    "pooled": "aea48b7ba407d975a9f694e93b47672d8e96de8c083aed2b119345f1af5c918a",
+    "clip_input_ids": "6520362f43eb8c0c24454b6452c675b3a6257b95f11c5df67b1633a80d47dca0",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 62.478623028844595,
+  "llama_encode_seconds": 2.3431570529937744,
+  "clip_encode_seconds": 0.02888394333422184,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_10.c2b514ed450f4cc6b56ec2e00daacfd9.pt",
+  "file_sha256": "3036851ff124cdb8932fdc42d4b180654b594391c3269c6ac21813cc1f833af8"
+}

@@ -1,0 +1,453 @@
+{
+  "status": "passed",
+  "worker_id": 0,
+  "attempt": 3,
+  "admission": {
+    "physical_index": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "103559",
+          "143771",
+          "100"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "103479",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "103559",
+          "143771",
+          "100"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "103559",
+          "143771",
+          "100"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "103559",
+          "143771",
+          "100"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "126492",
+          "143771",
+          "5"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "1392723",
+          "103546"
+        ],
+        [
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "1393038",
+          "103466"
+        ],
+        [
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "1393944",
+          "103546"
+        ],
+        [
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "1394260",
+          "103546"
+        ],
+        [
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "1394294",
+          "103546"
+        ],
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ],
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1416166",
+          "56192"
+        ]
+      ]
+    },
+    "pid": 1420852,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "assigned": [
+    {
+      "pair_id": "M09_seed42",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 42,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    }
+  ],
+  "torch": "2.8.0+cu128",
+  "gpu_name": "NVIDIA H200 NVL",
+  "timing": "CUDA synchronized wall time; denoise + VAE; no per-step tensor diagnostics or I/O",
+  "memory_scope": "Both DiTs, T5 and VAE resident on the same single GPU; no offload",
+  "diagnostics": "10-second CPU occupancy/progress thread; small overhead is included, not subtracted",
+  "common_load_seconds": 11.431740138679743,
+  "teacher_load_audit": {
+    "keys": 1095,
+    "missing": 0,
+    "unexpected": 0,
+    "parameter_storage": "float32 native",
+    "forward_autocast": "bfloat16 native",
+    "fp32_operations": "native time embeddings, norm/modulation and output head",
+    "on_disk_conversion": false
+  },
+  "teacher_load_seconds": 23.954619083553553,
+  "student_load_seconds": 23.212358500808477,
+  "student_load_audit": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "student_config": {
+    "do_mm_calib": false,
+    "cpu_offload": false,
+    "shared_cpu_weights": false,
+    "shared_cpu_weight_scope": "auto",
+    "shared_cpu_weight_strict_numa": true,
+    "shared_cpu_weight_register_chunk_mb": 128,
+    "max_area": false,
+    "vae_stride": [
+      4,
+      8,
+      8
+    ],
+    "patch_size": [
+      1,
+      2,
+      2
+    ],
+    "feature_caching": "NoCaching",
+    "teacache_thresh": 0.26,
+    "use_ret_steps": false,
+    "use_bfloat16": true,
+    "lora_configs": null,
+    "lora_merge_force_fp32": false,
+    "parallel": false,
+    "seq_parallel": false,
+    "cfg_parallel": false,
+    "pipefusion_parallel": false,
+    "enable_cfg": false,
+    "warmup": false,
+    "use_image_encoder": true,
+    "_class_name": "WanModel",
+    "_diffusers_version": "0.30.0",
+    "dim": 5120,
+    "eps": 1e-06,
+    "ffn_dim": 13824,
+    "freq_dim": 256,
+    "in_dim": 16,
+    "model_type": "t2v",
+    "num_heads": 40,
+    "num_layers": 40,
+    "out_dim": 16,
+    "text_len": 512,
+    "task": "t2v",
+    "model_cls": "wan2.1",
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "infer_steps": 4,
+    "distill_method": "dmd2",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "self_attn_1_type": "flash_attn2",
+    "cross_attn_1_type": "flash_attn2",
+    "rms_norm_type": "torch",
+    "layer_norm_type": "torch",
+    "modulate_type": "torch",
+    "rope_type": "torch_complex_rope",
+    "double_precision_rope": true,
+    "dit_quantized": false,
+    "lazy_load": false
+  },
+  "resident_allocated_gib": 90.89797782897949,
+  "warmup": {
+    "T50": {
+      "pair_id": "warmup",
+      "prompt_id": "warmup",
+      "stratum": "nonformal",
+      "prompt": "A blue toy boat drifts across a garden pond, leaving gentle ripples in soft daylight. Static camera.",
+      "seed": 2026101601,
+      "arm": "T50",
+      "warmup": true,
+      "status": "passed",
+      "worker_id": 0,
+      "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+      "pid": 1420852,
+      "initial_latent_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+      "positive_context_sha256": "829f37ccad53b2e3f755622cef8f135727be7ff075231c69ff7f7b09d315dd82",
+      "unix_start": 1792151483.169489,
+      "gpu_count": 1,
+      "offload": false,
+      "scheduler_setup_and_initial_transfer_seconds": 0.0031417515128850937,
+      "timesteps": [
+        999,
+        995,
+        991,
+        987,
+        982,
+        978,
+        973,
+        968,
+        963,
+        957,
+        952,
+        946,
+        940,
+        934,
+        927,
+        920,
+        913,
+        906,
+        898,
+        890,
+        882,
+        873,
+        863,
+        854,
+        843,
+        833,
+        821,
+        809,
+        796,
+        783,
+        768,
+        753,
+        737,
+        720,
+        701,
+        681,
+        660,
+        636,
+        611,
+        584,
+        555,
+        522,
+        487,
+        448,
+        405,
+        356,
+        302,
+        241,
+        172,
+        92
+      ],
+      "sigmas": [
+        0.9997998476028442,
+        0.9957323670387268,
+        0.9915304780006409,
+        0.987187385559082,
+        0.9826958179473877,
+        0.9780480265617371,
+        0.9732357859611511,
+        0.9682501554489136,
+        0.9630816578865051,
+        0.9577199220657349,
+        0.9521540403366089,
+        0.9463720321655273,
+        0.9403610825538635,
+        0.9341073036193848,
+        0.9275957345962524,
+        0.9208101034164429,
+        0.913732647895813,
+        0.9063441753387451,
+        0.8986237049102783,
+        0.8905484676361084,
+        0.8820932507514954,
+        0.8732306957244873,
+        0.8639306426048279,
+        0.8541598320007324,
+        0.8438816070556641,
+        0.8330553770065308,
+        0.8216361403465271,
+        0.8095738291740417,
+        0.7968124747276306,
+        0.7832895517349243,
+        0.7689347267150879,
+        0.7536689043045044,
+        0.7374023795127869,
+        0.720033586025238,
+        0.7014464139938354,
+        0.6815081238746643,
+        0.6600657105445862,
+        0.6369423866271973,
+        0.6119323968887329,
+        0.5847949981689453,
+        0.5552467703819275,
+        0.5229514837265015,
+        0.48750731348991394,
+        0.44843021035194397,
+        0.40513139963150024,
+        0.35688769817352295,
+        0.3028006851673126,
+        0.24174034595489502,
+        0.17226514220237732,
+        0.09250685572624207,
+        0.0
+      ],
+      "denoise_seconds": 482.8391719162464,
+      "forward_count": 100,
+      "vae_seconds": 11.118882728740573,
+      "denoise_plus_vae_seconds": 493.958054644987,
+      "peak_allocated_gib": 98.03530311584473,
+      "peak_reserved_gib": 99.67578125,
+      "final_latent": {
+        "shape": [
+          16,
+          21,
+          60,
+          104
+        ],
+        "dtype": "torch.float32",
+        "mean": 0.05101555213332176,
+        "std": 0.978367805480957,
+        "min": -3.518205404281616,
+        "max": 4.186351776123047
+      },
+      "final_latent_sha256": "14a0278cb0523a82acc809c8465fd1fe7a72ce534114b8c911e5638e62f2de8e",
+      "output_tensor": {
+        "shape": [
+          3,
+          81,
+          480,
+          832
+        ],
+        "dtype": "torch.float32",
+        "mean": -0.1995406597852707,
+        "std": 0.6575490236282349,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "unix_end": 1792151977.1952288,
+      "network_attempts": []
+    },
+    "S4": {
+      "pair_id": "warmup",
+      "prompt_id": "warmup",
+      "stratum": "nonformal",
+      "prompt": "A blue toy boat drifts across a garden pond, leaving gentle ripples in soft daylight. Static camera.",
+      "seed": 2026101601,
+      "arm": "S4",
+      "warmup": true,
+      "status": "passed",
+      "worker_id": 0,
+      "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+      "pid": 1420852,
+      "initial_latent_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+      "positive_context_sha256": "829f37ccad53b2e3f755622cef8f135727be7ff075231c69ff7f7b09d315dd82",
+      "unix_start": 1792151982.1274564,
+      "gpu_count": 1,
+      "offload": false,
+      "scheduler_setup_and_initial_transfer_seconds": 0.003654155880212784,
+      "timesteps": [
+        1000.0,
+        937.5,
+        833.3333129882812,
+        625.0
+      ],
+      "sigmas": [
+        1.0,
+        0.9375,
+        0.8333333134651184,
+        0.625
+      ],
+      "student_initial_cast_sha256": "462a9a1d87eb3a2e67a991941b5adb033f0819258d614c8d7439610ea2010b3c",
+      "student_initial_cast_max_abs_error": 0.015556812286376953,
+      "denoise_seconds": 17.565728003159165,
+      "forward_count": 4,
+      "vae_seconds": 11.088560815900564,
+      "denoise_plus_vae_seconds": 28.65428881905973,
+      "peak_allocated_gib": 98.01968288421631,
+      "peak_reserved_gib": 100.046875,
+      "final_latent": {
+        "shape": [
+          16,
+          21,
+          60,
+          104
+        ],
+        "dtype": "torch.bfloat16",
+        "mean": 0.04162042587995529,
+        "std": 1.0146480798721313,
+        "min": -4.03125,
+        "max": 4.375
+      },
+      "final_latent_sha256": "d4b39d29c340ad800cb359ed8c3e2b0cc504e27e4f1e76718a2e23dd0018f22f",
+      "output_tensor": {
+        "shape": [
+          3,
+          81,
+          480,
+          832
+        ],
+        "dtype": "torch.float32",
+        "mean": -0.2506027817726135,
+        "std": 0.6710134744644165,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "unix_end": 1792152010.8254874,
+      "network_attempts": []
+    }
+  },
+  "completed_pairs": [
+    "M09_seed42"
+  ],
+  "network_attempts": []
+}

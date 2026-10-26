@@ -1,0 +1,40 @@
+{
+  "controller_pid": 3144075,
+  "start_ticks": "1599076677",
+  "session_id": 3144075,
+  "new_dispatch_gpu_indices": [
+    3,
+    6
+  ],
+  "preserved_worker_identities": [
+    {
+      "task": "gen_r_b014_0",
+      "pid": 3133919,
+      "start_ticks": "1598995861",
+      "gpu": 3,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b014_1",
+      "pid": 3139506,
+      "start_ticks": "1599037841",
+      "gpu": 5,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b028_1",
+      "pid": 3133912,
+      "start_ticks": "1598995853",
+      "gpu": 6,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b030_0",
+      "pid": 3142083,
+      "start_ticks": "1599056385",
+      "gpu": 4,
+      "alive_at_handoff": true
+    }
+  ],
+  "launched_unix": 1792425158.793803
+}

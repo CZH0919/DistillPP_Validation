@@ -1,0 +1,44 @@
+{
+  "status": "stopped_by_user",
+  "stopped_unix": 1792478535.3392649,
+  "reason": "User requests immediate stop and agreement on plan before further computation",
+  "processes": [
+    {
+      "label": "H3 controller",
+      "pid": 3356621,
+      "birth": "1604260393",
+      "alive_before": true,
+      "signal": "SIGTERM",
+      "alive_after": false
+    },
+    {
+      "label": "gen_HYA_MOTION_01",
+      "pid": 3356626,
+      "birth": "1604260546",
+      "alive_before": true,
+      "signal": "SIGTERM",
+      "alive_after": false
+    }
+  ],
+  "committed_videos": [
+    {
+      "variant": "B_S5",
+      "prompt_id": "HYA_MOTION_01"
+    },
+    {
+      "variant": "C_K1_L010",
+      "prompt_id": "HYA_MOTION_01"
+    },
+    {
+      "variant": "DISCARD_T1",
+      "prompt_id": "HYA_MOTION_01"
+    },
+    {
+      "variant": "ZERO_L0",
+      "prompt_id": "HYA_MOTION_01"
+    }
+  ],
+  "score_values": 0,
+  "controls_passed": true,
+  "full_panel_started": false
+}

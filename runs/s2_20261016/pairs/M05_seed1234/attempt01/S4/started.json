@@ -1,0 +1,23 @@
+{
+  "pair_id": "M05_seed1234",
+  "prompt_id": "M05",
+  "stratum": "human_motion",
+  "prompt": "A person is clapping",
+  "seed": 1234,
+  "worker_id": 1,
+  "global_sequence": 1,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+  "pid": 1392723,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "df82a08c24b344eb4a98d748386cc7103c5af2b9b040543a59158fffa895d99e",
+  "unix_start": 1792148133.3868241,
+  "gpu_count": 1,
+  "offload": false
+}

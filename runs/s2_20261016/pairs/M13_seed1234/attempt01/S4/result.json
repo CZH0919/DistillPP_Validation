@@ -1,0 +1,88 @@
+{
+  "pair_id": "M13_seed1234",
+  "prompt_id": "M13",
+  "stratum": "scene_motion",
+  "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+  "seed": 1234,
+  "worker_id": 3,
+  "global_sequence": 31,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "0ad091e0a22cbc9bbadc18e79c59d756bcf2e6f1b0380dbe0aa63924fe6aebd9",
+  "unix_start": 1792150557.9029667,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.003940703347325325,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "8a5e04624fee5a3e35829b64582120b6cef4594fc756455da156795ec65e3355",
+  "student_initial_cast_max_abs_error": 0.015624046325683594,
+  "denoise_seconds": 17.580164348706603,
+  "forward_count": 4,
+  "vae_seconds": 11.083273539319634,
+  "denoise_plus_vae_seconds": 28.663437888026237,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.1640625,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.07214588671922684,
+    "std": 1.0677114725112915,
+    "min": -4.9375,
+    "max": 6.1875
+  },
+  "final_latent_sha256": "1555bfeb4ddff3c78e8ce9a53aee025bc43a7c405e77b544bb832e2afcc39875",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.5269536375999451,
+    "std": 0.5693114399909973,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "4b10754d51117f2fa035d354e2eadf212c1260c796a9fcb4eaeb5807b6706675",
+    "bytes": 1444133,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 72.019683246014,
+    "decoded_first_frame_sha256": "ff97f68ef57a519e6396fb2da8ee4005e07e4411f3cd3e228e9ad4e6d6953a51"
+  },
+  "export_and_decode_check_seconds": 2.5099666975438595,
+  "unix_end": 1792150589.1228077,
+  "network_attempts": []
+}

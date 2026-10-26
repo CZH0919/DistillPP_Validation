@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M08_seed42",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed42/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 3.9995771646499634,
+      "normalized_score": 0.39995771646499634,
+      "source_returned_score": 0.39995771646499634,
+      "video_sha256": "cae7e2ea870a195d6960b029629b3eec49fa405e18333542f30f265b3879878d"
+    },
+    {
+      "pair_id": "M08_seed42",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed42/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.339259505271912,
+      "normalized_score": 0.5339259505271912,
+      "source_returned_score": 0.5339259505271912,
+      "video_sha256": "2facd4dc49ec9ee60fb6fb9cde9a9b72fed97add7aa54014cd9040d0cd27d6bf"
+    },
+    {
+      "pair_id": "M08_seed1234",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed1234/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 3.9486700296401978,
+      "normalized_score": 0.3948670029640198,
+      "source_returned_score": 0.3948670029640198,
+      "video_sha256": "f7aeccb5372770f91ec0493e5bd17b165ebf823a1ba2940876e01634ed9dd645"
+    },
+    {
+      "pair_id": "M08_seed1234",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed1234/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.196247696876526,
+      "normalized_score": 0.5196247696876526,
+      "source_returned_score": 0.5196247696876526,
+      "video_sha256": "0ccff6989840708a85f70391958c46d2f2c700cd0acc3bea6e8ab0827becdb39"
+    },
+    {
+      "pair_id": "M08_seed2026",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed2026/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 3.8276758790016174,
+      "normalized_score": 0.38276758790016174,
+      "source_returned_score": 0.38276758790016174,
+      "video_sha256": "9c0838ea22ca22ce5f032cc58ae8fdd11e3129464909f75611abdc4fbb8f784f"
+    },
+    {
+      "pair_id": "M08_seed2026",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed2026/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.0015318393707275,
+      "normalized_score": 0.5001531839370728,
+      "source_returned_score": 0.5001531839370728,
+      "video_sha256": "bb347427080ce5ccd2b712d34dce7d7b834d27fd37ace4a29d25cb5cdc94c4bb"
+    }
+  ],
+  "aggregate": 0.45521603524684906,
+  "scoring_seconds": 2.67128112539649
+}

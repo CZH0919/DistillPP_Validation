@@ -1,0 +1,9 @@
+{
+  "pid": 1684627,
+  "unix_start": 1792219489.8022163,
+  "cwd": "/data/chenjiayu/changzihe/DistillPP_Validation",
+  "version": "v2_runtime_policy",
+  "adopted_worker_pids": [
+    1673728
+  ]
+}

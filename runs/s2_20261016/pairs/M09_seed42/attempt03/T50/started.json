@@ -1,0 +1,23 @@
+{
+  "pair_id": "M09_seed42",
+  "prompt_id": "M09",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is drawing",
+  "seed": 42,
+  "worker_id": 0,
+  "global_sequence": 42,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1420852,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "e71a7144e72d02a92a9edf9f3254dddada40f5bf67630abd57436aed60100aad",
+  "unix_start": 1792152015.0040941,
+  "gpu_count": 1,
+  "offload": false
+}

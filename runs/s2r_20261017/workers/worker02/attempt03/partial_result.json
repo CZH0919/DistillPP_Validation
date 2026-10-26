@@ -1,0 +1,1406 @@
+{
+  "status": "starting",
+  "worker_id": 2,
+  "attempt": 3,
+  "admission": {
+    "physical_index": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "130701",
+          "143771",
+          "100"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "125443",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "64801",
+          "143771",
+          "100"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "45799",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "47149",
+          "143771",
+          "1"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "25595",
+          "143771",
+          "99"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "19239",
+          "143771",
+          "51"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "1881994",
+          "130688"
+        ],
+        [
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "1881994",
+          "125430"
+        ],
+        [
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "1881995",
+          "64788"
+        ],
+        [
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "1881995",
+          "45788"
+        ],
+        [
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "1889047",
+          "47138"
+        ],
+        [
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "1889047",
+          "25584"
+        ],
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1934793",
+          "19228"
+        ]
+      ]
+    },
+    "pid": 1936894,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "assigned": [
+    {
+      "pair_id": "VB0312_seed1454077509",
+      "prompt_id": "VB0312",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "37630356b0e6b4c0",
+      "prompt": "CG animation concept art, a fluffy white sheep with a gentle expression, running swiftly towards a group of similarly colored sheep. The flock is peacefully grazing in a lush green meadow with tall grass and scattered wildflowers. The sheep in question is bounding along, its tail held high and ears swaying with each step. The meadow stretches out behind them, dotted with small trees and a babbling brook in the distance. The overall scene is serene and tranquil. Low-angle view, medium shot focusing on the individual sheep as it runs towards the herd.",
+      "eval_prompt": "a sheep running to join a herd of its kind",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0312",
+        "domain": "motion",
+        "t5_generation_tokens": 135,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 0
+    },
+    {
+      "pair_id": "VB0774_seed1529987743",
+      "prompt_id": "VB0774",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "88c6c12471ac34e4",
+      "prompt": "Vincent van Gogh is painting an oil canvas on a wooden easel in the center of the room. The room is dimly lit with soft candlelight casting warm shadows on the walls. Vincent stands with one leg slightly forward, his posture tense as he focuses intently on his artwork. His canvas is a vibrant swirling landscape of yellows, blues, and greens, reminiscent of his famous \"Starry Night.\" Vincent's hands are busy blending colors on the palette laid out before him. He wears a worn painter's smock, stained with paint, and his long, disheveled hair frames his face. A small window at the far end of the room allows a sliver of moonlight to filter in, creating a mystical ambiance. The walls are adorned with old family portraits and scattered with books and papers. The room's corners are filled with various painting supplies and brushes. The air is thick with the scent of turpentine and canvas. Van Gogh holds a paintbrush in his right hand, his gaze fixed on the canvas, his expression one of deep concentration and passion. Soft creaking sounds can be heard from the wooden floorboards as Vincent works. The painting reflects his intense emotions and inner turmoil.",
+      "eval_prompt": "Vincent van Gogh is painting in the room",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0774",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 273,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 1
+    },
+    {
+      "pair_id": "VB0296_seed1454077509",
+      "prompt_id": "VB0296",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "dbc8871c655c2114",
+      "prompt": "CG animation digital art, a majestic bird perched on a branch, diligently building a nest using twigs and leaves. The bird has vibrant plumage with iridescent feathers and piercing yellow eyes. It is carefully selecting each twig and leaf, placing them precisely to create a sturdy foundation. The background is a lush green forest with tall trees swaying gently in the breeze. Soft lighting highlights the intricate details of the bird's work. Low-angle view, medium shot focusing on the bird's focused expression and the progress of the nest-building.",
+      "eval_prompt": "a bird building a nest from twigs and leaves",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0296",
+        "domain": "motion",
+        "t5_generation_tokens": 130,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 2
+    },
+    {
+      "pair_id": "VB0744_seed1993624635",
+      "prompt_id": "VB0744",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "00795700baffb039",
+      "prompt": "CG game concept digital art, Gwen Stacy, a teenage girl with shoulder-length brown hair tied up in a ponytail, reading a thick novel under a streetlight. She wears a simple white blouse and a pair of dark denim jeans, with her feet bare. The book she is reading is a classic mystery novel. The background is a busy city street at night, with flickering streetlights casting shadows and neon signs lighting up the buildings. Gwen is sitting on a small bench, her posture relaxed as she focuses intently on her book. The city skyline is visible in the distance, with tall skyscrapers and twinkling lights. Soft, ambient city noises can be heard in the background. Darker tones with a gritty feel. Low-angle, medium shot, Gwen Stacy reading a book.",
+      "eval_prompt": "Gwen Stacy reading a book",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0744",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 176,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 3
+    },
+    {
+      "pair_id": "VB0278_seed1529987743",
+      "prompt_id": "VB0278",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "2ce14380cdaa4e4b",
+      "prompt": "An aircraft in mid-flight, a large commercial jetliner taking off from an airport runway at dawn. The sky is painted with soft pastel hues, transitioning from a deep navy to a pale lavender. The plane is sleek and modern, with its wingspan stretching across the frame. Its engines roar as they lift off, creating a powerful yet serene atmosphere. The sun peeks over the horizon, casting a golden glow on the landscape below. Passengers inside are dressed in business attire, their faces illuminated by the bright interior lights. The plane ascends steadily, leaving a trail of condensed water vapor in its wake. The ground crew watches with pride and anticipation, waving goodbye. The background is a bustling airport terminal, with travelers rushing to catch their flights and security checkpoints. The scene captures the essence of a momentous departure, filled with excitement and anticipation. Wide shot of the aircraft in flight, medium shot of passengers boarding, close-up of the engine's exhaust, and a panoramic view of the airport.",
+      "eval_prompt": "an airplane taking off",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0278",
+        "domain": "motion",
+        "t5_generation_tokens": 226,
+        "viclip_eval_tokens_with_special": 6,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 4
+    },
+    {
+      "pair_id": "VB0692_seed1993624635",
+      "prompt_id": "VB0692",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "59bd559f6ad8d208",
+      "prompt": "CG game concept digital art, an astronaut in a sleek, silver spacesuit floating weightlessly in the vast expanse of space. The astronaut has a calm, focused expression with their helmet tilted slightly. They are wearing a full-face visor with a clear, unobstructed view. The background is a deep, vivid black void with tiny stars scattered throughout. The astronaut's arm is outstretched, holding a small, glowing spacecraft model. The hand is gently resting on the surface of the model, fingers slightly curved as if ready to grab it. The spaceship model is illuminated by a soft, warm light that contrasts beautifully with the dark space behind it. The astronaut's other hand is holding a small, metallic tool, almost as if they are about to make a crucial repair. The scene captures the serene yet intense atmosphere of space exploration. Low-angle, close-up shot focusing on the astronaut's face and the spacecraft model.",
+      "eval_prompt": "An astronaut flying in space.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0692",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 210,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 5
+    },
+    {
+      "pair_id": "VB0296_seed1529987743",
+      "prompt_id": "VB0296",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "dbc8871c655c2114",
+      "prompt": "CG animation digital art, a majestic bird perched on a branch, diligently building a nest using twigs and leaves. The bird has vibrant plumage with iridescent feathers and piercing yellow eyes. It is carefully selecting each twig and leaf, placing them precisely to create a sturdy foundation. The background is a lush green forest with tall trees swaying gently in the breeze. Soft lighting highlights the intricate details of the bird's work. Low-angle view, medium shot focusing on the bird's focused expression and the progress of the nest-building.",
+      "eval_prompt": "a bird building a nest from twigs and leaves",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0296",
+        "domain": "motion",
+        "t5_generation_tokens": 130,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 6
+    },
+    {
+      "pair_id": "VB0692_seed1529987743",
+      "prompt_id": "VB0692",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "59bd559f6ad8d208",
+      "prompt": "CG game concept digital art, an astronaut in a sleek, silver spacesuit floating weightlessly in the vast expanse of space. The astronaut has a calm, focused expression with their helmet tilted slightly. They are wearing a full-face visor with a clear, unobstructed view. The background is a deep, vivid black void with tiny stars scattered throughout. The astronaut's arm is outstretched, holding a small, glowing spacecraft model. The hand is gently resting on the surface of the model, fingers slightly curved as if ready to grab it. The spaceship model is illuminated by a soft, warm light that contrasts beautifully with the dark space behind it. The astronaut's other hand is holding a small, metallic tool, almost as if they are about to make a crucial repair. The scene captures the serene yet intense atmosphere of space exploration. Low-angle, close-up shot focusing on the astronaut's face and the spacecraft model.",
+      "eval_prompt": "An astronaut flying in space.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0692",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 210,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 7
+    },
+    {
+      "pair_id": "VB0314_seed1454077509",
+      "prompt_id": "VB0314",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "99b18faccbfca5d8",
+      "prompt": "CG animation concept art, a gentle cow with a serene expression, lying down comfortably on a plush straw bed inside a rustic wooden barn. The barn walls are made of weathered boards, with intricate wooden beams overhead. The cow's coat is a soft golden brown, and it has a gentle, contented look as it chews its cud slowly. The barn is filled with the aroma of hay and hay bales stacked neatly against the walls. The lighting is warm and dim, casting soft shadows on the barn's interior. A few silhouetted farm animals peek out from behind the door, adding to the peaceful atmosphere. The cow's head is tilted slightly towards the viewer, with its long horns gently resting on the straw. The barn's exterior is seen through the open doorway, with a gentle breeze blowing through the open window. Detailed textures and realistic lighting, medium shot focusing on the cow's face and surroundings.",
+      "eval_prompt": "a cow chewing cud while resting in a tranquil barn",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0314",
+        "domain": "motion",
+        "t5_generation_tokens": 216,
+        "viclip_eval_tokens_with_special": 13,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 8
+    },
+    {
+      "pair_id": "VB0761_seed1993624635",
+      "prompt_id": "VB0761",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "1dc0b72611edc4f1",
+      "prompt": "CG animation digital art, a playful panda wearing a chef's hat and apron, stirring a pot of soup in a modern kitchen. The panda has soft, round features with large, expressive black eyes and a mischievous grin. It is surrounded by various ingredients such as vegetables, noodles, and rice. The kitchen is brightly lit with modern appliances and sleek cabinetry. Soft lighting highlights the panda's face and the vibrant colors of the ingredients. The panda is moving fluidly, occasionally pausing to lick its thumb, adding a touch of humor. The background features a mix of wooden and metallic textures, creating a warm and inviting atmosphere. High-angle view, close-up of the panda's face and hands stirring the pot.",
+      "eval_prompt": "A panda cooking in the kitchen",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0761",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 163,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 9
+    },
+    {
+      "pair_id": "VB0268_seed1529987743",
+      "prompt_id": "VB0268",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "06d8cfa1da697fb9",
+      "prompt": "A sleek black sports car with a racing stripe parked on the side of the road, caught in heavy traffic during a busy rush hour. The car is surrounded by impatient drivers honking their horns, creating a chaotic scene. The sun is shining through the windows, casting a warm glow inside the vehicle. Traffic lights flicker as they attempt to clear the congestion. People are rushing to work, their faces tense and stressed. The city skyline can be seen in the background, partially obscured by the dense traffic. The scene captures the frustration and urgency of rush hour commuters. Medium shot from the side, focusing on the car and its surroundings.",
+      "eval_prompt": "a car stuck in traffic during rush hour",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0268",
+        "domain": "motion",
+        "t5_generation_tokens": 149,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 10
+    },
+    {
+      "pair_id": "VB0748_seed1454077509",
+      "prompt_id": "VB0748",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "62f8b153f0518ca4",
+      "prompt": "A beautiful coastal beach in spring, waves gently lapping on pristine white sand under the warm sun. In the style of Katsushika Hokusai, the beach is framed by lush greenery and tall palm trees. The sky is a soft azure, with wisps of fluffy white clouds. A lone figure in traditional Japanese attire, perhaps a samurai or a geisha, strolls along the edge of the water, their kimono billowing softly in the breeze. They turn to face the viewer, their expressive eyes reflecting a mix of contemplation and serenity. The scene is captured in the classic Ukiyo-e style, with intricate brushstrokes and vibrant colors. The beach is dotted with seashells and driftwood, adding to the serene atmosphere. The background features distant mountains and a serene harbor, creating a sense of tranquility and nostalgia. The composition is dynamic, with diagonal lines leading from the horizon to the figure, emphasizing the depth and beauty of the landscape. The shot is a sweeping medium shot, capturing the entire scene from the feet up.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0748",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 244,
+        "viclip_eval_tokens_with_special": 25,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 11
+    },
+    {
+      "pair_id": "VB0320_seed1993624635",
+      "prompt_id": "VB0320",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "fea94e715c3adfd4",
+      "prompt": "CG game concept digital art, a large brown bear standing in a dense forest clearing, its fur textured to resemble moss-covered earth. The bear has a keen, focused expression, nostrils flaring as it sniffs the crisp autumn air, searching meticulously for any sign of nearby prey. Its body language is alert and ready, tail flicking gently from side to side. The forest background is lush and vibrant, with towering trees casting dappled shadows on the ground. In the distance, a few birds take flight. The bear's fur is covered in fine, realistic detailing, from the subtle patterns to the individual hairs. A low-angle, medium shot perspective captures the bear's determined gaze and the intricate textures of its fur. The overall scene exudes a sense of nature's mystery and the bear's innate instincts.",
+      "eval_prompt": "a bear sniffing the air for scents of food",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0320",
+        "domain": "motion",
+        "t5_generation_tokens": 195,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 12
+    },
+    {
+      "pair_id": "VB0749_seed1454077509",
+      "prompt_id": "VB0749",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "40dc2fb57147f85c",
+      "prompt": "Vincent van Gogh's style, a picturesque coastal beach during springtime, gentle waves lap against soft golden sand. The sky is a vibrant shade of blue with fluffy white clouds. A lone figure stands at the edge of the shore, dressed in a simple yet elegant white linen shirt and trousers. They hold a sketchbook in one hand and a paintbrush in the other, capturing the serene beauty of the scene. Soft sunlight filters through the leaves of nearby palm trees, casting dappled shadows on the sand. The figure's face is calm and focused, their expression one of deep appreciation and artistic inspiration. The background is filled with blooming wildflowers and vibrant greenery. Vibrant sunset colors glow in the distance, blending seamlessly into the tranquil ocean. Atmospheric perspective, soft focus, and subtle brushstrokes reminiscent of Van Gogh's technique. Wide shot of the entire beach, including the distant horizon.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0749",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 210,
+        "viclip_eval_tokens_with_special": 18,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 13
+    },
+    {
+      "pair_id": "VB0312_seed1529987743",
+      "prompt_id": "VB0312",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "37630356b0e6b4c0",
+      "prompt": "CG animation concept art, a fluffy white sheep with a gentle expression, running swiftly towards a group of similarly colored sheep. The flock is peacefully grazing in a lush green meadow with tall grass and scattered wildflowers. The sheep in question is bounding along, its tail held high and ears swaying with each step. The meadow stretches out behind them, dotted with small trees and a babbling brook in the distance. The overall scene is serene and tranquil. Low-angle view, medium shot focusing on the individual sheep as it runs towards the herd.",
+      "eval_prompt": "a sheep running to join a herd of its kind",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0312",
+        "domain": "motion",
+        "t5_generation_tokens": 135,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 14
+    },
+    {
+      "pair_id": "VB0713_seed1454077509",
+      "prompt_id": "VB0713",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "646b3b35a524e534",
+      "prompt": "Fantasy-themed cinematic visualization, a breathtaking fantasy landscape featuring towering ancient trees with glowing foliage and ethereal light filtering through their branches. The ground is covered in soft moss and wildflowers, with crystal-clear streams winding through the terrain. A majestic mountain range rises in the distance, shrouded in mist and adorned with wisps of smoke from hidden fires. In the foreground, a small village nestled among the trees, with thatched-roof cottages and intricate carvings adorning their walls. Villagers go about their daily lives, engaged in various activities such as tending to crops, crafting, and maintaining their homes. The sky above is painted with vibrant hues of pink, orange, and purple, casting a warm glow over the entire scene. The village elder stands at the entrance, watching over everything with a wise and kind expression. The camera pans across the lush greenery, capturing the intricate details of the forest and the serene atmosphere of the village. Low-angle shot, wide-angle lens.",
+      "eval_prompt": "a fantasy landscape",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0713",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 233,
+        "viclip_eval_tokens_with_special": 5,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 15
+    },
+    {
+      "pair_id": "VB0304_seed1529987743",
+      "prompt_id": "VB0304",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "523417f941cdc741",
+      "prompt": "A playful golden retriever puppy with sparkling amber eyes, wagging its tail excitedly, drinks from a small ceramic bowl filled with cool, clear water. The puppy has fluffy white fur and a soft, floppy ear. The bowl is positioned at an angle, adding a dynamic element to the scene. The puppy's tongue lolls out as it takes slow, deep sips, occasionally splashing a bit of water. The background is a lush green backyard with tall grass and wildflowers, gently swaying in a warm breeze. Soft natural lighting casts shadows and highlights the puppy's adorable features. The scene captures the joy and innocence of the moment, with the dog's joyful expression and fluid movements. Mid-shot, front-facing view.",
+      "eval_prompt": "a dog drinking water",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0304",
+        "domain": "motion",
+        "t5_generation_tokens": 177,
+        "viclip_eval_tokens_with_special": 6,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 16
+    },
+    {
+      "pair_id": "VB0724_seed1529987743",
+      "prompt_id": "VB0724",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "5cf32e651198c3a1",
+      "prompt": "Few large purple plums rotating gracefully on a polished turntable. Water droplets gently form and appear on the plums' surfaces as they spin. The plums are isolated against a pristine white background. The scene captures the intricate details of each plum, showcasing their smooth texture and vibrant color. The camera focuses closely on the plums, providing a macro perspective, emphasizing the beauty of the water droplets forming on their surfaces. The plums are arranged in a symmetrical pattern, adding to the serene yet detailed atmosphere. Gentle side-to-side camera movement enhances the fluidity of the plums' rotation. Macro shot, medium close-up.",
+      "eval_prompt": "Few big purple plums rotating on the turntable. water drops appear on the skin during rotation. isolated on the white background. close-up. macro.",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0724",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 149,
+        "viclip_eval_tokens_with_special": 33,
+        "viclip_exceeds_32": true
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 17
+    },
+    {
+      "pair_id": "VB0283_seed1993624635",
+      "prompt_id": "VB0283",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "425de634994c9774",
+      "prompt": "A vintage school bus speeding down a dusty rural road, its chrome accents reflecting sunlight as it gains momentum. The bus is filled with excited children, their backpacks slung over their shoulders and faces alight with anticipation. The driver, a middle-aged man with a stern but kind expression, gazes out the front window with determination. The children lean forward, holding onto the straps, while others sit quietly, lost in their own thoughts. The bus makes sharp turns around curves, the tires screeching slightly. Trees and fields blur past the windows as the bus accelerates rapidly. The countryside stretches out before them, dotted with small houses and livestock. Aerial shot of the speeding bus from above, capturing the blur of the landscape and the determined face of the driver. Close-up shots of the children's faces, focusing on their expressions of wonder and excitement. Medium shot of the bus interior, showing the rows of seats filled with eager passengers. Low-angle shot of the bus as it speeds away, emphasizing the speed and power.",
+      "eval_prompt": "a bus accelerating to gain speed",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0283",
+        "domain": "motion",
+        "t5_generation_tokens": 239,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 18
+    },
+    {
+      "pair_id": "VB0774_seed1993624635",
+      "prompt_id": "VB0774",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "88c6c12471ac34e4",
+      "prompt": "Vincent van Gogh is painting an oil canvas on a wooden easel in the center of the room. The room is dimly lit with soft candlelight casting warm shadows on the walls. Vincent stands with one leg slightly forward, his posture tense as he focuses intently on his artwork. His canvas is a vibrant swirling landscape of yellows, blues, and greens, reminiscent of his famous \"Starry Night.\" Vincent's hands are busy blending colors on the palette laid out before him. He wears a worn painter's smock, stained with paint, and his long, disheveled hair frames his face. A small window at the far end of the room allows a sliver of moonlight to filter in, creating a mystical ambiance. The walls are adorned with old family portraits and scattered with books and papers. The room's corners are filled with various painting supplies and brushes. The air is thick with the scent of turpentine and canvas. Van Gogh holds a paintbrush in his right hand, his gaze fixed on the canvas, his expression one of deep concentration and passion. Soft creaking sounds can be heard from the wooden floorboards as Vincent works. The painting reflects his intense emotions and inner turmoil.",
+      "eval_prompt": "Vincent van Gogh is painting in the room",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0774",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 273,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 19
+    },
+    {
+      "pair_id": "VB0286_seed1454077509",
+      "prompt_id": "VB0286",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "b8700c448ccb08d5",
+      "prompt": "CG animation concept art, a sleek and modern steam locomotive speeding down a straight track. The train accelerates rapidly, with smoke billowing out from its烟囱 as it gains momentum. The engine is painted in a deep metallic blue with silver accents, reflecting the sun's rays. Passengers are seen standing and moving about, their faces illuminated by the bright headlights. The train's wheels rotate quickly, emphasizing its powerful acceleration. Trees and buildings on the outskirts blur past as the train rushes forward. The background features a clear blue sky with fluffy white clouds. Dark shadows form along the tracks as the train speeds up. Low-angle shot from above, focusing on the engine's dynamic movement and the blurred scenery outside.",
+      "eval_prompt": "a train accelerating to gain speed",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0286",
+        "domain": "motion",
+        "t5_generation_tokens": 170,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 20
+    },
+    {
+      "pair_id": "VB0748_seed1529987743",
+      "prompt_id": "VB0748",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "62f8b153f0518ca4",
+      "prompt": "A beautiful coastal beach in spring, waves gently lapping on pristine white sand under the warm sun. In the style of Katsushika Hokusai, the beach is framed by lush greenery and tall palm trees. The sky is a soft azure, with wisps of fluffy white clouds. A lone figure in traditional Japanese attire, perhaps a samurai or a geisha, strolls along the edge of the water, their kimono billowing softly in the breeze. They turn to face the viewer, their expressive eyes reflecting a mix of contemplation and serenity. The scene is captured in the classic Ukiyo-e style, with intricate brushstrokes and vibrant colors. The beach is dotted with seashells and driftwood, adding to the serene atmosphere. The background features distant mountains and a serene harbor, creating a sense of tranquility and nostalgia. The composition is dynamic, with diagonal lines leading from the horizon to the figure, emphasizing the depth and beauty of the landscape. The shot is a sweeping medium shot, capturing the entire scene from the feet up.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0748",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 244,
+        "viclip_eval_tokens_with_special": 25,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 21
+    },
+    {
+      "pair_id": "VB0268_seed1454077509",
+      "prompt_id": "VB0268",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "06d8cfa1da697fb9",
+      "prompt": "A sleek black sports car with a racing stripe parked on the side of the road, caught in heavy traffic during a busy rush hour. The car is surrounded by impatient drivers honking their horns, creating a chaotic scene. The sun is shining through the windows, casting a warm glow inside the vehicle. Traffic lights flicker as they attempt to clear the congestion. People are rushing to work, their faces tense and stressed. The city skyline can be seen in the background, partially obscured by the dense traffic. The scene captures the frustration and urgency of rush hour commuters. Medium shot from the side, focusing on the car and its surroundings.",
+      "eval_prompt": "a car stuck in traffic during rush hour",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0268",
+        "domain": "motion",
+        "t5_generation_tokens": 149,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 22
+    },
+    {
+      "pair_id": "VB0749_seed1529987743",
+      "prompt_id": "VB0749",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "40dc2fb57147f85c",
+      "prompt": "Vincent van Gogh's style, a picturesque coastal beach during springtime, gentle waves lap against soft golden sand. The sky is a vibrant shade of blue with fluffy white clouds. A lone figure stands at the edge of the shore, dressed in a simple yet elegant white linen shirt and trousers. They hold a sketchbook in one hand and a paintbrush in the other, capturing the serene beauty of the scene. Soft sunlight filters through the leaves of nearby palm trees, casting dappled shadows on the sand. The figure's face is calm and focused, their expression one of deep appreciation and artistic inspiration. The background is filled with blooming wildflowers and vibrant greenery. Vibrant sunset colors glow in the distance, blending seamlessly into the tranquil ocean. Atmospheric perspective, soft focus, and subtle brushstrokes reminiscent of Van Gogh's technique. Wide shot of the entire beach, including the distant horizon.",
+      "eval_prompt": "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0749",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 210,
+        "viclip_eval_tokens_with_special": 18,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 23
+    },
+    {
+      "pair_id": "VB0270_seed1454077509",
+      "prompt_id": "VB0270",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "196ce7e6f9a1da04",
+      "prompt": "A sleek black sports car with a racing stripe on its hood, gradually slowing down as it approaches a red traffic light. The driver, a ruggedly handsome man with short sandy-blonde hair and intense blue eyes, grips the steering wheel tightly. His expression shows determination and focus. The car's interior is modern and luxurious, with dark wood trim and high-end leather seats. The passenger seat remains empty. As the car begins to decelerate, it emits a slight humming noise from its engine. The traffic light turns red, casting a warm amber glow over the scene. The surroundings include a busy city street with bustling pedestrians and vehicles, reflecting the urban atmosphere. The camera moves from a wide shot of the car coming to a halt, then zooms in to capture the moment the car comes to a complete stop, highlighting the car's distinctive design and the driver's focused expression. The final image is a close-up of the driver's face, captured at a low angle, with the car's taillights illuminating the scene. High dynamic range lighting, cinematic lighting. Medium shot, close-up, low-angle view.",
+      "eval_prompt": "a car slowing down to stop",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0270",
+        "domain": "motion",
+        "t5_generation_tokens": 256,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 24
+    },
+    {
+      "pair_id": "VB0735_seed1529987743",
+      "prompt_id": "VB0735",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "96dd9ff93e1a8bff",
+      "prompt": "In a futuristic world where teleportation technology has become a reality, a bustling cityscape filled with towering skyscrapers and advanced architecture stands in the background. Amidst this backdrop, a group of diverse individuals, each with unique appearances and expressions, gather around a central chamber equipped with shimmering teleportation devices. The scene captures various stages of teleportation – from individuals floating mid-air before vanishing, to others appearing instantly in their destinations. The lighting is dramatic, with neon lights flickering and casting shadows across the faces of the teleportees. The camera moves between subjects, capturing moments of awe and excitement as they teleport, emphasizing the rapidity and efficiency of the new technology. The futuristic cityscape provides a vivid contrast to the serene yet chaotic scene within the teleportation chamber. Cinematic and high-tech visual style, focusing on the emotional impact of teleportation on the characters. Medium shot and wide shots showcasing the teleportation process.",
+      "eval_prompt": "A future where humans have achieved teleportation technology",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0735",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 218,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 25
+    },
+    {
+      "pair_id": "VB0299_seed1529987743",
+      "prompt_id": "VB0299",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "e25884d63f048675",
+      "prompt": "A whimsical animated short film, a playful kitten with fluffy white fur and large green eyes, gracefully leaping and chasing after butterflies in a vibrant springtime park. The park is filled with lush green grass, colorful wildflowers, and tall trees swaying gently in the breeze. Birds flit about, singing melodiously. The kitten's tail flicks as it explores, occasionally stopping to sniff at interesting scents. It playsfully nuzzles against a friendly elderly woman sitting on a bench, who smiles warmly. Soft pastel colors and gentle animation style. Medium shot of the kitten in mid-play, followed by a close-up of the kitten's face and the woman's smile.",
+      "eval_prompt": "a cat playing in park",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0299",
+        "domain": "motion",
+        "t5_generation_tokens": 168,
+        "viclip_eval_tokens_with_special": 7,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 26
+    },
+    {
+      "pair_id": "VB0735_seed1993624635",
+      "prompt_id": "VB0735",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "96dd9ff93e1a8bff",
+      "prompt": "In a futuristic world where teleportation technology has become a reality, a bustling cityscape filled with towering skyscrapers and advanced architecture stands in the background. Amidst this backdrop, a group of diverse individuals, each with unique appearances and expressions, gather around a central chamber equipped with shimmering teleportation devices. The scene captures various stages of teleportation – from individuals floating mid-air before vanishing, to others appearing instantly in their destinations. The lighting is dramatic, with neon lights flickering and casting shadows across the faces of the teleportees. The camera moves between subjects, capturing moments of awe and excitement as they teleport, emphasizing the rapidity and efficiency of the new technology. The futuristic cityscape provides a vivid contrast to the serene yet chaotic scene within the teleportation chamber. Cinematic and high-tech visual style, focusing on the emotional impact of teleportation on the characters. Medium shot and wide shots showcasing the teleportation process.",
+      "eval_prompt": "A future where humans have achieved teleportation technology",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0735",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 218,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 27
+    },
+    {
+      "pair_id": "VB0320_seed1454077509",
+      "prompt_id": "VB0320",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "fea94e715c3adfd4",
+      "prompt": "CG game concept digital art, a large brown bear standing in a dense forest clearing, its fur textured to resemble moss-covered earth. The bear has a keen, focused expression, nostrils flaring as it sniffs the crisp autumn air, searching meticulously for any sign of nearby prey. Its body language is alert and ready, tail flicking gently from side to side. The forest background is lush and vibrant, with towering trees casting dappled shadows on the ground. In the distance, a few birds take flight. The bear's fur is covered in fine, realistic detailing, from the subtle patterns to the individual hairs. A low-angle, medium shot perspective captures the bear's determined gaze and the intricate textures of its fur. The overall scene exudes a sense of nature's mystery and the bear's innate instincts.",
+      "eval_prompt": "a bear sniffing the air for scents of food",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0320",
+        "domain": "motion",
+        "t5_generation_tokens": 195,
+        "viclip_eval_tokens_with_special": 12,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 28
+    },
+    {
+      "pair_id": "VB0774_seed1454077509",
+      "prompt_id": "VB0774",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "88c6c12471ac34e4",
+      "prompt": "Vincent van Gogh is painting an oil canvas on a wooden easel in the center of the room. The room is dimly lit with soft candlelight casting warm shadows on the walls. Vincent stands with one leg slightly forward, his posture tense as he focuses intently on his artwork. His canvas is a vibrant swirling landscape of yellows, blues, and greens, reminiscent of his famous \"Starry Night.\" Vincent's hands are busy blending colors on the palette laid out before him. He wears a worn painter's smock, stained with paint, and his long, disheveled hair frames his face. A small window at the far end of the room allows a sliver of moonlight to filter in, creating a mystical ambiance. The walls are adorned with old family portraits and scattered with books and papers. The room's corners are filled with various painting supplies and brushes. The air is thick with the scent of turpentine and canvas. Van Gogh holds a paintbrush in his right hand, his gaze fixed on the canvas, his expression one of deep concentration and passion. Soft creaking sounds can be heard from the wooden floorboards as Vincent works. The painting reflects his intense emotions and inner turmoil.",
+      "eval_prompt": "Vincent van Gogh is painting in the room",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0774",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 273,
+        "viclip_eval_tokens_with_special": 10,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1454077509,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 29
+    },
+    {
+      "pair_id": "VB0317_seed1993624635",
+      "prompt_id": "VB0317",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "d9474a6adddc41fc",
+      "prompt": "CG animation digital art, an African elephant taking a peaceful walk through a lush green forest at dawn. The elephant has a grayish-brown coat with soft folds and wrinkles, and gentle eyes. It walks slowly, with its trunk raised slightly, sniffing the air. The forest is filled with tall trees and vibrant greenery, with colorful flowers blooming. Birds fly overhead, chirping melodiously. The sky is a beautiful orange hue as the sun rises. The elephant moves gracefully, with each step careful and deliberate. The background features intricate foliage and subtle shadows. Soft lighting creates a warm and serene atmosphere. Low-angle shot from behind, focusing on the elephant's tranquil expression and movement.",
+      "eval_prompt": "an elephant taking a peaceful walk",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0317",
+        "domain": "motion",
+        "t5_generation_tokens": 163,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 30
+    },
+    {
+      "pair_id": "VB0766_seed1993624635",
+      "prompt_id": "VB0766",
+      "domain": "visual_semantic",
+      "stratum": "visual_semantic",
+      "cluster_id": "3ef1d04089c1ea23",
+      "prompt": "CG game concept digital art, a majestic great white shark swimming gracefully in a crystal-clear Caribbean ocean. The water is a deep blue, with tiny bubbles trailing behind the shark's fins as it glides smoothly through the waves. The shark's body is sleek and smooth, with a greyish-white coloration and sharp, pointed teeth. Its dorsal fin and tail flicker with a subtle iridescence. The ocean floor is dotted with colorful coral reefs and schools of vibrant fish, creating a mesmerizing underwater world. Sunlight filters down from above, casting a warm golden glow on the scene. The shark swims towards the viewer, its large black eyes focused and alert. The background is a vast expanse of turquoise water, with the horizon barely visible beyond the reef. Low-angle view, focusing on the shark's perspective.",
+      "eval_prompt": "A shark swimming in clear Caribbean ocean",
+      "primary_metrics": [
+        "imaging_quality",
+        "aesthetic_quality",
+        "overall_consistency"
+      ],
+      "token_counts": {
+        "id": "VB0766",
+        "domain": "visual_semantic",
+        "t5_generation_tokens": 198,
+        "viclip_eval_tokens_with_special": 9,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1993624635,
+      "worker_id": 2,
+      "order": [
+        "S4",
+        "T50"
+      ],
+      "worker_sequence": 31
+    }
+  ],
+  "torch": "2.8.0+cu128",
+  "gpu_name": "NVIDIA H200 NVL",
+  "timing": "CUDA synchronized wall time; denoise + VAE; no per-step tensor diagnostics or I/O",
+  "memory_scope": "Both DiTs, T5 and VAE resident on the same single GPU; no offload",
+  "diagnostics": "10-second CPU occupancy/progress thread; small overhead is included, not subtracted",
+  "common_load_seconds": 9.839224085211754,
+  "teacher_load_audit": {
+    "keys": 1095,
+    "missing": 0,
+    "unexpected": 0,
+    "parameter_storage": "float32 native",
+    "forward_autocast": "bfloat16 native",
+    "fp32_operations": "native time embeddings, norm/modulation and output head",
+    "on_disk_conversion": false
+  },
+  "teacher_load_seconds": 15.670173289254308,
+  "student_load_seconds": 19.065769970417023,
+  "student_load_audit": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "student_config": {
+    "do_mm_calib": false,
+    "cpu_offload": false,
+    "shared_cpu_weights": false,
+    "shared_cpu_weight_scope": "auto",
+    "shared_cpu_weight_strict_numa": true,
+    "shared_cpu_weight_register_chunk_mb": 128,
+    "max_area": false,
+    "vae_stride": [
+      4,
+      8,
+      8
+    ],
+    "patch_size": [
+      1,
+      2,
+      2
+    ],
+    "feature_caching": "NoCaching",
+    "teacache_thresh": 0.26,
+    "use_ret_steps": false,
+    "use_bfloat16": true,
+    "lora_configs": null,
+    "lora_merge_force_fp32": false,
+    "parallel": false,
+    "seq_parallel": false,
+    "cfg_parallel": false,
+    "pipefusion_parallel": false,
+    "enable_cfg": false,
+    "warmup": false,
+    "use_image_encoder": true,
+    "_class_name": "WanModel",
+    "_diffusers_version": "0.30.0",
+    "dim": 5120,
+    "eps": 1e-06,
+    "ffn_dim": 13824,
+    "freq_dim": 256,
+    "in_dim": 16,
+    "model_type": "t2v",
+    "num_heads": 40,
+    "num_layers": 40,
+    "out_dim": 16,
+    "text_len": 512,
+    "task": "t2v",
+    "model_cls": "wan2.1",
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "infer_steps": 4,
+    "distill_method": "dmd2",
+    "size": [
+      480,
+      832
+    ],
+    "num_frames": 81,
+    "fps": 16,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "self_attn_1_type": "flash_attn2",
+    "cross_attn_1_type": "flash_attn2",
+    "rms_norm_type": "torch",
+    "layer_norm_type": "torch",
+    "modulate_type": "torch",
+    "rope_type": "torch_complex_rope",
+    "double_precision_rope": true,
+    "dit_quantized": false,
+    "lazy_load": false
+  },
+  "resident_allocated_gib": 90.89797782897949,
+  "warmup": {
+    "T50": {
+      "pair_id": "warmup",
+      "prompt_id": "VB0283",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "425de634994c9774",
+      "prompt": "A vintage school bus speeding down a dusty rural road, its chrome accents reflecting sunlight as it gains momentum. The bus is filled with excited children, their backpacks slung over their shoulders and faces alight with anticipation. The driver, a middle-aged man with a stern but kind expression, gazes out the front window with determination. The children lean forward, holding onto the straps, while others sit quietly, lost in their own thoughts. The bus makes sharp turns around curves, the tires screeching slightly. Trees and fields blur past the windows as the bus accelerates rapidly. The countryside stretches out before them, dotted with small houses and livestock. Aerial shot of the speeding bus from above, capturing the blur of the landscape and the determined face of the driver. Close-up shots of the children's faces, focusing on their expressions of wonder and excitement. Medium shot of the bus interior, showing the rows of seats filled with eager passengers. Low-angle shot of the bus as it speeds away, emphasizing the speed and power.",
+      "eval_prompt": "a bus accelerating to gain speed",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0283",
+        "domain": "motion",
+        "t5_generation_tokens": 239,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 0,
+      "arm": "T50",
+      "warmup": true,
+      "status": "passed",
+      "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+      "pid": 1936894,
+      "initial_latent_sha256": "f1425fa66d3001e476fca53761d72caf120802032bfc6761b34300bcd7ca1be9",
+      "positive_context_sha256": "45c3362f0d43ea74f37486da470b9249a33ca0e1916d3ac042972a811bd38e87",
+      "unix_start": 1792253398.6372645,
+      "gpu_count": 1,
+      "offload": false,
+      "scheduler_setup_and_initial_transfer_seconds": 0.0026992112398147583,
+      "timesteps": [
+        999,
+        995,
+        991,
+        987,
+        982,
+        978,
+        973,
+        968,
+        963,
+        957,
+        952,
+        946,
+        940,
+        934,
+        927,
+        920,
+        913,
+        906,
+        898,
+        890,
+        882,
+        873,
+        863,
+        854,
+        843,
+        833,
+        821,
+        809,
+        796,
+        783,
+        768,
+        753,
+        737,
+        720,
+        701,
+        681,
+        660,
+        636,
+        611,
+        584,
+        555,
+        522,
+        487,
+        448,
+        405,
+        356,
+        302,
+        241,
+        172,
+        92
+      ],
+      "sigmas": [
+        0.9997998476028442,
+        0.9957323670387268,
+        0.9915304780006409,
+        0.987187385559082,
+        0.9826958179473877,
+        0.9780480265617371,
+        0.9732357859611511,
+        0.9682501554489136,
+        0.9630816578865051,
+        0.9577199220657349,
+        0.9521540403366089,
+        0.9463720321655273,
+        0.9403610825538635,
+        0.9341073036193848,
+        0.9275957345962524,
+        0.9208101034164429,
+        0.913732647895813,
+        0.9063441753387451,
+        0.8986237049102783,
+        0.8905484676361084,
+        0.8820932507514954,
+        0.8732306957244873,
+        0.8639306426048279,
+        0.8541598320007324,
+        0.8438816070556641,
+        0.8330553770065308,
+        0.8216361403465271,
+        0.8095738291740417,
+        0.7968124747276306,
+        0.7832895517349243,
+        0.7689347267150879,
+        0.7536689043045044,
+        0.7374023795127869,
+        0.720033586025238,
+        0.7014464139938354,
+        0.6815081238746643,
+        0.6600657105445862,
+        0.6369423866271973,
+        0.6119323968887329,
+        0.5847949981689453,
+        0.5552467703819275,
+        0.5229514837265015,
+        0.48750731348991394,
+        0.44843021035194397,
+        0.40513139963150024,
+        0.35688769817352295,
+        0.3028006851673126,
+        0.24174034595489502,
+        0.17226514220237732,
+        0.09250685572624207,
+        0.0
+      ],
+      "denoise_seconds": 485.0330155566335,
+      "forward_count": 100,
+      "vae_seconds": 11.121287548914552,
+      "denoise_plus_vae_seconds": 496.154303105548,
+      "peak_allocated_gib": 98.03530311584473,
+      "peak_reserved_gib": 99.94921875,
+      "final_latent": {
+        "shape": [
+          16,
+          21,
+          60,
+          104
+        ],
+        "dtype": "torch.float32",
+        "mean": 0.09052307903766632,
+        "std": 0.8817678093910217,
+        "min": -4.094526767730713,
+        "max": 4.169122695922852
+      },
+      "final_latent_sha256": "463223dd66118f14cfae9e21dfff41909c55ddd77f204f36acc67835643222ea",
+      "output_tensor": {
+        "shape": [
+          3,
+          81,
+          480,
+          832
+        ],
+        "dtype": "torch.float32",
+        "mean": -0.17700989544391632,
+        "std": 0.5491783618927002,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "unix_end": 1792253894.8558464,
+      "network_attempts": []
+    },
+    "S4": {
+      "pair_id": "warmup",
+      "prompt_id": "VB0283",
+      "domain": "motion",
+      "stratum": "motion",
+      "cluster_id": "425de634994c9774",
+      "prompt": "A vintage school bus speeding down a dusty rural road, its chrome accents reflecting sunlight as it gains momentum. The bus is filled with excited children, their backpacks slung over their shoulders and faces alight with anticipation. The driver, a middle-aged man with a stern but kind expression, gazes out the front window with determination. The children lean forward, holding onto the straps, while others sit quietly, lost in their own thoughts. The bus makes sharp turns around curves, the tires screeching slightly. Trees and fields blur past the windows as the bus accelerates rapidly. The countryside stretches out before them, dotted with small houses and livestock. Aerial shot of the speeding bus from above, capturing the blur of the landscape and the determined face of the driver. Close-up shots of the children's faces, focusing on their expressions of wonder and excitement. Medium shot of the bus interior, showing the rows of seats filled with eager passengers. Low-angle shot of the bus as it speeds away, emphasizing the speed and power.",
+      "eval_prompt": "a bus accelerating to gain speed",
+      "primary_metrics": [
+        "subject_consistency",
+        "motion_smoothness",
+        "dynamic_degree"
+      ],
+      "token_counts": {
+        "id": "VB0283",
+        "domain": "motion",
+        "t5_generation_tokens": 239,
+        "viclip_eval_tokens_with_special": 8,
+        "viclip_exceeds_32": false
+      },
+      "seed": 1529987743,
+      "worker_id": 2,
+      "order": [
+        "T50",
+        "S4"
+      ],
+      "worker_sequence": 0,
+      "arm": "S4",
+      "warmup": true,
+      "status": "passed",
+      "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+      "pid": 1936894,
+      "initial_latent_sha256": "f1425fa66d3001e476fca53761d72caf120802032bfc6761b34300bcd7ca1be9",
+      "positive_context_sha256": "45c3362f0d43ea74f37486da470b9249a33ca0e1916d3ac042972a811bd38e87",
+      "unix_start": 1792253900.9817004,
+      "gpu_count": 1,
+      "offload": false,
+      "scheduler_setup_and_initial_transfer_seconds": 0.003115471452474594,
+      "timesteps": [
+        1000.0,
+        937.5,
+        833.3333129882812,
+        625.0
+      ],
+      "sigmas": [
+        1.0,
+        0.9375,
+        0.8333333134651184,
+        0.625
+      ],
+      "student_initial_cast_sha256": "075e1c01276fec2985e52aa10bfd430bf78613d666f21d981a6e3de824e3f393",
+      "student_initial_cast_max_abs_error": 0.015540599822998047,
+      "denoise_seconds": 17.574156537652016,
+      "forward_count": 4,
+      "vae_seconds": 11.089082466438413,
+      "denoise_plus_vae_seconds": 28.66323900409043,
+      "peak_allocated_gib": 98.01968288421631,
+      "peak_reserved_gib": 100.046875,
+      "final_latent": {
+        "shape": [
+          16,
+          21,
+          60,
+          104
+        ],
+        "dtype": "torch.bfloat16",
+        "mean": 0.15949001908302307,
+        "std": 1.0139176845550537,
+        "min": -3.65625,
+        "max": 4.25
+      },
+      "final_latent_sha256": "6265b34ca9cb538fff3a366c93ac4a1a842cba8ccffe4c29adfce70ec63dcf44",
+      "output_tensor": {
+        "shape": [
+          3,
+          81,
+          480,
+          832
+        ],
+        "dtype": "torch.float32",
+        "mean": 0.05602148547768593,
+        "std": 0.6447418332099915,
+        "min": -1.0,
+        "max": 1.0
+      },
+      "unix_end": 1792253929.685052,
+      "network_attempts": []
+    }
+  },
+  "completed_pairs": [
+    "VB0312_seed1454077509",
+    "VB0774_seed1529987743",
+    "VB0296_seed1454077509",
+    "VB0744_seed1993624635",
+    "VB0278_seed1529987743",
+    "VB0692_seed1993624635",
+    "VB0296_seed1529987743",
+    "VB0692_seed1529987743",
+    "VB0314_seed1454077509",
+    "VB0761_seed1993624635",
+    "VB0268_seed1529987743",
+    "VB0748_seed1454077509",
+    "VB0320_seed1993624635",
+    "VB0749_seed1454077509",
+    "VB0312_seed1529987743",
+    "VB0713_seed1454077509",
+    "VB0304_seed1529987743",
+    "VB0724_seed1529987743",
+    "VB0283_seed1993624635",
+    "VB0774_seed1993624635",
+    "VB0286_seed1454077509",
+    "VB0748_seed1529987743",
+    "VB0268_seed1454077509",
+    "VB0749_seed1529987743",
+    "VB0270_seed1454077509",
+    "VB0735_seed1529987743",
+    "VB0299_seed1529987743",
+    "VB0735_seed1993624635",
+    "VB0320_seed1454077509",
+    "VB0774_seed1454077509",
+    "VB0317_seed1993624635",
+    "VB0766_seed1993624635"
+  ]
+}

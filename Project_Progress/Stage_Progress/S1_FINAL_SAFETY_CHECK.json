@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "own_gpu_processes_remaining": 0,
+  "shared_generation_file_states_unchanged": true,
+  "duplicate_directory_absent": true,
+  "script_sha256": {
+    "tools/evaluate_s1.py": "292cc5255fb579b05cd7e11fd631b19c40869f4f6c7e5b4fd86087c5a2f2ad46",
+    "tools/s1_preflight.py": "86d01a5e6cbca975d95d44852ad5194871014d7c125022c94551ce98f4514262",
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/check_s1_residency.py": "554d2e26fd7431828542af48bb6e81fbfe62e7205b6a11ab68cb8025db6cd82a",
+    "tools/s1_common.py": "8be5811a83a03c36dcc412122e11a8360134dbf617aae0b5938c1bfc0e0b4281",
+    "tools/validate_s1_contract.py": "a090f95552f8d11bc94ceb099c641699cfeeffbb5a67863dc4dc28e718b77a32",
+    "tools/finalize_s1.py": "d8fc4450b02a547cae317dd4c9c7744e577f344019a3172d2dc51339e9bb472e"
+  },
+  "formal_qualification_started": false
+}

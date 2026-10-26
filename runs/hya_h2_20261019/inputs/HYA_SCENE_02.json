@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_02",
+  "prompt": "An industrial area with factories and industrial buildings. Realistic, Natural lighting",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "56c95523194038f1124300dc5716ff53ebb170ed9c18c4061a8cf14a3cdea917",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "33980935a48f920004ac37f4b2ce1bbe25a7d015955967823792911c6031ab9b",
+    "pooled": "54cdf18fee60a016f746e0be7b3fa84616966b9ef059ff403dc7b9fc01109ea5",
+    "clip_input_ids": "6c33af4f3875fa90d8a4cbd404ce06159397c0f4d3309e3931ead7eecadcdf31",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 40.98560563288629,
+  "llama_encode_seconds": 0.22284581512212753,
+  "clip_encode_seconds": 0.15401849895715714,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_02.5eae583fdd53497aa8424ef52b255a04.pt",
+  "file_sha256": "d45cd8dc6d3f0e132c75044dc82ca7acde7994705a8ca9bbd1afa9543699498b"
+}

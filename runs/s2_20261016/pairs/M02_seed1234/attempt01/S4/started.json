@@ -1,0 +1,23 @@
+{
+  "pair_id": "M02_seed1234",
+  "prompt_id": "M02",
+  "stratum": "animal_motion",
+  "prompt": "a cat drinking water",
+  "seed": 1234,
+  "worker_id": 6,
+  "global_sequence": 20,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1394336,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "8a66b733f75a4612b62811ab4d32b6f6e0bb20bbafc2879f47e96d48de8ec66e",
+  "unix_start": 1792148953.1332865,
+  "gpu_count": 1,
+  "offload": false
+}

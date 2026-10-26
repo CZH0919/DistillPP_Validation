@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_17",
+  "prompt": "A motorcycle is cruising along a coastal highway. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 112,
+    "clip_with_special": 17
+  },
+  "hashes": {
+    "context": "15076624a7c6f7d6c8a37f52c2408db1ed6027771c6ab72932ea132e62b38ec4",
+    "mask": "708d1c5f407dab241eb51e21f0d9bb7303fff2b149cd809d834e566b6dda7eac",
+    "llama_input_ids": "e56be88b79e580309896e8b75302bbd76cf6d9b2565c81836688c8992937b0da",
+    "pooled": "08140c8eabd78af9ec264657a320e91816b80aedcffb741fa0465988b3859e26",
+    "clip_input_ids": "eeb8f7a322108b1aeec3bb6d05fbb34d2ae0c0e7e4b075a21ed8bebdc693c239",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 20.518560448661447,
+  "llama_encode_seconds": 0.27422649413347244,
+  "clip_encode_seconds": 0.026851899921894073,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_17.df4fad3a959b4c5595fbd04c1af985e4.pt",
+  "file_sha256": "bd254d0cb1778e83671828cffd402fb6da6e8217593f57eeae40625320ef50f8"
+}

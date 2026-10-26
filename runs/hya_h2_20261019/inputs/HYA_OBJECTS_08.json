@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_08",
+  "prompt": "a truck and a bicycle. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "52831c0dd22445cd786a845acf150b07a131b1a29ff729ed405c339d5534fd28",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "9eb7c13cb43a4bcf3568b7be8af7a1d7f453782dec44068fd06b397d95deb1ec",
+    "pooled": "56160ceb415c5ccf1b5f6a5b55be52c12339a2954a05b9815523be64bfd54941",
+    "clip_input_ids": "f00b46c2113ab392c894c9b58c85159168739dbe7f1152924e242f917df69a7a",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 15.100360555574298,
+  "llama_encode_seconds": 0.04154722951352596,
+  "clip_encode_seconds": 0.0034873317927122116,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_08.bdc49852fafc41868e44c930b7f4b775.pt",
+  "file_sha256": "e3c068d833855ae599370752d2833d563bbcf094c7f379aabb8174290a372e28"
+}

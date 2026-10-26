@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "manifest_sha256": "eebafc4c26158d57e78541e7fc67b92f0f3e08786c6b443ac78b967d6192f1cc",
+  "files_verified": 50,
+  "current_files_updated": 16,
+  "current_files_already_equal": 34,
+  "verified_at_unix": 1792155482.0148141,
+  "remote_project_root": "/data/chenjiayu/changzihe/DistillPP_Validation",
+  "videos_archived": 96,
+  "metric_values": 576,
+  "teacher_quality_dimensions_passed": 0,
+  "s3_started": false,
+  "local_sync_excludes": [
+    "videos",
+    "latent tensors",
+    "weights",
+    "conda environments",
+    "package caches"
+  ]
+}

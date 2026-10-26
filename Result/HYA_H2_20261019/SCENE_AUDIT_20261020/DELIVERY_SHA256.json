@@ -1,0 +1,24 @@
+{
+  "audit_date": "2026-10-20",
+  "purpose": "scene prompt, label and scoring audit; original experiment data unchanged",
+  "sha256": {
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/FRAME_CAPTION_AUDIT.json": "b891b98309d8fdda436b4b45e775ddec136342c58f04fdc3e47561702219de54",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/PROMPT_AND_SCORE_AUDIT.json": "2fadb693dfb732d473115fbfdd93737d54837ca761e70f6b86dcf766488845fc",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/REPORT.md": "0ebb896a80cf0d55b47a352ffd8811103771c08a10fa44a1eb7cb0434624a298",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/VALIDATION.json": "ee562730216e39898bb63223144fce11ff30db3ef195d7e7a7b4a0a24b0f9483",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/accvideo_readme.md": "dcc4d60aca1b8caa25634576040d51b7264936f9a020578e50ca289a36ceb653",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/all_dimension.txt": "f9b50654f81ab732b9235d5bb91f0c3a4d152fac19249ce3a3a9185b2d80d8c3",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/fetch_receipt.json": "5557821479bf496452d18570541534a14c1ae9fc00636ba2183d09df22ce58ce",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/fullinfo.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/hunyuan_all_dimension.txt": "bb1f6c7c27390eb268ef1e25faa196169ee7dc8a30741290bdd9c30c5970d9fe",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/remote_read_receipt.json": "3924f067660210e3b493f2c4b3a6823a46f25854612a0d22e9f0397ba8f19ea1",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/scene.py": "f14c423710c812af2be953db619ed6e8b478acdc44f1df775815adfa30171965",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/scene_prompts.txt": "87572cdb4b2d3d15bedd63edc5ac0326999fc6182d28494e02d11d41579f0bd5",
+    "Result/HYA_H2_20261019/SCENE_AUDIT_20261020/reference/utils.py": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064",
+    "tools/hya_h2_scene_audit_20261020.py": "0501b7a5ca9afef06b6be49ab4ff0f1438796958b32f307f4c525ec30e486693",
+    "Project_Progress/Stage_Progress/HYA_SCENE_AUDIT_20261020.md": "c96da4ff338b18c08cf295f3e9c1c4b63c02da2274be9f1ec3d22688b145dd06"
+  },
+  "original_complete_sha256": "d941688f7f6434603b25a5bc31dd59b25b94de15c83faca685dd9718fe176564",
+  "new_GPU_work": false,
+  "S3_started": false
+}

@@ -1,0 +1,65 @@
+id,library,source_line_1based,metrics,evaluation_prompt,generation_prompt,auxiliary_info
+HYA_MOTION_01,motion,329,subject_consistency;dynamic_degree,a giraffe running to join a herd of its kind,"A giraffe running to join a herd of its kind. Realistic, Natural lighting, Dynamic",{}
+HYA_MOTION_02,motion,268,subject_consistency;dynamic_degree,a bicycle accelerating to gain speed,"A bicycle is accelerating to gain speed. Realistic, Natural lighting, Energetic",{}
+HYA_MOTION_03,motion,308,subject_consistency;dynamic_degree,a horse galloping across an open field,"A horse galloping across an open field. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_04,motion,283,subject_consistency;dynamic_degree,a bus stuck in traffic during rush hour,"A bus is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",{}
+HYA_MOTION_05,motion,291,subject_consistency;dynamic_degree,a truck slowing down to stop,"A truck slows down to stop. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_06,motion,259,subject_consistency;dynamic_degree,a person giving a presentation to a room full of colleagues,"A person gives a presentation to a room full of colleagues. Realistic, Indoor lighting, Professional",{}
+HYA_MOTION_07,motion,270,subject_consistency;dynamic_degree,a car turning a corner,"A car turns a corner. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_08,motion,299,subject_consistency;dynamic_degree,a cat grooming itself meticulously with its tongue,"A cat grooms itself meticulously with its tongue. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_09,motion,285,subject_consistency;dynamic_degree,a train speeding down the tracks,"A train speeding down the tracks. Realistic, Natural lighting, Dynamic",{}
+HYA_MOTION_10,motion,312,subject_consistency;dynamic_degree,a sheep taking a peaceful walk,"A sheep is taking a peaceful walk. Realistic, Natural lighting",{}
+HYA_MOTION_11,motion,293,subject_consistency;dynamic_degree,a boat sailing smoothly on a calm lake,"A boat sailing smoothly on a calm lake. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_12,motion,284,subject_consistency;dynamic_degree,a bus accelerating to gain speed,"A bus is accelerating to gain speed. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_13,motion,269,subject_consistency;dynamic_degree,a car stuck in traffic during rush hour,"A car is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",{}
+HYA_MOTION_14,motion,276,subject_consistency;dynamic_degree,a motorcycle gliding through a snowy field,"A motorcycle glides across a field covered with snow. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_15,motion,302,subject_consistency;dynamic_degree,a cat running happily,"A cat running happily. Realistic, Natural lighting, Cheerful",{}
+HYA_MOTION_16,motion,314,subject_consistency;dynamic_degree,a cow bending down to drink water from a river,"A cow bends down to drink water from a river. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_17,motion,273,subject_consistency;dynamic_degree,a motorcycle cruising along a coastal highway,"A motorcycle is cruising along a coastal highway. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_18,motion,322,subject_consistency;dynamic_degree,a bear climbing a tree,"A bear climbing a tree. Realistic, Natural lighting, Wild",{}
+HYA_MOTION_19,motion,261,subject_consistency;dynamic_degree,a person eating a burger,"A person eating a burger. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_20,motion,305,subject_consistency;dynamic_degree,a dog drinking water,"A dog drinking water. Realistic, Natural indoor lighting, Casual",{}
+HYA_MOTION_21,motion,310,subject_consistency;dynamic_degree,a horse running to join a herd of its kind,"A horse running to join a group of horses. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_22,motion,289,subject_consistency;dynamic_degree,a truck anchored in a tranquil bay,"A truck is stationary in a tranquil bay. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_23,motion,326,subject_consistency;dynamic_degree,a zebra taking a peaceful walk,"A zebra taking a peaceful walk. Realistic, Natural lighting",{}
+HYA_MOTION_24,motion,300,subject_consistency;dynamic_degree,a cat playing in park,"a cat playing in the park. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_25,motion,303,subject_consistency;dynamic_degree,a dog enjoying a peaceful walk,"A dog enjoying a peaceful walk. Realistic, Natural lighting",{}
+HYA_MOTION_26,motion,301,subject_consistency;dynamic_degree,a cat drinking water,"A cat drinking water. Realistic, Indoor lighting, Casual",{}
+HYA_MOTION_27,motion,313,subject_consistency;dynamic_degree,a sheep running to join a herd of its kind,"A sheep running to join a group of other sheep. Realistic, Natural lighting, Peaceful",{}
+HYA_MOTION_28,motion,275,subject_consistency;dynamic_degree,a motorcycle slowing down to stop,"A motorcycle is slowing down to stop. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_29,motion,282,subject_consistency;dynamic_degree,a bus turning a corner,"A bus turns around a corner. Realistic, Natural lighting, Casual",{}
+HYA_MOTION_30,motion,263,subject_consistency;dynamic_degree,a person drinking coffee in a cafe,"A person drinking coffee in a cafe. Realistic, Indoor lighting, Casual",{}
+HYA_MOTION_31,motion,306,subject_consistency;dynamic_degree,a dog running happily,"A dog running happily. Realistic, Natural lighting, Cheerful",{}
+HYA_MOTION_32,motion,323,subject_consistency;dynamic_degree,a bear hunting for prey,"A bear searching for food. Realistic, Natural lighting, Wild",{}
+HYA_SCENE_01,scene,826,background_consistency;scene,lighthouse,"A tall, cylindrical lighthouse with a light at the top, often found by the sea. Realistic, Natural lighting, Peaceful","{""scene"": {""scene"": {""scene"": ""lighthouse""}}}"
+HYA_SCENE_02,scene,821,background_consistency;scene,industrial area,"An industrial area with factories and industrial buildings. Realistic, Natural lighting","{""scene"": {""scene"": {""scene"": ""industrial area""}}}"
+HYA_SCENE_03,scene,828,background_consistency;scene,mansion,"A large, luxurious mansion with multiple stories and ornate architectural details. Realistic, Natural lighting, Formal","{""scene"": {""scene"": {""scene"": ""mansion""}}}"
+HYA_SCENE_04,scene,795,background_consistency;scene,carrousel,"A carousel with brightly colored horses and other animals, rotating around a central pole. Realistic, Natural lighting, Festive","{""scene"": {""scene"": {""scene"": ""carrousel""}}}"
+HYA_SCENE_05,scene,836,background_consistency;scene,office,"A room with desks, chairs, and computers, typical of an office setting. Realistic, Indoor lighting, Professional","{""scene"": {""scene"": {""scene"": ""office""}}}"
+HYA_SCENE_06,scene,787,background_consistency;scene,basement,"A basement with a concrete floor and walls. Realistic, Indoor lighting, Dreary","{""scene"": {""scene"": {""scene"": ""basement""}}}"
+HYA_SCENE_07,scene,798,background_consistency;scene,classroom,"A classroom with desks and a whiteboard, designed for teaching and learning. Realistic, Natural lighting, Professional","{""scene"": {""scene"": {""scene"": ""classroom""}}}"
+HYA_SCENE_08,scene,813,background_consistency;scene,glacier,"A large body of ice with cracks and crevasses, slowly sliding down a mountain slope. Realistic, Natural lighting, Mysterious","{""scene"": {""scene"": {""scene"": ""glacier""}}}"
+HYA_SCENE_09,scene,820,background_consistency;scene,iceberg,"A large iceberg floats in the water. Realistic, Natural lighting, Peaceful","{""scene"": {""scene"": {""scene"": ""iceberg""}}}"
+HYA_SCENE_10,scene,825,background_consistency;scene,indoor library,"An indoor library with shelves of books. Realistic, Indoor lighting, Peaceful","{""scene"": {""scene"": {""scene"": ""indoor library""}}}"
+HYA_SCENE_11,scene,842,background_consistency;scene,restaurant,"A place where food is prepared and served to customers. Realistic, Indoor lighting, Professional","{""scene"": {""scene"": {""scene"": ""restaurant""}}}"
+HYA_SCENE_12,scene,810,background_consistency;scene,forest road,"A road winds through a dense forest. Realistic, Natural lighting, Peaceful","{""scene"": {""scene"": {""scene"": ""forest road""}}}"
+HYA_SCENE_13,scene,862,background_consistency;scene,windmill,"A tall structure with rotating blades powered by the wind. Realistic, Natural lighting, Peaceful","{""scene"": {""scene"": {""scene"": ""windmill""}}}"
+HYA_SCENE_14,scene,782,background_consistency;scene,bathroom,"A bathroom with a toilet, sink, and bathtub or shower. Realistic, Indoor lighting, Casual","{""scene"": {""scene"": {""scene"": ""bathroom""}}}"
+HYA_SCENE_15,scene,792,background_consistency;scene,cafeteria,"A cafeteria with long tables and benches, filled with people eating and talking. Realistic, Indoor lighting, Casual","{""scene"": {""scene"": {""scene"": ""cafeteria""}}}"
+HYA_SCENE_16,scene,852,background_consistency;scene,supermarket,"A large store with aisles of shelves filled with various food and household products. Realistic, Indoor lighting, Casual","{""scene"": {""scene"": {""scene"": ""supermarket""}}}"
+HYA_OBJECTS_01,objects,77,multiple_objects,a cat and a dog,"A cat and a dog. Realistic, Natural lighting, Casual","{""multiple_objects"": {""object"": ""cat and dog""}}"
+HYA_OBJECTS_02,objects,150,multiple_objects,a refrigerator and skis,"A white refrigerator and a pair of long, narrow skis. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""refrigerator and skis""}}"
+HYA_OBJECTS_03,objects,89,multiple_objects,a tv and a laptop,"A TV and a laptop. Realistic, Indoor lighting, Professional","{""multiple_objects"": {""object"": ""tv and laptop""}}"
+HYA_OBJECTS_04,objects,141,multiple_objects,broccoli and a backpack,"A green broccoli and a blue backpack are placed next to each other. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""broccoli and backpack""}}"
+HYA_OBJECTS_05,objects,129,multiple_objects,a toothbrush and a sink,"A toothbrush and a sink. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""toothbrush and sink""}}"
+HYA_OBJECTS_06,objects,133,multiple_objects,a fork and a potted plant,"A fork and a potted plant. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""fork and potted plant""}}"
+HYA_OBJECTS_07,objects,134,multiple_objects,a knife and a tv,"A knife and a television set. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""knife and tv""}}"
+HYA_OBJECTS_08,objects,126,multiple_objects,a truck and a bicycle,"a truck and a bicycle. Realistic, Natural lighting, Casual","{""multiple_objects"": {""object"": ""truck and bicycle""}}"
+HYA_OBJECTS_09,objects,149,multiple_objects,a microwave and a frisbee,"A microwave and a frisbee. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""microwave and frisbee""}}"
+HYA_OBJECTS_10,objects,132,multiple_objects,a cup and a couch,"A cup and a couch. Realistic, Natural lighting, Casual","{""multiple_objects"": {""object"": ""cup and couch""}}"
+HYA_OBJECTS_11,objects,154,multiple_objects,a person and a toilet,"A person and a toilet. Realistic, Natural lighting, Casual","{""multiple_objects"": {""object"": ""person and toilet""}}"
+HYA_OBJECTS_12,objects,86,multiple_objects,a chair and a couch,"A chair and a couch. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""chair and couch""}}"
+HYA_OBJECTS_13,objects,139,multiple_objects,a sandwich and a book,"A sandwich and a book with a clear cover. Realistic, Natural indoor lighting, Casual","{""multiple_objects"": {""object"": ""sandwich and book""}}"
+HYA_OBJECTS_14,objects,112,multiple_objects,a surfboard and a tennis racket,"A surfboard and a tennis racket. Realistic, Natural lighting, Casual","{""multiple_objects"": {""object"": ""surfboard and tennis racket""}}"
+HYA_OBJECTS_15,objects,144,multiple_objects,a pizza and a tie,"A round pizza with various toppings and a person in a necktie. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""pizza and tie""}}"
+HYA_OBJECTS_16,objects,128,multiple_objects,a hair drier and a toothbrush,"A hair dryer and a toothbrush. Realistic, Indoor lighting, Casual","{""multiple_objects"": {""object"": ""hair drier and toothbrush""}}"

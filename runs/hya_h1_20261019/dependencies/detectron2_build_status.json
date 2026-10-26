@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-m",
+    "pip",
+    "wheel",
+    "--no-deps",
+    "--no-build-isolation",
+    "--no-index",
+    "--disable-pip-version-check",
+    "--wheel-dir",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/resources/software_cache/hya_h1/wheels",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/resources/software_cache/hya_h1/detectron2-1e3e13bbf607b54f62205c4c33922521822fb298"
+  ],
+  "returncode": 0,
+  "seconds": 40.53159427642822
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_04",
+  "prompt": "A carousel with brightly colored horses and other animals, rotating around a central pole. Realistic, Natural lighting, Festive",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 120,
+    "clip_with_special": 24
+  },
+  "hashes": {
+    "context": "0b8f84cc2aa81a926aded46942a072174863b4c8e9c35919e8388639ce9e0eb6",
+    "mask": "0a2cecd0285e1a7636fd6db797aa1a9d7bec85723e3f3663c9551e9edf3f8b1c",
+    "llama_input_ids": "52ef6307c106553f59222e41200bd266706ecde35f53d05d0ac31144802c07af",
+    "pooled": "dbb68a0cb226fb77666463dee4b2bbb7fc79c866d04d6f458eb8832943012c8c",
+    "clip_input_ids": "0da0e2d0e1ed2d60c39cb698c71563e3b82040523a7909caf817fbb3a2f7199b",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 18.848418045789003,
+  "llama_encode_seconds": 0.2895264271646738,
+  "clip_encode_seconds": 0.027807706966996193,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_04.076e794727b3404abffc91af76b72396.pt",
+  "file_sha256": "45e76859c9b8a13f26a4571049ecf12897a29787ec2290f5fcff824ed85ae68d"
+}

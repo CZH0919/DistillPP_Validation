@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "endpoint": "https://hf-mirror.com",
+  "verify_only": true,
+  "inventory_only": false,
+  "manifest_version": 2,
+  "records": [
+    {
+      "id": "teacher/transformer/config.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/config.json",
+      "status": "verified_existing",
+      "digest": "bdc0c80f0e7d4edb240a64f3d4c2e3b054eb0ec3"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00001-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00001-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "63eb07f03808d8ec9b6bfc1b4f4968d7d1253f2569fec18fae114b4530554181"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00002-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00002-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "8d24b40a5ea6bb21cdc0115128241ffeb44184b2419f4b1585af1573ed5c7839"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00003-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00003-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "7f550f93b3c36c13015dd551109ff63528251864c9513acc2e0a502807b8a91c"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00004-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00004-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "6a701d601e2cbe3da3515b24d59f56deb5ca2c973c778ff7911f579ec5b8ec11"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00005-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00005-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "7eb65433e529b975f84897f6572af1ae148d82e7fd0ee7c5f4191158736b104f"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00006-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00006-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "aae199dea0aeb96347e9af9e3cb90679c1c8c2f42c76ee3cead2ea240c909d07"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00007-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00007-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "53c24e663dece6ff0737b03e5cc670118998231877ba7bad29824ff0500589d4"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00008-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00008-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "333eaca9dce56bf3083bbab4630aa081b7c403a27ba94894a7756d631529fd9a"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00009-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00009-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "8af811e7ed2ab64a3f6d07827d1b975a9804b78d63c2b3989024bc1b67ac6e5d"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00010-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00010-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "e8b631e38f0ad21a63c631069658d4be4b55e0cb15e8f5848567482b5862ba63"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00011-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00011-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "21032fe150df6f3ac26780fb8ca38d05c4a9585a1b774ceadb5d42bc96ff1b27"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model-00012-of-00012.safetensors",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model-00012-of-00012.safetensors",
+      "status": "verified_existing",
+      "digest": "7b36878bf76c01410c3be92e5239a10106dfdc932567553228879979e0ac903d"
+    },
+    {
+      "id": "teacher/transformer/diffusion_pytorch_model.safetensors.index.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer/diffusion_pytorch_model.safetensors.index.json",
+      "status": "verified_existing",
+      "digest": "b29530a9c245dbd4efd4b75d65fd34111690151b"
+    },
+    {
+      "id": "student/LICENSE.txt",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/LICENSE.txt",
+      "status": "verified_existing",
+      "digest": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "id": "student/README.md",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/README.md",
+      "status": "verified_existing",
+      "digest": "b692b3995d61a2055ada7cce4cb001671a66afa8"
+    },
+    {
+      "id": "student/Wan2.1_VAE.pth",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/Wan2.1_VAE.pth",
+      "status": "verified_existing",
+      "digest": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981"
+    },
+    {
+      "id": "student/config.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/config.json",
+      "status": "verified_existing",
+      "digest": "c554e73024e488efa8e89589fab766e133fb0c5d"
+    },
+    {
+      "id": "student/distill_model.pt",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/distill_model.pt",
+      "status": "verified_existing",
+      "digest": "13fec11400e094785dd9dae25a928a3acfb3cfc61168ab1f388344f06bef4db7"
+    },
+    {
+      "id": "student/google/umt5-xxl/special_tokens_map.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/special_tokens_map.json",
+      "status": "verified_existing",
+      "digest": "14855e7052ffbb595057dfd791d293c1c940db2c"
+    },
+    {
+      "id": "student/google/umt5-xxl/spiece.model",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/spiece.model",
+      "status": "verified_existing",
+      "digest": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458"
+    },
+    {
+      "id": "student/google/umt5-xxl/tokenizer.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/tokenizer.json",
+      "status": "verified_existing",
+      "digest": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b"
+    },
+    {
+      "id": "student/google/umt5-xxl/tokenizer_config.json",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl/tokenizer_config.json",
+      "status": "verified_existing",
+      "digest": "4e1cc1cd85599ce0b47fd0a746af188fe4043ff2"
+    },
+    {
+      "id": "student/models_t5_umt5-xxl-enc-bf16.pth",
+      "path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/models_t5_umt5-xxl-enc-bf16.pth",
+      "status": "verified_existing",
+      "digest": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d"
+    }
+  ],
+  "error": null,
+  "interrupted": false,
+  "active_asset": null
+}

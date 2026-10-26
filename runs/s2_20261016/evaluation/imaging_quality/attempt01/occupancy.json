@@ -1,0 +1,4 @@
+{
+  "observations": [],
+  "error": "TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)"
+}

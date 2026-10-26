@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "implementation": "Independent raw-CSV grouping; math.fsum and bootstrap frequency-weight matrix; no frozen analysis helper imported.",
+  "compared_numbers": 46,
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "tolerance": 1e-10,
+  "qualified_quality_dimensions": 0,
+  "metric_summaries_recomputed": [
+    {
+      "metric": "subject_consistency",
+      "T50_mean": 0.9361874242002766,
+      "S4_mean": 0.9673269427614287,
+      "T50_minus_S4": -0.031139518561152112,
+      "ci_low": -0.06569389293395213,
+      "ci_high": -0.00410884274480242
+    },
+    {
+      "metric": "motion_smoothness",
+      "T50_mean": 0.9809653471630316,
+      "S4_mean": 0.9844848637551836,
+      "T50_minus_S4": -0.003519516592152011,
+      "ci_low": -0.012688871527470929,
+      "ci_high": 0.0024280553754777996
+    },
+    {
+      "metric": "dynamic_degree",
+      "T50_mean": 0.7708333333333334,
+      "S4_mean": 0.6458333333333334,
+      "T50_minus_S4": 0.125,
+      "ci_low": 0.0,
+      "ci_high": 0.25
+    },
+    {
+      "metric": "imaging_quality",
+      "T50_mean": 0.6946054164764813,
+      "S4_mean": 0.712426614771164,
+      "T50_minus_S4": -0.01782119829468276,
+      "ci_low": -0.03399937539517635,
+      "ci_high": -0.000628039088710377
+    },
+    {
+      "metric": "aesthetic_quality",
+      "T50_mean": 0.6989779478559891,
+      "S4_mean": 0.7190776405235132,
+      "T50_minus_S4": -0.020099692667524018,
+      "ci_low": -0.0532065209125479,
+      "ci_high": 0.012829273259267193
+    },
+    {
+      "metric": "overall_consistency",
+      "T50_mean": 0.2525678062811494,
+      "S4_mean": 0.24698071709523597,
+      "T50_minus_S4": 0.0055870891859134035,
+      "ci_low": -0.01013719978897522,
+      "ci_high": 0.019730525150274222
+    }
+  ],
+  "wall_time": {
+    "first_worker_start_beijing": "2026-10-17T14:10:29.446851+08:00",
+    "archive_complete_beijing": "2026-10-18T05:36:17.763479+08:00",
+    "total_elapsed_hours": 15.430087952017784,
+    "successful_hot_generation_gpu_hours": 14.00374862773706,
+    "effective_metric_scoring_seconds": 773.9131262879819
+  },
+  "descriptive_only": {
+    "per_seed_means": [
+      {
+        "metric": "subject_consistency",
+        "domain": "motion",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": -0.029453756730072174
+      },
+      {
+        "metric": "subject_consistency",
+        "domain": "motion",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": -0.041319777013268326
+      },
+      {
+        "metric": "subject_consistency",
+        "domain": "motion",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": -0.022645021940115834
+      },
+      {
+        "metric": "motion_smoothness",
+        "domain": "motion",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": -0.004118889400941822
+      },
+      {
+        "metric": "motion_smoothness",
+        "domain": "motion",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": -0.005119979999044219
+      },
+      {
+        "metric": "motion_smoothness",
+        "domain": "motion",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": -0.0013196803764699908
+      },
+      {
+        "metric": "dynamic_degree",
+        "domain": "motion",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": 0.0625
+      },
+      {
+        "metric": "dynamic_degree",
+        "domain": "motion",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": 0.125
+      },
+      {
+        "metric": "dynamic_degree",
+        "domain": "motion",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": 0.1875
+      },
+      {
+        "metric": "imaging_quality",
+        "domain": "visual_semantic",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": -0.03818214816811644
+      },
+      {
+        "metric": "imaging_quality",
+        "domain": "visual_semantic",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": -0.006599005092809258
+      },
+      {
+        "metric": "imaging_quality",
+        "domain": "visual_semantic",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": -0.00868244162312258
+      },
+      {
+        "metric": "aesthetic_quality",
+        "domain": "visual_semantic",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": -0.022004228085279465
+      },
+      {
+        "metric": "aesthetic_quality",
+        "domain": "visual_semantic",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": -0.018471330404281616
+      },
+      {
+        "metric": "aesthetic_quality",
+        "domain": "visual_semantic",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": -0.01982351951301098
+      },
+      {
+        "metric": "overall_consistency",
+        "domain": "visual_semantic",
+        "seed": 1529987743,
+        "prompts": 16,
+        "T50_minus_S4": 0.008611183613538742
+      },
+      {
+        "metric": "overall_consistency",
+        "domain": "visual_semantic",
+        "seed": 1993624635,
+        "prompts": 16,
+        "T50_minus_S4": 0.0022478988394141197
+      },
+      {
+        "metric": "overall_consistency",
+        "domain": "visual_semantic",
+        "seed": 1454077509,
+        "prompts": 16,
+        "T50_minus_S4": 0.00590218510478735
+      }
+    ],
+    "joint_motion_strata": [
+      {
+        "stratum": "both_dynamic",
+        "pairs": 30,
+        "subject_consistency_T50_minus_S4": -0.03442905700455108,
+        "motion_smoothness_T50_minus_S4": -0.0035637782461742577
+      },
+      {
+        "stratum": "teacher_only_dynamic",
+        "pairs": 7,
+        "subject_consistency_T50_minus_S4": -0.05298312242541995,
+        "motion_smoothness_T50_minus_S4": -0.010650774420679045
+      },
+      {
+        "stratum": "both_static",
+        "pairs": 10,
+        "subject_consistency_T50_minus_S4": -0.008039268143475043,
+        "motion_smoothness_T50_minus_S4": 0.0005267996359534455
+      },
+      {
+        "stratum": "student_only_dynamic",
+        "pairs": 1,
+        "subject_consistency_T50_minus_S4": -0.010550642386078835,
+        "motion_smoothness_T50_minus_S4": 0.007263975547150081
+      }
+    ],
+    "warning": "Post-generation descriptive grouping only. No exclusions, alternative qualification tests, causal identification, or new thresholds."
+  },
+  "sources_sha256": {
+    "metrics_per_video.csv": "8856df82351cb46511596e8b931c698016cfa892c30f7ecec37d0ce4828e7dda",
+    "generation_records.json": "fd05ee2d224802f169b207f4c2cd640a347ebc966c560ab52271d3907c2e328c",
+    "timing_per_video.csv": "3f846f11f2766372f1f98d9ee8ef5021531fc24acabfc32e83f230974f347148",
+    "statistics.json": "38fab1b417a5aa76b78a153b7dc6e3cdc9202d55eff4abc399b93676ebd0f784"
+  }
+}

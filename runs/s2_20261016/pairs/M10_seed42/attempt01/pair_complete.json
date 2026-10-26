@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M10_seed42",
+  "prompt_id": "M10",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is sweeping floor",
+  "seed": 42,
+  "worker_id": 1,
+  "global_sequence": 22,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "shared_positive_text_encoding_seconds": 0.060404740273952484,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed42/attempt01/T50/result.json",
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed42/attempt01/S4/result.json"
+  }
+}

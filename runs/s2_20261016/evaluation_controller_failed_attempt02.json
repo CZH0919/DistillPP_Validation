@@ -1,0 +1,36 @@
+{
+  "phase": "failed",
+  "started": 1792151466.6341574,
+  "pid": 1421338,
+  "generation_complete": 1792152567.9613194,
+  "pending": [],
+  "completed": [],
+  "running": {
+    "imaging_quality": {
+      "timeout_pid": 1429448,
+      "gpu": 0
+    },
+    "subject_consistency": {
+      "timeout_pid": 1429449,
+      "gpu": 1
+    },
+    "motion_smoothness": {
+      "timeout_pid": 1429451,
+      "gpu": 2
+    },
+    "dynamic_degree": {
+      "timeout_pid": 1429454,
+      "gpu": 3
+    },
+    "aesthetic_quality": {
+      "timeout_pid": 1429456,
+      "gpu": 4
+    },
+    "overall_consistency": {
+      "timeout_pid": 1429457,
+      "gpu": 5
+    }
+  },
+  "error": "AssertionError('Evaluation failed: imaging_quality exit=1')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_evaluation_controller.py\", line 39, in main\n    assert rc==0, 'Evaluation failed: '+metric+' exit='+str(rc)\nAssertionError: Evaluation failed: imaging_quality exit=1\n"
+}

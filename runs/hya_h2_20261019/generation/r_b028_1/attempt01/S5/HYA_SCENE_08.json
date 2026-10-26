@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "arm": "S5",
+  "prompt_id": "HYA_SCENE_08",
+  "seed": 2026101901,
+  "prompt": "A large body of ice with cracks and crevasses, slowly sliding down a mountain slope. Realistic, Natural lighting, Mysterious",
+  "inputs": {
+    "prompt_id": "HYA_SCENE_08",
+    "prompt": "A large body of ice with cracks and crevasses, slowly sliding down a mountain slope. Realistic, Natural lighting, Mysterious",
+    "seed": 2026101901,
+    "tokens": {
+      "llama_with_template": 123,
+      "clip_with_special": 27
+    },
+    "hashes": {
+      "context": "d71d27e49d06e43ba06bbf8a8ff3a2a52ad94d6e79572d2e63a1473f5aa73f63",
+      "mask": "c69f75627042de13d7b52518851e8006c6f17da713497b817dcaf7f7c9b5d703",
+      "llama_input_ids": "82b3a69b7b3b67d14d71d425877750e4099ef2f6cc17a1671af9d7988dbbb276",
+      "pooled": "522cfc7601d7d821dd63252ef50c35b82616eca8b70f5004f76ea28dcfb4fc68",
+      "clip_input_ids": "2890bc4a2bc33985e3ce9adf725f75b6d794d29b929e619183b87200432f557a",
+      "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+    },
+    "dtypes": {
+      "context": "torch.float16",
+      "mask": "torch.int64",
+      "llama_input_ids": "torch.int64",
+      "pooled": "torch.float16",
+      "clip_input_ids": "torch.int64",
+      "noise": "torch.float32"
+    },
+    "text_encoder_load_encode_seconds": 16.86769070290029,
+    "llama_encode_seconds": 0.04315581172704697,
+    "clip_encode_seconds": 0.003478752449154854,
+    "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_08.c061bdbad83f49dc940cc102324e575d.pt",
+    "file_sha256": "cf9ef06e1f22f4f809984d10de530935b8e61590152b0bc1c7bd151d48de01d3"
+  },
+  "admission": {
+    "index": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 3133912,
+    "snapshot": {
+      "gpus": [
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792424371.1213593
+    }
+  },
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792426454.5339882,
+  "model_to_gpu_seconds": 5.039669340476394,
+  "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+  "actual_initial_latent_dtype": "torch.float16",
+  "warmup_seconds": 34.79795631580055,
+  "first_prediction_sha256": "502e52701ccc7721b752d78ea1209d87745a6907dd126708188e9832d39ef82a",
+  "warmup_repeat_exact": true,
+  "denoising_seconds": 175.02534260228276,
+  "steps": [
+    {
+      "step": 0,
+      "timestep": 1000.0,
+      "sigma": 1.0,
+      "next_sigma": 0.9655172228813171,
+      "seconds": 34.9518141169101,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 1,
+      "timestep": 965.5172119140625,
+      "sigma": 0.9655172228813171,
+      "next_sigma": 0.9130434393882751,
+      "seconds": 34.996933022513986,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 2,
+      "timestep": 913.04345703125,
+      "sigma": 0.9130434393882751,
+      "next_sigma": 0.8235293626785278,
+      "seconds": 35.02997249364853,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 3,
+      "timestep": 823.5293579101562,
+      "sigma": 0.8235293626785278,
+      "next_sigma": 0.6363636255264282,
+      "seconds": 35.02228901721537,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 4,
+      "timestep": 636.3636474609375,
+      "sigma": 0.6363636255264282,
+      "next_sigma": 0.0,
+      "seconds": 35.02433395199478,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    }
+  ],
+  "formal_path_dit_calls": 5,
+  "extra_warmup_dit_calls": 1,
+  "final_latent_sha256": "6dbd5c8ed70cc44a3eac8aa3fd71dd2366316a8848184251ee4fcaea1bf3afac",
+  "denoise_peak_allocated_gib": 43.14194869995117,
+  "denoise_peak_reserved_gib": 47.314453125,
+  "model_offload_seconds": 12.146381663158536,
+  "vae_to_gpu_seconds": 0.19620896317064762,
+  "vae_decode_seconds": 33.27522911503911,
+  "decode_peak_allocated_gib": 7.232814788818359,
+  "vae_offload_seconds": 0.12714944034814835,
+  "encoding": {
+    "codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "fps": 24
+  },
+  "export_seconds": 7.445815758779645,
+  "video": {
+    "sha256": "b23c562775b0617ea4460953931b1a0d66c7b15df492a2c942993870f9ffa64b",
+    "bytes": 9068672,
+    "frames_decord": 129,
+    "frames_opencv": 129,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "sample_pixel_std": 58.520699259983935
+  },
+  "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/r_b028_1/attempt01/S5/HYA_SCENE_08.mp4",
+  "hot_denoise_decode_seconds": 208.30057171732187,
+  "video_wall_seconds": 285.46675086021423,
+  "network_attempts": [],
+  "finished_unix": 1792426741.5668743
+}

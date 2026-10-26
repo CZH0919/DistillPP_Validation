@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "shared_generation_files_size_mtime_unchanged": 24,
+  "no_own_gpu_context_remaining": true,
+  "checked_own_pids": [
+    1392600,
+    1392723,
+    1393038,
+    1393918,
+    1393944,
+    1394260,
+    1394294,
+    1394336,
+    1420852,
+    1429450,
+    1429452,
+    1429453,
+    1429455,
+    1429458,
+    1429459,
+    1431115,
+    1431269,
+    1432947,
+    1433246,
+    1438657,
+    1438970,
+    1440642,
+    1442091
+  ],
+  "current_gpu_process_metadata": [
+    "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc, 1435433, 56616",
+    "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b, 1435434, 122798",
+    "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074, 1435435, 122798",
+    "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba, 1435436, 122798",
+    "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4, 1435437, 122798",
+    "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8, 1689341, 71642"
+  ],
+  "disk_free_gib": 978.0005340576172,
+  "archived_videos": {
+    "T50": 48,
+    "S4": 48
+  },
+  "s3_started": false
+}

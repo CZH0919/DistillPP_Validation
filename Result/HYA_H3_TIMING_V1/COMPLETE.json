@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "finished_unix": 1792561915.430749,
+  "sha256": {
+    "scores.csv": "9b543a7e6414cb32b469f13fe183488b4830d87c4ae44ba3da303298d41f334a",
+    "timing.csv": "3b56b298121756c5da52a438d32813451a7042c4055d685c7d3abd8ba4df5870",
+    "paired_scores.csv": "62e9756a988b13c11b3a2d0db5a029cfd0dfceab67ed5ac99ca47fbfd2100096",
+    "timing_contrasts.csv": "503d6b61e4fa8fb285fede30b174f93f5aaafe8c450c39dc27ba5de461b24da2",
+    "subgroup_scores.csv": "93bf772f514220ea4f5fa010501c1e99e1cdb6b3cb39bf1d778f56e71e7bb5a9",
+    "correction_magnitudes.csv": "79590d39804fbe7b7cca1e4a98f7e9169c8ffd5cccd18bcaef72e34e0a49aa45",
+    "summary.json": "18bdea0d6dd56ca53d39a6a9fe1af87f6e9414ac2f8069362100e421925acbc3",
+    "REPORT.md": "ad646cc0b234723dde7ed8958f1399e6d2e2de504a2a34648a7c5f5f09a2b620"
+  }
+}

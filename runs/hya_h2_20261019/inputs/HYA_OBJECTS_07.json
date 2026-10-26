@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_07",
+  "prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "5a8f11078b4de963d666302e63d5708bf0251d47273159e3cfdb5ee30a0de789",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "1a341846a97bad1705de14f5f0f7776909dd8f879c3426ed29a8516c5fc43c96",
+    "pooled": "99186b702fe278f08be68c4e2b44bca4c1f0c46b715f2e258fa1919dd2631833",
+    "clip_input_ids": "f0fadafeacf93b218e0da2ebf192216203c6604b6222851256e9f7488204b73c",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.8786177970469,
+  "llama_encode_seconds": 0.04277470335364342,
+  "clip_encode_seconds": 0.003487447276711464,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_07.b838961704e34ac286c607669a4e4347.pt",
+  "file_sha256": "9d3d5384d712d0a23910bc1711e10fc2fbdfeb49f498f798ea9ce7571d510214"
+}

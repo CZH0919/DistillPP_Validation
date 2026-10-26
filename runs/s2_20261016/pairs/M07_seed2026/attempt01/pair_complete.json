@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M07_seed2026",
+  "prompt_id": "M07",
+  "stratum": "human_motion",
+  "prompt": "A person is laughing",
+  "seed": 2026,
+  "worker_id": 3,
+  "global_sequence": 45,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.05959231220185757,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed2026/attempt01/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed2026/attempt01/T50/result.json"
+  }
+}

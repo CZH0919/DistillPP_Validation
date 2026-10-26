@@ -1,0 +1,54 @@
+{
+  "status": "only_owned_three_workers_and_controller_stopped_for_pair_sharding",
+  "time_unix": 1792424166.9065416,
+  "available_non_0_2_cards": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "controller_pid": 3126924,
+  "worker_pids": [
+    3126931,
+    3126932,
+    3126933
+  ],
+  "pairs_preserved": 58,
+  "scores_preserved": 208,
+  "prior_progress": {
+    "gen_b014": {
+      "stage": "denoising",
+      "time_unix": 1792424141.2878451,
+      "pid": 3126932,
+      "block": "b014",
+      "prompt_id": "HYA_OBJECTS_02",
+      "arm": "T50",
+      "completed": 6,
+      "total": 50,
+      "step_seconds": 35.60139864124358
+    },
+    "gen_b028": {
+      "stage": "denoising",
+      "time_unix": 1792424161.711322,
+      "pid": 3126931,
+      "block": "b028",
+      "prompt_id": "HYA_SCENE_04",
+      "arm": "T50",
+      "completed": 7,
+      "total": 50,
+      "step_seconds": 35.24453887529671
+    },
+    "gen_b030": {
+      "stage": "denoising",
+      "time_unix": 1792424128.526053,
+      "pid": 3126933,
+      "block": "b030",
+      "prompt_id": "HYA_OBJECTS_04",
+      "arm": "T50",
+      "completed": 6,
+      "total": 50,
+      "step_seconds": 35.06364290043712
+    }
+  }
+}

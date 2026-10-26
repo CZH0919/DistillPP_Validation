@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M09_seed2026",
+  "prompt_id": "M09",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is drawing",
+  "seed": 2026,
+  "worker_id": 0,
+  "global_sequence": 14,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.057520780712366104,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed2026/attempt02/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M09_seed2026/attempt02/T50/result.json"
+  }
+}

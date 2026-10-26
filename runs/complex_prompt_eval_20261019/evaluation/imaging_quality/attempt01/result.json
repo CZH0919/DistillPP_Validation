@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "metric": "imaging_quality",
+  "rows": [
+    {
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/complex_prompt_probe_20261018/T50/CP01_seed2026101801.mp4",
+      "video_sha256": "c5e9a1f2491181b9d38f814bf22dc2f44cb4559f5cfd9877cf7f381f11e2b828",
+      "metric": "imaging_quality",
+      "prompt_id": "CP01",
+      "seed": 2026101801,
+      "source_returned_score": 76.35068926399137,
+      "raw_score": 76.35068926399137,
+      "normalized_score": 0.7635068926399137,
+      "eval_prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows."
+    },
+    {
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/complex_prompt_probe_20261018/S4/CP01_seed2026101801.mp4",
+      "video_sha256": "460f369245dc083c165be9d62b9ed948f981845d26cc82515aa0f83503b3c73e",
+      "metric": "imaging_quality",
+      "prompt_id": "CP01",
+      "seed": 2026101801,
+      "source_returned_score": 77.36545374364029,
+      "raw_score": 77.36545374364029,
+      "normalized_score": 0.7736545374364029,
+      "eval_prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows."
+    }
+  ],
+  "scope": "One exploratory pair; no confidence interval or qualification claim",
+  "vbench_commit": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+  "input_preflight_sha256": "b7f50457ae40c9b232ac52aa9782b38ab8452ab8832621c83c2dbc2a7db9a9dc",
+  "admission": {
+    "physical_index": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": []
+    },
+    "pid": 2897233,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "model_load_seconds": 5.086587116122246,
+  "scoring_seconds": 2.3059908244758844,
+  "aggregate": 0.7685807150381584,
+  "text_metadata": null,
+  "peak_allocated_gib": 0.2142038345336914,
+  "network_attempts": []
+}

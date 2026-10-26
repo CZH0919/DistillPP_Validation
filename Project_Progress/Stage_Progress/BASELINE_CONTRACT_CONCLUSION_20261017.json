@@ -1,0 +1,46 @@
+{
+  "status": "passed_reference_contract_review",
+  "date_local": "2026-10-17",
+  "scope": "Existing source, identity receipts and accepted runtime records; no new inference",
+  "model_assets_full_hash_receipts_matched": 24,
+  "live_state_check": "BASELINE_AND_PROMPT_REVIEW_20261017.json",
+  "live_source_and_document_hashes_matched": 17,
+  "teacher_rename_rules_equal_official_order": true,
+  "accepted_videos_reviewed": 96,
+  "paired_inputs_reviewed": 48,
+  "successful_worker_receipts_reviewed": [
+    "runs\\s2_20261016\\workers\\worker00\\attempt03\\result.json",
+    "runs\\s2_20261016\\workers\\worker01\\attempt01\\result.json",
+    "runs\\s2_20261016\\workers\\worker02\\attempt01\\result.json",
+    "runs\\s2_20261016\\workers\\worker03\\attempt01\\result.json",
+    "runs\\s2_20261016\\workers\\worker04\\attempt01\\result.json",
+    "runs\\s2_20261016\\workers\\worker05\\attempt01\\result.json",
+    "runs\\s2_20261016\\workers\\worker06\\attempt01\\result.json"
+  ],
+  "actual_forward_counts": {
+    "T50": 100,
+    "S4": 4
+  },
+  "no_known_generation_contract_error_found": true,
+  "independent_full_entrypoint_bitwise_equivalence": "not tested and not claimed",
+  "engineering_interpretation": "Evidence supports proceeding to evaluation-design correction; no result-driven weight replacement or repeated smoke generation",
+  "unchanged_source_sha256": {
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/run_s2_worker.py": "c4482222641aedbb3b28545d224d09e81fe5eaf1df7d4e48b3e3c6da77bc91e3",
+    "tools/evaluate_s2.py": "5296d67dab6f2ee4fb642aab288fa1c928bf1011e41e64efd5ecbe0b51f2ca9c",
+    "Project_Plan/BASELINE_SETTINGS.json": "614b5ecb0c7b83ba3d0f648e543596b61f8b080a3bda1a0a0e0eae481353bf12",
+    "Project_Plan/WAN_KEY_RENAME_RULES.json": "3c13b14cc8f824dab0f3717021209ef9e57c38e3b2464f2ac95cd5b660183588",
+    "Project_Plan/EXPERIMENT_PLAN.md": "4996c0b3f59b72b2e62764cefad3ab6054a89f01e14eb054da79db467ef94119",
+    "Project_Progress/Total_Progress.md": "9c89ad3d55962a87e64c8dd31ac33d0c20d6810bcb364ba32d905c9a0489cfae",
+    "Project_Progress/Stage_Progress/S2_MODEL_CALL_AUDIT.md": "fe23f56b3e6e3a9f85bf1c52345f05d2852749129c27faa2e739b8b13e9cd912",
+    "Project_Progress/Stage_Progress/S2_EVALUATION_DESIGN_REVIEW.md": "091aed4d63256ed79bd157412752cb76d08fe39edd51e621019715fadffa5128",
+    "src/Wan2.1/wan/text2video.py": "169f0929b273b27a7bc0e094d15a01d48183adc529a1dbce626b179dced29fe8",
+    "src/Wan2.1/wan/modules/model.py": "c1572ade3bf7345bd4c00d4a19535788fab62f9c08b5aeb15f6d01f4435bb47a",
+    "src/Wan2.1/wan/modules/t5.py": "8b0cebf3192c542f92a344255a06c203df3ba24160715899a055cc8de0cd930f",
+    "src/Wan2.1/wan/modules/vae.py": "4912ffd7a9fbb17ceef9a17d4a9c4b8aee36ec37c32594f54e57693b29909498",
+    "src/Wan2.1/wan/utils/fm_solvers_unipc.py": "0dec8c7ed17f6f2049275c6848113314da6ccec1c8db5bdc89df43c05c6038d9",
+    "src/LightX2V/lightx2v/models/networks/wan/distill_model.py": "6a31e1b2f2222acb3aa8c6b24d2691979fe2456d4dbc04b4a95260fbaa0c33f6",
+    "src/LightX2V/lightx2v/models/schedulers/wan/step_distill/scheduler.py": "cff3143e3872463f536577b02c9a263c37f719f38430d78fc7c32ad3f42dc42d",
+    "src/VBench/vbench/VBench_full_info.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+  }
+}

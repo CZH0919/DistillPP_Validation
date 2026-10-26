@@ -1,0 +1,97 @@
+prompt_id,stratum,prompt,metric,T50_mean,S4_mean,paired_difference
+M01,animal_motion,a bird soaring gracefully in the sky,imaging_quality,0.647729254828559,0.651685666998718,-0.003956412170158963
+M01,animal_motion,a bird soaring gracefully in the sky,subject_consistency,0.9507320657372474,0.9603084513296684,-0.009576385592420874
+M01,animal_motion,a bird soaring gracefully in the sky,motion_smoothness,0.9909569816063,0.9895095363092931,0.0014474452970068368
+M01,animal_motion,a bird soaring gracefully in the sky,dynamic_degree,1.0,1.0,0.0
+M01,animal_motion,a bird soaring gracefully in the sky,aesthetic_quality,0.5058887998263041,0.5596099893252054,-0.05372118949890137
+M01,animal_motion,a bird soaring gracefully in the sky,overall_consistency,0.23937998215357462,0.23087437450885773,0.008505607644716898
+M02,animal_motion,a cat drinking water,imaging_quality,0.7072064356548796,0.6969259858621982,0.010280449792681426
+M02,animal_motion,a cat drinking water,subject_consistency,0.9854362080494563,0.9833617565532525,0.0020744514962037406
+M02,animal_motion,a cat drinking water,motion_smoothness,0.9854113891594745,0.9869809138521416,-0.0015695246926672457
+M02,animal_motion,a cat drinking water,dynamic_degree,0.6666666666666666,0.0,0.6666666666666666
+M02,animal_motion,a cat drinking water,aesthetic_quality,0.5561057726542155,0.5732767979303995,-0.017171025276184082
+M02,animal_motion,a cat drinking water,overall_consistency,0.2356486121813456,0.2510291536649068,-0.015380541483561197
+M03,animal_motion,a horse galloping across an open field,imaging_quality,0.6332054166440609,0.6886832051218291,-0.05547778847776811
+M03,animal_motion,a horse galloping across an open field,subject_consistency,0.9576091294487318,0.9633186186353365,-0.005709489186604781
+M03,animal_motion,a horse galloping across an open field,motion_smoothness,0.974458704051755,0.9796363399303809,-0.00517763587862589
+M03,animal_motion,a horse galloping across an open field,dynamic_degree,1.0,0.0,1.0
+M03,animal_motion,a horse galloping across an open field,aesthetic_quality,0.56795334815979,0.668832004070282,-0.10087865591049194
+M03,animal_motion,a horse galloping across an open field,overall_consistency,0.22759075462818146,0.2164215793212255,0.011169175306955973
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,imaging_quality,0.6906334964139962,0.6932208534523294,-0.002587357038333127
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,subject_consistency,0.9839396874109904,0.9834360716243585,0.0005036157866319021
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,motion_smoothness,0.984447607539165,0.9830337804648658,0.0014138270742992676
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,dynamic_degree,1.0,0.6666666666666666,0.3333333333333333
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,aesthetic_quality,0.5770380099614462,0.6052417953809103,-0.02820378541946411
+M04,animal_motion,an elephant spraying itself with water using its trunk to cool down,overall_consistency,0.2485305517911911,0.275261253118515,-0.026730701327323914
+M05,human_motion,A person is clapping,imaging_quality,0.7047775631186403,0.7291804975344812,-0.024402934415840887
+M05,human_motion,A person is clapping,subject_consistency,0.9588835823039213,0.9711570060501495,-0.012273423746228196
+M05,human_motion,A person is clapping,motion_smoothness,0.9800403128938764,0.9786183589549379,0.0014219539389385139
+M05,human_motion,A person is clapping,dynamic_degree,1.0,1.0,0.0
+M05,human_motion,A person is clapping,aesthetic_quality,0.49936628341674805,0.5436112284660339,-0.04424494504928589
+M05,human_motion,A person is clapping,overall_consistency,0.18798930943012238,0.1518479511141777,0.03614135831594467
+M06,human_motion,A person is stretching leg,imaging_quality,0.7305809388337311,0.7168514606491528,0.013729478184578295
+M06,human_motion,A person is stretching leg,subject_consistency,0.9895880712817112,0.9860938730339209,0.0034941982477903664
+M06,human_motion,A person is stretching leg,motion_smoothness,0.9953758215486826,0.9952525884279771,0.00012323312070557554
+M06,human_motion,A person is stretching leg,dynamic_degree,0.0,0.0,0.0
+M06,human_motion,A person is stretching leg,aesthetic_quality,0.5737712581952413,0.565988560517629,0.007782697677612305
+M06,human_motion,A person is stretching leg,overall_consistency,0.19193661212921143,0.20181407034397125,-0.009877458214759827
+M07,human_motion,A person is laughing,imaging_quality,0.7023598470805604,0.7290500490165052,-0.026690201935944735
+M07,human_motion,A person is laughing,subject_consistency,0.9745926157881817,0.9756769097099701,-0.0010842939217885483
+M07,human_motion,A person is laughing,motion_smoothness,0.993546524057228,0.993695202001852,-0.00014867794462417963
+M07,human_motion,A person is laughing,dynamic_degree,0.3333333333333333,0.0,0.3333333333333333
+M07,human_motion,A person is laughing,aesthetic_quality,0.5421091318130493,0.5387860139211019,0.0033231178919474282
+M07,human_motion,A person is laughing,overall_consistency,0.1640001436074575,0.16816631952921549,-0.004166175921758016
+M08,human_motion,A person is tai chi,imaging_quality,0.740660819536374,0.7272418344756703,0.013418985060703567
+M08,human_motion,A person is tai chi,subject_consistency,0.9806272664417822,0.9967952697227398,-0.01616800328095754
+M08,human_motion,A person is tai chi,motion_smoothness,0.9941779500523277,0.9945366935135432,-0.00035874346121548645
+M08,human_motion,A person is tai chi,dynamic_degree,0.3333333333333333,0.3333333333333333,0.0
+M08,human_motion,A person is tai chi,aesthetic_quality,0.5179013013839722,0.39253076910972595,0.12537053227424622
+M08,human_motion,A person is tai chi,overall_consistency,0.020930901480217774,0.04812139024337133,-0.027190488763153553
+M09,human_object_interaction,A person is drawing,imaging_quality,0.7190317692383817,0.7391716703564052,-0.02013990111802344
+M09,human_object_interaction,A person is drawing,subject_consistency,0.9773877160002789,0.9913657909880081,-0.013978074987729405
+M09,human_object_interaction,A person is drawing,motion_smoothness,0.9954554527439982,0.9951609101250454,0.00029454261895286066
+M09,human_object_interaction,A person is drawing,dynamic_degree,0.0,0.0,0.0
+M09,human_object_interaction,A person is drawing,aesthetic_quality,0.5778557459513346,0.6305257678031921,-0.052670021851857506
+M09,human_object_interaction,A person is drawing,overall_consistency,0.10296947012344997,0.10006398955980937,0.0029054805636405945
+M10,human_object_interaction,A person is sweeping floor,imaging_quality,0.7343475269584498,0.7477682052423925,-0.013420678283942592
+M10,human_object_interaction,A person is sweeping floor,subject_consistency,0.9447346820185581,0.9726786480595667,-0.02794396604100861
+M10,human_object_interaction,A person is sweeping floor,motion_smoothness,0.9906309651815454,0.9912797255565332,-0.0006487603749878076
+M10,human_object_interaction,A person is sweeping floor,dynamic_degree,1.0,1.0,0.0
+M10,human_object_interaction,A person is sweeping floor,aesthetic_quality,0.5069051186243693,0.49467217922210693,0.01223293940226237
+M10,human_object_interaction,A person is sweeping floor,overall_consistency,0.2069884936014811,0.2041617383559545,0.002826755245526632
+M11,human_object_interaction,A person is playing piano,imaging_quality,0.636716844378185,0.6953249349711853,-0.05860809059300043
+M11,human_object_interaction,A person is playing piano,subject_consistency,0.9908187576880056,0.9936740770936012,-0.002855319405595469
+M11,human_object_interaction,A person is playing piano,motion_smoothness,0.9896854789285952,0.9851276799960548,0.004557798932540417
+M11,human_object_interaction,A person is playing piano,dynamic_degree,1.0,1.0,0.0
+M11,human_object_interaction,A person is playing piano,aesthetic_quality,0.45984042684237164,0.4888696273167928,-0.029029200474421184
+M11,human_object_interaction,A person is playing piano,overall_consistency,0.2171457757552465,0.22251059114933014,-0.005364815394083659
+M12,human_object_interaction,A person is folding clothes,imaging_quality,0.7290388553132736,0.7072463849542562,0.021792470359017362
+M12,human_object_interaction,A person is folding clothes,subject_consistency,0.951309264327089,0.9491084899753331,0.0022007743517557707
+M12,human_object_interaction,A person is folding clothes,motion_smoothness,0.9806444085591411,0.9825232113756739,-0.001878802816532558
+M12,human_object_interaction,A person is folding clothes,dynamic_degree,1.0,1.0,0.0
+M12,human_object_interaction,A person is folding clothes,aesthetic_quality,0.5720916589101156,0.5397217671076456,0.03236989180246989
+M12,human_object_interaction,A person is folding clothes,overall_consistency,0.2061195174853007,0.214257021745046,-0.00813750425974528
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,imaging_quality,0.605159468631195,0.5920315584724333,0.013127910158761765
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,subject_consistency,0.9862974630047878,0.9805540648599466,0.005743398144841187
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,motion_smoothness,0.9956452420823209,0.9762144807509007,0.01943076133142004
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,dynamic_degree,0.0,0.6666666666666666,-0.6666666666666666
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,aesthetic_quality,0.7596927682558695,0.7359898487726847,0.023702919483184814
+M13,scene_motion,Campfire at night in a snowy forest with starry sky in the background.,overall_consistency,0.3094184597333272,0.29953431089719135,0.009884148836135864
+M14,scene_motion,a drone flying over a snowy forest.,imaging_quality,0.7464932207021203,0.6337098182081686,0.11278340249395169
+M14,scene_motion,a drone flying over a snowy forest.,subject_consistency,0.959365842739741,0.9797516584396361,-0.02038581569989521
+M14,scene_motion,a drone flying over a snowy forest.,motion_smoothness,0.976012075229954,0.992401908167447,-0.016389832937492965
+M14,scene_motion,a drone flying over a snowy forest.,dynamic_degree,0.6666666666666666,0.0,0.6666666666666666
+M14,scene_motion,a drone flying over a snowy forest.,aesthetic_quality,0.5511814554532369,0.5028359989325205,0.04834545652071635
+M14,scene_motion,a drone flying over a snowy forest.,overall_consistency,0.29862669110298157,0.2549274762471517,0.04369921485582987
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",imaging_quality,0.7191741949638711,0.7485749933062267,-0.029400798342355428
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",subject_consistency,0.9790467767665784,0.9856153247257073,-0.006568547959129052
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",motion_smoothness,0.9885134252112748,0.9913652791088836,-0.0028518538976087062
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",dynamic_degree,0.0,0.0,0.0
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",aesthetic_quality,0.6514482100804647,0.7328631480534872,-0.08141493797302246
+M15,scene_motion,"Pacific coast, carmel by the sea ocean and waves.",overall_consistency,0.1482385446627935,0.11399820943673451,0.03424033522605896
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,imaging_quality,0.7639289614202553,0.7782616286415132,-0.014332667221257736
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,subject_consistency,0.9779695825030407,0.9857346257815758,-0.007765043278535222
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,motion_smoothness,0.9887300458784164,0.9901014828791426,-0.0013714370007261723
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,dynamic_degree,0.6666666666666666,0.0,0.6666666666666666
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,aesthetic_quality,0.6648781299591064,0.7237813075383505,-0.05890317757924398
+M16,scene_motion,A boat sailing leisurely along the Seine River with the Eiffel Tower in background,overall_consistency,0.2989080051581065,0.28958576917648315,0.009322235981623331

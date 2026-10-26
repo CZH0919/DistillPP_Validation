@@ -1,0 +1,14 @@
+{
+  "controller_pid": 3126924,
+  "start_ticks": "1598943070",
+  "session_id": 3126924,
+  "launched_unix": 1792423822.7293766,
+  "initial_gpu_indices": [
+    3,
+    5,
+    6
+  ],
+  "preserved_file_count": 356,
+  "previous_completed_pairs": 58,
+  "previous_completed_scores": 208
+}

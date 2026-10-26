@@ -1,0 +1,10 @@
+{
+  "controller_pid": 2959832,
+  "start_ticks": "1594704962",
+  "session_id": 2959832,
+  "launcher_pid": 2959831,
+  "stdin": "DEVNULL",
+  "stdout_stderr": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/controller.log",
+  "start_new_session": true,
+  "launched_unix": 1792381440.647655
+}

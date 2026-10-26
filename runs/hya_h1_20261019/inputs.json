@@ -1,0 +1,32 @@
+{
+  "prompt": "A brown dog and a white cat walk together along a stone path in a sunlit garden. A steady wide shot keeps both animals visible as they move past green plants.",
+  "seed": 2026101900,
+  "scope": "H1 smoke only, outside formal panel",
+  "tokens": {
+    "llama_with_template": 130,
+    "llama_crop_start": 95,
+    "llama_max_with_template": 351,
+    "clip_with_special": 36
+  },
+  "hashes": {
+    "context": "fba8c5ee880bbf0a32da4964bee602e8adc05d686a5e72c755cf02290f1931ad",
+    "mask": "025eb948dd001bea415350b563edc79db86f75afb3802c9294a80be7179f8ff7",
+    "llama_input_ids": "3cfaf30a209d8f5601833874a1ae587c07eb8781644c4f5ff3eec408a104dd01",
+    "pooled": "9610a580ae4e4919b2592e8cb3a7e1395a3c85153dcbe87cdf89c8061591f32b",
+    "clip_input_ids": "ddf8b99185c4dfc3f88ecbf9303c958d5d88d7d84140b8afb030a6fabc22389c",
+    "noise": "842f31090e83d6bc01252251d8483fb0890bc4dcdbc6074a05755d4f8f24f06b"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 13.207005256786942,
+  "llama_encode_seconds": 0.20652682706713676,
+  "clip_encode_seconds": 0.04845094867050648,
+  "initial_latent_policy": "same CPU FP32 source explicitly supplied; cast to native prompt dtype FP16 before first step; subsequent native Euler state FP32",
+  "file_sha256": "ce306847a90cc496c79ee0b18801167d9fc5d100d4cb5b144a7facf177b844da"
+}

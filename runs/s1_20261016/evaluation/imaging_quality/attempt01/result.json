@@ -1,0 +1,100 @@
+{
+  "metric": "imaging_quality",
+  "status": "passed",
+  "scope": "S1_ONLY_NOT_QUALIFICATION",
+  "admission": {
+    "physical_index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1386310,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "load_plus_scoring_seconds": 3.9163978546857834,
+  "peak_allocated_gib": 0.2142038345336914,
+  "aggregate": 0.6610792301319265,
+  "videos": [
+    {
+      "arm": "teacher",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s1_20261016/teacher/attempt01/s1_video.mp4",
+      "raw_score": 66.75222288532022,
+      "normalized_score": 0.6675222288532022,
+      "source_returned_score": 66.75222288532022
+    },
+    {
+      "arm": "student",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s1_20261016/student/attempt02/s1_video.mp4",
+      "raw_score": 65.46362314106506,
+      "normalized_score": 0.6546362314106505,
+      "source_returned_score": 65.46362314106506
+    }
+  ],
+  "network_attempts": [],
+  "normalization": "imaging raw/100; aesthetic source already /10; others unchanged",
+  "scientific_comparison": "Not reported: one paired smoke sample is not qualification evidence"
+}

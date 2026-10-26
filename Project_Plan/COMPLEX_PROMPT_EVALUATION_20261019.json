@@ -1,0 +1,39 @@
+{
+  "scope": "User-authorized six-metric descriptive evaluation of the existing CP01 pair only",
+  "authorized_date_beijing": "2026-10-19",
+  "generation_config": "Project_Plan/COMPLEX_PROMPT_PROBE_20261018.json",
+  "generation_acceptance": "Result/COMPLEX_PROMPT_PROBE_20261018/acceptance.json",
+  "input_sha256": {
+    "tools/evaluate_s2r.py": "e518bc930825d3e538479665964fb3fef731e2af38bdbe982f75d4c31b0a5c10",
+    "tools/evaluate_s2.py": "5296d67dab6f2ee4fb642aab288fa1c928bf1011e41e64efd5ecbe0b51f2ca9c",
+    "tools/s1_common.py": "8be5811a83a03c36dcc412122e11a8360134dbf617aae0b5938c1bfc0e0b4281",
+    "tools/s2_common.py": "99a9862265596874eff7df6f79e09392860a2346d938e152e36d4d42a010107a",
+    "tools/s2r_common.py": "25cbed68ab457115723a03d4ba77ec7a356a63cbd6af1f119f60d9ba758ac832",
+    "Project_Plan/RESOURCE_MANIFEST.json": "284f74030cecb7ae3a29c7198359e599b12d8c5991be15ca11b4c5d7a67c802b",
+    "Project_Plan/COMPLEX_PROMPT_PROBE_20261018.json": "72bc726c1738f29283844e45e188bb03f297557ea6c10d4b458c465235a0f0c6",
+    "Result/COMPLEX_PROMPT_PROBE_20261018/acceptance.json": "7da5b868c13ed401173290fdf1c991edeb79f40daa4aa6be76ac61fe079c21bb",
+    "Project_Plan/SOURCE_ARCHIVES.json": "c7a30d1fc8e351aa76dc53e905227545095c4a1c951084db854a61ff79901afe"
+  },
+  "metrics": [
+    "imaging_quality",
+    "subject_consistency",
+    "motion_smoothness",
+    "dynamic_degree",
+    "aesthetic_quality",
+    "overall_consistency"
+  ],
+  "allowed_gpu_indexes": [
+    6
+  ],
+  "max_concurrent": 1,
+  "vbench_commit": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+  "eval_environment": "changzihe_eval",
+  "evaluation_seed": 20261017,
+  "text_policy": "Submit unchanged full generation prompt; preserve native ViCLIP 32-token truncation and expose the effective text. Do not silently summarize. This score cannot evaluate the full complex instructions.",
+  "report_policy": "12 per-video scores and 6 descriptive T50-minus-S4 differences; no confidence intervals, hypothesis tests, total score, or qualification conclusion. dynamic_degree is a binary motion flag, not a higher-is-better quality score.",
+  "data_scope": "Separate exploratory batch; do not pool with S2/S2-R official-domain qualification.",
+  "user_observation": "User informally observed better instruction adherence for the student and difficulty judging overall preference. This is not a collected human rating.",
+  "no_generation": true,
+  "no_FID_FVD": true,
+  "s3_started": false
+}

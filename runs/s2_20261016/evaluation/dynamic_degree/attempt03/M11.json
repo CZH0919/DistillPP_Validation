@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M11_seed42",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed42/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "efec1859cf88ce94d50183c232efc637b764a4908b440b8bf900ef5f0c80b146"
+    },
+    {
+      "pair_id": "M11_seed42",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed42/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "3c4ce9a460dc00219cd09865e5e2e6e46a6de67737cf779e7fef987516d12637"
+    },
+    {
+      "pair_id": "M11_seed1234",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed1234/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "2e5e2d6c0550f6c2f21af04018c3fc6d5cd109e702064376d309192482dbb52f"
+    },
+    {
+      "pair_id": "M11_seed1234",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed1234/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "39d90488f8fcc765b65b4f931fb8050fae29ae85c0b8ed4b537b06b267a0c8a1"
+    },
+    {
+      "pair_id": "M11_seed2026",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed2026/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "26e61f7be7717127b195fdfdc2d3be3bb44568849824342969cb8824fe08e3b0"
+    },
+    {
+      "pair_id": "M11_seed2026",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M11_seed2026/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "620150cb5dceb6eedd44649722a4fb78e82ffa0f9e91a7651a32d71f442b4878"
+    }
+  ],
+  "aggregate": 1.0,
+  "scoring_seconds": 20.655261516571045
+}

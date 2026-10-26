@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_24",
+  "prompt": "a cat playing in the park. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "94c4ece7fb7df87bb19f1f5078ccd9664d5c8329bae44ad3bd9fcea19124db6a",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "18c85a8b82096eebbd15d4b80cc1d970bf0e98736ee1fcf21ef3312f8a31a24e",
+    "pooled": "05387a943d2520aa42fd63a5716d7af4f752e68fd947d983cc2b50e76c07e52a",
+    "clip_input_ids": "a52b0cc1bb8e9093ce82d0826b8f804ad12aef34ae81468655f949ff6354f0ce",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 15.756330713629723,
+  "llama_encode_seconds": 0.041722819209098816,
+  "clip_encode_seconds": 0.0034585781395435333,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_24.206d3a7ed65a487c972b78db18d4c38e.pt",
+  "file_sha256": "1e97f892bd9913b6d3e3ad30776fae9d2fdc9f9e0ddf9b7b51c9b3d6d2699e6f"
+}

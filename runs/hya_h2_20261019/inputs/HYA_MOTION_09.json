@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_09",
+  "prompt": "A train speeding down the tracks. Realistic, Natural lighting, Dynamic",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "3bf8bf9cc3d050ee82a31b6c4e5b91833f0aa8d829c3a615785ac76df91cdd63",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "f307e096fcad6c126d81198d10423a32568581da87a5185518d560bd8d099fcb",
+    "pooled": "bafde2c56539e2181f81be6eb1fb854293d3a2c75234a8d82f63bf29859548b6",
+    "clip_input_ids": "c57d729f3918e3e72b2a4db48ef9fce5b22a68cb31a3e8c29db2ce152745e683",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 61.54537721350789,
+  "llama_encode_seconds": 2.311731370165944,
+  "clip_encode_seconds": 0.13224773295223713,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_09.724be4707cf74de4a4a384b0532c8854.pt",
+  "file_sha256": "8a0ee4e85860151d67780e24ea6a72bcf08f47a7a1431e5c8ebac1a65ce93be2"
+}

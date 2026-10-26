@@ -1,0 +1,19 @@
+{
+  "metric": "dynamic_degree",
+  "gpu": 3,
+  "timeout_pid": 1429454,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "60m",
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/evaluate_s2.py",
+    "--metric",
+    "dynamic_degree",
+    "--gpu",
+    "3"
+  ],
+  "time": 1792152569.7330668
+}

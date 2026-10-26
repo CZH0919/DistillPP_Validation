@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M13_seed42",
+  "prompt_id": "M13",
+  "stratum": "scene_motion",
+  "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+  "seed": 42,
+  "worker_id": 1,
+  "global_sequence": 15,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.06209089234471321,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed42/attempt01/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed42/attempt01/T50/result.json"
+  }
+}

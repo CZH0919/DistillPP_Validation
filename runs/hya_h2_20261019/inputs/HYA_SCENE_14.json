@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_14",
+  "prompt": "A bathroom with a toilet, sink, and bathtub or shower. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 116,
+    "clip_with_special": 21
+  },
+  "hashes": {
+    "context": "d7f5eea08012a3cb1c7c933abe9b92aaca17761e0495f58ba74bee6954af680f",
+    "mask": "7b39e2887c4e21df7c0c3be63a77ba46b2eccc4c2b0130506813509101f0a8e7",
+    "llama_input_ids": "106a00e377a79a7ca7cc98448569454352d736ecf63885f08e310902cec29ab8",
+    "pooled": "a2acf6602de52af3def5113f4688bd613926b0936f41d942fd24f6742f68c90d",
+    "clip_input_ids": "fac4d57318c657b2a0085790e86c0fe802e163f8a2fa010f1e628fd7e999a261",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 64.26894717849791,
+  "llama_encode_seconds": 0.041291965171694756,
+  "clip_encode_seconds": 0.17924221605062485,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_14.13bf80a3380f4b86aef395cb959e07c4.pt",
+  "file_sha256": "fd53356a5fdbe6cd42dfa1a953f5cb8c43b9038b6d354d8945c2933f1729c5a6"
+}

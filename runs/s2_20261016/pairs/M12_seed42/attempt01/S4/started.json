@@ -1,0 +1,23 @@
+{
+  "pair_id": "M12_seed42",
+  "prompt_id": "M12",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is folding clothes",
+  "seed": 42,
+  "worker_id": 6,
+  "global_sequence": 6,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1394336,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "98d68262713b2240fcf634f59d7c243553c19a64941a787e6b14cd25dc70bb55",
+  "unix_start": 1792148345.157444,
+  "gpu_count": 1,
+  "offload": false
+}

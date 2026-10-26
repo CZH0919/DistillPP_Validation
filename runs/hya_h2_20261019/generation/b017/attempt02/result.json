@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "block": "b017",
+  "prompt_ids": [
+    "HYA_MOTION_11",
+    "HYA_MOTION_15"
+  ],
+  "admission": {
+    "index": 2,
+    "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "pid": 2993247,
+    "snapshot": {
+      "gpus": [
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792391995.0726726
+    }
+  },
+  "arm_order": [
+    "T50",
+    "S5"
+  ],
+  "model_cpu_load_seconds": {
+    "T50": 4.876325812190771,
+    "S5": 14.886496478691697
+  },
+  "finished_unix": 1792396560.7513762
+}

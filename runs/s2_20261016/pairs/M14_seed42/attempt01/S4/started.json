@@ -1,0 +1,23 @@
+{
+  "pair_id": "M14_seed42",
+  "prompt_id": "M14",
+  "stratum": "scene_motion",
+  "prompt": "a drone flying over a snowy forest.",
+  "seed": 42,
+  "worker_id": 3,
+  "global_sequence": 3,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "dc562f4bc320f67639932ef3c66484b3f8a51d596ee3061ec177a146dcf688fa",
+  "unix_start": 1792148344.336035,
+  "gpu_count": 1,
+  "offload": false
+}

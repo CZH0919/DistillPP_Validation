@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "pair_id": "M05_seed42",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed42/attempt02/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9882095704434284,
+      "normalized_score": 0.9882095704434284,
+      "source_returned_score": 0.9882095704434284,
+      "video_sha256": "f94e6a4849a73bc9afab00d2cc340a707691aea9c5eb3d7a715cd5d8ed171675"
+    },
+    {
+      "pair_id": "M05_seed42",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed42/attempt02/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9874029582953642,
+      "normalized_score": 0.9874029582953642,
+      "source_returned_score": 0.9874029582953642,
+      "video_sha256": "b678e474c2c3a1416226d9e82fb3ce2a12f0f637729aa83e5dc514aa0d7fee77"
+    },
+    {
+      "pair_id": "M05_seed1234",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed1234/attempt01/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9669405335301188,
+      "normalized_score": 0.9669405335301188,
+      "source_returned_score": 0.9669405335301188,
+      "video_sha256": "88c7ef9725f724791281e19649d33fffa89cb2ad48dff1acc2a7f0b8a32a3cf0"
+    },
+    {
+      "pair_id": "M05_seed1234",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed1234/attempt01/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9699276100748125,
+      "normalized_score": 0.9699276100748125,
+      "source_returned_score": 0.9699276100748125,
+      "video_sha256": "e32a5c7b90bdb0740b97f389a6d87c37e15542ccba06d312b3799c788c531b92"
+    },
+    {
+      "pair_id": "M05_seed2026",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed2026/attempt01/S4/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9807049728912666,
+      "normalized_score": 0.9807049728912666,
+      "source_returned_score": 0.9807049728912666,
+      "video_sha256": "f9a6173a9196205317c10ea67fa4ff86eecb5bb0bd5117e1ffcdbb4d32087255"
+    },
+    {
+      "pair_id": "M05_seed2026",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed2026/attempt01/T50/video.mp4",
+      "metric": "motion_smoothness",
+      "raw_score": 0.9827903703114526,
+      "normalized_score": 0.9827903703114526,
+      "source_returned_score": 0.9827903703114526,
+      "video_sha256": "15e147a9d2e8be73d8fcec93ebf14733b626229d0b28c3c3d8161d6b73e61136"
+    }
+  ],
+  "aggregate": 0.9793293359244072,
+  "scoring_seconds": 10.628941904753447,
+  "reused_from": {
+    "path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/evaluation/motion_smoothness/attempt02/M05.json",
+    "sha256": "e6742e9bcf56f32b47c2bdc9874430b09b52d9942b267385922663a45af9dec1",
+    "prompt_id": "M05"
+  }
+}

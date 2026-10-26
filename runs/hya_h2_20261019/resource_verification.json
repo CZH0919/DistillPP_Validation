@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "asset_count": 40,
+  "elapsed_seconds": 52.27826166152954,
+  "assets": [
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/model_index.json",
+      "bytes": 563,
+      "mtime_ns": 1767321361161204250,
+      "sha256": "34b794bc21967bdc0bdc56be8158f883272659c07d8cf89669b2d5b15adbf52c"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/scheduler/scheduler_config.json",
+      "bytes": 419,
+      "mtime_ns": 1767321360953208985,
+      "sha256": "f1d67f3728a1a54de830ccb3b5856308a3f2844bad5950c60523fe87d6bb2bbe"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/config.json",
+      "bytes": 766,
+      "mtime_ns": 1767321360972208553,
+      "sha256": "085cebf4169836dc4a521e5aa88fb2bfe742ddf7a5d56f93bab4e79e540da567"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00001-of-00004.safetensors",
+      "bytes": 4977222384,
+      "mtime_ns": 1767321820636912408,
+      "sha256": "f5ad57d3eda300a3195bc9c0bb36ab76ebe88831f128e9851e63440aff4a6741"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00002-of-00004.safetensors",
+      "bytes": 4999801992,
+      "mtime_ns": 1767322187382713796,
+      "sha256": "54accb98811931fca7598da4f7239b03b912eaa2bd5fe639f2da00923374f4a0"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00003-of-00004.safetensors",
+      "bytes": 4915915480,
+      "mtime_ns": 1767321991435032673,
+      "sha256": "d67c77f57cab4c9bf7f4420c256aed684c8ac7b49c6ab72cff9924e9513db9f1"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00004-of-00004.safetensors",
+      "bytes": 117465520,
+      "mtime_ns": 1767321520912567738,
+      "sha256": "c93f133c65ab1aeaa9ed1e998901a306636375b2f57fa53cd279241147a9a0e9"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model.safetensors.index.json",
+      "bytes": 22152,
+      "mtime_ns": 1767321362061183759,
+      "sha256": "ab9a659309b52018d958a2de7b2301fa31f60faa702838a0263e385f29b9b3a8"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/config.json",
+      "bytes": 646,
+      "mtime_ns": 1767321361985185489,
+      "sha256": "2872d09ef8a7453db129a67a3e2d90e4dfa4de1febd0fcfa820ed006dceaff9a"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/model.safetensors",
+      "bytes": 246144152,
+      "mtime_ns": 1767321412463036279,
+      "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/special_tokens_map.json",
+      "bytes": 577,
+      "mtime_ns": 1767321361875187994,
+      "sha256": "e87284810dc7a4d9dbab5ea6b713b3e72a6a909006483760773fb129534b9fe0"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer.json",
+      "bytes": 17210098,
+      "mtime_ns": 1767321369739008951,
+      "sha256": "d2c593db4aa75b17a42c1f74d7cc38e257eaeed222e6a52674c65544165dcbaa"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer_config.json",
+      "bytes": 51729,
+      "mtime_ns": 1767321362861165545,
+      "sha256": "88d8723716a3368430f3a02fd4614c8368b9f87b28c0053fcbdd80b88888b0f7"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/merges.txt",
+      "bytes": 524619,
+      "mtime_ns": 1767321363369153979,
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/special_tokens_map.json",
+      "bytes": 588,
+      "mtime_ns": 1767321365615102843,
+      "sha256": "2cdb3b8331a60c92fc1e55a13e9fd61fd2293c5a51275fdcccd62b780052530e"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/tokenizer_config.json",
+      "bytes": 736,
+      "mtime_ns": 1767321364271133442,
+      "sha256": "39bae5313c2da6467866dee758e754d69f0e302a875027b142531cb9c51c7c28"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/vocab.json",
+      "bytes": 1059962,
+      "mtime_ns": 1767321365818098221,
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/config.json",
+      "bytes": 510,
+      "mtime_ns": 1767321367673055988,
+      "sha256": "87e056fd4f2d59a5999fb172819ea322944b2c42b95623d875e6c8da8fe790fa"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00001-of-00006.safetensors",
+      "bytes": 4987847512,
+      "mtime_ns": 1767322039913692834,
+      "sha256": "bdb957b35585ea74ae42ca92865a68fa1bf1ebc6c5b7e686a889e5c977dc24c7"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00002-of-00006.safetensors",
+      "bytes": 4984233368,
+      "mtime_ns": 1767322266661624987,
+      "sha256": "f16c2fabff7b4d290613975ed5fd0853b72b09463078b0d496d29c79a884ca4d"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00003-of-00006.safetensors",
+      "bytes": 4870899440,
+      "mtime_ns": 1767322030137961615,
+      "sha256": "65761c1b920d043b94cf1de1790cbd4871f3ea41182aa3b0ad6825249945bd6e"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00004-of-00006.safetensors",
+      "bytes": 4946314504,
+      "mtime_ns": 1767322052662343334,
+      "sha256": "7f1c385ac8a924f42f1e26238ed96fcabcf05434d51a25af54252c09e64efaa0"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00005-of-00006.safetensors",
+      "bytes": 4965170872,
+      "mtime_ns": 1767322257368868255,
+      "sha256": "d81f37cbee8d8fee160535d3f1f55fc9dc09741b38a3f8da3c6ae3487a11d350"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00006-of-00006.safetensors",
+      "bytes": 887709824,
+      "mtime_ns": 1767322006921602743,
+      "sha256": "0b027bd330d575c3c6e20e8fc9c585f9075742f467de687772c80898436a88fe"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model.safetensors.index.json",
+      "bytes": 133108,
+      "mtime_ns": 1767321992728996679,
+      "sha256": "99f9c26610498461f2e4f6fcb1f1432a6618771d8f405b66104aa0893fefaef1"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/vae/config.json",
+      "bytes": 718,
+      "mtime_ns": 1767321993838965814,
+      "sha256": "8dd1ef5ce49d2a56cdb5ea4c6553244320cd7185918463578c4c08a31f55e50a"
+    },
+    {
+      "path": "/data/chenjiayu/models/HunyuanVideo/vae/diffusion_pytorch_model.safetensors",
+      "bytes": 985943868,
+      "mtime_ns": 1767322062385077547,
+      "sha256": "7c68a6295f9034a88225fbafb1f3258291a08d57a1fdb938233fa57b1b8f4883"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+      "bytes": 343242485,
+      "mtime_ns": 1792142594860661161,
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+      "bytes": 21108000,
+      "mtime_ns": 1792142632366912542,
+      "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1"
+    },
+    {
+      "path": "/data/chenjiayu/models/AccVideo/accvideo-t2v-5-steps/diffusion_pytorch_model.pt",
+      "bytes": 25642454926,
+      "mtime_ns": 1792375233418493278,
+      "sha256": "c2c45bf82147276213cbd69e690fdb6b821f6945b1f2bc51f268caf0d12cceaf"
+    },
+    {
+      "path": "/data/chenjiayu/models/AccVideo/LICENSE",
+      "bytes": 15302,
+      "mtime_ns": 1792375253698002642,
+      "sha256": "6ba8ea0dc1c464c9ab549b281be5d3afcab93c3308a6967d22240150d844c54d"
+    },
+    {
+      "path": "/data/chenjiayu/models/AccVideo/Notice",
+      "bytes": 18975,
+      "mtime_ns": 1792375254905973460,
+      "sha256": "6f7d8a47d6a713f0a1f88841520a9f55b431c422a52d83962695883ae2fe8008"
+    },
+    {
+      "path": "/data/chenjiayu/models/AccVideo/README.md",
+      "bytes": 3115,
+      "mtime_ns": 1792375256006946866,
+      "sha256": "10e14663c135ef1a7c6132b685b30263b38658e65a7ce010bee5e9be53adebe2"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/clip_model/ViT-B-32.pt",
+      "bytes": 353976522,
+      "mtime_ns": 1792375287500187807,
+      "sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth",
+      "bytes": 4478705095,
+      "mtime_ns": 1792375673910073899,
+      "sha256": "4ce96f0ce98f940a6680d567f66a38ccc9ca8c4e638e5f5c5c2e881a0e3502ac"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/grit_model/grit_b_densecap_objectdet.pth",
+      "bytes": 417381733,
+      "mtime_ns": 1792375714608129932,
+      "sha256": "53b6e9b3fd948eac55b574c9b6f94ad0743dff46ba449df7ac2d33009ee92ef1"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/model.safetensors",
+      "bytes": 440449768,
+      "mtime_ns": 1792375756208167330,
+      "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/config.json",
+      "bytes": 570,
+      "mtime_ns": 1792375757780130998,
+      "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/tokenizer_config.json",
+      "bytes": 48,
+      "mtime_ns": 1792375758443115676,
+      "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10"
+    },
+    {
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased/vocab.txt",
+      "bytes": 231508,
+      "mtime_ns": 1792375759733085865,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  ]
+}

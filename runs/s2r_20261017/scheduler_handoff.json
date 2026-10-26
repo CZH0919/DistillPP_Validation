@@ -1,0 +1,52 @@
+{
+  "status": "replacement_started",
+  "old_pid": 1673723,
+  "old_start_ticks": 1578303996,
+  "unix_time": 1792219159.4718664,
+  "worker_policy": "Do not signal any worker; current generation continues",
+  "reason": "User requested conflict-aware alternate-GPU retry selection",
+  "initial_api_probe": {
+    "pidfd_open_available": false,
+    "exit_code": 1,
+    "signals_sent": false
+  },
+  "signal_method": "os.kill after repeated uid/cwd/cmdline/start-tick verification",
+  "new_pid": 1684627,
+  "adopted_workers": {
+    "generation:0": {
+      "job": "generation:0",
+      "pid": 1673728,
+      "gpu": 6,
+      "attempt": 1,
+      "unix_start": 1792217429.4468515,
+      "adopted": true,
+      "start_ticks": 1578304142
+    }
+  },
+  "new_policy": {
+    "stage": "S2_R_ONLY",
+    "allowed_gpu_indexes": [
+      6
+    ],
+    "max_concurrent": 1,
+    "stable_idle_seconds": 60,
+    "conflict_cooldown_seconds": 900,
+    "deprioritize_gpu_indexes": [
+      0,
+      1
+    ],
+    "reason": "Other cards have recurrent resident tasks; keep current GPU 6 worker running and execute remaining frozen shards serially. Do not expand on momentary vacancy.",
+    "scientific_configuration_changed": false,
+    "active_workers_migrated_or_restarted": false,
+    "future_expansion": "Runtime allowlist can be revised after sustained availability is verified; prefer nonconflicting cards. No effect on prompts, seeds, samplers, metric mapping or statistics."
+  },
+  "source_sha256": {
+    "tools/s2r_runtime.py": "c82463969ab1788977ede4bd31f269078c0bdf7b2d05855c8564bb66e536cad6",
+    "tools/run_s2r_controller_v2.py": "fef7823d308b3597374d066ad5c4885bb19c8bfe19675601d68fdd819697c214",
+    "tools/s2r_status.py": "39d02ad2919c104516ffb06481bcb3c7576c486c7a88682d489b3690494b7bc4",
+    "Project_Plan/S2R_RUNTIME_POLICY.json": "682f9bdd9f0d937ad37a94f2993c39cd30205546af5766d3115ad9bcbbe5f5a0"
+  },
+  "scientific_inputs_unchanged": true,
+  "worker_signals_sent": false,
+  "unix_handoff": 1792219489.7277694
+}

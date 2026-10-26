@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_25",
+  "prompt": "A dog enjoying a peaceful walk. Realistic, Natural lighting",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 108,
+    "clip_with_special": 13
+  },
+  "hashes": {
+    "context": "b9ded3bf092c83825ea58aaee342b04f26e9871bc056fbc6101e40eb229a3e15",
+    "mask": "860dd60832011f356b92bb221286bb48bb7f45794bec3500044cb0bf3bf7cfc3",
+    "llama_input_ids": "ae56eaa9a4a36801d792016cf70ba27ff3ff80302fbc4f3dcf0861a8258e58ea",
+    "pooled": "cd3190a34c443b0001626b127a77f938589b43bd4e738a664e766f967c54d723",
+    "clip_input_ids": "6d05a69ddc46d191ddeb0709e92705e49beef18d5b5483347158320abf4286b7",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 43.08766417764127,
+  "llama_encode_seconds": 0.28080061450600624,
+  "clip_encode_seconds": 0.14408885315060616,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_25.b4c0dfb24c984fec8031d419aadffe36.pt",
+  "file_sha256": "447b738ee00ba32b4aa82f65f5f2d5d0b0e52418ee0ac862064468f2a9207712"
+}

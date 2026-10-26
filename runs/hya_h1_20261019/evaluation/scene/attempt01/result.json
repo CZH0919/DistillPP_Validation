@@ -1,0 +1,160 @@
+{
+  "scope": "H1_ACCEPTANCE_NOT_QUALIFICATION",
+  "metric": "scene",
+  "status": "passed",
+  "source_sha256": "26c783eafc461750364227ba51933efad831f4534f038d6acdfbe442a3408adb",
+  "vbench_source_sha256": {
+    "vbench/scene.py": "f14c423710c812af2be953db619ed6e8b478acdc44f1df775815adfa30171965",
+    "vbench/utils.py": "1bbccddfa5108bd4bf630f9b5176342c407511dea8bfe2bffa8141cb0957d064"
+  },
+  "admission": {
+    "physical_gpu": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 2947700,
+    "initial_snapshot": {
+      "gpu": [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      "processes": []
+    },
+    "lock_scope": "this project only; not a cluster reservation"
+  },
+  "load_scoring_seconds": 12.544029777869582,
+  "aggregate": 0.0,
+  "videos": [
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/T50/attempt01/H1_smoke.mp4",
+      "video_results": 0.0,
+      "success_frame_count": 0,
+      "frame_count": 16
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/generation/S5/attempt01/H1_smoke.mp4",
+      "video_results": 0.0,
+      "success_frame_count": 0,
+      "frame_count": 16
+    }
+  ],
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "scene_frame_captions": [
+        "a brown and white dog standing next to a white cat",
+        "a brown and white dog standing next to a white cat",
+        "a brown and white dog standing next to a white cat",
+        "a brown and white dog and a white cat walking down a path path",
+        "a brown and white dog and a white cat walking down a path path",
+        "a brown and white dog and a white cat walking down a path path",
+        "a brown dog standing next to a white cat on a path",
+        "a brown dog standing next to a white cat on a path",
+        "a brown dog standing next to a white cat on a path",
+        "a brown dog standing next to a white cat",
+        "a brown dog standing next to a white cat",
+        "a brown dog standing next to a white cat",
+        "a dog and a cat walking down a path",
+        "a dog and a cat walking down a path",
+        "a dog and a cat walking down a path",
+        "a brown and white dog and a white cat"
+      ]
+    },
+    {
+      "scene_frame_captions": [
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a cat and a dog walking down a path",
+        "a cat and a dog walking down a path",
+        "a cat and a dog walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a couple of dogs and a cat walking down a path",
+        "a cat and a dog walking down a path",
+        "a cat and a dog walking down a path",
+        "a cat and a dog walking down a path",
+        "a couple of dogs and a cat walking down a path"
+      ]
+    }
+  ],
+  "network_attempts": []
+}

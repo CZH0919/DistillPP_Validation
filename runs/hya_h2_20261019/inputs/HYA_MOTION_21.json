@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_21",
+  "prompt": "A horse running to join a group of horses. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 114,
+    "clip_with_special": 18
+  },
+  "hashes": {
+    "context": "d0add61017bc4ffd6faad3a3a7f66b8b2cfbc56cca5560d9179c58ef03343c1e",
+    "mask": "ef3a2225783ede44ed974308ca6e99170b2d2f548621203e58e5dba0d1dee0f2",
+    "llama_input_ids": "2f9ba1253fd67b65c17c5b97981156c19885f24b735dbaef091d193d9fe5a91a",
+    "pooled": "f81a83f427cff7ad4c3a198baee00a84d5676922d36d593cdaebe0b646cfb91c",
+    "clip_input_ids": "ed5c9b137c5c97d86786055ec57288b4a2e85a31b69203ae31762dc5240cfc84",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 17.540685100480914,
+  "llama_encode_seconds": 0.03390992991626263,
+  "clip_encode_seconds": 0.0035767685621976852,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_21.93ab9f434f5045209e0c3a76e76a032a.pt",
+  "file_sha256": "7f4200874411f6e3d5a949f10ca100414cd3e3bce5e84d9360f671e7dc081eca"
+}

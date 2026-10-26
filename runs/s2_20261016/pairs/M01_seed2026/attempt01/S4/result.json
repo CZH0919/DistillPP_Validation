@@ -1,0 +1,88 @@
+{
+  "pair_id": "M01_seed2026",
+  "prompt_id": "M01",
+  "stratum": "animal_motion",
+  "prompt": "a bird soaring gracefully in the sky",
+  "seed": 2026,
+  "worker_id": 4,
+  "global_sequence": 32,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+  "pid": 1394260,
+  "initial_latent_sha256": "c4de30649e899d197e10d8aabfbf5a90fe5e0627f12492f2a5dea973a8b23314",
+  "positive_context_sha256": "1b534e9881b142254fd7798c5cac48abe4e6156722887420483ea258fd31a4a8",
+  "unix_start": 1792150642.6039674,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.003261961042881012,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "25ac91f5abed7eb0b551b349655fc1779f97e052099c19cbb1a02bfd40adcb17",
+  "student_initial_cast_max_abs_error": 0.015508651733398438,
+  "denoise_seconds": 17.82308933697641,
+  "forward_count": 4,
+  "vae_seconds": 11.083398623391986,
+  "denoise_plus_vae_seconds": 28.906487960368395,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.1640625,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": -0.0642138198018074,
+    "std": 0.9442799687385559,
+    "min": -4.4375,
+    "max": 5.15625
+  },
+  "final_latent_sha256": "92b56d6a335d1cc7b20000ad9e238573a4d13ebcb06b09865e1900dd98a70e28",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.2154659777879715,
+    "std": 0.5152077674865723,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "e83a901078018174170ed13ba7a1df45aa631f089da3b86bd23a269351c7dba8",
+    "bytes": 733474,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 65.58392834636429,
+    "decoded_first_frame_sha256": "3e4cb0365a2cb71030cab278dd73b613706c98611564cabc711a499fa408cbc5"
+  },
+  "export_and_decode_check_seconds": 2.4060058426111937,
+  "unix_end": 1792150673.9613974,
+  "network_attempts": []
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_07",
+  "prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "6d7c8f51293e0e2a083fb29e399604b25ea2e6986f7cb98f4cfad25826319634",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "87a81c222531215991fa4006cc83474e3916ca30f83b4e5d5dfee60ce7cea334",
+    "pooled": "952bb2a01285c58cc9d00637ce31c81f95e7fb11007fcc63ca953dd661f14c08",
+    "clip_input_ids": "86eebd69b9b1a4f3177ee93494c921f53eb59ee16250654a93da1a4a38d047fd",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 35.45824659243226,
+  "llama_encode_seconds": 0.04244324564933777,
+  "clip_encode_seconds": 0.005480002611875534,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_07.91abafc2fe5b48dfbbf9aabf247add32.pt",
+  "file_sha256": "b09afca0d163e8ba11c27712819c4a7a27296783357f66ee31cb3a26d2c9b1a5"
+}

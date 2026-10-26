@@ -1,0 +1,8 @@
+{
+  "metric": "motion_smoothness",
+  "gpu": 5,
+  "attempt": 3,
+  "timeout_pid": 1438969,
+  "exit_code": 0,
+  "elapsed_seconds": 110.11850762367249
+}

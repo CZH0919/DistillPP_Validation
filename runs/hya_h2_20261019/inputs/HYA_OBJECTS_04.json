@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_04",
+  "prompt": "A green broccoli and a blue backpack are placed next to each other. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 117,
+    "clip_with_special": 22
+  },
+  "hashes": {
+    "context": "bc7957e972806b354c832275fc0deb317e05bc9fcbdeba02551f5a73556a952b",
+    "mask": "d55eeaaafc4381b22801da009091934031109cb4a569cbea5ef5580547bab49f",
+    "llama_input_ids": "08b874c2d1b6a886484e415c66071099d78072a9d36b22fc67dd8e1ad6d618c0",
+    "pooled": "7837d2e2b2744e1db13ef33ae856aec736b0fcc9b485079c47613f278742cccc",
+    "clip_input_ids": "597ac878327952a2334681b9c025ea8197ee65ef20a8588057bb01c95c834799",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 17.646050456911325,
+  "llama_encode_seconds": 0.21984971314668655,
+  "clip_encode_seconds": 0.026880597695708275,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_04.756b1f3eea7a4d1db7d775bab55b5245.pt",
+  "file_sha256": "fec41a1b6f8ae4abc43df1d62c521d248fa7fed048341f4910c60e02594a2de2"
+}

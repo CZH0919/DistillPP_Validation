@@ -1,0 +1,700 @@
+{
+  "status": "passed",
+  "prompt_id": "HYA_MOTION_07",
+  "committed_unix": 1792386216.8843904,
+  "records": {
+    "S5": {
+      "status": "passed",
+      "arm": "S5",
+      "prompt_id": "HYA_MOTION_07",
+      "seed": 2026101901,
+      "prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+      "inputs": {
+        "prompt_id": "HYA_MOTION_07",
+        "prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+        "seed": 2026101901,
+        "tokens": {
+          "llama_with_template": 109,
+          "clip_with_special": 14
+        },
+        "hashes": {
+          "context": "6d7c8f51293e0e2a083fb29e399604b25ea2e6986f7cb98f4cfad25826319634",
+          "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+          "llama_input_ids": "87a81c222531215991fa4006cc83474e3916ca30f83b4e5d5dfee60ce7cea334",
+          "pooled": "952bb2a01285c58cc9d00637ce31c81f95e7fb11007fcc63ca953dd661f14c08",
+          "clip_input_ids": "86eebd69b9b1a4f3177ee93494c921f53eb59ee16250654a93da1a4a38d047fd",
+          "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+        },
+        "dtypes": {
+          "context": "torch.float16",
+          "mask": "torch.int64",
+          "llama_input_ids": "torch.int64",
+          "pooled": "torch.float16",
+          "clip_input_ids": "torch.int64",
+          "noise": "torch.float32"
+        },
+        "text_encoder_load_encode_seconds": 35.45824659243226,
+        "llama_encode_seconds": 0.04244324564933777,
+        "clip_encode_seconds": 0.005480002611875534,
+        "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_07.91abafc2fe5b48dfbbf9aabf247add32.pt",
+        "file_sha256": "b09afca0d163e8ba11c27712819c4a7a27296783357f66ee31cb3a26d2c9b1a5"
+      },
+      "admission": {
+        "index": 2,
+        "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "pid": 2959843,
+        "snapshot": {
+          "gpus": [
+            [
+              "2",
+              "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+              "0",
+              "143771",
+              "0"
+            ]
+          ],
+          "processes": [],
+          "time_unix": 1792381457.535448
+        }
+      },
+      "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+      "started_unix": 1792381891.7640574,
+      "model_to_gpu_seconds": 20.804284255951643,
+      "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+      "actual_initial_latent_dtype": "torch.float16",
+      "warmup_seconds": 0.0,
+      "first_prediction_sha256": "58e42806d7701f816da4a6223765128a142cfee7333c48e568eab82fe42d6c15",
+      "denoising_seconds": 174.04338310100138,
+      "steps": [
+        {
+          "step": 0,
+          "timestep": 1000.0,
+          "sigma": 1.0,
+          "next_sigma": 0.9655172228813171,
+          "seconds": 34.58960000611842,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 1,
+          "timestep": 965.5172119140625,
+          "sigma": 0.9655172228813171,
+          "next_sigma": 0.9130434393882751,
+          "seconds": 34.776942655444145,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 2,
+          "timestep": 913.04345703125,
+          "sigma": 0.9130434393882751,
+          "next_sigma": 0.8235293626785278,
+          "seconds": 34.869118908420205,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 3,
+          "timestep": 823.5293579101562,
+          "sigma": 0.8235293626785278,
+          "next_sigma": 0.6363636255264282,
+          "seconds": 34.918283296748996,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 4,
+          "timestep": 636.3636474609375,
+          "sigma": 0.6363636255264282,
+          "next_sigma": 0.0,
+          "seconds": 34.88943823426962,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        }
+      ],
+      "formal_path_dit_calls": 5,
+      "extra_warmup_dit_calls": 0,
+      "final_latent_sha256": "f10d7cd9c130366640bfd655ea3ece653051ef9f6898c57158b2c29d5d6b6460",
+      "denoise_peak_allocated_gib": 43.14194869995117,
+      "denoise_peak_reserved_gib": 47.314453125,
+      "model_offload_seconds": 12.290160758420825,
+      "vae_to_gpu_seconds": 0.17198500782251358,
+      "vae_decode_seconds": 32.12967473641038,
+      "decode_peak_allocated_gib": 7.232814788818359,
+      "vae_offload_seconds": 0.12037865072488785,
+      "encoding": {
+        "codec": "libx264",
+        "crf": 18,
+        "preset": "medium",
+        "pixel_format": "yuv420p",
+        "fps": 24
+      },
+      "export_seconds": 6.404701806604862,
+      "video": {
+        "sha256": "dcd2054262864bca6e522a13aa5904b8be49e05d393be39aa7c4cf5d006d6efd",
+        "bytes": 5048453,
+        "frames_decord": 129,
+        "frames_opencv": 129,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "sample_pixel_std": 49.76127189033664
+      },
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b016/attempt01/S5/HYA_MOTION_07.mp4",
+      "hot_denoise_decode_seconds": 206.17305783741176,
+      "video_wall_seconds": 266.356027841568,
+      "network_attempts": [],
+      "finished_unix": 1792382160.3175554,
+      "archive_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_07.mp4"
+    },
+    "T50": {
+      "status": "passed",
+      "arm": "T50",
+      "prompt_id": "HYA_MOTION_07",
+      "seed": 2026101901,
+      "prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+      "inputs": {
+        "prompt_id": "HYA_MOTION_07",
+        "prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+        "seed": 2026101901,
+        "tokens": {
+          "llama_with_template": 109,
+          "clip_with_special": 14
+        },
+        "hashes": {
+          "context": "6d7c8f51293e0e2a083fb29e399604b25ea2e6986f7cb98f4cfad25826319634",
+          "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+          "llama_input_ids": "87a81c222531215991fa4006cc83474e3916ca30f83b4e5d5dfee60ce7cea334",
+          "pooled": "952bb2a01285c58cc9d00637ce31c81f95e7fb11007fcc63ca953dd661f14c08",
+          "clip_input_ids": "86eebd69b9b1a4f3177ee93494c921f53eb59ee16250654a93da1a4a38d047fd",
+          "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+        },
+        "dtypes": {
+          "context": "torch.float16",
+          "mask": "torch.int64",
+          "llama_input_ids": "torch.int64",
+          "pooled": "torch.float16",
+          "clip_input_ids": "torch.int64",
+          "noise": "torch.float32"
+        },
+        "text_encoder_load_encode_seconds": 35.45824659243226,
+        "llama_encode_seconds": 0.04244324564933777,
+        "clip_encode_seconds": 0.005480002611875534,
+        "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_07.91abafc2fe5b48dfbbf9aabf247add32.pt",
+        "file_sha256": "b09afca0d163e8ba11c27712819c4a7a27296783357f66ee31cb3a26d2c9b1a5"
+      },
+      "admission": {
+        "index": 2,
+        "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "pid": 2959843,
+        "snapshot": {
+          "gpus": [
+            [
+              "2",
+              "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+              "0",
+              "143771",
+              "0"
+            ]
+          ],
+          "processes": [],
+          "time_unix": 1792381457.535448
+        }
+      },
+      "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+      "started_unix": 1792384164.5104647,
+      "model_to_gpu_seconds": 6.084343254566193,
+      "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+      "actual_initial_latent_dtype": "torch.float16",
+      "warmup_seconds": 0.0,
+      "first_prediction_sha256": "49d0b4d3da02e3620a7b64e8178a5919201b0f018d3ff7b98f70785ac820d64e",
+      "denoising_seconds": 1747.2737441640347,
+      "steps": [
+        {
+          "step": 0,
+          "timestep": 1000.0,
+          "sigma": 1.0,
+          "next_sigma": 0.9970930218696594,
+          "seconds": 34.568399367854,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 1,
+          "timestep": 997.093017578125,
+          "sigma": 0.9970930218696594,
+          "next_sigma": 0.9940828680992126,
+          "seconds": 34.8381004743278,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 2,
+          "timestep": 994.0828857421875,
+          "sigma": 0.9940828680992126,
+          "next_sigma": 0.990963876247406,
+          "seconds": 34.9608084987849,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 3,
+          "timestep": 990.9638671875,
+          "sigma": 0.990963876247406,
+          "next_sigma": 0.987730085849762,
+          "seconds": 34.953734051436186,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 4,
+          "timestep": 987.7301025390625,
+          "sigma": 0.987730085849762,
+          "next_sigma": 0.984375,
+          "seconds": 34.98389419168234,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 5,
+          "timestep": 984.375,
+          "sigma": 0.984375,
+          "next_sigma": 0.980891764163971,
+          "seconds": 34.99304084479809,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 6,
+          "timestep": 980.8917846679688,
+          "sigma": 0.980891764163971,
+          "next_sigma": 0.9772727489471436,
+          "seconds": 35.012569500133395,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 7,
+          "timestep": 977.2727661132812,
+          "sigma": 0.9772727489471436,
+          "next_sigma": 0.9735099673271179,
+          "seconds": 35.03432233259082,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 8,
+          "timestep": 973.5099487304688,
+          "sigma": 0.9735099673271179,
+          "next_sigma": 0.9695945382118225,
+          "seconds": 35.00277322344482,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 9,
+          "timestep": 969.5945434570312,
+          "sigma": 0.9695945382118225,
+          "next_sigma": 0.9655172228813171,
+          "seconds": 35.00927166081965,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 10,
+          "timestep": 965.5172119140625,
+          "sigma": 0.9655172228813171,
+          "next_sigma": 0.9612675309181213,
+          "seconds": 35.02741632796824,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 11,
+          "timestep": 961.2675170898438,
+          "sigma": 0.9612675309181213,
+          "next_sigma": 0.9568344950675964,
+          "seconds": 35.022891629487276,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 12,
+          "timestep": 956.83447265625,
+          "sigma": 0.9568344950675964,
+          "next_sigma": 0.9522059559822083,
+          "seconds": 34.96064428240061,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 13,
+          "timestep": 952.2059326171875,
+          "sigma": 0.9522059559822083,
+          "next_sigma": 0.9473683834075928,
+          "seconds": 34.94483361206949,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 14,
+          "timestep": 947.368408203125,
+          "sigma": 0.9473683834075928,
+          "next_sigma": 0.9423077702522278,
+          "seconds": 34.97782372869551,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 15,
+          "timestep": 942.3078002929688,
+          "sigma": 0.9423077702522278,
+          "next_sigma": 0.9370079040527344,
+          "seconds": 34.96725229546428,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 16,
+          "timestep": 937.0079345703125,
+          "sigma": 0.9370079040527344,
+          "next_sigma": 0.931451678276062,
+          "seconds": 34.948164055123925,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 17,
+          "timestep": 931.45166015625,
+          "sigma": 0.931451678276062,
+          "next_sigma": 0.9256197810173035,
+          "seconds": 34.954682514071465,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 18,
+          "timestep": 925.6197509765625,
+          "sigma": 0.9256197810173035,
+          "next_sigma": 0.9194915294647217,
+          "seconds": 34.97288356907666,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 19,
+          "timestep": 919.4915161132812,
+          "sigma": 0.9194915294647217,
+          "next_sigma": 0.9130434393882751,
+          "seconds": 34.94581826031208,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 20,
+          "timestep": 913.04345703125,
+          "sigma": 0.9130434393882751,
+          "next_sigma": 0.90625,
+          "seconds": 34.98156447336078,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 21,
+          "timestep": 906.25,
+          "sigma": 0.90625,
+          "next_sigma": 0.8990825414657593,
+          "seconds": 34.94733327999711,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 22,
+          "timestep": 899.08251953125,
+          "sigma": 0.8990825414657593,
+          "next_sigma": 0.8915094137191772,
+          "seconds": 34.962565356865525,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 23,
+          "timestep": 891.5093994140625,
+          "sigma": 0.8915094137191772,
+          "next_sigma": 0.8834951519966125,
+          "seconds": 34.96447941288352,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 24,
+          "timestep": 883.4951782226562,
+          "sigma": 0.8834951519966125,
+          "next_sigma": 0.875,
+          "seconds": 34.962018912658095,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 25,
+          "timestep": 875.0,
+          "sigma": 0.875,
+          "next_sigma": 0.8659793734550476,
+          "seconds": 34.963776824995875,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 26,
+          "timestep": 865.9793701171875,
+          "sigma": 0.8659793734550476,
+          "next_sigma": 0.8563829660415649,
+          "seconds": 34.94428592920303,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 27,
+          "timestep": 856.3829956054688,
+          "sigma": 0.8563829660415649,
+          "next_sigma": 0.8461538553237915,
+          "seconds": 34.96450432576239,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 28,
+          "timestep": 846.1538696289062,
+          "sigma": 0.8461538553237915,
+          "next_sigma": 0.8352272510528564,
+          "seconds": 34.98237291164696,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 29,
+          "timestep": 835.2272338867188,
+          "sigma": 0.8352272510528564,
+          "next_sigma": 0.8235293626785278,
+          "seconds": 34.98051838018,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 30,
+          "timestep": 823.5293579101562,
+          "sigma": 0.8235293626785278,
+          "next_sigma": 0.8109755516052246,
+          "seconds": 34.97916145995259,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 31,
+          "timestep": 810.9755249023438,
+          "sigma": 0.8109755516052246,
+          "next_sigma": 0.797468364238739,
+          "seconds": 34.974164575338364,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 32,
+          "timestep": 797.4683837890625,
+          "sigma": 0.797468364238739,
+          "next_sigma": 0.7828947901725769,
+          "seconds": 34.951046232134104,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 33,
+          "timestep": 782.894775390625,
+          "sigma": 0.7828947901725769,
+          "next_sigma": 0.767123281955719,
+          "seconds": 34.93072058260441,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 34,
+          "timestep": 767.123291015625,
+          "sigma": 0.767123281955719,
+          "next_sigma": 0.75,
+          "seconds": 34.9606819730252,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 35,
+          "timestep": 750.0,
+          "sigma": 0.75,
+          "next_sigma": 0.7313432693481445,
+          "seconds": 34.96611332334578,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 36,
+          "timestep": 731.34326171875,
+          "sigma": 0.7313432693481445,
+          "next_sigma": 0.7109375,
+          "seconds": 34.91608814522624,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 37,
+          "timestep": 710.9375,
+          "sigma": 0.7109375,
+          "next_sigma": 0.6885245442390442,
+          "seconds": 34.94994220882654,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 38,
+          "timestep": 688.5245361328125,
+          "sigma": 0.6885245442390442,
+          "next_sigma": 0.6637930870056152,
+          "seconds": 34.89836408384144,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 39,
+          "timestep": 663.7930908203125,
+          "sigma": 0.6637930870056152,
+          "next_sigma": 0.6363636255264282,
+          "seconds": 34.90247771330178,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 40,
+          "timestep": 636.3636474609375,
+          "sigma": 0.6363636255264282,
+          "next_sigma": 0.6057692766189575,
+          "seconds": 34.93558035977185,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 41,
+          "timestep": 605.769287109375,
+          "sigma": 0.6057692766189575,
+          "next_sigma": 0.5714285373687744,
+          "seconds": 34.90423492714763,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 42,
+          "timestep": 571.4285278320312,
+          "sigma": 0.5714285373687744,
+          "next_sigma": 0.532608687877655,
+          "seconds": 34.895448507741094,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 43,
+          "timestep": 532.6087036132812,
+          "sigma": 0.532608687877655,
+          "next_sigma": 0.4883720576763153,
+          "seconds": 34.93983401544392,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 44,
+          "timestep": 488.3720703125,
+          "sigma": 0.4883720576763153,
+          "next_sigma": 0.4374999701976776,
+          "seconds": 34.92374447733164,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 45,
+          "timestep": 437.4999694824219,
+          "sigma": 0.4374999701976776,
+          "next_sigma": 0.37837836146354675,
+          "seconds": 34.92307230643928,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 46,
+          "timestep": 378.37835693359375,
+          "sigma": 0.37837836146354675,
+          "next_sigma": 0.30882352590560913,
+          "seconds": 34.897610280662775,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 47,
+          "timestep": 308.8235168457031,
+          "sigma": 0.30882352590560913,
+          "next_sigma": 0.22580644488334656,
+          "seconds": 34.903266713023186,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 48,
+          "timestep": 225.8064422607422,
+          "sigma": 0.22580644488334656,
+          "next_sigma": 0.125,
+          "seconds": 34.90060307085514,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        },
+        {
+          "step": 49,
+          "timestep": 125.0,
+          "sigma": 0.125,
+          "next_sigma": 0.0,
+          "seconds": 34.888844979926944,
+          "prediction_dtype": "torch.bfloat16",
+          "state_dtype": "torch.float32"
+        }
+      ],
+      "formal_path_dit_calls": 50,
+      "extra_warmup_dit_calls": 0,
+      "final_latent_sha256": "ebab0446708ac7eb46310811c3a153ab59ad101e344a4c626b63e6892325298a",
+      "denoise_peak_allocated_gib": 43.14194869995117,
+      "denoise_peak_reserved_gib": 47.314453125,
+      "model_offload_seconds": 11.943373404443264,
+      "vae_to_gpu_seconds": 0.19352850876748562,
+      "vae_decode_seconds": 32.248191533610225,
+      "decode_peak_allocated_gib": 7.232814788818359,
+      "vae_offload_seconds": 0.11411509476602077,
+      "encoding": {
+        "codec": "libx264",
+        "crf": 18,
+        "preset": "medium",
+        "pixel_format": "yuv420p",
+        "fps": 24
+      },
+      "export_seconds": 6.196522284299135,
+      "video": {
+        "sha256": "22e5aab87a80bb0228cb3a9fcc68a71b436f1ac9ccdc120816cc9c5fe9b3f06d",
+        "bytes": 3801711,
+        "frames_decord": 129,
+        "frames_opencv": 129,
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "sample_pixel_std": 58.81546524607131
+      },
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b016/attempt01/T50/HYA_MOTION_07.mp4",
+      "hot_denoise_decode_seconds": 1779.521935697645,
+      "video_wall_seconds": 2050.811377286911,
+      "network_attempts": [],
+      "finished_unix": 1792386216.8238559,
+      "archive_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_07.mp4"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_14",
+  "prompt": "A motorcycle glides across a field covered with snow. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "ea443329ceb1cf9b092e83afea55d0b2ce0ef6db5c10fc349be3146333a88083",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "8165bb7137f8d8d885b671a2d6e792bd1c0230c267b97f6cbe337cae7c30b537",
+    "pooled": "bd52886230b3aed2a7339b71c83365fe2ff41904358a00fe8f6116f3042d4f62",
+    "clip_input_ids": "4d488ec4e38d2514d3f22b46f261c178d49007941342b83302da11d9656f4f37",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 38.621210442855954,
+  "llama_encode_seconds": 0.04210630804300308,
+  "clip_encode_seconds": 0.04014989361166954,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_14.fabba7f457ba4236b2cbb537372d11e5.pt",
+  "file_sha256": "0250e08aaaebda59dd4a812e19e80cd09b3e106b42d514a4a5cf5a2bbf5d0c54"
+}

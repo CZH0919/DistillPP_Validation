@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M01_seed42",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed42/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "6a94ab8f774eb666e171fa69d1ed30d6a1fbacdd42da8722938d1eb77568fc36"
+    },
+    {
+      "pair_id": "M01_seed42",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed42/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "da967ef49d46ed00c9f4cdb0105d724c28b25cc0eb301523548f1db4e10120b7"
+    },
+    {
+      "pair_id": "M01_seed1234",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed1234/attempt02/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "4d422ec6e2b3da9e3b0bc78a2bae4453500ae12129a1e9d027e7ab7a0d29179b"
+    },
+    {
+      "pair_id": "M01_seed1234",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed1234/attempt02/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "8e3ca8275cab7d32cd9a20f2135eeaa0cf774f362594cdc110a00a2107264645"
+    },
+    {
+      "pair_id": "M01_seed2026",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed2026/attempt01/S4/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "e83a901078018174170ed13ba7a1df45aa631f089da3b86bd23a269351c7dba8"
+    },
+    {
+      "pair_id": "M01_seed2026",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M01_seed2026/attempt01/T50/video.mp4",
+      "metric": "dynamic_degree",
+      "raw_score": 1.0,
+      "normalized_score": 1.0,
+      "source_returned_score": 1.0,
+      "video_sha256": "bc8d18ce303cdf4b9fbf18e7b887166fab003e14eaf9205cb6b5d162781303cb"
+    }
+  ],
+  "aggregate": 1.0,
+  "scoring_seconds": 21.44109540991485
+}

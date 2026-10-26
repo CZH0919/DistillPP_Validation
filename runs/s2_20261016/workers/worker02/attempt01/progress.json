@@ -1,0 +1,17 @@
+{
+  "phase": "export_decode_validation",
+  "worker_id": 2,
+  "pair_id": "M02_seed2026",
+  "arm": "S4",
+  "step": 4,
+  "warmup": false,
+  "unix_time": 1792151432.512268,
+  "pid": 1393038,
+  "gpu": [
+    "2",
+    "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "103479",
+    "143771",
+    "100"
+  ]
+}

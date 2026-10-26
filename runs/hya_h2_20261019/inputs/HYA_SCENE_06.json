@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_06",
+  "prompt": "A basement with a concrete floor and walls. Realistic, Indoor lighting, Dreary",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 113,
+    "clip_with_special": 18
+  },
+  "hashes": {
+    "context": "9bb15efc6a95829c1d14b97437b2fbffa1ab4a0a12a177587ffba6908141094b",
+    "mask": "62536f83603fe54daeab612fc58257882873088c142e7c2d1c7d792931674fd3",
+    "llama_input_ids": "7a764d64079e5e693eedbd4ec4462ef80c8caaa968b76bbfc7754144d0e82c33",
+    "pooled": "6966c67545d2505bf2590bc026c44d5be8b4e29400b44da9707b0a2abccacd7f",
+    "clip_input_ids": "4b1f018110f212811dee6333d04291a4d0290669379b9cf588a2df5d564c85b6",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 50.87215152569115,
+  "llama_encode_seconds": 0.04121513292193413,
+  "clip_encode_seconds": 0.004835182800889015,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_06.9e22b9e76aa24a5faabe821f7d7edbf8.pt",
+  "file_sha256": "338f67e636d8485cc3c28bfb24ecf086649533e2c6152c7e4c6d5c89655bdb3e"
+}

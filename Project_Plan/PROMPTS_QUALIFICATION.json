@@ -1,0 +1,174 @@
+{
+  "protocol_id": "wan_lightx2v_qualification_v1",
+  "status": "PRE_GENERATION_PANEL",
+  "source_note": "Literal prior VBench-derived 16-prompt panel; only text reused, no old videos/results. Exploratory qualification, not an official VBench leaderboard.",
+  "seed_policy": "Seeds 42/1234/2026 create shared CPU FP32 initial noise once per prompt/seed. No method in initial-noise namespace; independent teacher RNG later.",
+  "prompt_count": 16,
+  "seed_slots": [
+    42,
+    1234,
+    2026
+  ],
+  "prompts": [
+    {
+      "id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "source_index_zero_based": 295,
+      "source_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ]
+    },
+    {
+      "id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "source_index_zero_based": 300,
+      "source_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ]
+    },
+    {
+      "id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "source_index_zero_based": 307,
+      "source_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ]
+    },
+    {
+      "id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "source_index_zero_based": 316,
+      "source_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ]
+    },
+    {
+      "id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "source_index_zero_based": 161,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "source_index_zero_based": 172,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "source_index_zero_based": 179,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "source_index_zero_based": 194,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "source_index_zero_based": 162,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "source_index_zero_based": 168,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "source_index_zero_based": 176,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "source_index_zero_based": 192,
+      "source_dimensions": [
+        "human_action"
+      ]
+    },
+    {
+      "id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "source_index_zero_based": 712,
+      "source_dimensions": [
+        "overall_consistency",
+        "aesthetic_quality",
+        "imaging_quality"
+      ]
+    },
+    {
+      "id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "source_index_zero_based": 702,
+      "source_dimensions": [
+        "overall_consistency",
+        "aesthetic_quality",
+        "imaging_quality"
+      ]
+    },
+    {
+      "id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "source_index_zero_based": 727,
+      "source_dimensions": [
+        "overall_consistency",
+        "aesthetic_quality",
+        "imaging_quality"
+      ]
+    },
+    {
+      "id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "source_index_zero_based": 750,
+      "source_dimensions": [
+        "overall_consistency",
+        "aesthetic_quality",
+        "imaging_quality"
+      ]
+    }
+  ]
+}

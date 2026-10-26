@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_13",
+  "prompt": "A sandwich and a book with a clear cover. Realistic, Natural indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 114,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "f586247b9a80f1ec948db357e01a7e12b0eed090f5246c871e1b4d03c219f5c8",
+    "mask": "ef3a2225783ede44ed974308ca6e99170b2d2f548621203e58e5dba0d1dee0f2",
+    "llama_input_ids": "2ef4bc90a8a9a20b27e0deb9db6ac353e5079440f4f907ce0a231a964740adec",
+    "pooled": "b891512838c24f08ca0669391c049716c1122e15c7f1b8aa9240c3452f24c51e",
+    "clip_input_ids": "5d6e5391df7b365cbec1a14d3ca79bdee3687df45c40a5614bf9dc21b01bb266",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 19.595148481428623,
+  "llama_encode_seconds": 0.7955243475735188,
+  "clip_encode_seconds": 0.004547536373138428,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_13.ab95def9748c45a4864cc9ae3e61ac7e.pt",
+  "file_sha256": "26bdf293a43891d5dfc45c649fa04132033a58be3ba653276bd80a6ffc1f6724"
+}

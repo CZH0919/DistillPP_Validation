@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "complete_warmups": 14,
+  "expected_warmups": 14,
+  "rows": [
+    {
+      "worker": "worker00",
+      "attempt": "attempt02",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker00",
+      "attempt": "attempt02",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker01",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker01",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker02",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker02",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker03",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker03",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker04",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker04",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker05",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker05",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker06",
+      "attempt": "attempt01",
+      "arm": "S4",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    },
+    {
+      "worker": "worker06",
+      "attempt": "attempt01",
+      "arm": "T50",
+      "matches_S1": {
+        "initial_latent_sha256": true,
+        "positive_context_sha256": true,
+        "final_latent_sha256": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_22",
+  "prompt": "A truck is stationary in a tranquil bay. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 113,
+    "clip_with_special": 17
+  },
+  "hashes": {
+    "context": "14e28ddf4d01115f7a4476bef469be3374ecc9511291cf0bf305caae7bae4801",
+    "mask": "62536f83603fe54daeab612fc58257882873088c142e7c2d1c7d792931674fd3",
+    "llama_input_ids": "04f6ccbf8d6777ffa00ce60d61853da745e26ff63f81cd555d99def875d393c9",
+    "pooled": "3c4b45448ceebfbe67c78afcfceb1e93417c965a5ff31a96a0a88204ac1b2c67",
+    "clip_input_ids": "76ab98a198717284d08a5c710276470b260a01b40835f2cfc113dd68f9a7c798",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 24.859126085415483,
+  "llama_encode_seconds": 0.0423624012619257,
+  "clip_encode_seconds": 0.004851127043366432,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_22.bab6851243c14f3984db5daa46da8521.pt",
+  "file_sha256": "6d3d6fbbfd9fd9ff1fa65db02683a0f10cc9bcd263300717703a87ee9a333997"
+}

@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "arm": "S5",
+  "prompt_id": "HYA_OBJECTS_07",
+  "seed": 2026101901,
+  "prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+  "inputs": {
+    "prompt_id": "HYA_OBJECTS_07",
+    "prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+    "seed": 2026101901,
+    "tokens": {
+      "llama_with_template": 110,
+      "clip_with_special": 15
+    },
+    "hashes": {
+      "context": "5a8f11078b4de963d666302e63d5708bf0251d47273159e3cfdb5ee30a0de789",
+      "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+      "llama_input_ids": "1a341846a97bad1705de14f5f0f7776909dd8f879c3426ed29a8516c5fc43c96",
+      "pooled": "99186b702fe278f08be68c4e2b44bca4c1f0c46b715f2e258fa1919dd2631833",
+      "clip_input_ids": "f0fadafeacf93b218e0da2ebf192216203c6604b6222851256e9f7488204b73c",
+      "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+    },
+    "dtypes": {
+      "context": "torch.float16",
+      "mask": "torch.int64",
+      "llama_input_ids": "torch.int64",
+      "pooled": "torch.float16",
+      "clip_input_ids": "torch.int64",
+      "noise": "torch.float32"
+    },
+    "text_encoder_load_encode_seconds": 16.8786177970469,
+    "llama_encode_seconds": 0.04277470335364342,
+    "clip_encode_seconds": 0.003487447276711464,
+    "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_07.b838961704e34ac286c607669a4e4347.pt",
+    "file_sha256": "9d3d5384d712d0a23910bc1711e10fc2fbdfeb49f498f798ea9ce7571d510214"
+  },
+  "admission": {
+    "index": 2,
+    "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "pid": 3064959,
+    "snapshot": {
+      "gpus": [
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792416007.3825262
+    }
+  },
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792416301.473537,
+  "model_to_gpu_seconds": 7.932059532031417,
+  "actual_initial_latent_sha256": "e957e28e8f8259550904d1975c30e260e072c0eae1f7220c0f4092d15cee15f7",
+  "actual_initial_latent_dtype": "torch.float16",
+  "warmup_seconds": 0.0,
+  "first_prediction_sha256": "40f033ae4e8ece846d0f62e09e714880b3dd3dcbb1174e32cd08733dc4d8dfc3",
+  "denoising_seconds": 174.70240433700383,
+  "steps": [
+    {
+      "step": 0,
+      "timestep": 1000.0,
+      "sigma": 1.0,
+      "next_sigma": 0.9655172228813171,
+      "seconds": 34.73095199652016,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 1,
+      "timestep": 965.5172119140625,
+      "sigma": 0.9655172228813171,
+      "next_sigma": 0.9130434393882751,
+      "seconds": 34.95755971223116,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 2,
+      "timestep": 913.04345703125,
+      "sigma": 0.9130434393882751,
+      "next_sigma": 0.8235293626785278,
+      "seconds": 35.00485133752227,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 3,
+      "timestep": 823.5293579101562,
+      "sigma": 0.8235293626785278,
+      "next_sigma": 0.6363636255264282,
+      "seconds": 35.02174176648259,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    },
+    {
+      "step": 4,
+      "timestep": 636.3636474609375,
+      "sigma": 0.6363636255264282,
+      "next_sigma": 0.0,
+      "seconds": 34.987299524247646,
+      "prediction_dtype": "torch.bfloat16",
+      "state_dtype": "torch.float32"
+    }
+  ],
+  "formal_path_dit_calls": 5,
+  "extra_warmup_dit_calls": 0,
+  "final_latent_sha256": "dbf5817a21b7715e3f8b93f63f7c66a087c77f2a8eb775d8e3d6b306343f10e7",
+  "denoise_peak_allocated_gib": 43.14194869995117,
+  "denoise_peak_reserved_gib": 47.314453125,
+  "model_offload_seconds": 12.108383247628808,
+  "vae_to_gpu_seconds": 0.1795078031718731,
+  "vae_decode_seconds": 32.27683002129197,
+  "decode_peak_allocated_gib": 7.232814788818359,
+  "vae_offload_seconds": 0.09650263376533985,
+  "encoding": {
+    "codec": "libx264",
+    "crf": 18,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "fps": 24
+  },
+  "export_seconds": 3.5085718277841806,
+  "video": {
+    "sha256": "25386774b85c70b1259247857db5b3d4b6837b9bfd4e927a1f94bfaa4205c9ee",
+    "bytes": 1104841,
+    "frames_decord": 129,
+    "frames_opencv": 129,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "sample_pixel_std": 63.34274828684849
+  },
+  "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/generation/b022/attempt02/S5/HYA_OBJECTS_07.mp4",
+  "hot_denoise_decode_seconds": 206.9792343582958,
+  "video_wall_seconds": 246.40997767448425,
+  "network_attempts": [],
+  "finished_unix": 1792416549.4219694
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "date": "2026-10-19",
+  "counts": {
+    "prompts": 64,
+    "seeds_per_prompt": 3,
+    "paired_conditions": 192,
+    "videos_per_arm": 192,
+    "videos_total": 384,
+    "metric_values_total": 672,
+    "per_metric_paired_conditions": {
+      "subject_consistency": 96,
+      "dynamic_degree": 96,
+      "background_consistency": 48,
+      "scene": 48,
+      "multiple_objects": 48
+    }
+  },
+  "reference_hashes": "all_matched",
+  "csv_json_alignment": "64_of_64",
+  "metrics_official_dimension_membership": "all_matched",
+  "downloader_safety_tests": {
+    "passed": 6,
+    "network_or_actual_downloads": 0
+  },
+  "prompt_tokens": {
+    "max_llm_raw": 27,
+    "max_clip_with_special": 28,
+    "full_template_validation": "H1 pending"
+  },
+  "runtime_generation_and_evaluation": "not_run"
+}

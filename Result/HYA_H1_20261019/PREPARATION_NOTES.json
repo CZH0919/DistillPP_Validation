@@ -1,0 +1,28 @@
+{
+  "scope": "H1 preparation and CPU preflight; no failed video substituted for a successful sample",
+  "resolved": [
+    {
+      "issue": "Detectron2 archive extraction stopped on symbolic links",
+      "evidence": "Initial preparation tool output: AssertionError before extraction",
+      "resolution": "Verified the four aliases were documentation-only and internal to the archive; omitted those links while extracting all build code unchanged",
+      "reference": "runs/hya_h1_20261019/dependencies/source_extraction.json"
+    },
+    {
+      "issue": "Native source subset initially lacked utils/helpers.py",
+      "evidence": "Initial CPU launch preflight: ModuleNotFoundError: No module named 'hya_native.utils'",
+      "resolution": "Added helpers.py from the same pinned AccVideo commit and checked Git blob hash before any GPU launch"
+    },
+    {
+      "issue": "Strict GRiT loading audit initially rejected 106 text_decoder_det aliases",
+      "evidence": "runs/hya_h1_20261019/eval_cpu_preflight/attempt01/failure.json",
+      "resolution": "Checked each missing alias is the identical Parameter object as a checkpoint-loaded text_decoder key; CPU attempt02 and GPU scoring passed; no learned parameter omitted"
+    }
+  ],
+  "retained_notice": {
+    "decord_wheel_tag": "cp36-cp36m-manylinux2010_x86_64",
+    "current_python": "3.10",
+    "pip_check_exit": 1,
+    "runtime_decoding_and_scoring": "passed",
+    "metadata_modified": false
+  }
+}

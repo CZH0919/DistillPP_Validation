@@ -1,0 +1,88 @@
+{
+  "pair_id": "M04_seed1234",
+  "prompt_id": "M04",
+  "stratum": "animal_motion",
+  "prompt": "an elephant spraying itself with water using its trunk to cool down",
+  "seed": 1234,
+  "worker_id": 1,
+  "global_sequence": 8,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+  "pid": 1392723,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "82b5510c7d0b97aa1ac38702b38d881609d5c4682b5b46de243a56b29b29ef78",
+  "unix_start": 1792148177.4475877,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.003005264326930046,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "8a5e04624fee5a3e35829b64582120b6cef4594fc756455da156795ec65e3355",
+  "student_initial_cast_max_abs_error": 0.015624046325683594,
+  "denoise_seconds": 17.286288019269705,
+  "forward_count": 4,
+  "vae_seconds": 11.08411798067391,
+  "denoise_plus_vae_seconds": 28.370405999943614,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.1640625,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.1116601824760437,
+    "std": 1.0590416193008423,
+    "min": -4.5,
+    "max": 4.875
+  },
+  "final_latent_sha256": "a9fbc32fa4129ea341a4fd7e2648ea077770a62cfe0950be00738885470a6e7d",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.15933358669281006,
+    "std": 0.6901599168777466,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "8cc518999818f7985e297e8843b0a15b8b419ae43eaa274bb05626feb9f3151c",
+    "bytes": 2156800,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 87.48368088520334,
+    "decoded_first_frame_sha256": "53e4399d4229ed6fa1c3a05d1a400025fbd1eae439519cdc2506809fc9a33a40"
+  },
+  "export_and_decode_check_seconds": 3.117250109091401,
+  "unix_end": 1792148208.9845295,
+  "network_attempts": []
+}

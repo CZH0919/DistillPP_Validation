@@ -1,0 +1,56 @@
+{
+  "observations": [
+    {
+      "unix_time": 1792146991.3584328,
+      "gpu": [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "24",
+        "143771",
+        "0"
+      ],
+      "processes": [
+        [
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "1392600",
+          "1138"
+        ]
+      ]
+    },
+    {
+      "unix_time": 1792147003.0430205,
+      "gpu": [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "24701",
+        "143771",
+        "0"
+      ],
+      "processes": [
+        [
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "1392600",
+          "25150"
+        ]
+      ]
+    },
+    {
+      "unix_time": 1792147014.724106,
+      "gpu": [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "59553",
+        "143771",
+        "2"
+      ],
+      "processes": [
+        [
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "1392600",
+          "60002"
+        ]
+      ]
+    }
+  ],
+  "error": "RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [['GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc', '1392948', '612']]\")"
+}

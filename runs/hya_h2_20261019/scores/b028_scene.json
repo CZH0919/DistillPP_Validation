@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b028",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792429073.0152519,
+  "admission": {
+    "index": 6,
+    "uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "pid": 3178443,
+    "snapshot": {
+      "gpus": [
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792429082.1040096
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_04",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "ac8a6f649fdac1b809903782ceae6f1859c287e8077d49e10902dc44a71e0d16",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_04.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_04.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_04",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "4b096d81716b61c0335ddbfaa3308a1aa6eb834637ee01454192831eba177b24",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_04.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_04.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_08",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "0a0cda8a6ae600822a09075959f626e033d40670bb67b2df4ffe9047087ce061",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_08.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_08.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_08",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "b23c562775b0617ea4460953931b1a0d66c7b15df492a2c942993870f9ffa64b",
+      "metric": "scene",
+      "score": 0.8125,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_08.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_08.mp4",
+        "video_results": 0.8125,
+        "success_frame_count": 13,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.453125,
+  "load_scoring_seconds": 42.35476707294583,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_04.mp4",
+      "scene_frame_captions": [
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round",
+        "a close up of a merry go round"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_04.mp4",
+      "scene_frame_captions": [
+        "a merry go round with lots of people riding on it",
+        "a merry go round with lots of people riding on it",
+        "a merry go round with lots of people riding on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a bunch of horses on it",
+        "a merry go round with a lot of horses on it"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_08.mp4",
+      "scene_frame_captions": [
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "a glacier with a large chunk of ice in it",
+        "a glacier with a large chunk of ice in it",
+        "a glacier with a large chunk of ice in it",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "the glacier is melting and the water is melting",
+        "a large chunk of ice has broken off from the glacier",
+        "a large chunk of ice has broken off from the glacier",
+        "a large chunk of ice has broken off from the glacier",
+        "a large chunk of ice has broken off from the glacier"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_08.mp4",
+      "scene_frame_captions": [
+        "a large chunk of ice is melting into a smaller chunk of ice",
+        "a large chunk of ice is melting into a smaller chunk of ice",
+        "a large chunk of ice is melting into a smaller chunk of ice",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy",
+        "the glacier is very blue and icy"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792429133.6568065
+}

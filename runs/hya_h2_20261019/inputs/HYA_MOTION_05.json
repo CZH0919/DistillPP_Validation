@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_05",
+  "prompt": "A truck slows down to stop. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "135b2feaf2c30d0f324c00f7e1d61db3140ae2c00f046fa767cde07fa2eb18df",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "76d961e16c64d8143e899b71ff1c10d8bea2a672cbff1fe1e23783bcf3156a61",
+    "pooled": "83215615bd095a70c472bd802622e50275dd922e01be3ab9bacc1b6973adb371",
+    "clip_input_ids": "8e877e98957a9fa1d749b75f3e1a329d904741aabc9782c7c8be50d3e676eabe",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 24.40402115508914,
+  "llama_encode_seconds": 0.04231884144246578,
+  "clip_encode_seconds": 0.07836191542446613,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_05.40c391b774b947dab1d661f634ed7fdf.pt",
+  "file_sha256": "183ca7b783e0e724b5f03c29af2f15729d68052a6859b24e75fa60b69ed0c2b6"
+}

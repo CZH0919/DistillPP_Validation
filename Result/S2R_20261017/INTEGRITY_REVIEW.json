@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checked_at_beijing": "2026-10-18T14:56:37.663160+08:00",
+  "accepted_pairs": 96,
+  "formal_videos": 192,
+  "archive_videos": 192,
+  "files_fully_rehashed": 384,
+  "source_video_bytes": 250219118,
+  "paired_input_and_gpu_identity": true,
+  "decoder_acceptance_records_verified": 192,
+  "decode_scope": "Existing full dual-decoder acceptance records plus fresh exact file hashes; no repeat decoding or human rating.",
+  "matched_original_score_rows": 576,
+  "metric_chunks": 96,
+  "normalization_verified": true,
+  "frozen_code_and_input_files_checked": 21,
+  "shared_generation_metadata_unchanged": 24,
+  "successful_generation_workers": 3,
+  "all_formal_generation_and_evaluation_on_gpu": 6,
+  "historical_failures": 4,
+  "failed_attempts_contributed_formal_videos": 0,
+  "remaining_tracked_project_processes": [],
+  "s3_started": false,
+  "finalized_at_beijing": "2026-10-18T05:36:17.763479+08:00",
+  "doc_sha256_before_review": {
+    "Project_Progress/Total_Progress.md": "3ac6d54b1ce7c30b81ed9513dceab283c6b2a89685ae41bf499382653a7f0a27",
+    "Project_Plan/OFFICIAL_QUALIFICATION_V2.md": "dae2bd0eda3f4184211c8688e93af70787411ec07dd3f37dcc89987e24dd606c",
+    "Project_Plan/EXPERIMENT_PLAN.md": "2c763a3728b6bdcc9d2d22278c819644f38e3461b66d2578ea589026eb7f7f5d"
+  }
+}

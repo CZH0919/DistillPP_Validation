@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_30",
+  "prompt": "A person drinking coffee in a cafe. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "2ccf1052e14df2bbffee503d29754801a894cad4fd0517b647d5b11311d8a87a",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "e24593b42406b608f135fef5f5df45bc508c9b8c8a9e0f1eb333d37751ecc5f0",
+    "pooled": "0f02c9ea06d28070427e1c275a70cd482d75d1617562fd4a82898f425ebe9740",
+    "clip_input_ids": "738ddad1b71cdd5abf20badb6b507f130d6ad063d1ee9f01ba35d93ce301267f",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 28.209322614595294,
+  "llama_encode_seconds": 0.04261372983455658,
+  "clip_encode_seconds": 0.004828575998544693,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_30.4f56d2f5b95c4dc295c2bae5d564a6ec.pt",
+  "file_sha256": "eae0893c6943a676afe9369748d36f1420365ab1b8822c84f7da91d48a3728a1"
+}

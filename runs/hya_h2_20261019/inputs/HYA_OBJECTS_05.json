@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_05",
+  "prompt": "A toothbrush and a sink. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "bccad630c5a17908ffb6f06bbf9d23d41b3080f41c30c5ae898c20d0dcb2cf8f",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "c96c592f743dc3acd20f8684ab529d3125490ff9355cc1ada218cf7f619cfe33",
+    "pooled": "d85ab77daaf093b52161efa37ef91477a3899a0b688f915f8cdf153055c31fa4",
+    "clip_input_ids": "87921cc696d42f720b3b7a4f587aa8db0dd2d19d14b7119385dc63c84c64d025",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 16.203574780374765,
+  "llama_encode_seconds": 0.04150124453008175,
+  "clip_encode_seconds": 0.13413869962096214,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_05.57a0fb7b9c6342eeb224fb5b5b689fb6.pt",
+  "file_sha256": "a909e8ffe1dbfe1fc3754425b82fdd51f99aa9d5a5aa1831d0aeab13ea6832f8"
+}

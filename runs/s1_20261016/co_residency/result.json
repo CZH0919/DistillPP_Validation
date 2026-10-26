@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "scope": "S1 bounded memory probe; no correction algorithm",
+  "admission": {
+    "physical_index": 1,
+    "uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1387743,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "teacher_load": {
+    "keys": 1095,
+    "missing": 0,
+    "unexpected": 0,
+    "parameter_storage": "float32 native",
+    "forward_autocast": "bfloat16 native",
+    "fp32_operations": "native time embeddings, norm/modulation and output head",
+    "on_disk_conversion": false
+  },
+  "student_load": {
+    "keys": 1095,
+    "parameter_storage": "bfloat16",
+    "loader": "native WanDistillModel original PT branch",
+    "attention_instances": 80,
+    "attention_backend": "FlashAttn2Weight"
+  },
+  "both_models_t5_vae_resident_gib": 90.93704032897949,
+  "teacher_query_seconds": 9.753682279959321,
+  "teacher_prediction": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.02526078373193741,
+    "std": 1.5112528800964355,
+    "min": -7.28125,
+    "max": 6.5625
+  },
+  "student_query_seconds": 4.329003414139152,
+  "student_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": -5.957670055067865e-06,
+    "std": 0.9457111358642578,
+    "min": -4.65625,
+    "max": 4.59375
+  },
+  "vae_decode_seconds": 11.11477679014206,
+  "decoded_shape": [
+    3,
+    81,
+    480,
+    832
+  ],
+  "peak_allocated_gib": 98.05092573165894,
+  "peak_reserved_gib": 100.0859375,
+  "device_total_gib": 139.80072021484375,
+  "headroom_vs_peak_reserved_gib": 39.71478271484375,
+  "network_attempts": [],
+  "teacher_branch_predictions": 2,
+  "student_predictions": 1,
+  "correction_applied": false,
+  "extra_videos_exported": 0,
+  "limitation": "One fixed-shape co-residency probe; not acceptance of a future correction algorithm"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M14_seed42",
+  "prompt_id": "M14",
+  "stratum": "scene_motion",
+  "prompt": "a drone flying over a snowy forest.",
+  "seed": 42,
+  "worker_id": 3,
+  "global_sequence": 3,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "shared_positive_text_encoding_seconds": 0.05949779413640499,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed42/attempt01/T50/result.json",
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed42/attempt01/S4/result.json"
+  }
+}

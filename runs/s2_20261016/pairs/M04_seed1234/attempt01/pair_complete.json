@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M04_seed1234",
+  "prompt_id": "M04",
+  "stratum": "animal_motion",
+  "prompt": "an elephant spraying itself with water using its trunk to cool down",
+  "seed": 1234,
+  "worker_id": 1,
+  "global_sequence": 8,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.06272942945361137,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed1234/attempt01/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed1234/attempt01/T50/result.json"
+  }
+}

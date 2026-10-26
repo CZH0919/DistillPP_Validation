@@ -1,0 +1,85 @@
+{
+  "status": "running",
+  "controller_alive": true,
+  "new_videos": 0,
+  "expected_new_videos": 192,
+  "videos_by_group": {
+    "step1_lambda_0p5": 0,
+    "step3_lambda_0p1": 0,
+    "step3_lambda_0p3": 0,
+    "step3_lambda_0p5": 0
+  },
+  "videos_per_group": 48,
+  "new_scores": 0,
+  "expected_new_scores": 320,
+  "scores_by_metric": {
+    "subject_consistency": 0,
+    "multiple_objects": 0,
+    "dynamic_degree": 0
+  },
+  "max_workers": 4,
+  "gpu_selection": "currently idle, dynamic",
+  "active": [
+    {
+      "task": "gen_HYA_MOTION_01",
+      "gpu": 1,
+      "pid": 3772003,
+      "alive": true,
+      "progress": {
+        "stage": "teacher_query",
+        "time_unix": 1792540900.8506868,
+        "pid": 3772003,
+        "prompt_id": "HYA_MOTION_01",
+        "variant": "step1_lambda_0p5",
+        "sigma": 0.9655172228813171
+      }
+    },
+    {
+      "task": "gen_HYA_MOTION_02",
+      "gpu": 2,
+      "pid": 3772004,
+      "alive": true,
+      "progress": {
+        "stage": "student_step",
+        "time_unix": 1792540880.4246948,
+        "pid": 3772004,
+        "prompt_id": "HYA_MOTION_02",
+        "variant": "step3_lambda_0p1",
+        "completed": 2,
+        "total": 5
+      }
+    },
+    {
+      "task": "gen_HYA_MOTION_03",
+      "gpu": 3,
+      "pid": 3772005,
+      "alive": true,
+      "progress": {
+        "stage": "student_step",
+        "time_unix": 1792540888.268755,
+        "pid": 3772005,
+        "prompt_id": "HYA_MOTION_03",
+        "variant": "step3_lambda_0p3",
+        "completed": 2,
+        "total": 5
+      }
+    },
+    {
+      "task": "gen_HYA_MOTION_04",
+      "gpu": 4,
+      "pid": 3772006,
+      "alive": true,
+      "progress": {
+        "stage": "student_step",
+        "time_unix": 1792540885.7543552,
+        "pid": 3772006,
+        "prompt_id": "HYA_MOTION_04",
+        "variant": "step3_lambda_0p5",
+        "completed": 2,
+        "total": 5
+      }
+    }
+  ],
+  "gpu_cooldowns": {},
+  "errors": {}
+}

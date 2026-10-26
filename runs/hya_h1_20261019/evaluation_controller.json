@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "metric": "subject_consistency",
+      "returncode": 0,
+      "wall_seconds": 22.733678579330444
+    },
+    {
+      "metric": "dynamic_degree",
+      "returncode": 0,
+      "wall_seconds": 31.90856099128723
+    },
+    {
+      "metric": "background_consistency",
+      "returncode": 0,
+      "wall_seconds": 22.03106164932251
+    },
+    {
+      "metric": "scene",
+      "returncode": 0,
+      "wall_seconds": 29.30137300491333
+    },
+    {
+      "metric": "multiple_objects",
+      "returncode": 0,
+      "wall_seconds": 32.35825252532959
+    }
+  ]
+}

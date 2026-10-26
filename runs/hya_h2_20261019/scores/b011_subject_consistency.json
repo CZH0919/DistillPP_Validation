@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "block": "b011",
+  "metric": "subject_consistency",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792401562.7461503,
+  "admission": {
+    "index": 1,
+    "uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+    "pid": 3013685,
+    "snapshot": {
+      "gpus": [
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792401568.147869
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_MOTION_26",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "06190114116d7e1d2d6502163b121019de70c7c87a952f9c3165250a6bc0968c",
+      "metric": "subject_consistency",
+      "score": 0.9737786271143705,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_26.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_26.mp4",
+        "video_results": 0.9737786271143705
+      }
+    },
+    {
+      "prompt_id": "HYA_MOTION_26",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "d36c69958fbca4a372e4dbbe3ce171cd21567559560c0f5081683de58be9087a",
+      "metric": "subject_consistency",
+      "score": 0.961874392349273,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_26.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_26.mp4",
+        "video_results": 0.961874392349273
+      }
+    },
+    {
+      "prompt_id": "HYA_MOTION_30",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "0d789c822cf9ff19b36a4fe4533551fb0cfd896078e2f7c5850aa4823ca91e41",
+      "metric": "subject_consistency",
+      "score": 0.9844979331828654,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_30.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_MOTION_30.mp4",
+        "video_results": 0.9844979331828654
+      }
+    },
+    {
+      "prompt_id": "HYA_MOTION_30",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "2ab361b908009292df91d90108ad0c23d67855b374e8a4f5ef61da438f591be3",
+      "metric": "subject_consistency",
+      "score": 0.9860248726326972,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_30.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_MOTION_30.mp4",
+        "video_results": 0.9860248726326972
+      }
+    }
+  ],
+  "aggregate": 0.9765439563198015,
+  "load_scoring_seconds": 38.930088041350245,
+  "peak_allocated_gib": 0.36852455139160156,
+  "audit": [],
+  "network_attempts": [],
+  "finished_unix": 1792401614.6146975
+}

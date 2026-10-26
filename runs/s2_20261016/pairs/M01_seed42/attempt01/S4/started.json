@@ -1,0 +1,23 @@
+{
+  "pair_id": "M01_seed42",
+  "prompt_id": "M01",
+  "stratum": "animal_motion",
+  "prompt": "a bird soaring gracefully in the sky",
+  "seed": 42,
+  "worker_id": 2,
+  "global_sequence": 16,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+  "pid": 1393038,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "1b534e9881b142254fd7798c5cac48abe4e6156722887420483ea258fd31a4a8",
+  "unix_start": 1792149221.5883582,
+  "gpu_count": 1,
+  "offload": false
+}

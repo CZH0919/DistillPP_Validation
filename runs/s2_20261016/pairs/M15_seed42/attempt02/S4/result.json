@@ -1,0 +1,88 @@
+{
+  "pair_id": "M15_seed42",
+  "prompt_id": "M15",
+  "stratum": "scene_motion",
+  "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+  "seed": 42,
+  "worker_id": 0,
+  "global_sequence": 7,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+  "pid": 1393918,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "31edf6f7eda7b3e1c98f979af4fa8155da4ddbf5cc83b639ea42e98d6aa81ada",
+  "unix_start": 1792148908.3385644,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.0033199917525053024,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "635b5301aea471a58e4ce5fb9e581cae6f754ecd2d8ce0e7dbf620349908f19f",
+  "student_initial_cast_max_abs_error": 0.015438079833984375,
+  "denoise_seconds": 17.580064395442605,
+  "forward_count": 4,
+  "vae_seconds": 11.079174878075719,
+  "denoise_plus_vae_seconds": 28.659239273518324,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.0859375,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.051851410418748856,
+    "std": 0.8579553365707397,
+    "min": -3.71875,
+    "max": 3.609375
+  },
+  "final_latent_sha256": "25a26745c8f1e5c765d73b63460ab3d401784f9d19d6786f0c0bfe68f675e2c1",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.20370355248451233,
+    "std": 0.5297861695289612,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "3334d83ee3e87ff4d3e6576685270963d0a84a27f8fd4e8c1f477be708b82f08",
+    "bytes": 1744905,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 67.32574308995027,
+    "decoded_first_frame_sha256": "a15082566ae562db9095727a76b7f32a4946119ad1956239c3b4bacf1a963a6e"
+  },
+  "export_and_decode_check_seconds": 3.164438785985112,
+  "unix_end": 1792148940.2062607,
+  "network_attempts": []
+}

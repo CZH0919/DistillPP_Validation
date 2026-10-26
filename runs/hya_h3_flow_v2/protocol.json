@@ -1,0 +1,103 @@
+{
+  "protocol_id": "HYA_DISTILLPP_FIRST_STEP_TWO_STRENGTHS_20261020",
+  "status": "authorized",
+  "authorization": {
+    "execution": true,
+    "training": false,
+    "scope": "48 existing prompts x seed 2026101901 x first-step lambda 0.1/0.3; generation and objective evaluation"
+  },
+  "parent_protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "prompt_ids": [
+    "HYA_MOTION_01",
+    "HYA_MOTION_02",
+    "HYA_MOTION_03",
+    "HYA_MOTION_04",
+    "HYA_MOTION_05",
+    "HYA_MOTION_06",
+    "HYA_MOTION_07",
+    "HYA_MOTION_08",
+    "HYA_MOTION_09",
+    "HYA_MOTION_10",
+    "HYA_MOTION_11",
+    "HYA_MOTION_12",
+    "HYA_MOTION_13",
+    "HYA_MOTION_14",
+    "HYA_MOTION_15",
+    "HYA_MOTION_16",
+    "HYA_MOTION_17",
+    "HYA_MOTION_18",
+    "HYA_MOTION_19",
+    "HYA_MOTION_20",
+    "HYA_MOTION_21",
+    "HYA_MOTION_22",
+    "HYA_MOTION_23",
+    "HYA_MOTION_24",
+    "HYA_MOTION_25",
+    "HYA_MOTION_26",
+    "HYA_MOTION_27",
+    "HYA_MOTION_28",
+    "HYA_MOTION_29",
+    "HYA_MOTION_30",
+    "HYA_MOTION_31",
+    "HYA_MOTION_32",
+    "HYA_OBJECTS_01",
+    "HYA_OBJECTS_02",
+    "HYA_OBJECTS_03",
+    "HYA_OBJECTS_04",
+    "HYA_OBJECTS_05",
+    "HYA_OBJECTS_06",
+    "HYA_OBJECTS_07",
+    "HYA_OBJECTS_08",
+    "HYA_OBJECTS_09",
+    "HYA_OBJECTS_10",
+    "HYA_OBJECTS_11",
+    "HYA_OBJECTS_12",
+    "HYA_OBJECTS_13",
+    "HYA_OBJECTS_14",
+    "HYA_OBJECTS_15",
+    "HYA_OBJECTS_16"
+  ],
+  "selection": "Reuse all H2 motion/objects prompts and metric mappings; exclude scene library",
+  "seed": 2026101901,
+  "intervention_steps": [
+    0
+  ],
+  "teacher_query": "next_student_sigma",
+  "variants": {
+    "lambda_0p1": {
+      "strength": 0.1
+    },
+    "lambda_0p3": {
+      "strength": 0.3
+    }
+  },
+  "method": "native_Euler + (1-next_sigma)*lambda*(teacher_clean-student_clean)",
+  "metrics": [
+    "subject_consistency",
+    "multiple_objects",
+    "dynamic_degree"
+  ],
+  "reuse_development_records": [
+    "runs/hya_h3_20261020/records/C_K1_L010/HYA_MOTION_01.json"
+  ],
+  "gpu_selection": "Only currently idle GPUs among 5,6,7; maximum 3 workers",
+  "max_workers": 3,
+  "max_controller_seconds": 86400,
+  "counts": {
+    "prompts": 48,
+    "corrected_videos": 96,
+    "new_videos": 95,
+    "reused_development_videos": 1,
+    "new_scores": 160,
+    "reused_H2_videos": 96,
+    "reused_H2_scores": 160
+  },
+  "residency": "single DiT on GPU; count teacher/student transfers in inference time",
+  "stopping_point": "Finish both strength groups, three objective metrics and report; do not change intervention timing or expand prompts",
+  "allowed_gpu_indices": [
+    5,
+    6,
+    7
+  ],
+  "variant_order": "alternate order by frozen prompt index; identical initial and re-noise seeds across strengths"
+}

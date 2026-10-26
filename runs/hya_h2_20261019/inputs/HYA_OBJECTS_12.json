@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_12",
+  "prompt": "A chair and a couch. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "f1eec5892aa71a167e9018876567c8756f9a88b69f2087c888dc236e919ed1de",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "ed7aa30e6c91a9ef81dfabb3c9e5ba97805d73802e271d72c1e6209c8864657b",
+    "pooled": "981b4e6628bafc5bc0038e6005c74fc1a78e53389f8f6d3c40ea50ad2690b199",
+    "clip_input_ids": "9b676625277a5654c6644437116c2a387a57b541ee7d20c1bc41e1f55f11aaa1",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 21.499857738614082,
+  "llama_encode_seconds": 0.2685041893273592,
+  "clip_encode_seconds": 0.027697792276740074,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_12.03cf36743dd74fb58cd7b71d64dfda30.pt",
+  "file_sha256": "1943d0e1705f8faa191c69fe17c1f69905a01c39a587da5d748e4f97bd2a364b"
+}

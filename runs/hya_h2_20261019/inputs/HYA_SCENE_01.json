@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_01",
+  "prompt": "A tall, cylindrical lighthouse with a light at the top, often found by the sea. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 123,
+    "clip_with_special": 28
+  },
+  "hashes": {
+    "context": "5b7f99e64295c7e55f8df25882fb67a80fd759af003e905d0bba3986ff375235",
+    "mask": "c69f75627042de13d7b52518851e8006c6f17da713497b817dcaf7f7c9b5d703",
+    "llama_input_ids": "a38b9e465733806ed382bdcdc5eefafaf9c040256da9ad04a4586de267848fcf",
+    "pooled": "bbd4ce9f204f85d48d7c3bfeeaae90828db54e1e4aea1a1980f59abcfb1e08be",
+    "clip_input_ids": "51db274d27a5f4bd3d9afcaaced358277f65cad53a191105d416592842157852",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 57.79643087275326,
+  "llama_encode_seconds": 1.6390815954655409,
+  "clip_encode_seconds": 0.16980483941733837,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_01.701ce9eee5be42279ee6a6a8e261a9e9.pt",
+  "file_sha256": "7a76198972283dbabd6dea5b37c8a98ee99c93e13671b03786d4fd2ac478e7e2"
+}

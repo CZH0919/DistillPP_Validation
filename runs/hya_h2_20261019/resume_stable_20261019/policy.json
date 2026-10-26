@@ -1,0 +1,43 @@
+{
+  "authorized_unix": 1792425154.7871606,
+  "new_dispatch_gpu_indices": [
+    3,
+    6
+  ],
+  "authorization": "User requests completion on non-conflicting GPUs and accepts lower concurrency",
+  "keep_running_workers": [
+    {
+      "task": "gen_r_b014_0",
+      "pid": 3133919,
+      "start_ticks": "1598995861",
+      "gpu": 3,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b014_1",
+      "pid": 3139506,
+      "start_ticks": "1599037841",
+      "gpu": 5,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b028_1",
+      "pid": 3133912,
+      "start_ticks": "1598995853",
+      "gpu": 6,
+      "alive_at_handoff": true
+    },
+    {
+      "task": "gen_r_b030_0",
+      "pid": 3142083,
+      "start_ticks": "1599056385",
+      "gpu": 4,
+      "alive_at_handoff": true
+    }
+  ],
+  "do_not_stop_numerical_workers": true,
+  "script_sha256": "75dd6fb5c84d1c5055818349efde8ac8fe94e6f43fdad6c91c5a9c8426ae97f2",
+  "original_manifest_sha256": "9ef7e20a4cc5788a472e1ab18737713d8d701a86ae3df9d781c00f0dc99920b3",
+  "S3_authorized": false,
+  "existing_inflight_on_other_cards": "allow safe completion; never dispatch replacements there"
+}

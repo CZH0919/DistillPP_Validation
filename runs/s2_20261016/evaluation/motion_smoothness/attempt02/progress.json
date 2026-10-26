@@ -1,0 +1,15 @@
+{
+  "phase": "scoring",
+  "metric": "motion_smoothness",
+  "completed_videos": 60,
+  "prompt_id": "M10",
+  "unix_time": 1792153292.5540109,
+  "pid": 1432947,
+  "gpu": [
+    "1",
+    "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+    "6375",
+    "143771",
+    "0"
+  ]
+}

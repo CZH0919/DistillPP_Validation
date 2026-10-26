@@ -1,0 +1,114 @@
+{
+  "repo": "aejion/AccVideo",
+  "commit": "a2752d2f6990a1363713f1d57907bd28e3ad365c",
+  "files": [
+    {
+      "path": "AccVideo_reference/models/hunyuan/constants.py",
+      "git_blob_sha1": "81c4ea6f43e864bc0be49ae7aeee63fca624e762",
+      "sha256": "9d4aa4d8642e85f3101f2b5c936b06666ac1160b12f84734f7ba519cffaaad6b",
+      "bytes": 2968
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/diffusion/schedulers/scheduling_flow_match_discrete.py",
+      "git_blob_sha1": "07f9c012af801e2d758d0ea8c84c94bfad0db12c",
+      "sha256": "c6ad4d7b05157d920752680085768d6bc9466250875b22e0dd0428633f2d4e1e",
+      "bytes": 9541
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/__init__.py",
+      "git_blob_sha1": "2ebe2c3ed5ceb92a380f17d8a91aa2fa08798c50",
+      "sha256": "2b29912a7c1981904c7e73b6cec5ff16c7a76a5c6554b66ef4b71d1d88ab4ff8",
+      "bytes": 771
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/activation_layers.py",
+      "git_blob_sha1": "f8774c26ceef6081482ca0dbbf930b207d4ac03b",
+      "sha256": "1e509b5e5f9527d199d6f0206f452e56fdb1bd25ce3ccc06fb47f3a16060ca39",
+      "bytes": 591
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/attenion.py",
+      "git_blob_sha1": "44548793709ce8595e8635938f5edddcf6b328a7",
+      "sha256": "c0b6c4af12580711cd73f08d760388792106976998ea34adca47ff5f43e8da1f",
+      "bytes": 6530
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/embed_layers.py",
+      "git_blob_sha1": "3d65ed1a43e9c20219a19a90d1ffa84a765a1872",
+      "sha256": "c9c3d06abaee07538bf6b100e747068c28e72aa893ee4df4904004fb0be00ffc",
+      "bytes": 4692
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/fp8_optimization.py",
+      "git_blob_sha1": "b95c1f49bf78bda824b616ec7130eb8ff03ed09c",
+      "sha256": "1ae46fadd0d74743792943f5ebf846f010483a8e4a84c9f42605959cba57f57b",
+      "bytes": 4014
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/mlp_layers.py",
+      "git_blob_sha1": "24dd2d9b54fdcd52f6de1b1bfa02088c7230cbf2",
+      "sha256": "88a6a91b07a32fb277dc558be7393d8972fb451b1ea2b47ebeacbadfb9e11e6b",
+      "bytes": 3919
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/models.py",
+      "git_blob_sha1": "216ea51a05f19b608c897fb0d8fbd13d1983ce9f",
+      "sha256": "f7dbb937aa3df5866d2bdc17a5453db09eef17baac1caaac01593b343a5d840c",
+      "bytes": 28361
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/modulate_layers.py",
+      "git_blob_sha1": "93a57c6d2fdc0fca9bf44aeee6996bf1d8a05901",
+      "sha256": "188b1fdd3f3b800a9ab1447d458efac3849d53a604b07816a0af1cd2c814bbd8",
+      "bytes": 2012
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/norm_layers.py",
+      "git_blob_sha1": "d8c73b1aef6b7b8ca4767c26c4f0bbc0365a122f",
+      "sha256": "e43953e83626d8372949fb272c3a1b2eee1bb000263fae5c18a3c107a72b6be8",
+      "bytes": 2017
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/posemb_layers.py",
+      "git_blob_sha1": "dfce82c690540d17a55a51b7997ee7ceb0bdbf44",
+      "sha256": "0c0f905b7a2427b249969bc9c663bc9d20eca41d0ab19c405d9d2ce3c37a0ef7",
+      "bytes": 12933
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/modules/token_refiner.py",
+      "git_blob_sha1": "bf09278e4f792a5e0cb5c2383f317f5bdd302f01",
+      "sha256": "9bd42eb5b6213bfd1f8e33e963c07435cc216a334a7460f5868fe6cc5572bd2e",
+      "bytes": 7791
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/parallel_states.py",
+      "git_blob_sha1": "1897db2078eb8fb61ff0429d2a3ac9659a5060f8",
+      "sha256": "208527c193ec7289b08851c87714a6d77e479729a040f4b4d510e66d774367b2",
+      "bytes": 1992
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/text_encoder/__init__.py",
+      "git_blob_sha1": "494992baa20adf37559231c09d5fa8325c32b343",
+      "sha256": "7cb3c20983b7d9b1318c5adc995ce3fb15ffb52eb93da209be3d26ac9861c472",
+      "bytes": 14580
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/idle_config.py",
+      "git_blob_sha1": "3cde32edf480fca1d5f0f8026cba3565245718cc",
+      "sha256": "8540d8d5096aa5576cdb6602398b50728e4c35e5a4ea7a82aa02c7d624bb5a05",
+      "bytes": 11460
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/vae/__init__.py",
+      "git_blob_sha1": "da714255a3d7e463f0a9c6701b79fe163b6e3f10",
+      "sha256": "28759a35d10bf1457ae639de7b02692e43ab662b524f128896c870ad409fe6a7",
+      "bytes": 2151
+    },
+    {
+      "path": "AccVideo_reference/models/hunyuan/utils/helpers.py",
+      "git_blob_sha1": "8768812d1aa27bd38f57d78c69eda9b106dd64eb",
+      "sha256": "a0586c37b515bd3834491b352cdd7ea607ecfbc64efc7ea836bb3201419c5f6e",
+      "bytes": 943
+    }
+  ]
+}

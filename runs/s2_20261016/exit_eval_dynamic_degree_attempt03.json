@@ -1,0 +1,8 @@
+{
+  "metric": "dynamic_degree",
+  "gpu": 6,
+  "attempt": 3,
+  "timeout_pid": 1438656,
+  "exit_code": 0,
+  "elapsed_seconds": 306.4473223686218
+}

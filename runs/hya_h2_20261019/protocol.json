@@ -1,0 +1,2693 @@
+{
+  "protocol_id": "HYA_720P_QUALIFICATION_V2_20261019",
+  "status": "planned_not_executed",
+  "scope": "teacher qualification first; no Distillation++ implementation until local qualification and researcher confirmation",
+  "model_pair": {
+    "teacher": "original HunyuanVideo T2V 13B",
+    "student": "aejion/AccVideo Hunyuan 5-step; not Wan, I2V, Avatar or HunyuanVideo-1.5"
+  },
+  "sources": {
+    "vbench_commit": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+    "accvideo_commit": "a2752d2f6990a1363713f1d57907bd28e3ad365c",
+    "paper": "https://arxiv.org/html/2503.19462v1",
+    "source_inputs": [
+      {
+        "path": "reference_inputs/hunyuan_accvideo_20261019/vbench_all_prompts.txt",
+        "bytes": 39729,
+        "sha256": "f9b50654f81ab732b9235d5bb91f0c3a4d152fac19249ce3a3a9185b2d80d8c3"
+      },
+      {
+        "path": "reference_inputs/hunyuan_accvideo_20261019/vbench_hunyuan_prompts.txt",
+        "bytes": 83603,
+        "sha256": "bb1f6c7c27390eb268ef1e25faa196169ee7dc8a30741290bdd9c30c5970d9fe"
+      },
+      {
+        "path": "reference_inputs/hunyuan_accvideo_20261019/vbench_fullinfo.json",
+        "bytes": 228118,
+        "sha256": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+      },
+      {
+        "path": "reference_inputs/hunyuan_accvideo_20261019/vbench_prompts_readme.txt",
+        "bytes": 6511,
+        "sha256": "7f90b414d60e4075e5c21685aaa046686e7a11ca52f36872353744b919b1198a"
+      }
+    ]
+  },
+  "selection": {
+    "method": "ascending SHA256 of UTF-8 salt|library|source_line_1based|exact_original_prompt",
+    "salt": "HY_ACC_720P_20261019",
+    "chosen_before_any_Hunyuan_AccVideo_outputs": true,
+    "pool_audit": [
+      {
+        "library": "motion",
+        "source_dimension": "subject_consistency",
+        "pool_count": 72,
+        "selected_count": 32,
+        "ranked_pool": [
+          {
+            "source_line_1based": 329,
+            "selection_hash": "00a45c52de3e177e7bba433fd8cf374a8b5017ac778b2ed1a0e002360f021e5c",
+            "selected": true
+          },
+          {
+            "source_line_1based": 268,
+            "selection_hash": "0590d2e93f903c15fe8e694795fb46d749e46b6664e73169b344bcbefcd2270e",
+            "selected": true
+          },
+          {
+            "source_line_1based": 308,
+            "selection_hash": "071837403f6d2e263edeecbdc80f2d3114469c04e73889bf7da62043d6b777a4",
+            "selected": true
+          },
+          {
+            "source_line_1based": 283,
+            "selection_hash": "0a2709616134c030bb45f9cc19ae32e1016d1b98302b224785d8af994a1b6a34",
+            "selected": true
+          },
+          {
+            "source_line_1based": 291,
+            "selection_hash": "1c8447c43c5efd5d84b0ab7ea8580bf5fb8b9a74a528455bbf07e5f9e9c0cc93",
+            "selected": true
+          },
+          {
+            "source_line_1based": 259,
+            "selection_hash": "1c86c1260f5dc2964a981b2005ed90d9c06c6367cdf85b9dc488c0d3dcbafcb7",
+            "selected": true
+          },
+          {
+            "source_line_1based": 270,
+            "selection_hash": "1f1e8e346d5804987263196bb27b28e1a5723bb07938fe6e8bc012ef401d0bba",
+            "selected": true
+          },
+          {
+            "source_line_1based": 299,
+            "selection_hash": "241f1e87f75f2fb308e412d6f65e3c3bb259429fb512960aeb13c7afe7fc9249",
+            "selected": true
+          },
+          {
+            "source_line_1based": 285,
+            "selection_hash": "25c36b7983fad117ef3a5187e6732e971caf77e3dbe9720288c6585193c83318",
+            "selected": true
+          },
+          {
+            "source_line_1based": 312,
+            "selection_hash": "26bc93416fb6a1e8952b57c1443cb79de38d91d2744337d7e50bdd5cae612279",
+            "selected": true
+          },
+          {
+            "source_line_1based": 293,
+            "selection_hash": "28ea518edd53130e20341979b94e2b45249cef27800ddae21f769484882dd961",
+            "selected": true
+          },
+          {
+            "source_line_1based": 284,
+            "selection_hash": "2b3407b256a893a2a0368526199a3c80046701e70ee24e585aa8edb211048795",
+            "selected": true
+          },
+          {
+            "source_line_1based": 269,
+            "selection_hash": "2cf018bf9f1b2755a01625ef1c957fe592cc488632627f1fdb0475524a93bf57",
+            "selected": true
+          },
+          {
+            "source_line_1based": 276,
+            "selection_hash": "3262d0fc38d32547a129e87c78b74809085df52228b7b15341c0fe5978207f78",
+            "selected": true
+          },
+          {
+            "source_line_1based": 302,
+            "selection_hash": "341dc587206d3a5d194edab092345a2431153522bd063284e012a267acda721b",
+            "selected": true
+          },
+          {
+            "source_line_1based": 314,
+            "selection_hash": "34b6006491d63403eab745d8ae49064bd41f55da11522f527ac70e21154c45c7",
+            "selected": true
+          },
+          {
+            "source_line_1based": 273,
+            "selection_hash": "35e94a07ba67794c324bb640fde0688abcae0c00df6732b799194c6709799776",
+            "selected": true
+          },
+          {
+            "source_line_1based": 322,
+            "selection_hash": "3b00a7c13732f067bbd6583a97fc106cee10317c64a6a30dd5537e8cdd1f2902",
+            "selected": true
+          },
+          {
+            "source_line_1based": 261,
+            "selection_hash": "465847c4f673144177f66d9bd4aff4ac8331377c2bfc3cab9c602be62fbf75c8",
+            "selected": true
+          },
+          {
+            "source_line_1based": 305,
+            "selection_hash": "47cf1dd03acb8c116731149907b5b156ce167e5bd9711e5e7fbc30208b7a86ef",
+            "selected": true
+          },
+          {
+            "source_line_1based": 310,
+            "selection_hash": "4fa241c5e751c85e0b978e588ef038d04dd62eba57596978d87b3d0b0ff4c131",
+            "selected": true
+          },
+          {
+            "source_line_1based": 289,
+            "selection_hash": "5623d9e36b105888e2de2545fb6da7c751837cfb90f49af4a09a8e3a4e0ae579",
+            "selected": true
+          },
+          {
+            "source_line_1based": 326,
+            "selection_hash": "56826d813a2d5c65f0a7ad92131cd8d403142872035cedb2432b3abb16311c7f",
+            "selected": true
+          },
+          {
+            "source_line_1based": 300,
+            "selection_hash": "578cbbcd110d5ce70b76c3f2752a1db3ea0ac2440a565db339a75663913a8dfa",
+            "selected": true
+          },
+          {
+            "source_line_1based": 303,
+            "selection_hash": "57d0a243b47ae6f2f5a0d01b218e56b56146860dfa40378995fa4e6f5465fe65",
+            "selected": true
+          },
+          {
+            "source_line_1based": 301,
+            "selection_hash": "5ac6430e08377e5cc34f08bdeebae43dd4b429b0d66b6e71d1bdcbd8551998c7",
+            "selected": true
+          },
+          {
+            "source_line_1based": 313,
+            "selection_hash": "6071e687e677a4d397e3a60b4c9de5add17b8be8af1f1c4c3a5e49dc328fc951",
+            "selected": true
+          },
+          {
+            "source_line_1based": 275,
+            "selection_hash": "617c5b0c4cf973e12f7aa114e12ba8dcfd1888611ff15057d9d54d3b8ba789fd",
+            "selected": true
+          },
+          {
+            "source_line_1based": 282,
+            "selection_hash": "61a2e776e91daef6587727130ebc3773098261da79968b31a6a27b674b1bd68f",
+            "selected": true
+          },
+          {
+            "source_line_1based": 263,
+            "selection_hash": "65276c2431a89309199451159010b3cd8c81e054c498ca4a7dfdd0676b838d93",
+            "selected": true
+          },
+          {
+            "source_line_1based": 306,
+            "selection_hash": "6e38cd4f66dc1e0bded63b4eef5f68b7a42fa12bed640e80d9abe49f07d4defa",
+            "selected": true
+          },
+          {
+            "source_line_1based": 323,
+            "selection_hash": "7483c3a3eb23cd2c8b5dc32924797d528f4557fcf35474587e0b5a0955957240",
+            "selected": true
+          },
+          {
+            "source_line_1based": 262,
+            "selection_hash": "785b4c0ae6ef838dc2652af87bd2d53f2551a60dc683ae18bf8da0fd07e06553",
+            "selected": false
+          },
+          {
+            "source_line_1based": 325,
+            "selection_hash": "786f3faffe5882462b84a36534fd6c4d46c616f4e5f11c5c0f174ccdb036fa25",
+            "selected": false
+          },
+          {
+            "source_line_1based": 318,
+            "selection_hash": "78aa61c884db91afc572b7eabddd1153ec161ed86da905c96e139ee7ea9112b9",
+            "selected": false
+          },
+          {
+            "source_line_1based": 304,
+            "selection_hash": "78b83fc80e94965639424ff647279c4836b1da87179f8de53120648462106aca",
+            "selected": false
+          },
+          {
+            "source_line_1based": 296,
+            "selection_hash": "7a83c4ca0339c3cfb2ddbd244b05df932c3ca396c2d5c628691cdd1755d8f749",
+            "selected": false
+          },
+          {
+            "source_line_1based": 260,
+            "selection_hash": "803402b7854af858359df331e072312e27a41a2605108af7dc62d9d20d63c673",
+            "selected": false
+          },
+          {
+            "source_line_1based": 266,
+            "selection_hash": "826d575190d4a7ec8a1d4532f5995e814ead5e0579d502b4b1afdac0044c0e64",
+            "selected": false
+          },
+          {
+            "source_line_1based": 327,
+            "selection_hash": "831a29ef3573823d63aa305625d81a206b4b83378fb9b46451dd3d03998f0f43",
+            "selected": false
+          },
+          {
+            "source_line_1based": 280,
+            "selection_hash": "84b043bb6458c5e3cd371da35a79ffa9b555c468445aaa3d44da434c1ec221b5",
+            "selected": false
+          },
+          {
+            "source_line_1based": 281,
+            "selection_hash": "8c28825db38726b956b698552ab5cbcfbcb905b2d58d68d2ddbae849aa42b13c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 328,
+            "selection_hash": "8cbe84ae6ba2b5365fa3e266276d6518878441a2145cb09527a9e29b0d453bc5",
+            "selected": false
+          },
+          {
+            "source_line_1based": 264,
+            "selection_hash": "90d03e3634e0bd515b9769940411fed3cdee919702bff720f3206962c2a486bb",
+            "selected": false
+          },
+          {
+            "source_line_1based": 279,
+            "selection_hash": "9189ee966f942ca3d9be1ca918b1fd778bc5d80f4d47e5303140cea167414571",
+            "selected": false
+          },
+          {
+            "source_line_1based": 278,
+            "selection_hash": "9363cf74d532a66a57c3c01354f6c7786d02e93a0f7e75e591f6a8383219dd70",
+            "selected": false
+          },
+          {
+            "source_line_1based": 317,
+            "selection_hash": "93edf85047152a3634462d272c50bc930ae1f305f118a9ec3a5a9e9398445aa4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 288,
+            "selection_hash": "9bf6ed4939e0766259d1aa51cd29bf2ea610062cb3b35ad27f2ecdefb3190e34",
+            "selected": false
+          },
+          {
+            "source_line_1based": 311,
+            "selection_hash": "a0bd0ef3ae77d3a342f22bdad760c88a62eb1785bdfa1c404988d667ab687905",
+            "selected": false
+          },
+          {
+            "source_line_1based": 292,
+            "selection_hash": "a2eaf471f6ec62b215cb9bbbebfd3d9a3f78a1f5c61927bafe210ca6c16d0e81",
+            "selected": false
+          },
+          {
+            "source_line_1based": 287,
+            "selection_hash": "a6ced23ccfa28957040be00561bbf554b3bb59ec3d7cddd28015beeb4a0f0157",
+            "selected": false
+          },
+          {
+            "source_line_1based": 297,
+            "selection_hash": "a8563cc152f2aa572c262bb2000508b9ac7c3bb5b8ba0fa91889091de50c45f4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 309,
+            "selection_hash": "aa4b665c0864a476e8aef1b78d2dc150dcfb7b476a32b8b64aaed4ef744acb29",
+            "selected": false
+          },
+          {
+            "source_line_1based": 316,
+            "selection_hash": "ac30a443a84ba4d979af0995e494291a6b5fc901207f8f9ff8355374aae87a8b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 321,
+            "selection_hash": "ae7d83b455b608db1fdc9dd5148628cbb9df47bb11fa4b7e9ea0cdd00d56a1e7",
+            "selected": false
+          },
+          {
+            "source_line_1based": 315,
+            "selection_hash": "b0d4af0451920d9327a02673027251a71f277e56a6fbe3d926c045d00cd55477",
+            "selected": false
+          },
+          {
+            "source_line_1based": 294,
+            "selection_hash": "b63287a02f8b1076b55a6ac21f2bb38661727c1ce1f82d4b54c9ebf2b273ca9b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 265,
+            "selection_hash": "b83bcdd03a7946bbf9485fd6552eca61f7f83467cf3326cfeaa5290062848d3c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 272,
+            "selection_hash": "bc9214873ce06dfefec9051fcabe4f8846290f92a39396016661edd678b92eec",
+            "selected": false
+          },
+          {
+            "source_line_1based": 307,
+            "selection_hash": "bef5ec0da0b3d2a870bccfa458f7ff3cdddb476e4dc3e16de05df4a12a66b2ab",
+            "selected": false
+          },
+          {
+            "source_line_1based": 295,
+            "selection_hash": "c6a41eec90b41f51d8ad6d832585cb43a496acbcf66e699c863c5324c6d69448",
+            "selected": false
+          },
+          {
+            "source_line_1based": 298,
+            "selection_hash": "c88b3f4c36ca5f10211d41c7244405d941242c8b88164517d86a6180a2447ff5",
+            "selected": false
+          },
+          {
+            "source_line_1based": 286,
+            "selection_hash": "ccace196d955efba6b62b65863ab1f404a362f8156eb35009d52aa3c85c1e556",
+            "selected": false
+          },
+          {
+            "source_line_1based": 319,
+            "selection_hash": "cd7fb056db0877d19b4f1d66e0ff187ca00537a77cefb361b7e9f3d1e231b467",
+            "selected": false
+          },
+          {
+            "source_line_1based": 267,
+            "selection_hash": "cf97142319b1937da8ebacd6cd91f636ed1e8d7b526a46b6f9d02f8a76bb5066",
+            "selected": false
+          },
+          {
+            "source_line_1based": 320,
+            "selection_hash": "dc2db5867bd4f4f5f6d6e84db228b74e46e62a867e3b1201de66dcd2876152f6",
+            "selected": false
+          },
+          {
+            "source_line_1based": 324,
+            "selection_hash": "e1bb09526ff95c3d1d3ade4ac59df0b6d92970b0410e09228c7ffd64566f1848",
+            "selected": false
+          },
+          {
+            "source_line_1based": 258,
+            "selection_hash": "e43506a5702248fb04f65069ea2c197ccbd47368ef5dbbada7ab5c46eb6ea03f",
+            "selected": false
+          },
+          {
+            "source_line_1based": 290,
+            "selection_hash": "e67e5eeca168525d1e0875e062f9d8233b5bdd89e934ccb9be02fa0d614be5a4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 274,
+            "selection_hash": "f26f084521afb4a96a3c655c4df9e29060896dbfd89bdf29d88d2a777ded978a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 277,
+            "selection_hash": "f6a5a158bb9f0d73a9d05e8a841401b0939120feea83d9c21d21e5ca8e8df43e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 271,
+            "selection_hash": "f9ae3e46195c98aa973d82cdda87a8d40f441374352d61e92afad4816b910b05",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "library": "scene",
+        "source_dimension": "scene",
+        "pool_count": 86,
+        "selected_count": 16,
+        "ranked_pool": [
+          {
+            "source_line_1based": 826,
+            "selection_hash": "00637635ece2314a433fe2b5ca7aacf7c931d7e92ea5e8dbcb1782b7c8080e04",
+            "selected": true
+          },
+          {
+            "source_line_1based": 821,
+            "selection_hash": "02adfc3f601d5ad158d181e9c9bb78b116d934aa2b1314dc1f1020bf1ca725d0",
+            "selected": true
+          },
+          {
+            "source_line_1based": 828,
+            "selection_hash": "05a6db19005e1b3b95d2d239b1f595fcf0a7dc8a415fd00258fda26213f9a221",
+            "selected": true
+          },
+          {
+            "source_line_1based": 795,
+            "selection_hash": "0a064abf86619c6418294fb7c362eb38c800d3c9a3bb41082ea4c458f2c2fa71",
+            "selected": true
+          },
+          {
+            "source_line_1based": 836,
+            "selection_hash": "0c021181d3b4040b5eb97c29d272a24f8768b26587d5cc6fb6bce9e0d1963cee",
+            "selected": true
+          },
+          {
+            "source_line_1based": 787,
+            "selection_hash": "0e11a0a406a9fd1eb517d86c97abfcfa5a3daf07a603f786b21f58fdb07be204",
+            "selected": true
+          },
+          {
+            "source_line_1based": 798,
+            "selection_hash": "0e87e1c1b3f812224f85ef42d8510de253a1e644e2fec21d9976e92743b047c3",
+            "selected": true
+          },
+          {
+            "source_line_1based": 813,
+            "selection_hash": "12456fa5667fc0246dee6dc6916ac3cb72ac10adaaabc8350a461e0c31371a01",
+            "selected": true
+          },
+          {
+            "source_line_1based": 820,
+            "selection_hash": "1a18b061d54eaf5c5aee5c65caa3fb49cffd6e47227e75477f77c4237237c173",
+            "selected": true
+          },
+          {
+            "source_line_1based": 825,
+            "selection_hash": "1bd7378f583d46ee30238f071538a036c052a2e078be201912e5c2971a1bb3a8",
+            "selected": true
+          },
+          {
+            "source_line_1based": 842,
+            "selection_hash": "1c4492bcddc7ea95f603e8c19e85b90610d82cbfded436331150bfa2933aa1bd",
+            "selected": true
+          },
+          {
+            "source_line_1based": 810,
+            "selection_hash": "1e78a7a2afc57b6f1b98ddec4d91d25f9b3c5d1b975f2e4c8b38986f938e3873",
+            "selected": true
+          },
+          {
+            "source_line_1based": 862,
+            "selection_hash": "1ff56e3f79579027bc3504401c18bd17e7337b9195654f6da6790a11841f683a",
+            "selected": true
+          },
+          {
+            "source_line_1based": 782,
+            "selection_hash": "202fae049df665dc38ac71ebfa2c530f87f8ced421bc71e0f0e8250ee93078b4",
+            "selected": true
+          },
+          {
+            "source_line_1based": 792,
+            "selection_hash": "2ad15d6c62d4fbeef3e7092e66a7042b8bf4646cf5299b4debdc9f56fdde5dd4",
+            "selected": true
+          },
+          {
+            "source_line_1based": 852,
+            "selection_hash": "2ad9eb1435a7eeea0529fdb5dd6109efbfa14c64c0305a3340e3d21d3850ad78",
+            "selected": true
+          },
+          {
+            "source_line_1based": 819,
+            "selection_hash": "2b18d19726083a95b86854c04a5cd301d496c8e16237a2f1d3bf7064705d7483",
+            "selected": false
+          },
+          {
+            "source_line_1based": 796,
+            "selection_hash": "2eeb51985ef5432a1f702c7aee4814a4cddfea19183a14baa1e2b785319f9f2e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 859,
+            "selection_hash": "3db40daa271045bb026289990fc2cd380781ca6b66f03336be8f18866fc775d1",
+            "selected": false
+          },
+          {
+            "source_line_1based": 814,
+            "selection_hash": "43fb0b0804b0dc1f292b86fe6d780fcd8c64e797cf2fc5e3173b19de90153ee4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 790,
+            "selection_hash": "486c1cf6bb2ec077663b02029a04e152072299ef8d005a4e776bab227ca5d30a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 807,
+            "selection_hash": "4ccd53708c9046eb0bd267d73860920d6da58d4fc1432838c45c4de0a638ac11",
+            "selected": false
+          },
+          {
+            "source_line_1based": 788,
+            "selection_hash": "4cd41205c6ec97e1961e8674985f98178a768989e21efb191ed480c161be3970",
+            "selected": false
+          },
+          {
+            "source_line_1based": 812,
+            "selection_hash": "4f40bbe6b66bba3b0679201dc3185b1ca20194c9c1eb1aebd1fa67c24bbaccd6",
+            "selected": false
+          },
+          {
+            "source_line_1based": 805,
+            "selection_hash": "4f993b6a88e87c46021f0d486bcec33186f7c5fe2d595e83858754fd4f5b52e8",
+            "selected": false
+          },
+          {
+            "source_line_1based": 853,
+            "selection_hash": "50194142f65846c868bf8bae6ecb2e5a1e05315c2fd41826d0e0cf0d6812711c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 858,
+            "selection_hash": "58ce0a197092dd1114eb94f955ea1e56407f14134ac2b058a8fa39ef5a532b1e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 781,
+            "selection_hash": "5d7958197920902eecbd8569d7f46f14010080f015355cf894a50f9524a6dbe7",
+            "selected": false
+          },
+          {
+            "source_line_1based": 794,
+            "selection_hash": "5e27d1fa4bbe1ab086207fca9977121dfc0b6b8c37535609cb901466bb1531be",
+            "selected": false
+          },
+          {
+            "source_line_1based": 783,
+            "selection_hash": "5e7a8ccd09a993cd0637139bfc48db15ca5f6d9a0a2b27829153f47186c72926",
+            "selected": false
+          },
+          {
+            "source_line_1based": 851,
+            "selection_hash": "6978df12a853b79f3ac297f0fb419d87e8b0bbd893eafe51cd123d00380c21d6",
+            "selected": false
+          },
+          {
+            "source_line_1based": 848,
+            "selection_hash": "6c34721adf49c88f575b8ba079c5ad73fe3109d55bec38c2e8f6becd41f0d700",
+            "selected": false
+          },
+          {
+            "source_line_1based": 833,
+            "selection_hash": "6cc835607ef29418c5d75ca1514757131f96d7b91828e7afdc589cff4f7ae977",
+            "selected": false
+          },
+          {
+            "source_line_1based": 817,
+            "selection_hash": "6f917b7980a39ce47a38a5c8b25b2b581f164b6c82574df308ca09f9ff469937",
+            "selected": false
+          },
+          {
+            "source_line_1based": 822,
+            "selection_hash": "76a899ddaeb38ef940e53076a429d40c2a323c38ac6ef97984e67657d28ef108",
+            "selected": false
+          },
+          {
+            "source_line_1based": 831,
+            "selection_hash": "7c07768f60a7dd6524b266ddd27580d8be5ad3f80351a7bc83cf493dd1d4ab3b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 806,
+            "selection_hash": "7e5c4b4c6c1b9fb5a0056e58408e3adcdea6359826e4e0089e721e03e3abef85",
+            "selected": false
+          },
+          {
+            "source_line_1based": 861,
+            "selection_hash": "812c2484f6f74504cb927619df2ad127b915f777fb72f20ddab22ee673c7c5bc",
+            "selected": false
+          },
+          {
+            "source_line_1based": 797,
+            "selection_hash": "82114b1e2bac700cedaaae0c1951fae7476a102d2b49672036e6558a4bb9b934",
+            "selected": false
+          },
+          {
+            "source_line_1based": 803,
+            "selection_hash": "824060e5b0d4be45f117246fedc0d2ed34079eafd46cd083052384db94019f9e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 846,
+            "selection_hash": "841376a4d243095209ff2314ba4833739572a9c18501f2d7ab4e2c7a66919ede",
+            "selected": false
+          },
+          {
+            "source_line_1based": 809,
+            "selection_hash": "848e3043fab350cbcc7e971efcb00328f3ecbc36406bf1d49132cd938502e736",
+            "selected": false
+          },
+          {
+            "source_line_1based": 801,
+            "selection_hash": "854f105ebe65b2692073a77c032d4cf7e88f65d85afbb1aeadb869af47bb15e9",
+            "selected": false
+          },
+          {
+            "source_line_1based": 841,
+            "selection_hash": "8c86b01ffcab986c915289cd5c3e5cc608b831b101de7e1bffa7bc74a8fcf05a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 799,
+            "selection_hash": "8d044ad448ecea9d923dcb8897a42bd31c430db3bf0d9f5bd27927e847eda3e2",
+            "selected": false
+          },
+          {
+            "source_line_1based": 777,
+            "selection_hash": "8f9d4332fb5c62333bb51565f0c383c7809171b139f5b2d86e3c83928d2f4bf4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 835,
+            "selection_hash": "94e6dc3bc42e715c4e2998e0417fd43d9a83859ee6a95f2c2fa643a4bcbd12bc",
+            "selected": false
+          },
+          {
+            "source_line_1based": 800,
+            "selection_hash": "956dae38f33f58e50453f477d6c0705bd0767d86008915df9392017a3c846e83",
+            "selected": false
+          },
+          {
+            "source_line_1based": 778,
+            "selection_hash": "9650e79532b04b5794254813cd96364707a23a995785d2afc5cc809ab3143a22",
+            "selected": false
+          },
+          {
+            "source_line_1based": 840,
+            "selection_hash": "97122a6296ad3e20eba7ec13f445a511133b7d85122a41a0ef36441fd9e195ff",
+            "selected": false
+          },
+          {
+            "source_line_1based": 844,
+            "selection_hash": "98ae7096c7421e8fb560a55a73f5f4116075861efe5265996f7ed15c32c7a88f",
+            "selected": false
+          },
+          {
+            "source_line_1based": 854,
+            "selection_hash": "9c4aac3b9ce9af74a889d026e07ca333b7b479d10dd2d6be0a79167eaf237902",
+            "selected": false
+          },
+          {
+            "source_line_1based": 779,
+            "selection_hash": "9ed286681f7437921e9ca1a228be20d4ee0311811c316c9c3a7d4d3bd837c2ad",
+            "selected": false
+          },
+          {
+            "source_line_1based": 849,
+            "selection_hash": "a3e49557560038efb921c0539a3f195296cb3f051122369a21072c419620989b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 832,
+            "selection_hash": "b616dd7a1d629c2eb11f7a0427ff271eee11041264356ce21b7f1b62931e2153",
+            "selected": false
+          },
+          {
+            "source_line_1based": 855,
+            "selection_hash": "b80e8411c11f29f5093af021d358f3114b7f3eb89dca0ce1adf79f2ac70ae748",
+            "selected": false
+          },
+          {
+            "source_line_1based": 791,
+            "selection_hash": "bcb7ebcc345c72bcfe83d72c601571664bfdf95da221e89f46808f74f5ed6cc0",
+            "selected": false
+          },
+          {
+            "source_line_1based": 789,
+            "selection_hash": "c1efe98aee714e363052abce161f1cd3dea5e3708e3c9575927263712f4f9f3d",
+            "selected": false
+          },
+          {
+            "source_line_1based": 804,
+            "selection_hash": "c78d374736a1918a2bec6ee9504f8bc0ffbf778f5b590defa775ae6ee6b97c07",
+            "selected": false
+          },
+          {
+            "source_line_1based": 830,
+            "selection_hash": "c7fdff57383800cbcd8265c642dc469c410738569a9c2a2eff020432ec8e6ae9",
+            "selected": false
+          },
+          {
+            "source_line_1based": 823,
+            "selection_hash": "ca37c9030bbf23e24598c2ffd426857af97b46f6463e7341bc0a22d0466f5689",
+            "selected": false
+          },
+          {
+            "source_line_1based": 780,
+            "selection_hash": "cbba847b4b50271b9065393592da5ba85394eec3cd7764c415a8032ec7a11bfe",
+            "selected": false
+          },
+          {
+            "source_line_1based": 793,
+            "selection_hash": "d028dc17e2955946fc8236a15144bbec7f70dd40bfc60c015a146ac2f51db36a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 850,
+            "selection_hash": "d4ef9258d679792e1551ed7b3b21f972e46331c59286486d09283af6f95f73ce",
+            "selected": false
+          },
+          {
+            "source_line_1based": 847,
+            "selection_hash": "d5cd2010bd9a86fa8f69fa90ae881b657a8a1054df427ab547f4af6a262fa85f",
+            "selected": false
+          },
+          {
+            "source_line_1based": 818,
+            "selection_hash": "d964bfb4ad60dbb706a81bf496fb19ced41854c90537a3ff09f2b863d0f77b35",
+            "selected": false
+          },
+          {
+            "source_line_1based": 857,
+            "selection_hash": "d99b5a22d09de25b52241d4da24dbfb684b2bb278bd11a1e494c77916770421b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 802,
+            "selection_hash": "db391f19c65f4dd84569f1680003499cce0d006b5f2242333f38eb65022e21c6",
+            "selected": false
+          },
+          {
+            "source_line_1based": 816,
+            "selection_hash": "db4defa4264e04cacf3dbb5eee9a5f308733e8f7acc142eb2137b45bbe4c4225",
+            "selected": false
+          },
+          {
+            "source_line_1based": 829,
+            "selection_hash": "db9e79002a465761699331c54cc3af174a973a375f1166075049a4944be83f10",
+            "selected": false
+          },
+          {
+            "source_line_1based": 815,
+            "selection_hash": "dce6e233a4e7a006217cf1d2f469a4e032f62c3f2eff9666f06ebe6fe955de68",
+            "selected": false
+          },
+          {
+            "source_line_1based": 838,
+            "selection_hash": "df47ffc5b40e927dd9a2c59a19f89af62c0adf76a466c2182693e169ea094d42",
+            "selected": false
+          },
+          {
+            "source_line_1based": 839,
+            "selection_hash": "e014343f4abf8ce0ae53d7a2ed1632548dfdfd74ee5ea68c6d786f8d0c02ecbd",
+            "selected": false
+          },
+          {
+            "source_line_1based": 837,
+            "selection_hash": "e0a218236057be8f95d20aa7d1162573b1767c0e5a10ae31c0f63cd731592a9c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 845,
+            "selection_hash": "e37cd1361c481858927d288503dd670cb07b96a21be1d2e70ca80f536d7db66f",
+            "selected": false
+          },
+          {
+            "source_line_1based": 786,
+            "selection_hash": "e49f3f94f6504a8813159228ec84e11252e2e0d323a6ffa26497cd1fa0013c6b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 843,
+            "selection_hash": "e7d597de9cf1f2a259089a1cbbf776571253d6d86cae04950c4a9669d04dd5a2",
+            "selected": false
+          },
+          {
+            "source_line_1based": 784,
+            "selection_hash": "eda48d0f4582d59837d513502200360e4cd76a56e11f7a6baf25f165719a8a71",
+            "selected": false
+          },
+          {
+            "source_line_1based": 860,
+            "selection_hash": "f08310687d66b5e4f83ac64fd5a9e692e2c75a3c23c819c9a4782c32dbfb1e32",
+            "selected": false
+          },
+          {
+            "source_line_1based": 785,
+            "selection_hash": "f2fb65cf9f560d9b25379e35fcae934a24976afadff3d24a005cd3b686385ee5",
+            "selected": false
+          },
+          {
+            "source_line_1based": 834,
+            "selection_hash": "f38e684c984205fe9f25789f33a71ae0c22320f1bf80110732677f71d3cdd95a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 808,
+            "selection_hash": "f89174b627e7c51b8590b24d57dab08c26b97468f8c0b296dbba501ebd88e3a4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 827,
+            "selection_hash": "f9273b8afe83c8be12a3a2603501fea0cf240f67d9d05c1188308f0f5192880e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 811,
+            "selection_hash": "fae7932a4fc4637c39e4e1e8cbc6f8d7dbcee7ca11c8a60c395971c33eb5640c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 824,
+            "selection_hash": "fdefc9ab139dc0441f2320c6515f5d564a5c3fb88510f0678848d8d7039e8424",
+            "selected": false
+          },
+          {
+            "source_line_1based": 856,
+            "selection_hash": "fe92edd882cc7434d871b6ab25b61bd4fdeab762dd551c9498c0e892d1106518",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "library": "objects",
+        "source_dimension": "multiple_objects",
+        "pool_count": 82,
+        "selected_count": 16,
+        "ranked_pool": [
+          {
+            "source_line_1based": 77,
+            "selection_hash": "045014f38586c3c9bd2c6184533e9b5ac5ff329d364f4362f9f4aeebcebd3ed9",
+            "selected": true
+          },
+          {
+            "source_line_1based": 150,
+            "selection_hash": "06073a9544cb82671349613d1eb28cff813dccf177add75faf15b99e31774abf",
+            "selected": true
+          },
+          {
+            "source_line_1based": 89,
+            "selection_hash": "08d6c8b989dbbeae9a7b479bb74a9f1aef74dd4c951e474b2f33a6f8ff2513cc",
+            "selected": true
+          },
+          {
+            "source_line_1based": 141,
+            "selection_hash": "0f765a75b574f7ef10800cc8cc847a53d2eb8b77f037829ac841a28c9fcfaae3",
+            "selected": true
+          },
+          {
+            "source_line_1based": 129,
+            "selection_hash": "0fbe95a67c5b066ad003ec58796e4e03ba56d55748ddac55a419eaab34a480c8",
+            "selected": true
+          },
+          {
+            "source_line_1based": 133,
+            "selection_hash": "13b18914d1561aed640353fc5781aaab3fff290e1e1d0f54e42863d1f22d48ec",
+            "selected": true
+          },
+          {
+            "source_line_1based": 134,
+            "selection_hash": "16efb39f416999916bb1180179544d31fe353579ef84317bcf018520dd0bf8a6",
+            "selected": true
+          },
+          {
+            "source_line_1based": 126,
+            "selection_hash": "17d81b4e0cf286a3aab89bb638ee3e7c909202982b7cdd2c3e1d31e24d6f619f",
+            "selected": true
+          },
+          {
+            "source_line_1based": 149,
+            "selection_hash": "19d66bd717e3e4f2695600e7b51e832db0a890e5cee7e919072c71220ddd3752",
+            "selected": true
+          },
+          {
+            "source_line_1based": 132,
+            "selection_hash": "19eb65e9e241b90d1e674af9df7d2917b810ecbc238a05e7c1c9336d5038e6e1",
+            "selected": true
+          },
+          {
+            "source_line_1based": 154,
+            "selection_hash": "1b04d98f96abdc7f81d32256e6b68daf107f5f230ceca4ee35574369efc54415",
+            "selected": true
+          },
+          {
+            "source_line_1based": 86,
+            "selection_hash": "1c851d3d88e0817405e24999063790a2b4825ec97302bff456771bfa1d60d2c4",
+            "selected": true
+          },
+          {
+            "source_line_1based": 139,
+            "selection_hash": "20226d9298b2c15f20b3155a619248577ce0a0a91faceeccdd9c2ce6bb70806d",
+            "selected": true
+          },
+          {
+            "source_line_1based": 112,
+            "selection_hash": "2210676565817e7a6ca8590176fd1966b194c343b68e29077e9881b0ccb0b2b6",
+            "selected": true
+          },
+          {
+            "source_line_1based": 144,
+            "selection_hash": "24ea94df79b7aa3909b63fc74540b55b33d64c8506b5d965145389889d2df5a0",
+            "selected": true
+          },
+          {
+            "source_line_1based": 128,
+            "selection_hash": "26ff6afd2544ea0ba56d2cc1483a55e7f3f956c54b9012f28535b663e16599f6",
+            "selected": true
+          },
+          {
+            "source_line_1based": 98,
+            "selection_hash": "276b6b7b43a0d0790ebfa4a3449251424006115bff6b4d0e38679628e3deb6ad",
+            "selected": false
+          },
+          {
+            "source_line_1based": 131,
+            "selection_hash": "298d795b11556f04082cafcff926168f5042c5e790472e9872e44371a5172f9e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 153,
+            "selection_hash": "2d6ec9e3788528c8930d441d429fa4f0ea5e60625fc8ecef0c9279663bc59865",
+            "selected": false
+          },
+          {
+            "source_line_1based": 111,
+            "selection_hash": "2e3c2267b7346f315a36ec7ce9d025041b6af67a07a4a626610858d147059d4c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 83,
+            "selection_hash": "371f7579e6ded6ecf755b87607fe1bf58209c0905686498f50a11c284071830a",
+            "selected": false
+          },
+          {
+            "source_line_1based": 122,
+            "selection_hash": "40d06491c4c6a8a4c2fa745e456a16b0c1c5460ac1d001333d506d38dca10b60",
+            "selected": false
+          },
+          {
+            "source_line_1based": 140,
+            "selection_hash": "41401d8f7b10fdb4ec9213aeee528fde14a21f37a7a11f6c620022fe948aca73",
+            "selected": false
+          },
+          {
+            "source_line_1based": 156,
+            "selection_hash": "41a9269f81b88de7bc6ee1c663d1f2d6860985fd8e5178d0dd76489f8a855518",
+            "selected": false
+          },
+          {
+            "source_line_1based": 136,
+            "selection_hash": "475f9bb35a0e8c3f875eff65e7b97c651892f20226dae9fcc32e987f5c4810e9",
+            "selected": false
+          },
+          {
+            "source_line_1based": 142,
+            "selection_hash": "4be637b217b4eb61346a51ed1f050fa512bef56fbf8707670252efcfb66c69ca",
+            "selected": false
+          },
+          {
+            "source_line_1based": 97,
+            "selection_hash": "4faa3c80c59a13a40c3a1888ca7e2e53f46dbe31b44003925a34e6e80b1fd5fa",
+            "selected": false
+          },
+          {
+            "source_line_1based": 152,
+            "selection_hash": "576dc24ffe7cb8554b27cbe130545392587d8bf96c947a262e1743f54893fa93",
+            "selected": false
+          },
+          {
+            "source_line_1based": 91,
+            "selection_hash": "588c9afb116657e2bf4e0d3513a1da531f42ce97f43a6e36624112d3035953c4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 120,
+            "selection_hash": "5b4d94fe1dfa5f39197cbbf573f2931bd024874f5e765208d189357f6191e8c3",
+            "selected": false
+          },
+          {
+            "source_line_1based": 87,
+            "selection_hash": "5ca93ce7998b9942bfc4399ab7936eb4976c8bf363523fbd124036af72ecea28",
+            "selected": false
+          },
+          {
+            "source_line_1based": 80,
+            "selection_hash": "618e97e00e6db96fef839fcfec49cccf966eae0bf7702486f4f1559cabb229ed",
+            "selected": false
+          },
+          {
+            "source_line_1based": 104,
+            "selection_hash": "646646e3e9e24e97c5981e4ead9667020dc64a5dfab2dc52395071e8b79d68e3",
+            "selected": false
+          },
+          {
+            "source_line_1based": 99,
+            "selection_hash": "66308d94431cbd86b3c0df9de56f0149b45d296178e720590abc0f03096bc7c2",
+            "selected": false
+          },
+          {
+            "source_line_1based": 92,
+            "selection_hash": "67fc1f66377ab5fe26facb9f506e0cd17a85635ef9992256419a3c7d3ca5ea24",
+            "selected": false
+          },
+          {
+            "source_line_1based": 115,
+            "selection_hash": "6ffb0c1d6ee42dcd013d39795a7d1e910f68d13a8b26ece935070a5dd00450eb",
+            "selected": false
+          },
+          {
+            "source_line_1based": 93,
+            "selection_hash": "70143ea751552ef78694228a586691602599f9e891167054c57311dc6936be0b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 117,
+            "selection_hash": "736dbeb9d239531362e9083f1383ca1b434c592057ddef817d0581f2df44db52",
+            "selected": false
+          },
+          {
+            "source_line_1based": 151,
+            "selection_hash": "741434a6ca8611de952785e83a2d0491681b579feed54ce09eeb6c893ee038df",
+            "selected": false
+          },
+          {
+            "source_line_1based": 135,
+            "selection_hash": "74dd8ec384caa80e3c93c6562ee78418d5c40c6a987f5be2facf0266f19b53b8",
+            "selected": false
+          },
+          {
+            "source_line_1based": 110,
+            "selection_hash": "7539314fd2295efea8b89effdc75390144fea93fe4338cfbdd190892267fe9d7",
+            "selected": false
+          },
+          {
+            "source_line_1based": 76,
+            "selection_hash": "7842429380b48a0c62d791ec1ba3255fd8f8d5fdbfd7457c3618a13036ae0eae",
+            "selected": false
+          },
+          {
+            "source_line_1based": 119,
+            "selection_hash": "7f9af85849d56f6e65df9c19372ba41ba6d18ba8839a6a7e8591f0aca3f64f10",
+            "selected": false
+          },
+          {
+            "source_line_1based": 90,
+            "selection_hash": "830f1e11785f6fda4c6ee4717ef1348e0357e76ed85795c091c5f9417fb3eaa7",
+            "selected": false
+          },
+          {
+            "source_line_1based": 85,
+            "selection_hash": "8b1558c50e5975fc3320b8021af2f28c1d26950bafe2382abe467bf53dbf042e",
+            "selected": false
+          },
+          {
+            "source_line_1based": 94,
+            "selection_hash": "8d6550e1723f86bfaf6faa52238d46ae7b6b64c05c72ee212d55ab19370af1d9",
+            "selected": false
+          },
+          {
+            "source_line_1based": 130,
+            "selection_hash": "9356b0c19d689dfc25ec5df08118ab415519bef604786e9f672dc8c5d4a0d9d0",
+            "selected": false
+          },
+          {
+            "source_line_1based": 137,
+            "selection_hash": "9545a25c459f9eabdd8877171f1f3f1201f7101e9a66c81d94c52a4b9bdbb27b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 125,
+            "selection_hash": "96e45fa8d41c9c657f87dd6c9f107c9fe8fc7265e112370d72d6c0f073db19a2",
+            "selected": false
+          },
+          {
+            "source_line_1based": 147,
+            "selection_hash": "9d04f332d4f99c42831258336ea9971feb72d838138b0e654de400dd8380be39",
+            "selected": false
+          },
+          {
+            "source_line_1based": 95,
+            "selection_hash": "9ebe354932e9656a27f4a12263a2389a8ac5a3c83664b9dae9bc6bc23248f626",
+            "selected": false
+          },
+          {
+            "source_line_1based": 106,
+            "selection_hash": "a1e872208f30853ffd118622cd5637422c8e29781e19fe8d10d6df63e9f80c2b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 78,
+            "selection_hash": "a485d916e608a4acd9c739e1e3837b2a024b661dd25d20908867b03f667c06b2",
+            "selected": false
+          },
+          {
+            "source_line_1based": 101,
+            "selection_hash": "a83a480d97ac3788e9a21d926ef3bf6dfb58e9dace7a2bcedae13c23deae5031",
+            "selected": false
+          },
+          {
+            "source_line_1based": 79,
+            "selection_hash": "aecdcc8ba0ff3a9f4d33f4c0042113a5d181da04cf043258712432d3a53d9672",
+            "selected": false
+          },
+          {
+            "source_line_1based": 81,
+            "selection_hash": "b0d828d9c5233f93f9108f011ace2cda70598c57b4d4bd3db7dd2a440687c826",
+            "selected": false
+          },
+          {
+            "source_line_1based": 138,
+            "selection_hash": "b0f3ae6abc9a811ee0e48408f8d6960ef4f85abe4e628605a34b71be1a5d1b2b",
+            "selected": false
+          },
+          {
+            "source_line_1based": 102,
+            "selection_hash": "b629f7e310c0fc61c292592f3825b69b7eead25fd0a091ea6dedb8d9b3cea433",
+            "selected": false
+          },
+          {
+            "source_line_1based": 84,
+            "selection_hash": "b73f512d05650991f9be98f6bb94d9a4b41e1179aa6ac706d086614db61e9031",
+            "selected": false
+          },
+          {
+            "source_line_1based": 116,
+            "selection_hash": "b963b681aa1ad9460ef42b12fc150fae02d9b2d9ce53921f12a52f549e36b6d4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 107,
+            "selection_hash": "ba19bf6978fe00d083796bc745d70d4a2736eb3e1e92fbb1307df45f8fe838f7",
+            "selected": false
+          },
+          {
+            "source_line_1based": 127,
+            "selection_hash": "bb20531d8e5235d2b9b6077edde21495222777601adffe96c10d83a6b2593a41",
+            "selected": false
+          },
+          {
+            "source_line_1based": 157,
+            "selection_hash": "bffbb1f9281042d277ec505644d0c483c427fc364e5bef36ad74daac0f15b8dd",
+            "selected": false
+          },
+          {
+            "source_line_1based": 155,
+            "selection_hash": "c07aee9581379f2cfd3f8fd3912adfc905ffc7df7c01fe8a82a9b5bba4a1773f",
+            "selected": false
+          },
+          {
+            "source_line_1based": 146,
+            "selection_hash": "c6e78fdc5380ca29f60be9abbe8a00f3d89819166342042af84e28d196351ee1",
+            "selected": false
+          },
+          {
+            "source_line_1based": 109,
+            "selection_hash": "c6e8a69a3928d254fde3f6d8aaa4769cf1eba30021d68a1c6e3c0192888e24c6",
+            "selected": false
+          },
+          {
+            "source_line_1based": 105,
+            "selection_hash": "c81eacff443c6ba4722ba925df51ba56942c0ffce509b81098fe180793088a83",
+            "selected": false
+          },
+          {
+            "source_line_1based": 82,
+            "selection_hash": "c9fbc237fabd510c0f221081f19c6a619c8c4331bf39f8e747cfb3a0e0711b55",
+            "selected": false
+          },
+          {
+            "source_line_1based": 118,
+            "selection_hash": "cb5859fd9cd8931536bb219fc278b0c48a400f0cd14f930c295fae7d905263a5",
+            "selected": false
+          },
+          {
+            "source_line_1based": 145,
+            "selection_hash": "d163b8a66adbe40ad70c24ef0edf61adf9b6101c6b749e0336d38dab1e551067",
+            "selected": false
+          },
+          {
+            "source_line_1based": 103,
+            "selection_hash": "dc6559162297a3f4fc02ed3bf9f9c56f1ab376d65e6d82b8733edf4e61182498",
+            "selected": false
+          },
+          {
+            "source_line_1based": 123,
+            "selection_hash": "dff0eee7ae0655a1d67601654f89419d9935d798cf9491ec084c4bc32c46ba79",
+            "selected": false
+          },
+          {
+            "source_line_1based": 143,
+            "selection_hash": "e60b05b932b7a2413ee994a8f106ce148cf23fb5190f95773541f8aabb1586cc",
+            "selected": false
+          },
+          {
+            "source_line_1based": 88,
+            "selection_hash": "ed226911f94b2a161853c0b4d4f30cded845c79038609f936c832f14da6dbfe4",
+            "selected": false
+          },
+          {
+            "source_line_1based": 114,
+            "selection_hash": "edb67dacbafc1b99298f41696a0fe7b9e3280f68b3fbec1962d5ca1aaa0e6521",
+            "selected": false
+          },
+          {
+            "source_line_1based": 96,
+            "selection_hash": "ee7f74f4a5fb77a519d7bbca1628b4f3f91a3e353056f912e33d5ee778ded187",
+            "selected": false
+          },
+          {
+            "source_line_1based": 148,
+            "selection_hash": "eeca1d335926079fb0079ff2ab2759d072cc48196b1ceab9f50bedbceb7f3bca",
+            "selected": false
+          },
+          {
+            "source_line_1based": 124,
+            "selection_hash": "f057bfe88ad4938153db959c8b29e08617b9c40905bd2c8c7a8115815de2f595",
+            "selected": false
+          },
+          {
+            "source_line_1based": 113,
+            "selection_hash": "f3675b4ae2f5aab12c6dc68c2917133449a19826d993bb28e10e59474320aa6c",
+            "selected": false
+          },
+          {
+            "source_line_1based": 121,
+            "selection_hash": "f5e5d5bce066b6bd56b32e98de75a747b4ab3e068042b5821b7bb25b059af5af",
+            "selected": false
+          },
+          {
+            "source_line_1based": 108,
+            "selection_hash": "fe8bc7b3e88a74e72f0f17098a25788431f9bec9ebb330cb3c8205fa56f36d40",
+            "selected": false
+          },
+          {
+            "source_line_1based": 100,
+            "selection_hash": "ffc9926552a5122dd1c27fd55a630e01bf86e1b0d6ff42d43d14af09e6a7baf8",
+            "selected": false
+          }
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "arms": {
+      "T50": 50,
+      "S5": 5
+    },
+    "height": 720,
+    "width": 1280,
+    "frames": 129,
+    "fps": 24,
+    "batch_size": 1,
+    "flow_shift": 7.0,
+    "scheduler": "deterministic shifted Flow Euler",
+    "embedded_guidance_scale": 6.0,
+    "external_cfg_scale": 1.0,
+    "negative_prompt": null,
+    "seeds": [
+      2026101901
+    ],
+    "online_prompt_rewrite": false,
+    "precision": "H1 verified: DiT BF16; text encoders FP16; shared CPU FP32 noise cast to FP16 initially; persistent native Euler state FP32; VAE FP16 autocast with FP32 latent/scaling_factor",
+    "latent_shape_expected": [
+      1,
+      16,
+      33,
+      90,
+      160
+    ],
+    "paired_noise": "same stored CPU FP32 source latent and hash per prompt/seed, cloned before both arms; H1 confirms exact internal input",
+    "disable": [
+      "quantization",
+      "sparse_attention",
+      "TeaCache",
+      "torch_compile",
+      "frame_interpolation"
+    ],
+    "teacher_sigma": [
+      1.0,
+      0.9970930232558138,
+      0.9940828402366864,
+      0.9909638554216869,
+      0.9877300613496932,
+      0.9843749999999999,
+      0.9808917197452229,
+      0.9772727272727272,
+      0.9735099337748344,
+      0.9695945945945946,
+      0.9655172413793103,
+      0.9612676056338029,
+      0.9568345323741007,
+      0.9522058823529412,
+      0.9473684210526315,
+      0.9423076923076923,
+      0.9370078740157479,
+      0.9314516129032259,
+      0.9256198347107439,
+      0.9194915254237288,
+      0.9130434782608696,
+      0.90625,
+      0.8990825688073395,
+      0.8915094339622641,
+      0.883495145631068,
+      0.875,
+      0.865979381443299,
+      0.8563829787234042,
+      0.8461538461538461,
+      0.8352272727272727,
+      0.8235294117647058,
+      0.8109756097560975,
+      0.7974683544303797,
+      0.7828947368421052,
+      0.7671232876712328,
+      0.7500000000000001,
+      0.7313432835820896,
+      0.7109375,
+      0.6885245901639344,
+      0.6637931034482758,
+      0.6363636363636364,
+      0.6057692307692308,
+      0.5714285714285714,
+      0.532608695652174,
+      0.4883720930232558,
+      0.43749999999999994,
+      0.37837837837837823,
+      0.3088235294117649,
+      0.22580645161290339,
+      0.1250000000000001,
+      0.0
+    ],
+    "student_sigma": [
+      1.0,
+      0.9655172413793103,
+      0.9130434782608696,
+      0.8235294117647058,
+      0.6363636363636364,
+      0.0
+    ],
+    "time_input": "record actual timesteps, sigma and time embedding scaling; verify native AccVideo vs Diffusers at H1",
+    "runtime_contract": "HYA_RUNTIME_CONTRACT.json for verified numerics; HYA_H2_EXECUTION_POLICY.json supersedes historical GPU and formal panel restrictions only"
+  },
+  "metrics": {
+    "quality_family": [
+      "subject_consistency",
+      "background_consistency",
+      "scene",
+      "multiple_objects"
+    ],
+    "guardrail": [
+      "dynamic_degree"
+    ],
+    "direction_quality": "larger is better for these four objective proxies",
+    "dynamic_degree_policy": "report rates, paired discordance and interval; no automatic tolerance threshold; not monotonic quality",
+    "aggregation": "equal prompt weights; one T50-minus-S5 difference per prompt at the single fixed seed 2026101901",
+    "bootstrap": {
+      "unit": "prompt pair within its library, conditional on the fixed single seed; never resample arms separately",
+      "replicates": 20000,
+      "rng": "numpy.random.Generator(PCG64(20261019)); reset per metric",
+      "dtype": "float64",
+      "quantile_method": "linear",
+      "quality_ci": 0.9875,
+      "quality_ci_quantiles": [
+        0.00625,
+        0.99375
+      ],
+      "family_size": 4,
+      "guardrail_ci": 0.95
+    },
+    "qualification": "a positive lower bound for >=1 of the four predeclared Bonferroni-adjusted bootstrap intervals proposes target-dimension teacher advantage; researcher judges effect size and tradeoffs, then authorizes H3",
+    "interpretation": "exploratory fixed subset and fixed seed; intervals characterize prompt variation conditional on this seed, not seed variability or full-benchmark superiority; no guaranteed power or exact coverage",
+    "seed_limitation": "no within-prompt seed variance or cross-seed robustness estimate; no automatic expansion, reseeding or threshold changes after seeing outcomes"
+  },
+  "counts": {
+    "prompts": 64,
+    "seeds_per_prompt": 1,
+    "paired_conditions": 64,
+    "videos_per_arm": 64,
+    "videos_total": 128,
+    "metric_values_total": 224,
+    "per_metric_paired_conditions": {
+      "subject_consistency": 32,
+      "dynamic_degree": 32,
+      "background_consistency": 16,
+      "scene": 16,
+      "multiple_objects": 16
+    }
+  },
+  "execution": {
+    "allowed_gpu_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "serial_only": false,
+    "vacancy_check_before_start_and_load": true,
+    "automatic_gpu_fallback": true,
+    "automatic_gpu_fallback_constraints": "only reverified idle devices, bounded backoff and same-GPU pairing as specified by execution policy",
+    "execution_policy_path": "HYA_H2_EXECUTION_POLICY.json",
+    "preferred_workers": 4,
+    "minimum_desired_workers": 3,
+    "maximum_workers": 4,
+    "formal_execution_authorized_by_this_preparation": false,
+    "qualified_future_migration_panel": "reuse these exact 64 prompts and seed 2026101901; no expansion; same-panel tuning is not independent confirmation"
+  },
+  "prompts": [
+    {
+      "id": "HYA_MOTION_01",
+      "library": "motion",
+      "source_line_1based": 329,
+      "selection_hash": "00a45c52de3e177e7bba433fd8cf374a8b5017ac778b2ed1a0e002360f021e5c",
+      "evaluation_prompt": "a giraffe running to join a herd of its kind",
+      "generation_prompt": "A giraffe running to join a herd of its kind. Realistic, Natural lighting, Dynamic",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_02",
+      "library": "motion",
+      "source_line_1based": 268,
+      "selection_hash": "0590d2e93f903c15fe8e694795fb46d749e46b6664e73169b344bcbefcd2270e",
+      "evaluation_prompt": "a bicycle accelerating to gain speed",
+      "generation_prompt": "A bicycle is accelerating to gain speed. Realistic, Natural lighting, Energetic",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_03",
+      "library": "motion",
+      "source_line_1based": 308,
+      "selection_hash": "071837403f6d2e263edeecbdc80f2d3114469c04e73889bf7da62043d6b777a4",
+      "evaluation_prompt": "a horse galloping across an open field",
+      "generation_prompt": "A horse galloping across an open field. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_04",
+      "library": "motion",
+      "source_line_1based": 283,
+      "selection_hash": "0a2709616134c030bb45f9cc19ae32e1016d1b98302b224785d8af994a1b6a34",
+      "evaluation_prompt": "a bus stuck in traffic during rush hour",
+      "generation_prompt": "A bus is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_05",
+      "library": "motion",
+      "source_line_1based": 291,
+      "selection_hash": "1c8447c43c5efd5d84b0ab7ea8580bf5fb8b9a74a528455bbf07e5f9e9c0cc93",
+      "evaluation_prompt": "a truck slowing down to stop",
+      "generation_prompt": "A truck slows down to stop. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_06",
+      "library": "motion",
+      "source_line_1based": 259,
+      "selection_hash": "1c86c1260f5dc2964a981b2005ed90d9c06c6367cdf85b9dc488c0d3dcbafcb7",
+      "evaluation_prompt": "a person giving a presentation to a room full of colleagues",
+      "generation_prompt": "A person gives a presentation to a room full of colleagues. Realistic, Indoor lighting, Professional",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_07",
+      "library": "motion",
+      "source_line_1based": 270,
+      "selection_hash": "1f1e8e346d5804987263196bb27b28e1a5723bb07938fe6e8bc012ef401d0bba",
+      "evaluation_prompt": "a car turning a corner",
+      "generation_prompt": "A car turns a corner. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_08",
+      "library": "motion",
+      "source_line_1based": 299,
+      "selection_hash": "241f1e87f75f2fb308e412d6f65e3c3bb259429fb512960aeb13c7afe7fc9249",
+      "evaluation_prompt": "a cat grooming itself meticulously with its tongue",
+      "generation_prompt": "A cat grooms itself meticulously with its tongue. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_09",
+      "library": "motion",
+      "source_line_1based": 285,
+      "selection_hash": "25c36b7983fad117ef3a5187e6732e971caf77e3dbe9720288c6585193c83318",
+      "evaluation_prompt": "a train speeding down the tracks",
+      "generation_prompt": "A train speeding down the tracks. Realistic, Natural lighting, Dynamic",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_10",
+      "library": "motion",
+      "source_line_1based": 312,
+      "selection_hash": "26bc93416fb6a1e8952b57c1443cb79de38d91d2744337d7e50bdd5cae612279",
+      "evaluation_prompt": "a sheep taking a peaceful walk",
+      "generation_prompt": "A sheep is taking a peaceful walk. Realistic, Natural lighting",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_11",
+      "library": "motion",
+      "source_line_1based": 293,
+      "selection_hash": "28ea518edd53130e20341979b94e2b45249cef27800ddae21f769484882dd961",
+      "evaluation_prompt": "a boat sailing smoothly on a calm lake",
+      "generation_prompt": "A boat sailing smoothly on a calm lake. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_12",
+      "library": "motion",
+      "source_line_1based": 284,
+      "selection_hash": "2b3407b256a893a2a0368526199a3c80046701e70ee24e585aa8edb211048795",
+      "evaluation_prompt": "a bus accelerating to gain speed",
+      "generation_prompt": "A bus is accelerating to gain speed. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_13",
+      "library": "motion",
+      "source_line_1based": 269,
+      "selection_hash": "2cf018bf9f1b2755a01625ef1c957fe592cc488632627f1fdb0475524a93bf57",
+      "evaluation_prompt": "a car stuck in traffic during rush hour",
+      "generation_prompt": "A car is stuck in traffic during rush hour. Realistic, Natural lighting, Tense",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_14",
+      "library": "motion",
+      "source_line_1based": 276,
+      "selection_hash": "3262d0fc38d32547a129e87c78b74809085df52228b7b15341c0fe5978207f78",
+      "evaluation_prompt": "a motorcycle gliding through a snowy field",
+      "generation_prompt": "A motorcycle glides across a field covered with snow. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_15",
+      "library": "motion",
+      "source_line_1based": 302,
+      "selection_hash": "341dc587206d3a5d194edab092345a2431153522bd063284e012a267acda721b",
+      "evaluation_prompt": "a cat running happily",
+      "generation_prompt": "A cat running happily. Realistic, Natural lighting, Cheerful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_16",
+      "library": "motion",
+      "source_line_1based": 314,
+      "selection_hash": "34b6006491d63403eab745d8ae49064bd41f55da11522f527ac70e21154c45c7",
+      "evaluation_prompt": "a cow bending down to drink water from a river",
+      "generation_prompt": "A cow bends down to drink water from a river. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_17",
+      "library": "motion",
+      "source_line_1based": 273,
+      "selection_hash": "35e94a07ba67794c324bb640fde0688abcae0c00df6732b799194c6709799776",
+      "evaluation_prompt": "a motorcycle cruising along a coastal highway",
+      "generation_prompt": "A motorcycle is cruising along a coastal highway. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_18",
+      "library": "motion",
+      "source_line_1based": 322,
+      "selection_hash": "3b00a7c13732f067bbd6583a97fc106cee10317c64a6a30dd5537e8cdd1f2902",
+      "evaluation_prompt": "a bear climbing a tree",
+      "generation_prompt": "A bear climbing a tree. Realistic, Natural lighting, Wild",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_19",
+      "library": "motion",
+      "source_line_1based": 261,
+      "selection_hash": "465847c4f673144177f66d9bd4aff4ac8331377c2bfc3cab9c602be62fbf75c8",
+      "evaluation_prompt": "a person eating a burger",
+      "generation_prompt": "A person eating a burger. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_20",
+      "library": "motion",
+      "source_line_1based": 305,
+      "selection_hash": "47cf1dd03acb8c116731149907b5b156ce167e5bd9711e5e7fbc30208b7a86ef",
+      "evaluation_prompt": "a dog drinking water",
+      "generation_prompt": "A dog drinking water. Realistic, Natural indoor lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_21",
+      "library": "motion",
+      "source_line_1based": 310,
+      "selection_hash": "4fa241c5e751c85e0b978e588ef038d04dd62eba57596978d87b3d0b0ff4c131",
+      "evaluation_prompt": "a horse running to join a herd of its kind",
+      "generation_prompt": "A horse running to join a group of horses. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_22",
+      "library": "motion",
+      "source_line_1based": 289,
+      "selection_hash": "5623d9e36b105888e2de2545fb6da7c751837cfb90f49af4a09a8e3a4e0ae579",
+      "evaluation_prompt": "a truck anchored in a tranquil bay",
+      "generation_prompt": "A truck is stationary in a tranquil bay. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_23",
+      "library": "motion",
+      "source_line_1based": 326,
+      "selection_hash": "56826d813a2d5c65f0a7ad92131cd8d403142872035cedb2432b3abb16311c7f",
+      "evaluation_prompt": "a zebra taking a peaceful walk",
+      "generation_prompt": "A zebra taking a peaceful walk. Realistic, Natural lighting",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_24",
+      "library": "motion",
+      "source_line_1based": 300,
+      "selection_hash": "578cbbcd110d5ce70b76c3f2752a1db3ea0ac2440a565db339a75663913a8dfa",
+      "evaluation_prompt": "a cat playing in park",
+      "generation_prompt": "a cat playing in the park. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_25",
+      "library": "motion",
+      "source_line_1based": 303,
+      "selection_hash": "57d0a243b47ae6f2f5a0d01b218e56b56146860dfa40378995fa4e6f5465fe65",
+      "evaluation_prompt": "a dog enjoying a peaceful walk",
+      "generation_prompt": "A dog enjoying a peaceful walk. Realistic, Natural lighting",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_26",
+      "library": "motion",
+      "source_line_1based": 301,
+      "selection_hash": "5ac6430e08377e5cc34f08bdeebae43dd4b429b0d66b6e71d1bdcbd8551998c7",
+      "evaluation_prompt": "a cat drinking water",
+      "generation_prompt": "A cat drinking water. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_27",
+      "library": "motion",
+      "source_line_1based": 313,
+      "selection_hash": "6071e687e677a4d397e3a60b4c9de5add17b8be8af1f1c4c3a5e49dc328fc951",
+      "evaluation_prompt": "a sheep running to join a herd of its kind",
+      "generation_prompt": "A sheep running to join a group of other sheep. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_28",
+      "library": "motion",
+      "source_line_1based": 275,
+      "selection_hash": "617c5b0c4cf973e12f7aa114e12ba8dcfd1888611ff15057d9d54d3b8ba789fd",
+      "evaluation_prompt": "a motorcycle slowing down to stop",
+      "generation_prompt": "A motorcycle is slowing down to stop. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_29",
+      "library": "motion",
+      "source_line_1based": 282,
+      "selection_hash": "61a2e776e91daef6587727130ebc3773098261da79968b31a6a27b674b1bd68f",
+      "evaluation_prompt": "a bus turning a corner",
+      "generation_prompt": "A bus turns around a corner. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_30",
+      "library": "motion",
+      "source_line_1based": 263,
+      "selection_hash": "65276c2431a89309199451159010b3cd8c81e054c498ca4a7dfdd0676b838d93",
+      "evaluation_prompt": "a person drinking coffee in a cafe",
+      "generation_prompt": "A person drinking coffee in a cafe. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_31",
+      "library": "motion",
+      "source_line_1based": 306,
+      "selection_hash": "6e38cd4f66dc1e0bded63b4eef5f68b7a42fa12bed640e80d9abe49f07d4defa",
+      "evaluation_prompt": "a dog running happily",
+      "generation_prompt": "A dog running happily. Realistic, Natural lighting, Cheerful",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_MOTION_32",
+      "library": "motion",
+      "source_line_1based": 323,
+      "selection_hash": "7483c3a3eb23cd2c8b5dc32924797d528f4557fcf35474587e0b5a0955957240",
+      "evaluation_prompt": "a bear hunting for prey",
+      "generation_prompt": "A bear searching for food. Realistic, Natural lighting, Wild",
+      "metrics": [
+        "subject_consistency",
+        "dynamic_degree"
+      ],
+      "official_dimensions": [
+        "subject_consistency",
+        "dynamic_degree",
+        "motion_smoothness"
+      ],
+      "auxiliary_info": {}
+    },
+    {
+      "id": "HYA_SCENE_01",
+      "library": "scene",
+      "source_line_1based": 826,
+      "selection_hash": "00637635ece2314a433fe2b5ca7aacf7c931d7e92ea5e8dbcb1782b7c8080e04",
+      "evaluation_prompt": "lighthouse",
+      "generation_prompt": "A tall, cylindrical lighthouse with a light at the top, often found by the sea. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "lighthouse"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_02",
+      "library": "scene",
+      "source_line_1based": 821,
+      "selection_hash": "02adfc3f601d5ad158d181e9c9bb78b116d934aa2b1314dc1f1020bf1ca725d0",
+      "evaluation_prompt": "industrial area",
+      "generation_prompt": "An industrial area with factories and industrial buildings. Realistic, Natural lighting",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "industrial area"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_03",
+      "library": "scene",
+      "source_line_1based": 828,
+      "selection_hash": "05a6db19005e1b3b95d2d239b1f595fcf0a7dc8a415fd00258fda26213f9a221",
+      "evaluation_prompt": "mansion",
+      "generation_prompt": "A large, luxurious mansion with multiple stories and ornate architectural details. Realistic, Natural lighting, Formal",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "mansion"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_04",
+      "library": "scene",
+      "source_line_1based": 795,
+      "selection_hash": "0a064abf86619c6418294fb7c362eb38c800d3c9a3bb41082ea4c458f2c2fa71",
+      "evaluation_prompt": "carrousel",
+      "generation_prompt": "A carousel with brightly colored horses and other animals, rotating around a central pole. Realistic, Natural lighting, Festive",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "carrousel"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_05",
+      "library": "scene",
+      "source_line_1based": 836,
+      "selection_hash": "0c021181d3b4040b5eb97c29d272a24f8768b26587d5cc6fb6bce9e0d1963cee",
+      "evaluation_prompt": "office",
+      "generation_prompt": "A room with desks, chairs, and computers, typical of an office setting. Realistic, Indoor lighting, Professional",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "office"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_06",
+      "library": "scene",
+      "source_line_1based": 787,
+      "selection_hash": "0e11a0a406a9fd1eb517d86c97abfcfa5a3daf07a603f786b21f58fdb07be204",
+      "evaluation_prompt": "basement",
+      "generation_prompt": "A basement with a concrete floor and walls. Realistic, Indoor lighting, Dreary",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "basement"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_07",
+      "library": "scene",
+      "source_line_1based": 798,
+      "selection_hash": "0e87e1c1b3f812224f85ef42d8510de253a1e644e2fec21d9976e92743b047c3",
+      "evaluation_prompt": "classroom",
+      "generation_prompt": "A classroom with desks and a whiteboard, designed for teaching and learning. Realistic, Natural lighting, Professional",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "classroom"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_08",
+      "library": "scene",
+      "source_line_1based": 813,
+      "selection_hash": "12456fa5667fc0246dee6dc6916ac3cb72ac10adaaabc8350a461e0c31371a01",
+      "evaluation_prompt": "glacier",
+      "generation_prompt": "A large body of ice with cracks and crevasses, slowly sliding down a mountain slope. Realistic, Natural lighting, Mysterious",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "glacier"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_09",
+      "library": "scene",
+      "source_line_1based": 820,
+      "selection_hash": "1a18b061d54eaf5c5aee5c65caa3fb49cffd6e47227e75477f77c4237237c173",
+      "evaluation_prompt": "iceberg",
+      "generation_prompt": "A large iceberg floats in the water. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "iceberg"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_10",
+      "library": "scene",
+      "source_line_1based": 825,
+      "selection_hash": "1bd7378f583d46ee30238f071538a036c052a2e078be201912e5c2971a1bb3a8",
+      "evaluation_prompt": "indoor library",
+      "generation_prompt": "An indoor library with shelves of books. Realistic, Indoor lighting, Peaceful",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "indoor library"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_11",
+      "library": "scene",
+      "source_line_1based": 842,
+      "selection_hash": "1c4492bcddc7ea95f603e8c19e85b90610d82cbfded436331150bfa2933aa1bd",
+      "evaluation_prompt": "restaurant",
+      "generation_prompt": "A place where food is prepared and served to customers. Realistic, Indoor lighting, Professional",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "restaurant"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_12",
+      "library": "scene",
+      "source_line_1based": 810,
+      "selection_hash": "1e78a7a2afc57b6f1b98ddec4d91d25f9b3c5d1b975f2e4c8b38986f938e3873",
+      "evaluation_prompt": "forest road",
+      "generation_prompt": "A road winds through a dense forest. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "forest road"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_13",
+      "library": "scene",
+      "source_line_1based": 862,
+      "selection_hash": "1ff56e3f79579027bc3504401c18bd17e7337b9195654f6da6790a11841f683a",
+      "evaluation_prompt": "windmill",
+      "generation_prompt": "A tall structure with rotating blades powered by the wind. Realistic, Natural lighting, Peaceful",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "windmill"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_14",
+      "library": "scene",
+      "source_line_1based": 782,
+      "selection_hash": "202fae049df665dc38ac71ebfa2c530f87f8ced421bc71e0f0e8250ee93078b4",
+      "evaluation_prompt": "bathroom",
+      "generation_prompt": "A bathroom with a toilet, sink, and bathtub or shower. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "bathroom"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_15",
+      "library": "scene",
+      "source_line_1based": 792,
+      "selection_hash": "2ad15d6c62d4fbeef3e7092e66a7042b8bf4646cf5299b4debdc9f56fdde5dd4",
+      "evaluation_prompt": "cafeteria",
+      "generation_prompt": "A cafeteria with long tables and benches, filled with people eating and talking. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "cafeteria"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_SCENE_16",
+      "library": "scene",
+      "source_line_1based": 852,
+      "selection_hash": "2ad9eb1435a7eeea0529fdb5dd6109efbfa14c64c0305a3340e3d21d3850ad78",
+      "evaluation_prompt": "supermarket",
+      "generation_prompt": "A large store with aisles of shelves filled with various food and household products. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "background_consistency",
+        "scene"
+      ],
+      "official_dimensions": [
+        "scene",
+        "background_consistency"
+      ],
+      "auxiliary_info": {
+        "scene": {
+          "scene": {
+            "scene": "supermarket"
+          }
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_01",
+      "library": "objects",
+      "source_line_1based": 77,
+      "selection_hash": "045014f38586c3c9bd2c6184533e9b5ac5ff329d364f4362f9f4aeebcebd3ed9",
+      "evaluation_prompt": "a cat and a dog",
+      "generation_prompt": "A cat and a dog. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "cat and dog"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_02",
+      "library": "objects",
+      "source_line_1based": 150,
+      "selection_hash": "06073a9544cb82671349613d1eb28cff813dccf177add75faf15b99e31774abf",
+      "evaluation_prompt": "a refrigerator and skis",
+      "generation_prompt": "A white refrigerator and a pair of long, narrow skis. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "refrigerator and skis"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_03",
+      "library": "objects",
+      "source_line_1based": 89,
+      "selection_hash": "08d6c8b989dbbeae9a7b479bb74a9f1aef74dd4c951e474b2f33a6f8ff2513cc",
+      "evaluation_prompt": "a tv and a laptop",
+      "generation_prompt": "A TV and a laptop. Realistic, Indoor lighting, Professional",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "tv and laptop"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_04",
+      "library": "objects",
+      "source_line_1based": 141,
+      "selection_hash": "0f765a75b574f7ef10800cc8cc847a53d2eb8b77f037829ac841a28c9fcfaae3",
+      "evaluation_prompt": "broccoli and a backpack",
+      "generation_prompt": "A green broccoli and a blue backpack are placed next to each other. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "broccoli and backpack"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_05",
+      "library": "objects",
+      "source_line_1based": 129,
+      "selection_hash": "0fbe95a67c5b066ad003ec58796e4e03ba56d55748ddac55a419eaab34a480c8",
+      "evaluation_prompt": "a toothbrush and a sink",
+      "generation_prompt": "A toothbrush and a sink. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "toothbrush and sink"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_06",
+      "library": "objects",
+      "source_line_1based": 133,
+      "selection_hash": "13b18914d1561aed640353fc5781aaab3fff290e1e1d0f54e42863d1f22d48ec",
+      "evaluation_prompt": "a fork and a potted plant",
+      "generation_prompt": "A fork and a potted plant. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "fork and potted plant"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_07",
+      "library": "objects",
+      "source_line_1based": 134,
+      "selection_hash": "16efb39f416999916bb1180179544d31fe353579ef84317bcf018520dd0bf8a6",
+      "evaluation_prompt": "a knife and a tv",
+      "generation_prompt": "A knife and a television set. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "knife and tv"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_08",
+      "library": "objects",
+      "source_line_1based": 126,
+      "selection_hash": "17d81b4e0cf286a3aab89bb638ee3e7c909202982b7cdd2c3e1d31e24d6f619f",
+      "evaluation_prompt": "a truck and a bicycle",
+      "generation_prompt": "a truck and a bicycle. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "truck and bicycle"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_09",
+      "library": "objects",
+      "source_line_1based": 149,
+      "selection_hash": "19d66bd717e3e4f2695600e7b51e832db0a890e5cee7e919072c71220ddd3752",
+      "evaluation_prompt": "a microwave and a frisbee",
+      "generation_prompt": "A microwave and a frisbee. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "microwave and frisbee"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_10",
+      "library": "objects",
+      "source_line_1based": 132,
+      "selection_hash": "19eb65e9e241b90d1e674af9df7d2917b810ecbc238a05e7c1c9336d5038e6e1",
+      "evaluation_prompt": "a cup and a couch",
+      "generation_prompt": "A cup and a couch. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "cup and couch"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_11",
+      "library": "objects",
+      "source_line_1based": 154,
+      "selection_hash": "1b04d98f96abdc7f81d32256e6b68daf107f5f230ceca4ee35574369efc54415",
+      "evaluation_prompt": "a person and a toilet",
+      "generation_prompt": "A person and a toilet. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "person and toilet"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_12",
+      "library": "objects",
+      "source_line_1based": 86,
+      "selection_hash": "1c851d3d88e0817405e24999063790a2b4825ec97302bff456771bfa1d60d2c4",
+      "evaluation_prompt": "a chair and a couch",
+      "generation_prompt": "A chair and a couch. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "chair and couch"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_13",
+      "library": "objects",
+      "source_line_1based": 139,
+      "selection_hash": "20226d9298b2c15f20b3155a619248577ce0a0a91faceeccdd9c2ce6bb70806d",
+      "evaluation_prompt": "a sandwich and a book",
+      "generation_prompt": "A sandwich and a book with a clear cover. Realistic, Natural indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "sandwich and book"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_14",
+      "library": "objects",
+      "source_line_1based": 112,
+      "selection_hash": "2210676565817e7a6ca8590176fd1966b194c343b68e29077e9881b0ccb0b2b6",
+      "evaluation_prompt": "a surfboard and a tennis racket",
+      "generation_prompt": "A surfboard and a tennis racket. Realistic, Natural lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "surfboard and tennis racket"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_15",
+      "library": "objects",
+      "source_line_1based": 144,
+      "selection_hash": "24ea94df79b7aa3909b63fc74540b55b33d64c8506b5d965145389889d2df5a0",
+      "evaluation_prompt": "a pizza and a tie",
+      "generation_prompt": "A round pizza with various toppings and a person in a necktie. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "pizza and tie"
+        }
+      }
+    },
+    {
+      "id": "HYA_OBJECTS_16",
+      "library": "objects",
+      "source_line_1based": 128,
+      "selection_hash": "26ff6afd2544ea0ba56d2cc1483a55e7f3f956c54b9012f28535b663e16599f6",
+      "evaluation_prompt": "a hair drier and a toothbrush",
+      "generation_prompt": "A hair dryer and a toothbrush. Realistic, Indoor lighting, Casual",
+      "metrics": [
+        "multiple_objects"
+      ],
+      "official_dimensions": [
+        "multiple_objects"
+      ],
+      "auxiliary_info": {
+        "multiple_objects": {
+          "object": "hair drier and toothbrush"
+        }
+      }
+    }
+  ],
+  "revision": {
+    "supersedes_protocol_id": "HYA_720P_QUALIFICATION_V1_20261019",
+    "supersedes_sha256": "b629e14890626e37224a1dea7a0ebe9262d0d8175785d2161db64d49a03548ed",
+    "historical_protocol_path": "history/HUNYUAN_ACCVIDEO_PROTOCOL_V1_64x3.json",
+    "reason": "User-requested workload reduction and future multi-GPU scheduling; retain all 64 preselected prompts and first predeclared seed",
+    "formal_results_seen_before_revision": false,
+    "h1_smoke_excluded": true,
+    "prompt_text_selection_metrics_and_qualification_rule_unchanged": true
+  }
+}

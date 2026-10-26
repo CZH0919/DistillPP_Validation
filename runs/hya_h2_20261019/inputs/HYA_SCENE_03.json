@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_03",
+  "prompt": "A large, luxurious mansion with multiple stories and ornate architectural details. Realistic, Natural lighting, Formal",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 117,
+    "clip_with_special": 21
+  },
+  "hashes": {
+    "context": "48b184f8f94caa8ebcd5d8e867aee93042f450d10f0efbd65a81b476e2e6f75a",
+    "mask": "d55eeaaafc4381b22801da009091934031109cb4a569cbea5ef5580547bab49f",
+    "llama_input_ids": "0d539f03d1996573eb708dccca271b29167dda01d8b051860599a484533579c3",
+    "pooled": "17209428423c897de5495e7f111385d3ff0c1c5496826047c2e9eda7aa5a69c6",
+    "clip_input_ids": "87c6bbcbfec1b3a8daef4399bd47c4594a2721537db5bc352e63b14186aad801",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 29.936518851667643,
+  "llama_encode_seconds": 0.28244674764573574,
+  "clip_encode_seconds": 0.027908887714147568,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_03.aa59d91e65fe49109848e40e08847f88.pt",
+  "file_sha256": "1d5854550cd0d0cc67a80ce6261ca80c36be1594b4556ddc9ee34f5e1830bbc1"
+}

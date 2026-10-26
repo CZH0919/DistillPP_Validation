@@ -1,0 +1,18 @@
+[
+  {
+    "environment": "changzihe",
+    "wheel_metadata": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.36.2)\nRoot-Is-Purelib: false\nTag: cp36-cp36m-manylinux2010_x86_64\n\n",
+    "declared_tags": [
+      "cp36-cp36m-manylinux2010_x86_64"
+    ],
+    "declared_tag_matches_current_interpreter": false
+  },
+  {
+    "environment": "changzihe_eval",
+    "wheel_metadata": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.36.2)\nRoot-Is-Purelib: false\nTag: cp36-cp36m-manylinux2010_x86_64\n\n",
+    "declared_tags": [
+      "cp36-cp36m-manylinux2010_x86_64"
+    ],
+    "declared_tag_matches_current_interpreter": false
+  }
+]

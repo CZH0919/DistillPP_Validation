@@ -1,0 +1,7 @@
+{
+  "phase": "failed",
+  "started": 1792147804.7780578,
+  "pid": 1397204,
+  "error": "AssertionError('Worker failed; continuation pauses: /data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/workers/worker00/attempt02')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_evaluation_controller.py\", line 27, in main\n    assert not (latest/'failure.json').exists(), 'Worker failed; continuation pauses: '+str(latest)\nAssertionError: Worker failed; continuation pauses: /data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/workers/worker00/attempt02\n"
+}

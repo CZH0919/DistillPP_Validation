@@ -1,0 +1,22 @@
+{
+  "metric": "subject_consistency",
+  "gpu": 2,
+  "attempt": 2,
+  "timeout_pid": 1431268,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "60m",
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/evaluate_s2.py",
+    "--metric",
+    "subject_consistency",
+    "--gpu",
+    "2",
+    "--attempt",
+    "2"
+  ],
+  "time": 1792152899.5852606
+}

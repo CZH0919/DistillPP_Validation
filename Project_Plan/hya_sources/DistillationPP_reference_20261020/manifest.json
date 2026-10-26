@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/geonyeong-park/inference_distillation",
+  "commit": "59dd61e6b2393dd16b8cadadef8897dad22e468a",
+  "files": [
+    {
+      "path": "latent_sdxl.py",
+      "sha256": "3f8a8e26fffafb461475860d2ee0e391d867102b6b121d971a773330640fe4ce",
+      "bytes": 79869,
+      "url": "https://raw.githubusercontent.com/geonyeong-park/inference_distillation/59dd61e6b2393dd16b8cadadef8897dad22e468a/latent_sdxl.py"
+    },
+    {
+      "path": "latent_diffusion.py",
+      "sha256": "c90053b1565314b0530a1a43c0e04fc74288c45cb688d9cc791efffe8d1509d5",
+      "bytes": 40025,
+      "url": "https://raw.githubusercontent.com/geonyeong-park/inference_distillation/59dd61e6b2393dd16b8cadadef8897dad22e468a/latent_diffusion.py"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0394b87899bc04e2b8a525f7474457a747ed85fdc2e28cbebd9d46f23c91c695",
+      "bytes": 92,
+      "url": "https://raw.githubusercontent.com/geonyeong-park/inference_distillation/59dd61e6b2393dd16b8cadadef8897dad22e468a/README.md"
+    }
+  ]
+}

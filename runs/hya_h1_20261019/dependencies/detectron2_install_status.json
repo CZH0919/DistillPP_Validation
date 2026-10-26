@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-deps",
+    "--no-index",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/resources/software_cache/hya_h1/wheels/detectron2-0.6-cp310-cp310-linux_x86_64.whl"
+  ],
+  "returncode": 0,
+  "seconds": 0.6166858673095703
+}

@@ -1,0 +1,122 @@
+{
+  "protocol_id": "HYA_DISTILLPP_TIMING_STRENGTH_2X3_V1",
+  "status": "authorized",
+  "authorization": {
+    "execution": true,
+    "training": false,
+    "scope": "User authorized launch: first-step lambda 0.5 and third-step lambda 0.1/0.3/0.5, unchanged 48 prompts and seed, generation plus objective scoring and analysis; at most four currently idle GPUs"
+  },
+  "parent_protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "prior_correction_protocol_sha256": "380c82e3fe422d926bc274708f632d2f928953bae74836ae3ceb4e14e74b59d8",
+  "prior_complete_sha256": "4edea5be2e0c6ad2190504c36967ed6f25b7da88d342b9a68de2b4f355080aa7",
+  "prompt_ids": [
+    "HYA_MOTION_01",
+    "HYA_MOTION_02",
+    "HYA_MOTION_03",
+    "HYA_MOTION_04",
+    "HYA_MOTION_05",
+    "HYA_MOTION_06",
+    "HYA_MOTION_07",
+    "HYA_MOTION_08",
+    "HYA_MOTION_09",
+    "HYA_MOTION_10",
+    "HYA_MOTION_11",
+    "HYA_MOTION_12",
+    "HYA_MOTION_13",
+    "HYA_MOTION_14",
+    "HYA_MOTION_15",
+    "HYA_MOTION_16",
+    "HYA_MOTION_17",
+    "HYA_MOTION_18",
+    "HYA_MOTION_19",
+    "HYA_MOTION_20",
+    "HYA_MOTION_21",
+    "HYA_MOTION_22",
+    "HYA_MOTION_23",
+    "HYA_MOTION_24",
+    "HYA_MOTION_25",
+    "HYA_MOTION_26",
+    "HYA_MOTION_27",
+    "HYA_MOTION_28",
+    "HYA_MOTION_29",
+    "HYA_MOTION_30",
+    "HYA_MOTION_31",
+    "HYA_MOTION_32",
+    "HYA_OBJECTS_01",
+    "HYA_OBJECTS_02",
+    "HYA_OBJECTS_03",
+    "HYA_OBJECTS_04",
+    "HYA_OBJECTS_05",
+    "HYA_OBJECTS_06",
+    "HYA_OBJECTS_07",
+    "HYA_OBJECTS_08",
+    "HYA_OBJECTS_09",
+    "HYA_OBJECTS_10",
+    "HYA_OBJECTS_11",
+    "HYA_OBJECTS_12",
+    "HYA_OBJECTS_13",
+    "HYA_OBJECTS_14",
+    "HYA_OBJECTS_15",
+    "HYA_OBJECTS_16"
+  ],
+  "selection": "Reuse all H2 motion/objects prompts and metric mappings; exclude scene library",
+  "seed": 2026101901,
+  "teacher_query": "next_student_sigma",
+  "renoise_reference_step": 0,
+  "renoise_policy": "Reuse exactly the original first-step per-prompt random stream for all strengths and intervention positions",
+  "variants": {
+    "step1_lambda_0p5": {
+      "intervention_step": 0,
+      "strength": 0.5
+    },
+    "step3_lambda_0p1": {
+      "intervention_step": 2,
+      "strength": 0.1
+    },
+    "step3_lambda_0p3": {
+      "intervention_step": 2,
+      "strength": 0.3
+    },
+    "step3_lambda_0p5": {
+      "intervention_step": 2,
+      "strength": 0.5
+    }
+  },
+  "reused_variants": {
+    "step1_lambda_0p1": {
+      "intervention_step": 0,
+      "strength": 0.1,
+      "source_variant": "lambda_0p1"
+    },
+    "step1_lambda_0p3": {
+      "intervention_step": 0,
+      "strength": 0.3,
+      "source_variant": "lambda_0p3"
+    }
+  },
+  "method": "native_Euler + (1-next_sigma)*lambda*(teacher_clean-student_clean)",
+  "metrics": [
+    "subject_consistency",
+    "multiple_objects",
+    "dynamic_degree"
+  ],
+  "gpu_selection": "Discover all physical GPUs at each dispatch; no resident process, <=32 MiB used, zero utilization, >=100 GiB free; recheck at worker admission",
+  "max_workers": 4,
+  "max_controller_seconds": 86400,
+  "conflict_policy": "Keep completed arms; relinquish own worker; cool down the contested GPU for 10 minutes, 30 minutes after recurrence; prefer idle GPUs with fewer conflicts",
+  "counts": {
+    "prompts": 48,
+    "new_videos": 192,
+    "new_scores": 320,
+    "reused_H2_videos": 96,
+    "reused_H2_scores": 160,
+    "reused_correction_videos": 96,
+    "reused_correction_scores": 160,
+    "combined_videos": 384,
+    "combined_scores": 640
+  },
+  "residency": "single DiT on GPU; count teacher/student transfers in inference time",
+  "variant_order": "Rotate the four new arms by frozen prompt index; same initial and re-noise samples across positions and strengths",
+  "analysis": "Full panel plus fixed H2 T>S/T<S/T=S quality subgroups; matched-lambda third-minus-first contrasts; dynamic_degree is a motion guard, with no automatic acceptance threshold",
+  "stopping_point": "Finish only the four new arms and their three existing metrics; merge prior results and stop"
+}

@@ -1,0 +1,335 @@
+{
+  "metric_summaries": [
+    {
+      "metric": "imaging_quality",
+      "T50_mean": 0.7006902883572835,
+      "S4_mean": 0.7046830467039665,
+      "T50_minus_S4": -0.003992758346683209,
+      "ci_level": 0.99,
+      "ci_low": -0.023659354234379246,
+      "ci_high": 0.019500440579186273,
+      "teacher_advantage_candidate": false,
+      "student_advantage_nominal_family_interval": false,
+      "paired_video_teacher_higher": 20,
+      "paired_video_student_higher": 28,
+      "paired_video_equal": 0,
+      "paired_prompt_teacher_higher": 6,
+      "T50_min": 0.5253195232815213,
+      "T50_max": 0.7912219106415173,
+      "S4_min": 0.46480734978193117,
+      "S4_max": 0.7844900823522497
+    },
+    {
+      "metric": "subject_consistency",
+      "T50_mean": 0.9717711694693816,
+      "S4_mean": 0.9786644147864232,
+      "T50_minus_S4": -0.006893245317041871,
+      "ci_level": 0.99,
+      "ci_low": -0.012652099795950044,
+      "ci_high": -0.0014804569871626528,
+      "teacher_advantage_candidate": false,
+      "student_advantage_nominal_family_interval": true,
+      "paired_video_teacher_higher": 18,
+      "paired_video_student_higher": 30,
+      "paired_video_equal": 0,
+      "paired_prompt_teacher_higher": 5,
+      "T50_min": 0.9250234961509705,
+      "T50_max": 0.995981590077281,
+      "S4_min": 0.937986358627677,
+      "S4_max": 0.9973988272249699
+    },
+    {
+      "metric": "motion_smoothness",
+      "T50_mean": 0.9877332740452536,
+      "S4_mean": 0.9878398807134169,
+      "T50_minus_S4": -0.00010660666816359372,
+      "ci_level": 0.99,
+      "ci_low": -0.0038442075765023143,
+      "ci_high": 0.00431641160041292,
+      "teacher_advantage_candidate": false,
+      "student_advantage_nominal_family_interval": false,
+      "paired_video_teacher_higher": 24,
+      "paired_video_student_higher": 24,
+      "paired_video_equal": 0,
+      "paired_prompt_teacher_higher": 7,
+      "T50_min": 0.9563325719026259,
+      "T50_max": 0.9967538191825877,
+      "S4_min": 0.9669405335301188,
+      "S4_max": 0.996706398865636
+    },
+    {
+      "metric": "dynamic_degree",
+      "T50_mean": 0.6041666666666666,
+      "S4_mean": 0.4166666666666667,
+      "T50_minus_S4": 0.1875,
+      "ci_level": 0.95,
+      "ci_low": 0.02083333333333326,
+      "ci_high": 0.35416666666666663,
+      "teacher_advantage_candidate": null,
+      "student_advantage_nominal_family_interval": null,
+      "paired_video_teacher_higher": 12,
+      "paired_video_student_higher": 3,
+      "paired_video_equal": 33,
+      "paired_prompt_teacher_higher": 6,
+      "T50_min": 0.0,
+      "T50_max": 1.0,
+      "S4_min": 0.0,
+      "S4_max": 1.0
+    },
+    {
+      "metric": "aesthetic_quality",
+      "T50_mean": 0.5677517137179772,
+      "S4_mean": 0.5810710502167543,
+      "T50_minus_S4": -0.013319336498777071,
+      "ci_level": 0.99,
+      "ci_low": -0.04154003762019173,
+      "ci_high": 0.017800069603448036,
+      "teacher_advantage_candidate": false,
+      "student_advantage_nominal_family_interval": false,
+      "paired_video_teacher_higher": 22,
+      "paired_video_student_higher": 26,
+      "paired_video_equal": 0,
+      "paired_prompt_teacher_higher": 7,
+      "T50_min": 0.4294542074203491,
+      "T50_max": 0.7939127087593079,
+      "S4_min": 0.38276758790016174,
+      "S4_max": 0.7662481665611267
+    },
+    {
+      "metric": "overall_consistency",
+      "T50_mean": 0.2065263640639993,
+      "S4_mean": 0.20266094990074635,
+      "T50_minus_S4": 0.0038654141632529595,
+      "ci_level": 0.99,
+      "ci_low": -0.005934839598000223,
+      "ci_high": 0.015072456428994572,
+      "teacher_advantage_candidate": false,
+      "student_advantage_nominal_family_interval": false,
+      "paired_video_teacher_higher": 22,
+      "paired_video_student_higher": 26,
+      "paired_video_equal": 0,
+      "paired_prompt_teacher_higher": 9,
+      "T50_min": 0.010360739193856716,
+      "T50_max": 0.31847813725471497,
+      "S4_min": 0.03351983055472374,
+      "S4_max": 0.3113479018211365
+    }
+  ],
+  "dynamic": {
+    "T50_dynamic_count": 29,
+    "S4_dynamic_count": 20,
+    "n_per_arm": 48,
+    "both_dynamic": 17,
+    "both_static": 16,
+    "T50_dynamic_S4_static": 12,
+    "T50_static_S4_dynamic": 3,
+    "decision_threshold": null,
+    "interpretation": "Movement indicator, not higher-is-better quality; researcher decides tradeoffs."
+  },
+  "timing": {
+    "primary": "synchronized denoise + VAE seconds, hot; one GPU per method",
+    "speed_ratio_medians": 17.402750587742993,
+    "speed_ratio_95ci": [
+      17.373308569279747,
+      17.451698859154163
+    ],
+    "paired_ratio_median": 17.437898915174564,
+    "per_arm": {
+      "T50": {
+        "n": 48,
+        "median": 498.60927854757756,
+        "q1": 496.71740100951865,
+        "q3": 502.02216936508194,
+        "iqr": 5.304768355563283,
+        "mean": 499.5504403789916,
+        "min": 493.7695921100676,
+        "max": 508.101149616763,
+        "total_seconds": 23978.421138191596
+      },
+      "S4": {
+        "n": 48,
+        "median": 28.65117649268359,
+        "q1": 28.521058870013803,
+        "q3": 28.764451436232775,
+        "iqr": 0.2433925662189722,
+        "mean": 28.649015094852075,
+        "min": 28.370405999943614,
+        "max": 29.076843317598104,
+        "total_seconds": 1375.1527245528996
+      }
+    }
+  },
+  "target_priority": [
+    "imaging_quality",
+    "subject_consistency",
+    "overall_consistency",
+    "aesthetic_quality",
+    "motion_smoothness"
+  ],
+  "passing_targets_in_priority_order": [],
+  "suggested_target": null,
+  "statistical_teacher_advantage": false,
+  "next_stage_started": false,
+  "bootstrap": {
+    "cluster": "prompt",
+    "strata": 4,
+    "prompts_per_stratum": 4,
+    "seeds_per_prompt": 3,
+    "replicates": 10000,
+    "rng": "PCG64",
+    "seed": 20261016,
+    "quantile": "linear",
+    "dtype": "float64",
+    "quality_family_size": 5,
+    "quality_ci_level": 0.99,
+    "dynamic_ci_level": 0.95,
+    "interpretation": "Nominal Bonferroni family control with small-sample percentile-bootstrap approximation; no exact coverage claim."
+  },
+  "status": "S2_COMPLETE",
+  "batch": "s2_20261016",
+  "numpy_version": "1.26.4",
+  "integrity": {
+    "accepted_pairs": 48,
+    "videos": 96,
+    "valid_metric_values": 576,
+    "unique_video_hashes": 96,
+    "same_noise_context_gpu_within_pair": true,
+    "both_full_decoders_passed": true,
+    "all_frames_dimensions_fps_passed": true,
+    "nonfinite_scores": 0,
+    "technical_anomalies": [],
+    "score_endpoint_counts": {
+      "imaging_quality": {
+        "zero": 0,
+        "one": 0,
+        "n": 96
+      },
+      "subject_consistency": {
+        "zero": 0,
+        "one": 0,
+        "n": 96
+      },
+      "motion_smoothness": {
+        "zero": 0,
+        "one": 0,
+        "n": 96
+      },
+      "dynamic_degree": {
+        "zero": 47,
+        "one": 49,
+        "n": 96
+      },
+      "aesthetic_quality": {
+        "zero": 0,
+        "one": 0,
+        "n": 96
+      },
+      "overall_consistency": {
+        "zero": 0,
+        "one": 0,
+        "n": 96
+      }
+    }
+  },
+  "qualification_ready": false,
+  "limitations": [
+    "16 fixed prompt clusters, four per stratum; exploratory small-sample bootstrap.",
+    "Conditional on this panel and three fixed seed slots; no broad population or exact-coverage claim.",
+    "Native precision/samplers/deployment implementations differ; not an isolated causal effect of distillation.",
+    "Motion indicator has no acceptance threshold; quality-motion tradeoffs require researcher judgment.",
+    "S2 has no teacher correction; no evidence of Distillation++ transfer effectiveness."
+  ],
+  "input_sha256": {
+    "Project_Plan/BASELINE_SETTINGS.json": "614b5ecb0c7b83ba3d0f648e543596b61f8b080a3bda1a0a0e0eae481353bf12",
+    "Project_Plan/PROMPTS_QUALIFICATION.json": "0564339aac19877ef03b776575eaaf4df2c97b60dc599eef2cf11ed496ad3ad0",
+    "Project_Plan/RESOURCE_MANIFEST.json": "284f74030cecb7ae3a29c7198359e599b12d8c5991be15ca11b4c5d7a67c802b",
+    "Project_Plan/WAN_KEY_RENAME_RULES.json": "3c13b14cc8f824dab0f3717021209ef9e57c38e3b2464f2ac95cd5b660183588",
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/s1_common.py": "8be5811a83a03c36dcc412122e11a8360134dbf617aae0b5938c1bfc0e0b4281",
+    "tools/run_s2_worker.py": "c4482222641aedbb3b28545d224d09e81fe5eaf1df7d4e48b3e3c6da77bc91e3",
+    "tools/s2_common.py": "99a9862265596874eff7df6f79e09392860a2346d938e152e36d4d42a010107a"
+  },
+  "analysis_freeze": {
+    "time": 1792147804.7406683,
+    "stage": "before any S2 scoring",
+    "numpy_self_test": "S2_STATISTICS_SELF_TEST_PASS",
+    "source_sha256": {
+      "tools/evaluate_s2.py": "5296d67dab6f2ee4fb642aab288fa1c928bf1011e41e64efd5ecbe0b51f2ca9c",
+      "tools/s2_statistics.py": "23cea2dfbc72b879c8e322daff3182aac56c3c3977ff4d3b88185458042a791a",
+      "tools/finalize_s2.py": "17c03ca369874f4cf480e46a38c6c94997f81ae4d4cbf0d7569c55f138d09bd1",
+      "tools/run_s2_evaluation_controller.py": "0aebe33301b2c63d452f0406d92e4a287ae64dcb23feefcd3049e4f4a8ed7872"
+    }
+  },
+  "failures": [
+    {
+      "path": "runs/s2_20261016/evaluation/aesthetic_quality/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "aesthetic_quality",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/dynamic_degree/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "dynamic_degree",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/dynamic_degree/attempt02/failure.json",
+      "error": "RuntimeError('Occupancy/progress monitor failed; own worker stops: RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [[\\'GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074\\', \\'1435435\\', \\'26204\\']]\")')",
+      "worker_id": null,
+      "metric": "dynamic_degree",
+      "attempt": 2
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/imaging_quality/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "imaging_quality",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/motion_smoothness/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "motion_smoothness",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/motion_smoothness/attempt02/failure.json",
+      "error": "RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [['GPU-b9157129-ac58-501d-c93d-b1cf622ff61b', '1435434', '27904']]\")",
+      "worker_id": null,
+      "metric": "motion_smoothness",
+      "attempt": 2
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/overall_consistency/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "overall_consistency",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/evaluation/subject_consistency/attempt01/failure.json",
+      "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+      "worker_id": null,
+      "metric": "subject_consistency",
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/workers/worker00/attempt01/failure.json",
+      "error": "RuntimeError('Occupancy/progress monitor failed; own worker stops: RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [[\\'GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc\\', \\'1392948\\', \\'612\\']]\")')",
+      "worker_id": 0,
+      "metric": null,
+      "attempt": 1
+    },
+    {
+      "path": "runs/s2_20261016/workers/worker00/attempt02/failure.json",
+      "error": "RuntimeError('Occupancy/progress monitor failed; own worker stops: RuntimeError(\"Another process appeared on selected GPU; stopping only this S1 process: [[\\'GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc\\', \\'1419512\\', \\'11546\\']]\")')",
+      "worker_id": 0,
+      "metric": null,
+      "attempt": 2
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "protocol_id": "wan_lightx2v_qualification_v1",
+  "status": "S1_RUNTIME_ACCEPTED_S2_NOT_STARTED",
+  "size": [
+    480,
+    832
+  ],
+  "num_frames": 81,
+  "fps": 16,
+  "batch_size": 1,
+  "dit_precision": "Native mixed precision: Teacher FP32 parameters with BF16 autocast and native FP32 paths; Student BF16 parameters/forward",
+  "latent_state_precision": "Teacher FP32 native; Student initializes from shared CPU FP32 then native BaseScheduler.step_pre casts to BF16; step_post computes FP32 and writes BF16",
+  "attention_backend": "flash_attn2",
+  "flash_attn_version": "2.8.3",
+  "prompt_enhancement": false,
+  "quantization": false,
+  "approximate_cache": false,
+  "torch_compile": false,
+  "negative_prompt": "色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走",
+  "teacher": {
+    "steps": 50,
+    "sampler": "unipc",
+    "shift": 5,
+    "guidance_scale": 5,
+    "checkpoint_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-Diffusers/transformer",
+    "checkpoint_format": "official Diffusers F32 safetensors; retain native FP32 parameter storage",
+    "repo_id": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+    "revision": "38ec498cb3208fb688890f8cc7e94ede2cbd7f68",
+    "loader_plan": "Accepted S1: read existing official FP32 shards, map keys into native WanModel in memory, retain native FP32 parameters and BF16 autocast; no on-disk conversion",
+    "loader_runtime_accepted": true,
+    "parameter_storage_dtype": "float32",
+    "forward_autocast_dtype": "bfloat16"
+  },
+  "student": {
+    "steps": 4,
+    "distill_method": "dmd2",
+    "enable_cfg": false,
+    "sample_shift": 5,
+    "denoising_step_list": [
+      1000,
+      750,
+      500,
+      250
+    ],
+    "expected_sigmas": [
+      1,
+      0.9375,
+      0.8333333333333334,
+      0.625
+    ],
+    "terminal_sigma": 0,
+    "model_path": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "checkpoint_file": "distill_model.pt",
+    "repo_id": "lightx2v/Wan2.1-T2V-14B-StepDistill-CfgDistill",
+    "revision": "b9baaa9a0c29226dea39043db647d1ced950bbea",
+    "loader_config_requirement": "omit dit_original_ckpt and transformer_model_path to select the supported original PT branch",
+    "loader_runtime_accepted": true,
+    "persistent_latent_dtype": "bfloat16",
+    "keep_latents_dtype_in_scheduler": false,
+    "sensitive_layer_dtype": "None (same as BF16 infer dtype)"
+  },
+  "export": {
+    "codec": "libx264",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "frame_interpolation": false
+  },
+  "statistics": {
+    "cluster": "prompt",
+    "stratified": true,
+    "bootstrap_replicates": 10000,
+    "numpy_rng": "PCG64",
+    "seed": 20261016,
+    "quality_ci_level": 0.99,
+    "guard_ci_level": 0.95,
+    "target_priority": [
+      "imaging_quality",
+      "subject_consistency",
+      "overall_consistency",
+      "aesthetic_quality",
+      "motion_smoothness"
+    ]
+  },
+  "common_components": {
+    "native_config": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/config.json",
+    "t5": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/models_t5_umt5-xxl-enc-bf16.pth",
+    "vae": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/Wan2.1_VAE.pth",
+    "tokenizer": "/data/chenjiayu/models/Wan2.1-T2V-14B-StepDistill-CfgDistill/google/umt5-xxl",
+    "policy": "read existing files directly; no shared directory modifications",
+    "vae_precision": "native FP32 parameters and decode; same implementation in both arms"
+  },
+  "s1_evidence": "Result/S1_20261016/acceptance.json"
+}

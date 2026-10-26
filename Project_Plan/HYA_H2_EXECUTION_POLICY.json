@@ -1,0 +1,83 @@
+{
+  "policy_id": "HYA_H2_MULTIGPU_V1_20261019",
+  "status": "planned_not_executed",
+  "qualification_protocol_id": "HYA_720P_QUALIFICATION_V2_20261019",
+  "scope": "Future H2 qualification and, only after separate authorization, same-panel H4; no formal launch in this revision",
+  "h1_runtime_contract": {
+    "path": "HYA_RUNTIME_CONTRACT.json",
+    "sha256": "4f07fb9e69e7ce463b530ca22ecbd030b33b75855e137d8c911341254a659475",
+    "inherit": "verified model implementation, loaders, numerical precision, schedule, video format and offline resources",
+    "supersede_only": [
+      "historical GPU-6-only scheduling",
+      "historical 64x3 formal panel reference"
+    ],
+    "historical_parent_protocol_path": "history/HUNYUAN_ACCVIDEO_PROTOCOL_V1_64x3.json",
+    "preserve_h1_artifacts_and_hashes": true
+  },
+  "eligible_gpu_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "preferred_workers": 4,
+  "minimum_desired_workers": 3,
+  "maximum_workers": 4,
+  "workers_per_gpu": 1,
+  "batch_size": 1,
+  "gpu_reservation_claim": false,
+  "admission": {
+    "recheck_at_dispatch_and_immediately_before_load": true,
+    "reject_any_unrecognized_resident_compute_pid_even_same_login": true,
+    "idle_requires": "no resident compute process, near-baseline VRAM, no active utilization; unknown queries fail closed",
+    "vram": "H1 peak allocated 43.142 GiB is a reference, not total reserved memory; preserve original single-GPU working set and safety margin",
+    "host": "recheck MemAvailable, CPU load and disk; budget simultaneous model CPU reconstruction and text encoding before raising worker count; stage worker loading to limit transient RAM and I/O",
+    "disk_free_floor_gib": 50,
+    "worker_cpu_threads_initial": 4,
+    "fewer_than_three_idle": "use only actually admitted free cards and report lower concurrency; never occupy resident users to meet target"
+  },
+  "assignment": {
+    "unit": "prompt-seed pair; both T50 and S5 assigned to same physical GPU",
+    "method": "balance each library across deterministic shards; bounded blocks and balanced T/S block order to reduce reloads and order confounding",
+    "four_gpu_pair_counts": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "three_gpu_pair_counts": [
+      22,
+      21,
+      21
+    ],
+    "record": [
+      "protocol SHA256",
+      "prompt id",
+      "seed",
+      "actual latent and conditioning hashes",
+      "GPU UUID/index",
+      "task order",
+      "timestamps",
+      "attempt id",
+      "system load",
+      "timings"
+    ],
+    "one_model_gpu_resident_at_a_time": true,
+    "evaluation": "use only admitted cards without a simultaneous generation worker; each video is scored only for its library metrics"
+  },
+  "conflict_policy": {
+    "terminate_other_tasks": false,
+    "action": "stop only own affected worker, retain committed valid outputs, release GPU, recheck free candidates before retry; no seed/prompt substitutions",
+    "retry_unit": "if moving a partially completed pair, regenerate the pair on the destination GPU; preserve valid previous attempt as superseded and account for its cost; predeclared placement rule, never select by score",
+    "backoff_seconds": 300,
+    "consecutive_conflict_pause_after": 2,
+    "duplicate_prevention": "task claiming, output identity checks and atomic commits required before H2 launch"
+  },
+  "implementation_gate": "H1 smoke scripts are GPU-6-specific and are not a formal multi-GPU launcher; implement and validate H2 sharding, admission and resume logic within future authorized H2 preparation before full dispatch",
+  "periodic_codex_automation": false,
+  "formal_execution_authorized_by_this_revision": false
+}

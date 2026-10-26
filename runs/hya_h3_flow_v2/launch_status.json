@@ -1,0 +1,31 @@
+{
+  "status": "launched",
+  "receipt": {
+    "pid": 3379961,
+    "birth": "1604705164",
+    "launched_unix": 1792481439.6633577,
+    "detached": true
+  },
+  "idle_gpus_at_launch": [
+    5,
+    6,
+    7
+  ],
+  "allowed_gpus": [
+    5,
+    6,
+    7
+  ],
+  "max_workers": 3,
+  "counts": {
+    "prompts": 48,
+    "corrected_videos": 96,
+    "new_videos": 95,
+    "reused_development_videos": 1,
+    "new_scores": 160,
+    "reused_H2_videos": 96,
+    "reused_H2_scores": 160
+  },
+  "protocol_sha256": "380c82e3fe422d926bc274708f632d2f928953bae74836ae3ceb4e14e74b59d8",
+  "run_directory": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h3_flow_v2"
+}

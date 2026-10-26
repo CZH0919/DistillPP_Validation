@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_06",
+  "prompt": "A fork and a potted plant. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "ec80bf469de8d52c7a4008ca005f972bca1b168ed9f0774c56f99ab8950c94da",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "db75cd902dbb905985ca63ab384dbe28da0dd8edbf37801d791e017859cd0fa0",
+    "pooled": "73d19c47888c38e17eda76be829d557babe19b3316433731955534955406e507",
+    "clip_input_ids": "f007cf27cde4808ea543a49ae3cc141073095118e32f66b2655bd08d5061a91f",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 17.41232238523662,
+  "llama_encode_seconds": 0.04311549663543701,
+  "clip_encode_seconds": 0.0035018008202314377,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_06.73ba7e4a4603440fa1113fc96fa3c810.pt",
+  "file_sha256": "4e1c80fdfcc756e68a360d2fd07ba63d1eab9b341b875cab81d161c6ec5d7319"
+}

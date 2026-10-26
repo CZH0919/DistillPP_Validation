@@ -1,0 +1,18 @@
+{
+  "pair_id": "warmup",
+  "prompt_id": "warmup",
+  "stratum": "nonformal",
+  "prompt": "A blue toy boat drifts across a garden pond, leaving gentle ripples in soft daylight. Static camera.",
+  "seed": 2026101601,
+  "arm": "T50",
+  "warmup": true,
+  "status": "started",
+  "worker_id": 3,
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "d9865a02b66879866a03eea4daf59f5b90f393ff3b5f3958955b90b991b3ba06",
+  "positive_context_sha256": "829f37ccad53b2e3f755622cef8f135727be7ff075231c69ff7f7b09d315dd82",
+  "unix_start": 1792147323.4739473,
+  "gpu_count": 1,
+  "offload": false
+}

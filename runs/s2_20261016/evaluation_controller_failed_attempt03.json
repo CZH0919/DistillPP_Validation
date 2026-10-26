@@ -1,0 +1,30 @@
+{
+  "phase": "failed",
+  "max_parallel": 2,
+  "attempt": 2,
+  "pending": [
+    "aesthetic_quality",
+    "overall_consistency"
+  ],
+  "completed": [
+    "imaging_quality",
+    "subject_consistency"
+  ],
+  "pid": 1431107,
+  "started": 1792152866.1070478,
+  "reason": "Six concurrent CUDA/model starts coincided with nvidia-smi 15-second query timeouts; zero scoring rows were committed.",
+  "unchanged": "evaluate_s2.py, all videos, model weights, preprocessing, normalization and statistics",
+  "source_sha256": "57504f16f5a600a139144c25f7930f52c63b05eecbb7ad9426484aebbd55c0ff",
+  "running": {
+    "motion_smoothness": {
+      "gpu": 1,
+      "timeout_pid": 1432946
+    },
+    "dynamic_degree": {
+      "gpu": 2,
+      "timeout_pid": 1433245
+    }
+  },
+  "error": "AssertionError('Evaluation retry failed: motion_smoothness exit=1')",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/retry_s2_evaluation.py\", line 36, in main\n    assert rc==0,'Evaluation retry failed: '+metric+' exit='+str(rc)\nAssertionError: Evaluation retry failed: motion_smoothness exit=1\n"
+}

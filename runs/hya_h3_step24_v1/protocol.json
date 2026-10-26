@@ -1,0 +1,158 @@
+{
+  "protocol_id": "HYA_DISTILLPP_COMPLETE_STEPS_1_TO_4_THREE_STRENGTHS_V1",
+  "status": "execution_authorized_20261025",
+  "authorization": {
+    "execution": true,
+    "training": false,
+    "scope": "User authorized on 2026-10-25: run second/fourth-step lambda 0.1/0.3/0.5, existing metric evaluation and combined analysis in the background; inspect live GPU/RAM/disk before launch, choose up to four concurrent workers, yield to other users and preserve completed results"
+  },
+  "parent_protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "completed_timing_protocol_sha256": "40b061ba3b1a28a6359a13124e3b22c4e453ecc0b6334d6d39caefa989f1c204",
+  "completed_timing_complete_sha256": "7329359be1adb6a43982f82dba2c4428702143f50eedfc99ab3e540f351577e7",
+  "prompt_ids": [
+    "HYA_MOTION_01",
+    "HYA_MOTION_02",
+    "HYA_MOTION_03",
+    "HYA_MOTION_04",
+    "HYA_MOTION_05",
+    "HYA_MOTION_06",
+    "HYA_MOTION_07",
+    "HYA_MOTION_08",
+    "HYA_MOTION_09",
+    "HYA_MOTION_10",
+    "HYA_MOTION_11",
+    "HYA_MOTION_12",
+    "HYA_MOTION_13",
+    "HYA_MOTION_14",
+    "HYA_MOTION_15",
+    "HYA_MOTION_16",
+    "HYA_MOTION_17",
+    "HYA_MOTION_18",
+    "HYA_MOTION_19",
+    "HYA_MOTION_20",
+    "HYA_MOTION_21",
+    "HYA_MOTION_22",
+    "HYA_MOTION_23",
+    "HYA_MOTION_24",
+    "HYA_MOTION_25",
+    "HYA_MOTION_26",
+    "HYA_MOTION_27",
+    "HYA_MOTION_28",
+    "HYA_MOTION_29",
+    "HYA_MOTION_30",
+    "HYA_MOTION_31",
+    "HYA_MOTION_32",
+    "HYA_OBJECTS_01",
+    "HYA_OBJECTS_02",
+    "HYA_OBJECTS_03",
+    "HYA_OBJECTS_04",
+    "HYA_OBJECTS_05",
+    "HYA_OBJECTS_06",
+    "HYA_OBJECTS_07",
+    "HYA_OBJECTS_08",
+    "HYA_OBJECTS_09",
+    "HYA_OBJECTS_10",
+    "HYA_OBJECTS_11",
+    "HYA_OBJECTS_12",
+    "HYA_OBJECTS_13",
+    "HYA_OBJECTS_14",
+    "HYA_OBJECTS_15",
+    "HYA_OBJECTS_16"
+  ],
+  "selection": "Reuse all H2 motion/objects prompts and metric mappings; exclude scene library",
+  "seed": 2026101901,
+  "teacher_query": "next_student_sigma",
+  "renoise_reference_step": 0,
+  "renoise_policy": "Reuse exactly the original first-step per-prompt random stream for all strengths and intervention positions",
+  "variants": {
+    "step2_lambda_0p1": {
+      "intervention_step": 1,
+      "strength": 0.1
+    },
+    "step2_lambda_0p3": {
+      "intervention_step": 1,
+      "strength": 0.3
+    },
+    "step2_lambda_0p5": {
+      "intervention_step": 1,
+      "strength": 0.5
+    },
+    "step4_lambda_0p1": {
+      "intervention_step": 3,
+      "strength": 0.1
+    },
+    "step4_lambda_0p3": {
+      "intervention_step": 3,
+      "strength": 0.3
+    },
+    "step4_lambda_0p5": {
+      "intervention_step": 3,
+      "strength": 0.5
+    }
+  },
+  "reused_variants": {
+    "step1_lambda_0p1": {
+      "intervention_step": 0,
+      "strength": 0.1,
+      "source_variant": "lambda_0p1",
+      "source_batch": "first_step"
+    },
+    "step1_lambda_0p3": {
+      "intervention_step": 0,
+      "strength": 0.3,
+      "source_variant": "lambda_0p3",
+      "source_batch": "first_step"
+    },
+    "step1_lambda_0p5": {
+      "intervention_step": 0,
+      "strength": 0.5,
+      "source_batch": "timing",
+      "source_variant": "step1_lambda_0p5"
+    },
+    "step3_lambda_0p1": {
+      "intervention_step": 2,
+      "strength": 0.1,
+      "source_batch": "timing",
+      "source_variant": "step3_lambda_0p1"
+    },
+    "step3_lambda_0p3": {
+      "intervention_step": 2,
+      "strength": 0.3,
+      "source_batch": "timing",
+      "source_variant": "step3_lambda_0p3"
+    },
+    "step3_lambda_0p5": {
+      "intervention_step": 2,
+      "strength": 0.5,
+      "source_batch": "timing",
+      "source_variant": "step3_lambda_0p5"
+    }
+  },
+  "method": "native_Euler + (1-next_sigma)*lambda*(teacher_clean-student_clean)",
+  "metrics": [
+    "subject_consistency",
+    "multiple_objects",
+    "dynamic_degree"
+  ],
+  "max_workers": 4,
+  "gpu_selection": "User-approved concurrency ceiling is four; record the actual --max-workers in the runtime protocol after checking current GPU/RAM/disk availability. Keep this scientific plan's max_workers unset and discover eligible idle GPU IDs on every dispatch.",
+  "max_controller_seconds": 172800,
+  "conflict_policy": "Keep completed arms; relinquish own worker; cool down the contested GPU for 10 minutes, 30 minutes after recurrence; prefer idle GPUs with fewer conflicts",
+  "counts": {
+    "prompts": 48,
+    "new_videos": 288,
+    "new_scores": 480,
+    "reused_H2_videos": 96,
+    "reused_H2_scores": 160,
+    "reused_correction_videos": 288,
+    "reused_correction_scores": 480,
+    "combined_videos": 672,
+    "combined_scores": 1120
+  },
+  "residency": "single DiT on GPU; count teacher/student transfers in inference time",
+  "variant_order": "Rotate six new arms by frozen prompt index; identical initial and re-noise samples across all positions and strengths",
+  "analysis": "Primary: full-library means, changes versus S5/T50, fixed-lambda position comparisons, dynamic guard and actual timing. Teacher-advantage strata remain supplementary only; no sample selection or new acceptance gate.",
+  "fifth_step_exclusion": "The next sigma is zero after student step 5; teacher querying by the unchanged next-sigma re-noising rule requires 0 < sigma < 1",
+  "inherited_record_note": "Keep the documented HYA_MOTION_26/step3_lambda_0p1 prefix mismatch in the reused results; do not silently replace or rerun it",
+  "stopping_point": "Finish only the six new arms and existing metrics; merge the four-position by three-strength comparison and stop"
+}

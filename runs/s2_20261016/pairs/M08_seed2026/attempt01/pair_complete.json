@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M08_seed2026",
+  "prompt_id": "M08",
+  "stratum": "human_motion",
+  "prompt": "A person is tai chi",
+  "seed": 2026,
+  "worker_id": 5,
+  "global_sequence": 33,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.060028575360774994,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed2026/attempt01/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M08_seed2026/attempt01/T50/result.json"
+  }
+}

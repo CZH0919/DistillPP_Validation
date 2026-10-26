@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_07",
+  "prompt": "A classroom with desks and a whiteboard, designed for teaching and learning. Realistic, Natural lighting, Professional",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 118,
+    "clip_with_special": 22
+  },
+  "hashes": {
+    "context": "8e9921412966f5b1a8b2c675ab0f5870f967e032fa2182cf1acf8f7cb8e99b4b",
+    "mask": "b7dbc1d04d0967a950a6dbdf1c521e90f4bb033d7ae0403b9d2302776f304e18",
+    "llama_input_ids": "f33b71188571882fe8dec6ad4c05709c9c053a5ab800967ca7ae9e7101a96d99",
+    "pooled": "fa63f437d12605066137548db59a54d9add2e2a9520ef1eee28a2002167f88dd",
+    "clip_input_ids": "23f69d629424eb7818cbacbf22fa7afb69051cb6704bd17579f869c49c380ab6",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 38.802760841324925,
+  "llama_encode_seconds": 0.048021379858255386,
+  "clip_encode_seconds": 0.21486407332122326,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_07.2b07f73c6a784e1dbaa5178bfef4a686.pt",
+  "file_sha256": "cc8b8eaec55567a95f63026e8f61d94764c24fc17ef941973626b5c723c4ce12"
+}

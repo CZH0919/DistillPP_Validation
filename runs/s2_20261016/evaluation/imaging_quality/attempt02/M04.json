@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M04_seed42",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed42/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 66.67313983116621,
+      "normalized_score": 0.6667313983116621,
+      "source_returned_score": 66.67313983116621,
+      "video_sha256": "3a95ed020ca2c1086f7722739fdc2aef530b06d0286dc24acf1d28fa50687f93"
+    },
+    {
+      "pair_id": "M04_seed42",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed42/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 70.45776555567612,
+      "normalized_score": 0.7045776555567612,
+      "source_returned_score": 70.45776555567612,
+      "video_sha256": "8bbec36a3ce63fc627b48a4bfc15211209f5dd09a90990f3749f95ab821b08e4"
+    },
+    {
+      "pair_id": "M04_seed1234",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed1234/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 69.00060926837686,
+      "normalized_score": 0.6900060926837687,
+      "source_returned_score": 69.00060926837686,
+      "video_sha256": "8cc518999818f7985e297e8843b0a15b8b419ae43eaa274bb05626feb9f3151c"
+    },
+    {
+      "pair_id": "M04_seed1234",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed1234/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 68.91460965003496,
+      "normalized_score": 0.6891460965003496,
+      "source_returned_score": 68.91460965003496,
+      "video_sha256": "95e9059bb4a0d674f9fe9d99294b908fbfc11bfa2c9297a6ad840a3afc320248"
+    },
+    {
+      "pair_id": "M04_seed2026",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed2026/attempt01/S4/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 72.29250693615572,
+      "normalized_score": 0.7229250693615572,
+      "source_returned_score": 72.29250693615572,
+      "video_sha256": "b95e1a307237bb27a91f9e1961dcca0cf77faef3798603ee4ee1eaac9bf28d6d"
+    },
+    {
+      "pair_id": "M04_seed2026",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M04_seed2026/attempt01/T50/video.mp4",
+      "metric": "imaging_quality",
+      "raw_score": 67.81767371848777,
+      "normalized_score": 0.6781767371848777,
+      "source_returned_score": 67.81767371848777,
+      "video_sha256": "77d259efb07b910dc29d5de0c7a28288592ec88a5daf078fcf2f297262fb16c1"
+    }
+  ],
+  "aggregate": 0.6919271749331627,
+  "scoring_seconds": 7.680245708674192
+}

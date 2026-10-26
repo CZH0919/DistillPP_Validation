@@ -1,0 +1,16 @@
+{
+  "controller_pid": 3133902,
+  "start_ticks": "1598995589",
+  "session_id": 3133902,
+  "launched_unix": 1792424347.921843,
+  "initial_free_devices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    1
+  ],
+  "maximum_workers": 6,
+  "preserved_files_verified": 356
+}

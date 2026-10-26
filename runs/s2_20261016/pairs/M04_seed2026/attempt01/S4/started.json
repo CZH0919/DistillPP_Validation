@@ -1,0 +1,23 @@
+{
+  "pair_id": "M04_seed2026",
+  "prompt_id": "M04",
+  "stratum": "animal_motion",
+  "prompt": "an elephant spraying itself with water using its trunk to cool down",
+  "seed": 2026,
+  "worker_id": 5,
+  "global_sequence": 12,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+  "pid": 1394294,
+  "initial_latent_sha256": "c4de30649e899d197e10d8aabfbf5a90fe5e0627f12492f2a5dea973a8b23314",
+  "positive_context_sha256": "82b5510c7d0b97aa1ac38702b38d881609d5c4682b5b46de243a56b29b29ef78",
+  "unix_start": 1792148432.707445,
+  "gpu_count": 1,
+  "offload": false
+}

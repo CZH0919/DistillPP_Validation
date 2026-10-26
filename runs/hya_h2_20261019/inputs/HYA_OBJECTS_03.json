@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_03",
+  "prompt": "A TV and a laptop. Realistic, Indoor lighting, Professional",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "25693404e17ae6cd2fecbbb69266b0989420aca29a3ad10e62e258d7a658bfa1",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "d7d62e37751f40306113812f831c0935fe76fb8176b5a06e0da6704bc3956345",
+    "pooled": "e5d0416a81e9e0537cf4dcde13e531c30dd12e3a5812b6fde29bd8c353bc14d2",
+    "clip_input_ids": "db029e24a7edb2f415def978e41bd3c20dcd7b45d76e8441b6461cadcc1dd225",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 17.26569161005318,
+  "llama_encode_seconds": 0.2219269536435604,
+  "clip_encode_seconds": 0.02727677673101425,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_03.ee5090e5bc134746a6aa53f2005a3c5e.pt",
+  "file_sha256": "5fa896af490a10a1cb830bebd825f280d2f8b1ef4b56c62514e4156137bbf728"
+}

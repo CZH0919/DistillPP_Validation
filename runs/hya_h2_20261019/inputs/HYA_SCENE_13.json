@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_13",
+  "prompt": "A tall structure with rotating blades powered by the wind. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 115,
+    "clip_with_special": 19
+  },
+  "hashes": {
+    "context": "c8de08def45176ebc4a756df5b4e66e82227af817f2aa64ebc6618b9c55c6d76",
+    "mask": "8147fa2e35850727262f1129e060cde838ffa2e0a50404815250bb1e9c03f5f6",
+    "llama_input_ids": "ba2013647560ae6053106274b3b73b7f0126ff775d235d09da8c1e9a4e98e458",
+    "pooled": "b783793f70c08f3be5a92036dabc2635aec79bd3754a2db0f9047c6d438a6a53",
+    "clip_input_ids": "e882c13dfe5f291cb1a1612028f921dc4480b0240af5fb4d5f0a8b7e6e98e333",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 40.23493565246463,
+  "llama_encode_seconds": 0.04172687046229839,
+  "clip_encode_seconds": 0.046546561643481255,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_13.55bf4b8c7e7b422b93e9dd326c69dd6b.pt",
+  "file_sha256": "afe222ce5d2d5c5d671f30f72aedb961ff6a0b968036e3afd0d20c13b50f48cc"
+}

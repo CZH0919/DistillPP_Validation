@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "finished_unix": 1792429197.3579764,
+  "sha256": {
+    "timing_per_video.csv": "959af63993207d15625fe8cd081bbfa39cdd609f65899bcedb1a967812379348",
+    "raw_scores.csv": "79c219fd7cd340638e9773969c845ecb2b55e771137411ab71edbcf9577a7312",
+    "paired_scores.csv": "40c9e02fc4be80db0bf9f305f50f8a0e7901897032e509b65218208295d69660",
+    "statistics.json": "04c962c5ede9d43c94c174c245b96144a2e3567aac44a08bdec4ead1c8c0b680",
+    "video_archive_sha256.json": "a3821036c6d49552f05170a508ae807870f6b52e7d99475075b6ef3f7c25e299",
+    "REPORT.md": "376d8b37a911830e7a56281f925d4f87f9a167bf2927ef94c2d93e6f022925dd"
+  },
+  "S3_started": false
+}

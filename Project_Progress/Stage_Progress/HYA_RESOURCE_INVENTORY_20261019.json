@@ -1,0 +1,691 @@
+{
+  "date": "2026-10-19",
+  "scope": "authorized shared-model root and own project; bounded filenames only for unrelated directories; no GPU initialization",
+  "reuse_asset_count_full_hash_passed": 29,
+  "reuse_bytes": 42268026592,
+  "verification_events": [
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/model_index.json",
+      "sha256": "34b794bc21967bdc0bdc56be8158f883272659c07d8cf89669b2d5b15adbf52c",
+      "seconds": 0.00012108683586120605
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/scheduler/scheduler_config.json",
+      "sha256": "f1d67f3728a1a54de830ccb3b5856308a3f2844bad5950c60523fe87d6bb2bbe",
+      "seconds": 5.1351264119148254e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/config.json",
+      "sha256": "085cebf4169836dc4a521e5aa88fb2bfe742ddf7a5d56f93bab4e79e540da567",
+      "seconds": 2.2659078240394592e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00001-of-00004.safetensors",
+      "sha256": "f5ad57d3eda300a3195bc9c0bb36ab76ebe88831f128e9851e63440aff4a6741",
+      "seconds": 6.885153537616134
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00002-of-00004.safetensors",
+      "sha256": "54accb98811931fca7598da4f7239b03b912eaa2bd5fe639f2da00923374f4a0",
+      "seconds": 5.6812455765903
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00003-of-00004.safetensors",
+      "sha256": "d67c77f57cab4c9bf7f4420c256aed684c8ac7b49c6ab72cff9924e9513db9f1",
+      "seconds": 5.551332088187337
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00004-of-00004.safetensors",
+      "sha256": "c93f133c65ab1aeaa9ed1e998901a306636375b2f57fa53cd279241147a9a0e9",
+      "seconds": 0.13469627499580383
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model.safetensors.index.json",
+      "sha256": "ab9a659309b52018d958a2de7b2301fa31f60faa702838a0263e385f29b9b3a8",
+      "seconds": 4.695728421211243e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/config.json",
+      "sha256": "2872d09ef8a7453db129a67a3e2d90e4dfa4de1febd0fcfa820ed006dceaff9a",
+      "seconds": 1.3530254364013672e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/model.safetensors",
+      "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd",
+      "seconds": 0.29415033012628555
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/special_tokens_map.json",
+      "sha256": "e87284810dc7a4d9dbab5ea6b713b3e72a6a909006483760773fb129534b9fe0",
+      "seconds": 0.0008438918739557266
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer.json",
+      "sha256": "d2c593db4aa75b17a42c1f74d7cc38e257eaeed222e6a52674c65544165dcbaa",
+      "seconds": 0.024475865066051483
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer_config.json",
+      "sha256": "88d8723716a3368430f3a02fd4614c8368b9f87b28c0053fcbdd80b88888b0f7",
+      "seconds": 7.677450776100159e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/merges.txt",
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "seconds": 0.0005997959524393082
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/special_tokens_map.json",
+      "sha256": "2cdb3b8331a60c92fc1e55a13e9fd61fd2293c5a51275fdcccd62b780052530e",
+      "seconds": 0.0003004465252161026
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/tokenizer_config.json",
+      "sha256": "39bae5313c2da6467866dee758e754d69f0e302a875027b142531cb9c51c7c28",
+      "seconds": 2.2940337657928467e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/vocab.json",
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "seconds": 0.0012069698423147202
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/config.json",
+      "sha256": "87e056fd4f2d59a5999fb172819ea322944b2c42b95623d875e6c8da8fe790fa",
+      "seconds": 1.50240957736969e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00001-of-00006.safetensors",
+      "sha256": "bdb957b35585ea74ae42ca92865a68fa1bf1ebc6c5b7e686a889e5c977dc24c7",
+      "seconds": 5.770787524059415
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00002-of-00006.safetensors",
+      "sha256": "f16c2fabff7b4d290613975ed5fd0853b72b09463078b0d496d29c79a884ca4d",
+      "seconds": 5.689898444339633
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00003-of-00006.safetensors",
+      "sha256": "65761c1b920d043b94cf1de1790cbd4871f3ea41182aa3b0ad6825249945bd6e",
+      "seconds": 5.545730736106634
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00004-of-00006.safetensors",
+      "sha256": "7f1c385ac8a924f42f1e26238ed96fcabcf05434d51a25af54252c09e64efaa0",
+      "seconds": 5.595827855169773
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00005-of-00006.safetensors",
+      "sha256": "d81f37cbee8d8fee160535d3f1f55fc9dc09741b38a3f8da3c6ae3487a11d350",
+      "seconds": 5.579864541068673
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00006-of-00006.safetensors",
+      "sha256": "0b027bd330d575c3c6e20e8fc9c585f9075742f467de687772c80898436a88fe",
+      "seconds": 1.0067737270146608
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model.safetensors.index.json",
+      "sha256": "99f9c26610498461f2e4f6fcb1f1432a6618771d8f405b66104aa0893fefaef1",
+      "seconds": 0.001059018075466156
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/vae/config.json",
+      "sha256": "8dd1ef5ce49d2a56cdb5ea4c6553244320cd7185918463578c4c08a31f55e50a",
+      "seconds": 2.0891427993774414e-05
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/models/HunyuanVideo/vae/diffusion_pytorch_model.safetensors",
+      "sha256": "7c68a6295f9034a88225fbafb1f3258291a08d57a1fdb938233fa57b1b8f4883",
+      "seconds": 1.1507301814854145
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+      "seconds": 0.3934521619230509
+    },
+    {
+      "event": "verified",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+      "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1",
+      "seconds": 0.028003189712762833
+    },
+    {
+      "event": "verified_assets",
+      "status": "passed",
+      "assets": [
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/model_index.json",
+          "bytes": 563,
+          "sha256": null,
+          "git_blob_sha1": "5768221ed7a58f10f0ebeb15bc228c04871be8dc",
+          "repo_file": "model_index.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "34b794bc21967bdc0bdc56be8158f883272659c07d8cf89669b2d5b15adbf52c",
+          "mtime_ns": 1767321361161204250,
+          "seconds": 0.00012108683586120605
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/scheduler/scheduler_config.json",
+          "bytes": 419,
+          "sha256": null,
+          "git_blob_sha1": "c96fcec5480a80e8f3e5cbb8df29ab261098a838",
+          "repo_file": "scheduler/scheduler_config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "f1d67f3728a1a54de830ccb3b5856308a3f2844bad5950c60523fe87d6bb2bbe",
+          "mtime_ns": 1767321360953208985,
+          "seconds": 5.1351264119148254e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/config.json",
+          "bytes": 766,
+          "sha256": null,
+          "git_blob_sha1": "f5f2205251eb0b863c5b0f9a60cd9fad069c5872",
+          "repo_file": "text_encoder/config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "085cebf4169836dc4a521e5aa88fb2bfe742ddf7a5d56f93bab4e79e540da567",
+          "mtime_ns": 1767321360972208553,
+          "seconds": 2.2659078240394592e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00001-of-00004.safetensors",
+          "bytes": 4977222384,
+          "sha256": "f5ad57d3eda300a3195bc9c0bb36ab76ebe88831f128e9851e63440aff4a6741",
+          "git_blob_sha1": null,
+          "repo_file": "text_encoder/model-00001-of-00004.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "f5ad57d3eda300a3195bc9c0bb36ab76ebe88831f128e9851e63440aff4a6741",
+          "mtime_ns": 1767321820636912408,
+          "seconds": 6.885153537616134,
+          "tensor_count": 82,
+          "tensor_dtypes": [
+            "F16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00002-of-00004.safetensors",
+          "bytes": 4999801992,
+          "sha256": "54accb98811931fca7598da4f7239b03b912eaa2bd5fe639f2da00923374f4a0",
+          "git_blob_sha1": null,
+          "repo_file": "text_encoder/model-00002-of-00004.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "54accb98811931fca7598da4f7239b03b912eaa2bd5fe639f2da00923374f4a0",
+          "mtime_ns": 1767322187382713796,
+          "seconds": 5.6812455765903,
+          "tensor_count": 104,
+          "tensor_dtypes": [
+            "F16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00003-of-00004.safetensors",
+          "bytes": 4915915480,
+          "sha256": "d67c77f57cab4c9bf7f4420c256aed684c8ac7b49c6ab72cff9924e9513db9f1",
+          "git_blob_sha1": null,
+          "repo_file": "text_encoder/model-00003-of-00004.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "d67c77f57cab4c9bf7f4420c256aed684c8ac7b49c6ab72cff9924e9513db9f1",
+          "mtime_ns": 1767321991435032673,
+          "seconds": 5.551332088187337,
+          "tensor_count": 100,
+          "tensor_dtypes": [
+            "F16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model-00004-of-00004.safetensors",
+          "bytes": 117465520,
+          "sha256": "c93f133c65ab1aeaa9ed1e998901a306636375b2f57fa53cd279241147a9a0e9",
+          "git_blob_sha1": null,
+          "repo_file": "text_encoder/model-00004-of-00004.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "c93f133c65ab1aeaa9ed1e998901a306636375b2f57fa53cd279241147a9a0e9",
+          "mtime_ns": 1767321520912567738,
+          "seconds": 0.13469627499580383,
+          "tensor_count": 4,
+          "tensor_dtypes": [
+            "F16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder/model.safetensors.index.json",
+          "bytes": 22152,
+          "sha256": null,
+          "git_blob_sha1": "b6e7a9e010002205834fd4f2808ca042bad4a246",
+          "repo_file": "text_encoder/model.safetensors.index.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "ab9a659309b52018d958a2de7b2301fa31f60faa702838a0263e385f29b9b3a8",
+          "mtime_ns": 1767321362061183759,
+          "seconds": 4.695728421211243e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/config.json",
+          "bytes": 646,
+          "sha256": null,
+          "git_blob_sha1": "715167338723844a8b46281e6dedaf9e2000f771",
+          "repo_file": "text_encoder_2/config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "2872d09ef8a7453db129a67a3e2d90e4dfa4de1febd0fcfa820ed006dceaff9a",
+          "mtime_ns": 1767321361985185489,
+          "seconds": 1.3530254364013672e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/text_encoder_2/model.safetensors",
+          "bytes": 246144152,
+          "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd",
+          "git_blob_sha1": null,
+          "repo_file": "text_encoder_2/model.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd",
+          "mtime_ns": 1767321412463036279,
+          "seconds": 0.29415033012628555,
+          "tensor_count": 196,
+          "tensor_dtypes": [
+            "F16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/special_tokens_map.json",
+          "bytes": 577,
+          "sha256": null,
+          "git_blob_sha1": "7c6fa7065265909bd500cafb38cc939b81b1b018",
+          "repo_file": "tokenizer/special_tokens_map.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "e87284810dc7a4d9dbab5ea6b713b3e72a6a909006483760773fb129534b9fe0",
+          "mtime_ns": 1767321361875187994,
+          "seconds": 0.0008438918739557266
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer.json",
+          "bytes": 17210098,
+          "sha256": "d2c593db4aa75b17a42c1f74d7cc38e257eaeed222e6a52674c65544165dcbaa",
+          "git_blob_sha1": null,
+          "repo_file": "tokenizer/tokenizer.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "d2c593db4aa75b17a42c1f74d7cc38e257eaeed222e6a52674c65544165dcbaa",
+          "mtime_ns": 1767321369739008951,
+          "seconds": 0.024475865066051483
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer/tokenizer_config.json",
+          "bytes": 51729,
+          "sha256": null,
+          "git_blob_sha1": "747d2159aaebc628e8105b91c2ab77d50a289f17",
+          "repo_file": "tokenizer/tokenizer_config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "88d8723716a3368430f3a02fd4614c8368b9f87b28c0053fcbdd80b88888b0f7",
+          "mtime_ns": 1767321362861165545,
+          "seconds": 7.677450776100159e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/merges.txt",
+          "bytes": 524619,
+          "sha256": null,
+          "git_blob_sha1": "76e821f1b6f0a9709293c3b6b51ed90980b3166b",
+          "repo_file": "tokenizer_2/merges.txt",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "mtime_ns": 1767321363369153979,
+          "seconds": 0.0005997959524393082
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/special_tokens_map.json",
+          "bytes": 588,
+          "sha256": null,
+          "git_blob_sha1": "cf0682d6de72c1547f41b4f6d7c59f62deffef94",
+          "repo_file": "tokenizer_2/special_tokens_map.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "2cdb3b8331a60c92fc1e55a13e9fd61fd2293c5a51275fdcccd62b780052530e",
+          "mtime_ns": 1767321365615102843,
+          "seconds": 0.0003004465252161026
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/tokenizer_config.json",
+          "bytes": 736,
+          "sha256": null,
+          "git_blob_sha1": "22f91ac3aeb401be0a10d294e00bb1d6293bc4c5",
+          "repo_file": "tokenizer_2/tokenizer_config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "39bae5313c2da6467866dee758e754d69f0e302a875027b142531cb9c51c7c28",
+          "mtime_ns": 1767321364271133442,
+          "seconds": 2.2940337657928467e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/tokenizer_2/vocab.json",
+          "bytes": 1059962,
+          "sha256": null,
+          "git_blob_sha1": "469be27c5c010538f845f518c4f5e8574c78f7c8",
+          "repo_file": "tokenizer_2/vocab.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+          "mtime_ns": 1767321365818098221,
+          "seconds": 0.0012069698423147202
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/config.json",
+          "bytes": 510,
+          "sha256": null,
+          "git_blob_sha1": "ff3c1ca5008ba81d9244359d247cf16c5ae779e1",
+          "repo_file": "transformer/config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "87e056fd4f2d59a5999fb172819ea322944b2c42b95623d875e6c8da8fe790fa",
+          "mtime_ns": 1767321367673055988,
+          "seconds": 1.50240957736969e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00001-of-00006.safetensors",
+          "bytes": 4987847512,
+          "sha256": "bdb957b35585ea74ae42ca92865a68fa1bf1ebc6c5b7e686a889e5c977dc24c7",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00001-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "bdb957b35585ea74ae42ca92865a68fa1bf1ebc6c5b7e686a889e5c977dc24c7",
+          "mtime_ns": 1767322039913692834,
+          "seconds": 5.770787524059415,
+          "tensor_count": 258,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00002-of-00006.safetensors",
+          "bytes": 4984233368,
+          "sha256": "f16c2fabff7b4d290613975ed5fd0853b72b09463078b0d496d29c79a884ca4d",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00002-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "f16c2fabff7b4d290613975ed5fd0853b72b09463078b0d496d29c79a884ca4d",
+          "mtime_ns": 1767322266661624987,
+          "seconds": 5.689898444339633,
+          "tensor_count": 244,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00003-of-00006.safetensors",
+          "bytes": 4870899440,
+          "sha256": "65761c1b920d043b94cf1de1790cbd4871f3ea41182aa3b0ad6825249945bd6e",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00003-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "65761c1b920d043b94cf1de1790cbd4871f3ea41182aa3b0ad6825249945bd6e",
+          "mtime_ns": 1767322030137961615,
+          "seconds": 5.545730736106634,
+          "tensor_count": 228,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00004-of-00006.safetensors",
+          "bytes": 4946314504,
+          "sha256": "7f1c385ac8a924f42f1e26238ed96fcabcf05434d51a25af54252c09e64efaa0",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00004-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "7f1c385ac8a924f42f1e26238ed96fcabcf05434d51a25af54252c09e64efaa0",
+          "mtime_ns": 1767322052662343334,
+          "seconds": 5.595827855169773,
+          "tensor_count": 246,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00005-of-00006.safetensors",
+          "bytes": 4965170872,
+          "sha256": "d81f37cbee8d8fee160535d3f1f55fc9dc09741b38a3f8da3c6ae3487a11d350",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00005-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "d81f37cbee8d8fee160535d3f1f55fc9dc09741b38a3f8da3c6ae3487a11d350",
+          "mtime_ns": 1767322257368868255,
+          "seconds": 5.579864541068673,
+          "tensor_count": 244,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model-00006-of-00006.safetensors",
+          "bytes": 887709824,
+          "sha256": "0b027bd330d575c3c6e20e8fc9c585f9075742f467de687772c80898436a88fe",
+          "git_blob_sha1": null,
+          "repo_file": "transformer/diffusion_pytorch_model-00006-of-00006.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "0b027bd330d575c3c6e20e8fc9c585f9075742f467de687772c80898436a88fe",
+          "mtime_ns": 1767322006921602743,
+          "seconds": 1.0067737270146608,
+          "tensor_count": 44,
+          "tensor_dtypes": [
+            "BF16"
+          ]
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/transformer/diffusion_pytorch_model.safetensors.index.json",
+          "bytes": 133108,
+          "sha256": null,
+          "git_blob_sha1": "6ee496648f909613216d51761aa12017bdd74ee9",
+          "repo_file": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "99f9c26610498461f2e4f6fcb1f1432a6618771d8f405b66104aa0893fefaef1",
+          "mtime_ns": 1767321992728996679,
+          "seconds": 0.001059018075466156
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/vae/config.json",
+          "bytes": 718,
+          "sha256": null,
+          "git_blob_sha1": "b70acd51d20aeee27af7a81cea7d68f5288b8f4b",
+          "repo_file": "vae/config.json",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "8dd1ef5ce49d2a56cdb5ea4c6553244320cd7185918463578c4c08a31f55e50a",
+          "mtime_ns": 1767321993838965814,
+          "seconds": 2.0891427993774414e-05
+        },
+        {
+          "path": "/data/chenjiayu/models/HunyuanVideo/vae/diffusion_pytorch_model.safetensors",
+          "bytes": 985943868,
+          "sha256": "7c68a6295f9034a88225fbafb1f3258291a08d57a1fdb938233fa57b1b8f4883",
+          "git_blob_sha1": null,
+          "repo_file": "vae/diffusion_pytorch_model.safetensors",
+          "repo_id": "hunyuanvideo-community/HunyuanVideo",
+          "revision": "e8c2aaa66fe3742a32c11a6766aecbf07c56e773",
+          "verified_sha256": "7c68a6295f9034a88225fbafb1f3258291a08d57a1fdb938233fa57b1b8f4883",
+          "mtime_ns": 1767322062385077547,
+          "seconds": 1.1507301814854145,
+          "tensor_count": 248,
+          "tensor_dtypes": [
+            "F32"
+          ]
+        },
+        {
+          "id": "DINO ViT-B/16",
+          "group": "evaluation",
+          "target_root": "project",
+          "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+          "repo_id": "Xiaomabufei/lumos",
+          "revision": "ac43c9f587f80a79ee34dcca3119c7189df70e96",
+          "repo_file": "dino_vitbase16_pretrain.pth",
+          "bytes": 343242485,
+          "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+          "provenance": "Fixed third-party HF distribution mirror. SHA reference originally came from mirror LFS metadata; prior local verification downloaded the original DINO author endpoint and matched these bytes. This is not an author-published SHA.",
+          "prior_local_verified_reference": "PK_SD saved resource-verification reports; not an H200 byte verification.",
+          "original_url": "https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain.pth",
+          "verified_sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+          "mtime_ns": 1792142594860661161,
+          "seconds": 0.3934521619230509
+        },
+        {
+          "id": "RAFT Things",
+          "group": "evaluation",
+          "target_root": "project",
+          "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+          "repo_id": "ddrfan/RAFT",
+          "revision": "bc15433e20b8457805e648e42d1c193ff8bfc9f9",
+          "repo_file": "raft-things.pth",
+          "bytes": 21108000,
+          "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1",
+          "provenance": "Fixed third-party distribution mirror; original Dropbox endpoint timed out on Thor.",
+          "original_archive": "https://dl.dropboxusercontent.com/s/4j4z58wuv8o0mfz/models.zip",
+          "prior_local_verified_reference": "PK_SD saved resource-verification reports; not an H200 byte verification.",
+          "verified_sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1",
+          "mtime_ns": 1792142632366912542,
+          "seconds": 0.028003189712762833
+        }
+      ]
+    },
+    {
+      "event": "installed_loader_evidence",
+      "file": "/data/chenjiayu/miniconda3/envs/changzihe/lib/python3.10/site-packages/diffusers/loaders/single_file_model.py",
+      "sha256": "21dd91b40c98478607a15a9852da9c18d6d901544020ca75e6ca426168271869",
+      "matches": [
+        {
+          "line": 124,
+          "text": "        \"default_subfolder\": \"transformer\",\n    },\n    \"HunyuanVideoTransformer3DModel\": {\n        \"checkpoint_mapping_fn\": convert_hunyuan_video_transformer_to_diffusers,\n        \"default_subfolder\": \"transformer\",\n    },\n    \"AuraFlowTransformer2DModel\": {\n        \"checkpoint_mapping_fn\": convert_auraflow_transformer_checkpoint_to_diffusers,\n        \"default_subfolder\": \"transformer\","
+        }
+      ]
+    },
+    {
+      "event": "installed_loader_evidence",
+      "file": "/data/chenjiayu/miniconda3/envs/changzihe/lib/python3.10/site-packages/diffusers/loaders/single_file_utils.py",
+      "sha256": "71f2bc83f24b4341639adc7125b21c76b1ed6e7a4e9e93eabe7add1bbe406b0a",
+      "matches": [
+        {
+          "line": 2710,
+          "text": "\n\ndef convert_hunyuan_video_transformer_to_diffusers(checkpoint, **kwargs):\n    def remap_norm_scale_shift_(key, state_dict):\n        weight = state_dict.pop(key)\n        shift, scale = weight.chunk(2, dim=0)\n        new_weight = torch.cat([scale, shift], dim=0)\n        state_dict[key.replace(\"final_layer.adaLN_modulation.1\", \"norm_out.linear\")] = new_weight\n"
+        }
+      ]
+    }
+  ],
+  "missing_filename_scan": {
+    "event": "bounded_name_scan",
+    "roots": [
+      "/data/chenjiayu/models",
+      "/data/chenjiayu/changzihe/DistillPP_Validation/resources/software_cache"
+    ],
+    "max_depth": 5,
+    "entries": 9703,
+    "matches": []
+  },
+  "package_and_source_checks": [
+    {
+      "event": "additional_eval_dependencies",
+      "exit_code": 0,
+      "packages": {
+        "detectron2": null,
+        "fvcore": null,
+        "iopath": null,
+        "pycocotools": null,
+        "lvis": null,
+        "yacs": null,
+        "cloudpickle": null,
+        "tensorboard": "2.21.0",
+        "termcolor": null,
+        "tabulate": null,
+        "hydra-core": null,
+        "scipy": "1.15.3",
+        "fairscale": null,
+        "boto3": null,
+        "skimage": null,
+        "scikit-image": "0.25.2"
+      }
+    },
+    {
+      "event": "source_present",
+      "path": "src/VBench/vbench/third_party/tag2Text/tag2text.py",
+      "exists": true
+    },
+    {
+      "event": "source_present",
+      "path": "src/VBench/vbench/third_party/grit_model.py",
+      "exists": true
+    },
+    {
+      "event": "source_present",
+      "path": "src/VBench/vbench/background_consistency.py",
+      "exists": true
+    },
+    {
+      "event": "target_exists",
+      "path": "resources/evaluation/clip_model/ViT-B-32.pt",
+      "exists": false,
+      "realpath": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/clip_model/ViT-B-32.pt"
+    },
+    {
+      "event": "target_exists",
+      "path": "resources/evaluation/caption_model/tag2text_swin_14m.pth",
+      "exists": false,
+      "realpath": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "event": "target_exists",
+      "path": "resources/evaluation/grit_model/grit_b_densecap_objectdet.pth",
+      "exists": false,
+      "realpath": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/grit_model/grit_b_densecap_objectdet.pth"
+    },
+    {
+      "event": "target_exists",
+      "path": "resources/evaluation/bert-base-uncased",
+      "exists": false,
+      "realpath": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    }
+  ],
+  "missing_download_bytes": 31333237562,
+  "runtime_acceptance": "not performed"
+}

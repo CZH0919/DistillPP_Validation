@@ -1,0 +1,19 @@
+{
+  "worker": 2,
+  "gpu": 2,
+  "timeout_pid": 1393037,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "3h",
+    "/data/chenjiayu/miniconda3/envs/changzihe/bin/python",
+    "-B",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/tools/run_s2_worker.py",
+    "--gpu",
+    "2",
+    "--worker",
+    "2"
+  ],
+  "time": 1792147022.0157192
+}

@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b012",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792406468.4589403,
+  "admission": {
+    "index": 2,
+    "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "pid": 3028387,
+    "snapshot": {
+      "gpus": [
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "4",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792406480.8561444
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_02",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "748591428053ceb0db509c46cd8e64eaf5c93df1e72ea71039d5232323f33eff",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_02.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_02.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_02",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "e026714293e978b0f17f08d0d04baf1e0328e3e7a0e6d5d13f4f354103fce038",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_02.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_02.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_06",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "f2665bee84eb70d03ac939e87ebf7eaf421f78aa3621dcb50043a79697b9c029",
+      "metric": "scene",
+      "score": 0.1875,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_06.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_06.mp4",
+        "video_results": 0.1875,
+        "success_frame_count": 3,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_06",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "eb0b1100c209c947eefb61e364353c612e7e00f7e18f0bf372c35a21ba2b4fb3",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_06.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_06.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.046875,
+  "load_scoring_seconds": 41.59461494721472,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_02.mp4",
+      "scene_frame_captions": [
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial city with a large power plant and other industrial buildings",
+        "an aerial view of a large factory and other industrial buildings"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_02.mp4",
+      "scene_frame_captions": [
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city",
+        "an aerial view of a large factory in a city"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_06.mp4",
+      "scene_frame_captions": [
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a room with a concrete floor in a garage",
+        "a basement with concrete floors and unfinished walls",
+        "a basement with concrete floors and unfinished walls",
+        "a basement with concrete floors and unfinished walls",
+        "a room with a concrete floor in a garage"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_06.mp4",
+      "scene_frame_captions": [
+        "a room in a garage that is being remodeled",
+        "a room in a garage that is being remodeled",
+        "a room in a garage that is being remodeled",
+        "a room in a garage that is being remodeled",
+        "a room in a garage that is being remodeled",
+        "a room in a garage that is being remodeled",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor",
+        "a room in a garage with a water heater on the floor"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792406534.2219973
+}

@@ -1,0 +1,190 @@
+{
+  "status": "passed",
+  "unix_time": 1792217370.85035,
+  "generation_files_unchanged": 24,
+  "generation_evidence": "Previously complete hashes plus unchanged size/mtime; no full weight reread",
+  "evaluation_resources_rehashed": [
+    {
+      "id": "DINO ViT-B/16",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/dino_model/dino_vitbase16_pretrain.pth",
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+      "bytes": 343242485
+    },
+    {
+      "id": "MUSIQ SPAQ",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/pyiqa_model/musiq_spaq_ckpt-358bb6af.pth",
+      "sha256": "358bb6af275e28ea56821d44fb55c6cb83645db11f394d3ad65b2d149965ab50",
+      "bytes": 108610983
+    },
+    {
+      "id": "AMT-S",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/amt_model/amt-s.pth",
+      "sha256": "07e7e03405c213fe4405678db9b42d05671e48c56faf6a441b99bb0047d3cf77",
+      "bytes": 12038359
+    },
+    {
+      "id": "RAFT Things",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/raft_model/models/raft-things.pth",
+      "sha256": "fcfa4125d6418f4de95d84aec20a3c5f4e205101715a79f193243c186ac9a7e1",
+      "bytes": 21108000
+    },
+    {
+      "id": "OpenAI CLIP ViT-L/14 (224px)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/clip_model/ViT-L-14.pt",
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+      "bytes": 932768134
+    },
+    {
+      "id": "LAION aesthetic predictor V1 linear head",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/aesthetic_model/emb_reader/sa_0_4_vit_l_14_linear.pth",
+      "sha256": "2cd4e60f4f24ae3bcd57b847b13c1f3ba27edc28cc1a7f9ce74ee9f421243cba",
+      "bytes": 4071
+    },
+    {
+      "id": "ViCLIP InternVid-10M-FLT (VBench packaged checkpoint)",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/ViClip-InternVid-10M-FLT.pth",
+      "sha256": "7a4d6ad6eac6632db3693f4b97f9f8f6445b65b1e139a6fc6686150522238c56",
+      "bytes": 1710545812
+    },
+    {
+      "id": "OpenAI CLIP BPE vocabulary for ViCLIP and CLIP",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/ViCLIP/bpe_simple_vocab_16e6.txt.gz",
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    }
+  ],
+  "native_source_sha256": {
+    "src/Wan2.1/wan/text2video.py": "169f0929b273b27a7bc0e094d15a01d48183adc529a1dbce626b179dced29fe8",
+    "src/Wan2.1/wan/modules/model.py": "c1572ade3bf7345bd4c00d4a19535788fab62f9c08b5aeb15f6d01f4435bb47a",
+    "src/Wan2.1/wan/modules/t5.py": "8b0cebf3192c542f92a344255a06c203df3ba24160715899a055cc8de0cd930f",
+    "src/Wan2.1/wan/modules/vae.py": "4912ffd7a9fbb17ceef9a17d4a9c4b8aee36ec37c32594f54e57693b29909498",
+    "src/Wan2.1/wan/utils/fm_solvers_unipc.py": "0dec8c7ed17f6f2049275c6848113314da6ccec1c8db5bdc89df43c05c6038d9",
+    "src/LightX2V/lightx2v/models/networks/wan/distill_model.py": "6a31e1b2f2222acb3aa8c6b24d2691979fe2456d4dbc04b4a95260fbaa0c33f6",
+    "src/LightX2V/lightx2v/models/schedulers/wan/step_distill/scheduler.py": "cff3143e3872463f536577b02c9a263c37f719f38430d78fc7c32ad3f42dc42d",
+    "src/VBench/vbench/VBench_full_info.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+  },
+  "dependencies": {
+    "changzihe": {
+      "torch": "2.8.0+cu128",
+      "numpy": "1.26.4",
+      "transformers": "4.51.3",
+      "decord": "0.6.0",
+      "opencv-python": "4.11.0.86",
+      "opencv-python-headless": null,
+      "imageio": "2.37.0"
+    },
+    "changzihe_eval": {
+      "torch": "2.8.0",
+      "numpy": "1.26.4",
+      "transformers": "4.37.2",
+      "decord": "0.6.0",
+      "opencv-python": "4.11.0.86",
+      "opencv-python-headless": "4.11.0.86",
+      "imageio": "2.37.0"
+    }
+  },
+  "gpu_snapshot": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "111733",
+        "143771",
+        "100"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "111733",
+        "143771",
+        "100"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "111733",
+        "143771",
+        "100"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "111733",
+        "143771",
+        "100"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "47147",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "22915",
+        "143771",
+        "100"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "71654",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [
+      [
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "1661174",
+        "111722"
+      ],
+      [
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "1661188",
+        "111722"
+      ],
+      [
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "1661272",
+        "111722"
+      ],
+      [
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "1662241",
+        "111722"
+      ],
+      [
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "1672240",
+        "47136"
+      ],
+      [
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "1672240",
+        "22904"
+      ],
+      [
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "1689341",
+        "71642"
+      ]
+    ]
+  },
+  "mem_available_gib": 1889.9523010253906,
+  "disk_free_gib": 850.8845367431641,
+  "cuda_initialized": false,
+  "active_panel_sha256": "379a5617ca6128f5b9b229cab5f56e75753d50e5facbd7d0d0d6075feee0fe6d",
+  "execution_sha256": "4472a3d84831d1abece3692a6df733905a22f549113425d6a468d9c91ed219d1",
+  "sampling_core": "run_s2r_worker.generate AST equals accepted S2 core except progress label; no algorithm changes",
+  "formal_generation_started": false
+}

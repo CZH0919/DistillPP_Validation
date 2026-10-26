@@ -1,0 +1,1191 @@
+{
+  "status": "passed",
+  "host": "dasys-h200x8",
+  "user": "chenjiayu",
+  "checked_generation_files": 24,
+  "changed_size_mtime": [],
+  "full_weight_hashes_reread": false,
+  "source_sha256": {
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/run_s2_worker.py": "c4482222641aedbb3b28545d224d09e81fe5eaf1df7d4e48b3e3c6da77bc91e3",
+    "tools/evaluate_s2.py": "5296d67dab6f2ee4fb642aab288fa1c928bf1011e41e64efd5ecbe0b51f2ca9c",
+    "Project_Plan/BASELINE_SETTINGS.json": "614b5ecb0c7b83ba3d0f648e543596b61f8b080a3bda1a0a0e0eae481353bf12",
+    "Project_Plan/WAN_KEY_RENAME_RULES.json": "3c13b14cc8f824dab0f3717021209ef9e57c38e3b2464f2ac95cd5b660183588",
+    "Project_Plan/EXPERIMENT_PLAN.md": "4996c0b3f59b72b2e62764cefad3ab6054a89f01e14eb054da79db467ef94119",
+    "Project_Progress/Total_Progress.md": "9c89ad3d55962a87e64c8dd31ac33d0c20d6810bcb364ba32d905c9a0489cfae",
+    "Project_Progress/Stage_Progress/S2_MODEL_CALL_AUDIT.md": "fe23f56b3e6e3a9f85bf1c52345f05d2852749129c27faa2e739b8b13e9cd912",
+    "Project_Progress/Stage_Progress/S2_EVALUATION_DESIGN_REVIEW.md": "091aed4d63256ed79bd157412752cb76d08fe39edd51e621019715fadffa5128",
+    "src/Wan2.1/wan/text2video.py": "169f0929b273b27a7bc0e094d15a01d48183adc529a1dbce626b179dced29fe8",
+    "src/Wan2.1/wan/modules/model.py": "c1572ade3bf7345bd4c00d4a19535788fab62f9c08b5aeb15f6d01f4435bb47a",
+    "src/Wan2.1/wan/modules/t5.py": "8b0cebf3192c542f92a344255a06c203df3ba24160715899a055cc8de0cd930f",
+    "src/Wan2.1/wan/modules/vae.py": "4912ffd7a9fbb17ceef9a17d4a9c4b8aee36ec37c32594f54e57693b29909498",
+    "src/Wan2.1/wan/utils/fm_solvers_unipc.py": "0dec8c7ed17f6f2049275c6848113314da6ccec1c8db5bdc89df43c05c6038d9",
+    "src/LightX2V/lightx2v/models/networks/wan/distill_model.py": "6a31e1b2f2222acb3aa8c6b24d2691979fe2456d4dbc04b4a95260fbaa0c33f6",
+    "src/LightX2V/lightx2v/models/schedulers/wan/step_distill/scheduler.py": "cff3143e3872463f536577b02c9a263c37f719f38430d78fc7c32ad3f42dc42d",
+    "src/VBench/vbench/VBench_full_info.json": "5dd2de80ee43cda750b2b72ea7023657c0b90d3702041c7e4608c65dbe50dccd"
+  },
+  "cuda_initialized": false,
+  "input_token_rows": [
+    {
+      "id": "VB0257",
+      "domain": "motion",
+      "t5_generation_tokens": 189,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0258",
+      "domain": "motion",
+      "t5_generation_tokens": 168,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0259",
+      "domain": "motion",
+      "t5_generation_tokens": 141,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0260",
+      "domain": "motion",
+      "t5_generation_tokens": 161,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0261",
+      "domain": "motion",
+      "t5_generation_tokens": 270,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0262",
+      "domain": "motion",
+      "t5_generation_tokens": 174,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0263",
+      "domain": "motion",
+      "t5_generation_tokens": 156,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0264",
+      "domain": "motion",
+      "t5_generation_tokens": 143,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0265",
+      "domain": "motion",
+      "t5_generation_tokens": 255,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0266",
+      "domain": "motion",
+      "t5_generation_tokens": 162,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0267",
+      "domain": "motion",
+      "t5_generation_tokens": 204,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0268",
+      "domain": "motion",
+      "t5_generation_tokens": 149,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0269",
+      "domain": "motion",
+      "t5_generation_tokens": 167,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0270",
+      "domain": "motion",
+      "t5_generation_tokens": 256,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0271",
+      "domain": "motion",
+      "t5_generation_tokens": 281,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0272",
+      "domain": "motion",
+      "t5_generation_tokens": 170,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0273",
+      "domain": "motion",
+      "t5_generation_tokens": 129,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0274",
+      "domain": "motion",
+      "t5_generation_tokens": 169,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0275",
+      "domain": "motion",
+      "t5_generation_tokens": 188,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0276",
+      "domain": "motion",
+      "t5_generation_tokens": 158,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0277",
+      "domain": "motion",
+      "t5_generation_tokens": 143,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0278",
+      "domain": "motion",
+      "t5_generation_tokens": 226,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0279",
+      "domain": "motion",
+      "t5_generation_tokens": 205,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0280",
+      "domain": "motion",
+      "t5_generation_tokens": 282,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0281",
+      "domain": "motion",
+      "t5_generation_tokens": 186,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0282",
+      "domain": "motion",
+      "t5_generation_tokens": 261,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0283",
+      "domain": "motion",
+      "t5_generation_tokens": 239,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0284",
+      "domain": "motion",
+      "t5_generation_tokens": 202,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0285",
+      "domain": "motion",
+      "t5_generation_tokens": 268,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0286",
+      "domain": "motion",
+      "t5_generation_tokens": 170,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0287",
+      "domain": "motion",
+      "t5_generation_tokens": 166,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0288",
+      "domain": "motion",
+      "t5_generation_tokens": 201,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0289",
+      "domain": "motion",
+      "t5_generation_tokens": 201,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0290",
+      "domain": "motion",
+      "t5_generation_tokens": 219,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0291",
+      "domain": "motion",
+      "t5_generation_tokens": 197,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0292",
+      "domain": "motion",
+      "t5_generation_tokens": 192,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0293",
+      "domain": "motion",
+      "t5_generation_tokens": 187,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0294",
+      "domain": "motion",
+      "t5_generation_tokens": 169,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0295",
+      "domain": "motion",
+      "t5_generation_tokens": 148,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0296",
+      "domain": "motion",
+      "t5_generation_tokens": 130,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0297",
+      "domain": "motion",
+      "t5_generation_tokens": 198,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0298",
+      "domain": "motion",
+      "t5_generation_tokens": 164,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0299",
+      "domain": "motion",
+      "t5_generation_tokens": 168,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0300",
+      "domain": "motion",
+      "t5_generation_tokens": 197,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0301",
+      "domain": "motion",
+      "t5_generation_tokens": 207,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0302",
+      "domain": "motion",
+      "t5_generation_tokens": 155,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0303",
+      "domain": "motion",
+      "t5_generation_tokens": 175,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0304",
+      "domain": "motion",
+      "t5_generation_tokens": 177,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0305",
+      "domain": "motion",
+      "t5_generation_tokens": 199,
+      "viclip_eval_tokens_with_special": 6,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0306",
+      "domain": "motion",
+      "t5_generation_tokens": 205,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0307",
+      "domain": "motion",
+      "t5_generation_tokens": 207,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0308",
+      "domain": "motion",
+      "t5_generation_tokens": 153,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0309",
+      "domain": "motion",
+      "t5_generation_tokens": 150,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0310",
+      "domain": "motion",
+      "t5_generation_tokens": 135,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0311",
+      "domain": "motion",
+      "t5_generation_tokens": 139,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0312",
+      "domain": "motion",
+      "t5_generation_tokens": 135,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0313",
+      "domain": "motion",
+      "t5_generation_tokens": 157,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0314",
+      "domain": "motion",
+      "t5_generation_tokens": 216,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0315",
+      "domain": "motion",
+      "t5_generation_tokens": 179,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0316",
+      "domain": "motion",
+      "t5_generation_tokens": 148,
+      "viclip_eval_tokens_with_special": 14,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0317",
+      "domain": "motion",
+      "t5_generation_tokens": 163,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0318",
+      "domain": "motion",
+      "t5_generation_tokens": 137,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0319",
+      "domain": "motion",
+      "t5_generation_tokens": 159,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0320",
+      "domain": "motion",
+      "t5_generation_tokens": 195,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0321",
+      "domain": "motion",
+      "t5_generation_tokens": 186,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0322",
+      "domain": "motion",
+      "t5_generation_tokens": 158,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0323",
+      "domain": "motion",
+      "t5_generation_tokens": 157,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0324",
+      "domain": "motion",
+      "t5_generation_tokens": 199,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0325",
+      "domain": "motion",
+      "t5_generation_tokens": 172,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0326",
+      "domain": "motion",
+      "t5_generation_tokens": 162,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0327",
+      "domain": "motion",
+      "t5_generation_tokens": 134,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0328",
+      "domain": "motion",
+      "t5_generation_tokens": 275,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0683",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 232,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0684",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 163,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0685",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 247,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0686",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 217,
+      "viclip_eval_tokens_with_special": 15,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0687",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 180,
+      "viclip_eval_tokens_with_special": 16,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0688",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 153,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0689",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 246,
+      "viclip_eval_tokens_with_special": 17,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0690",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 153,
+      "viclip_eval_tokens_with_special": 15,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0691",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 203,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0692",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 210,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0693",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 194,
+      "viclip_eval_tokens_with_special": 4,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0694",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 154,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0695",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 241,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0696",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 259,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0697",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 133,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0698",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 175,
+      "viclip_eval_tokens_with_special": 16,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0699",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 182,
+      "viclip_eval_tokens_with_special": 33,
+      "viclip_exceeds_32": true
+    },
+    {
+      "id": "VB0700",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 198,
+      "viclip_eval_tokens_with_special": 15,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0701",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 129,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0702",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 199,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0703",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 152,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0704",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 275,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0705",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 255,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0706",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 304,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0707",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 184,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0708",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 177,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0709",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 191,
+      "viclip_eval_tokens_with_special": 18,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0710",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 106,
+      "viclip_eval_tokens_with_special": 20,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0711",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 185,
+      "viclip_eval_tokens_with_special": 23,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0712",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 193,
+      "viclip_eval_tokens_with_special": 16,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0713",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 233,
+      "viclip_eval_tokens_with_special": 5,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0714",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 278,
+      "viclip_eval_tokens_with_special": 16,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0715",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 152,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0716",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 130,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0717",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 178,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0718",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 175,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0719",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 135,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0720",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 213,
+      "viclip_eval_tokens_with_special": 17,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0721",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 152,
+      "viclip_eval_tokens_with_special": 21,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0722",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 194,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0723",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 162,
+      "viclip_eval_tokens_with_special": 26,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0724",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 149,
+      "viclip_eval_tokens_with_special": 33,
+      "viclip_exceeds_32": true
+    },
+    {
+      "id": "VB0725",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 198,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0726",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 193,
+      "viclip_eval_tokens_with_special": 19,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0727",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 145,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0728",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 190,
+      "viclip_eval_tokens_with_special": 14,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0729",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 229,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0730",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 184,
+      "viclip_eval_tokens_with_special": 15,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0731",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 229,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0732",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 224,
+      "viclip_eval_tokens_with_special": 22,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0733",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 172,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0734",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 177,
+      "viclip_eval_tokens_with_special": 5,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0735",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 218,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0736",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 165,
+      "viclip_eval_tokens_with_special": 17,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0737",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 177,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0738",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 178,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0739",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 195,
+      "viclip_eval_tokens_with_special": 19,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0740",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 185,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0741",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 254,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0742",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 217,
+      "viclip_eval_tokens_with_special": 19,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0743",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 205,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0744",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 176,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0745",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 226,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0746",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 133,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0747",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 207,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0748",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 244,
+      "viclip_eval_tokens_with_special": 25,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0749",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 210,
+      "viclip_eval_tokens_with_special": 18,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0750",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 190,
+      "viclip_eval_tokens_with_special": 18,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0751",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 276,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0752",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 219,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0753",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 198,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0754",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 200,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0755",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 274,
+      "viclip_eval_tokens_with_special": 12,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0756",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 185,
+      "viclip_eval_tokens_with_special": 11,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0757",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 231,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0758",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 167,
+      "viclip_eval_tokens_with_special": 17,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0759",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 174,
+      "viclip_eval_tokens_with_special": 15,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0760",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 157,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0761",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 163,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0762",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 194,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0763",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 139,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0764",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 157,
+      "viclip_eval_tokens_with_special": 13,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0765",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 214,
+      "viclip_eval_tokens_with_special": 24,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0766",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 198,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0767",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 204,
+      "viclip_eval_tokens_with_special": 7,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0768",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 181,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0769",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 225,
+      "viclip_eval_tokens_with_special": 19,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0770",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 189,
+      "viclip_eval_tokens_with_special": 22,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0771",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 223,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0772",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 271,
+      "viclip_eval_tokens_with_special": 9,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0773",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 189,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0774",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 273,
+      "viclip_eval_tokens_with_special": 10,
+      "viclip_exceeds_32": false
+    },
+    {
+      "id": "VB0775",
+      "domain": "visual_semantic",
+      "t5_generation_tokens": 209,
+      "viclip_eval_tokens_with_special": 8,
+      "viclip_exceeds_32": false
+    }
+  ],
+  "t5_max": 304,
+  "t5_over_512": [],
+  "viclip_visual_semantic_over_32": [
+    "VB0699",
+    "VB0724"
+  ]
+}

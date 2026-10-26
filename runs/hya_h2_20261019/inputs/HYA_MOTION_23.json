@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_23",
+  "prompt": "A zebra taking a peaceful walk. Realistic, Natural lighting",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 13
+  },
+  "hashes": {
+    "context": "c5584d6adff8092521bb7c47130e1f2d85e11bea1f476f420e49471ffaa367bc",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "dd6141dccc8bb7ae778455b58a83af11ad10b2d94dccd7db2c727d92a96f4f9e",
+    "pooled": "be8f8055ae5725c8bad61872c237b3fdac93ed392eefe0fa56c0966eeafb95b2",
+    "clip_input_ids": "a3843de6398d8e394fab326a88ec0753853c7c28d5e9c46080646f8ff273213b",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 25.942303908988833,
+  "llama_encode_seconds": 0.27159777842462063,
+  "clip_encode_seconds": 0.07969528064131737,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_23.45f919d42f5e42af9b318b5a1060b6ca.pt",
+  "file_sha256": "5783510ce86f3f28175907f5d5022c60d763daef586e04478c761b4db1d8cbc0"
+}

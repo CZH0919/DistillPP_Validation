@@ -1,0 +1,92 @@
+{
+  "pair_id": "CP01_seed2026101801",
+  "prompt_id": "CP01",
+  "domain": "exploratory_complex_prompt",
+  "stratum": "exploratory_complex_prompt",
+  "cluster_id": "CP01",
+  "prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows.",
+  "eval_prompt": "A single continuous five-second, eye-level wide shot inside a sunlit pottery workshop. Exactly two adults stand behind an oak table: a man wearing a white linen shirt on the left and a woman wearing a dark blue apron on the right. On the table are a red ceramic teapot at the center, a blue cup to its left, a yellow cup to its right, and an empty rectangular wooden tray near the right edge. During the first three seconds, the man lifts the red teapot with his right hand and tilts it to pour a thin, continuous stream of tea into the blue cup while the woman steadies that cup with her left hand. He then stops pouring and returns the teapot upright to its original position. Only after the pouring has stopped, the woman slides the blue cup onto the wooden tray; the yellow cup stays in place throughout. At the same time, a small gray cat walks from left to right on the floor beneath the table, briefly disappears behind one table leg, and reappears on the other side. The camera makes a slow, smooth sideways move to the right without cuts or zooms. Maintain consistent faces, clothing, object colors and object counts. Show natural hand grips, continuous object motion, realistic contact with the table, and coherent perspective and shadows.",
+  "primary_metrics": [],
+  "seed": 2026101801,
+  "worker_id": 0,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "worker_sequence": 0,
+  "arm": "S4",
+  "warmup": false,
+  "status": "passed",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 2205787,
+  "initial_latent_sha256": "343d1758c6fc011e6322df37640a91316bac80958100ca91f1c3a1f14db948ab",
+  "positive_context_sha256": "48646346a088180a93055de6b93153786343e99709553d6302cd3bf24e471a52",
+  "unix_start": 1792311872.0865843,
+  "gpu_count": 1,
+  "offload": false,
+  "scheduler_setup_and_initial_transfer_seconds": 0.003686811774969101,
+  "timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "student_initial_cast_sha256": "781cdc6367f23205c51b2d66caa06df00326c1c3c34672fbb7ee48af9c1d6faf",
+  "student_initial_cast_max_abs_error": 0.01558828353881836,
+  "denoise_seconds": 17.53729878179729,
+  "forward_count": 4,
+  "vae_seconds": 11.0859838090837,
+  "denoise_plus_vae_seconds": 28.62328259088099,
+  "peak_allocated_gib": 98.01968288421631,
+  "peak_reserved_gib": 100.046875,
+  "final_latent": {
+    "shape": [
+      16,
+      21,
+      60,
+      104
+    ],
+    "dtype": "torch.bfloat16",
+    "mean": 0.07308415323495865,
+    "std": 0.9675230979919434,
+    "min": -5.0,
+    "max": 4.625
+  },
+  "final_latent_sha256": "c35d8d3ad1a54f374d1df5494827bed0b44d975160dc3fa73a823a77a2d81b89",
+  "output_tensor": {
+    "shape": [
+      3,
+      81,
+      480,
+      832
+    ],
+    "dtype": "torch.float32",
+    "mean": -0.1542508602142334,
+    "std": 0.636195719242096,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "video": {
+    "sha256": "460f369245dc083c165be9d62b9ed948f981845d26cc82515aa0f83503b3c73e",
+    "bytes": 1219933,
+    "frames": 81,
+    "size": [
+      480,
+      832
+    ],
+    "fps": 16.0,
+    "decord_all_frames_decoded": true,
+    "opencv_all_frames_decoded": true,
+    "pixel_std": 80.66193891937372,
+    "decoded_first_frame_sha256": "7b38e97e5020070f48c8b2b8b25d7b96a1b6a0420f1b538c8e4d312ffbf8e237"
+  },
+  "export_and_decode_check_seconds": 2.5493634399026632,
+  "unix_end": 1792311903.3030694,
+  "network_attempts": []
+}

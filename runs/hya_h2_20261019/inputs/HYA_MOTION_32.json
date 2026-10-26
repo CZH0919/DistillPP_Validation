@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_32",
+  "prompt": "A bear searching for food. Realistic, Natural lighting, Wild",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "be9fb60b40a845efa0fcb642f1276b3b8e04c8aac58b09c5261382caa62cf7aa",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "0427d73c2b480da6f6ddf775f1c0ba035890e3bcf6be8ef2201b1525a286dac1",
+    "pooled": "46a7ae59810a3e62216b8e41c7f645d4e7c0b175e37c81163f359076a0676b6d",
+    "clip_input_ids": "2510742cbf9311afaebeb2ae27376fecd0d9f3ee02108a956c938fd887ae9a63",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 18.20741073600948,
+  "llama_encode_seconds": 0.04228098317980766,
+  "clip_encode_seconds": 0.003647785633802414,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_32.9bb46febe33d462bab18661aed98eb39.pt",
+  "file_sha256": "067700215190f59bd9851ce50d732d2c8b1fd9e6fe1da2095a734a021fdff87b"
+}

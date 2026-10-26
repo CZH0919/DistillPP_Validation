@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_03",
+  "prompt": "A horse galloping across an open field. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 114,
+    "clip_with_special": 17
+  },
+  "hashes": {
+    "context": "3a4594b8e3e33a0e0e46c683cbfed91747373260f66db79532329194dfcdfe6e",
+    "mask": "ef3a2225783ede44ed974308ca6e99170b2d2f548621203e58e5dba0d1dee0f2",
+    "llama_input_ids": "44af5d359e0993c3fc306d86a31f87273f7b14281348bb1db4767e0ac4a7755f",
+    "pooled": "a423ab5ae2937222c1246a053446379c974035ab21f36584286aecca019adee0",
+    "clip_input_ids": "e28a6c0887ceff86b4cf346928960dbd3977ff6fc2111050e73ca15d75f03a15",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 67.41173986904323,
+  "llama_encode_seconds": 0.3069457821547985,
+  "clip_encode_seconds": 0.20098866522312164,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_03.422d40b63b5f43c288553b7d85f88a3d.pt",
+  "file_sha256": "7db7c73511c99737a1f6b71cca3cb6e87a8e50713a8cb9c70a67dbe19b916edc"
+}

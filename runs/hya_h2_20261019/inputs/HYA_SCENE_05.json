@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_05",
+  "prompt": "A room with desks, chairs, and computers, typical of an office setting. Realistic, Indoor lighting, Professional",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 119,
+    "clip_with_special": 25
+  },
+  "hashes": {
+    "context": "7dcc4af77c9ff9608450a76d9fdd0bd4de84054fa0b2bd55109837c55c69a0fe",
+    "mask": "a1192507d93ceba2d61008ce73d32ae86639fd4381928a19eed06a2367582546",
+    "llama_input_ids": "9809bb2e136cf5033fd7132f59fcf86ee5ff233f139261d85acb5c395a602880",
+    "pooled": "4272290be0c4f23a76f18558a4eab9723aa79169f9fa61e9521edfae4c4e280e",
+    "clip_input_ids": "25fc9bcf3cef39c104b7c67f90a60db14a6ccef49789f495db3fe0e425c4e4ec",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 27.72253353893757,
+  "llama_encode_seconds": 0.040490228682756424,
+  "clip_encode_seconds": 0.004631374031305313,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_05.fcb988ca870949fcacb62a8fb71ac452.pt",
+  "file_sha256": "f7537526468edc132e0c54b135b50ef6f9e96f58a736c51786e6df798b30829f"
+}

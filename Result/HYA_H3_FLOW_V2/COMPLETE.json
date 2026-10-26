@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "finished_unix": 1792496131.966682,
+  "sha256": {
+    "scores.csv": "18b52eb542af59afcbdf59d7b4da28c18917847971f628afa8136a8874ad303f",
+    "timing.csv": "1bb760309be6a9304cd906a482b2892f01c50f1e9076496f5f90edfa1774488d",
+    "paired_scores.csv": "7639a2e1e3d5acb0b7dc16c5d2f570651acc92961c1cf993a898e506dd530363",
+    "summary.json": "d5f220f8d268c01779902915166af777281db262db4b3d698439f1bfb07fe8e1",
+    "REPORT.md": "354e5dfb4f095d6f20ed1a720ed95f3964fe1ab96b001ae8979d93c1c7c2f1f6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "M13_seed1234",
+  "prompt_id": "M13",
+  "stratum": "scene_motion",
+  "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+  "seed": 1234,
+  "worker_id": 3,
+  "global_sequence": 31,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "T50",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+  "pid": 1393944,
+  "initial_latent_sha256": "f0f70178130b4e8902df867d30816ca8f44206430dd243fcae02a01b31da9fbb",
+  "positive_context_sha256": "0ad091e0a22cbc9bbadc18e79c59d756bcf2e6f1b0380dbe0aa63924fe6aebd9",
+  "unix_start": 1792150053.9597745,
+  "gpu_count": 1,
+  "offload": false
+}

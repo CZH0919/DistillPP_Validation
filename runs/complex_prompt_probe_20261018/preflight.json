@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "unix_time": 1792311256.5207665,
+  "gpu": [
+    "6",
+    "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "0",
+    "143771",
+    "0"
+  ],
+  "t5_tokens_with_special": 286,
+  "t5_limit": 512,
+  "truncation": false,
+  "accepted_generate_ast_identical": true,
+  "shared_generation_metadata_unchanged": 24,
+  "files": [
+    {
+      "path": "tools/run_complex_prompt_probe.py",
+      "sha256": "872ed4e238fc7999d19e1ae4c22c4a5f532d43a3e025bba85ce1ed825271110a"
+    },
+    {
+      "path": "Project_Plan/COMPLEX_PROMPT_PROBE_20261018.json",
+      "sha256": "72bc726c1738f29283844e45e188bb03f297557ea6c10d4b458c465235a0f0c6"
+    }
+  ]
+}

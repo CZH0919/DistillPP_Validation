@@ -1,0 +1,393 @@
+{
+  "check": "official_selected_prompt_token_lengths",
+  "no_truncation_in_raw_text": true,
+  "llm_template_still_requires_H1_validation": true,
+  "max_llm_raw_tokens": 27,
+  "max_clip_tokens": 28,
+  "rows": [
+    {
+      "id": "HYA_MOTION_01",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_02",
+      "llm_raw_tokens": 17,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_03",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 17,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_04",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 18,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_05",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_06",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 20,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_07",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_08",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 20,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_09",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_10",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_11",
+      "llm_raw_tokens": 17,
+      "clip_tokens_with_special": 17,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_12",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_13",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 18,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_14",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_15",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 13,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_16",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 20,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_17",
+      "llm_raw_tokens": 16,
+      "clip_tokens_with_special": 17,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_18",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_19",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_20",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_21",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 18,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_22",
+      "llm_raw_tokens": 17,
+      "clip_tokens_with_special": 17,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_23",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 13,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_24",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_25",
+      "llm_raw_tokens": 12,
+      "clip_tokens_with_special": 13,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_26",
+      "llm_raw_tokens": 12,
+      "clip_tokens_with_special": 13,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_27",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_28",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_29",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_30",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_31",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 13,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_MOTION_32",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_01",
+      "llm_raw_tokens": 27,
+      "clip_tokens_with_special": 28,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_02",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_03",
+      "llm_raw_tokens": 21,
+      "clip_tokens_with_special": 21,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_04",
+      "llm_raw_tokens": 24,
+      "clip_tokens_with_special": 24,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_05",
+      "llm_raw_tokens": 23,
+      "clip_tokens_with_special": 25,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_06",
+      "llm_raw_tokens": 17,
+      "clip_tokens_with_special": 18,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_07",
+      "llm_raw_tokens": 22,
+      "clip_tokens_with_special": 22,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_08",
+      "llm_raw_tokens": 27,
+      "clip_tokens_with_special": 27,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_09",
+      "llm_raw_tokens": 16,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_10",
+      "llm_raw_tokens": 16,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_11",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_12",
+      "llm_raw_tokens": 16,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_13",
+      "llm_raw_tokens": 19,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_14",
+      "llm_raw_tokens": 20,
+      "clip_tokens_with_special": 21,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_15",
+      "llm_raw_tokens": 22,
+      "clip_tokens_with_special": 23,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_SCENE_16",
+      "llm_raw_tokens": 23,
+      "clip_tokens_with_special": 24,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_01",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_02",
+      "llm_raw_tokens": 20,
+      "clip_tokens_with_special": 20,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_03",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_04",
+      "llm_raw_tokens": 21,
+      "clip_tokens_with_special": 22,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_05",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_06",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_07",
+      "llm_raw_tokens": 14,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_08",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_09",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_10",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_11",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_12",
+      "llm_raw_tokens": 13,
+      "clip_tokens_with_special": 14,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_13",
+      "llm_raw_tokens": 18,
+      "clip_tokens_with_special": 19,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_14",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 16,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_15",
+      "llm_raw_tokens": 21,
+      "clip_tokens_with_special": 22,
+      "official_expansion_differs": true
+    },
+    {
+      "id": "HYA_OBJECTS_16",
+      "llm_raw_tokens": 15,
+      "clip_tokens_with_special": 15,
+      "official_expansion_differs": true
+    }
+  ]
+}

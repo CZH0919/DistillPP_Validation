@@ -1,0 +1,11 @@
+{
+  "stage": "denoising",
+  "time_unix": 1792407421.6149187,
+  "pid": 3031319,
+  "block": "b006",
+  "prompt_id": "HYA_OBJECTS_05",
+  "arm": "S5",
+  "completed": 1,
+  "total": 5,
+  "step_seconds": 42.2204349655658
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "VBench",
+    "repository": "Vchitect/VBench",
+    "revision": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+    "archive": "source_archives/VBench_fd18b3d055cb_source.tar.gz",
+    "bytes": 511451,
+    "sha256": "fb6d9436bb51b7872ffcc3717a7bc78a8246c5c6d50e9cccb5aa6c0e6f1b10df",
+    "source_file_count": 237,
+    "group": "evaluation"
+  },
+  {
+    "name": "DINO",
+    "repository": "facebookresearch/dino",
+    "revision": "7c446df5b9f45747937fb0d72314eb9f7b66930a",
+    "archive": "source_archives/DINO_7c446df5b9f4_source.tar.gz",
+    "bytes": 44724,
+    "sha256": "291be67eb4c51d4ba4d595f193ffd22cc532d7cfa43dcc07cf98a03499653689",
+    "source_file_count": 16,
+    "group": "evaluation"
+  },
+  {
+    "name": "CLIP",
+    "repository": "openai/CLIP",
+    "revision": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+    "archive": "source_archives/CLIP_d05afc436d78_source.tar.gz",
+    "bytes": 14026,
+    "sha256": "b3d911fd5406fca77b473c4e9027efe7d55b6034a4a5e26148dad45d1b4f2def",
+    "note": "Source only; add separately verified BPE vocabulary before importing CLIP. No model weights in archive.",
+    "group": "evaluation"
+  },
+  {
+    "name": "Wan2.1",
+    "group": "generation",
+    "repository": "Wan-Video/Wan2.1",
+    "revision": "9737cba9c1c3c4d04b33fcad41c111989865d315",
+    "archive": "source_archives/Wan2.1_9737cba9c1c3_source.tar.gz",
+    "bytes": 88757,
+    "sha256": "51bc8f3b7c7a1684f34d2e180f4fca20727d226270de7f9210ab10dd7c263046",
+    "source_file_count": 33,
+    "included_paths": [
+      "wan",
+      "generate.py",
+      "requirements.txt",
+      "README.md",
+      "LICENSE.txt"
+    ],
+    "provenance": "Exact official Git commit, git archive, original file bytes. Source/config/license only. No generation/evaluation weights."
+  },
+  {
+    "name": "LightX2V",
+    "group": "generation",
+    "repository": "ModelTC/LightX2V",
+    "revision": "cc9429192971815afff8368f74bd10adcc6fed48",
+    "archive": "source_archives/LightX2V_cc9429192971_source.tar.gz",
+    "bytes": 1815587,
+    "sha256": "6e94b2e20e99efae1617085eec757abde505378d955d5764c42170d18791be81",
+    "source_file_count": 1236,
+    "included_paths": [
+      "lightx2v",
+      "lightx2v_platform",
+      "configs/distill/wan21",
+      "configs/wan",
+      "configs/platforms",
+      "pyproject.toml",
+      "requirements.txt",
+      "README.md",
+      "LICENSE"
+    ],
+    "provenance": "Exact official Git commit, git archive, original file bytes. Source/config/license only. No generation/evaluation weights."
+  }
+]

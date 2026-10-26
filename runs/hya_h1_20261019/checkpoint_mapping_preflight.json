@@ -1,0 +1,29 @@
+{
+  "checkpoint_native_keys": 856,
+  "converted_keys": 1264,
+  "expected_keys": 1264,
+  "missing": [],
+  "extra": [],
+  "shape_mismatch": [],
+  "dtypes": [
+    "torch.bfloat16"
+  ],
+  "cuda_initialized": false,
+  "native_key_examples": [
+    "img_in.proj.weight",
+    "img_in.proj.bias",
+    "txt_in.input_embedder.weight",
+    "txt_in.input_embedder.bias",
+    "txt_in.t_embedder.mlp.0.weight",
+    "txt_in.t_embedder.mlp.0.bias",
+    "txt_in.t_embedder.mlp.2.weight",
+    "txt_in.t_embedder.mlp.2.bias",
+    "txt_in.c_embedder.linear_1.weight",
+    "txt_in.c_embedder.linear_1.bias",
+    "txt_in.c_embedder.linear_2.weight",
+    "txt_in.c_embedder.linear_2.bias",
+    "txt_in.individual_token_refiner.blocks.0.norm1.weight",
+    "txt_in.individual_token_refiner.blocks.0.norm1.bias",
+    "txt_in.individual_token_refiner.blocks.0.self_attn_qkv.weight"
+  ]
+}

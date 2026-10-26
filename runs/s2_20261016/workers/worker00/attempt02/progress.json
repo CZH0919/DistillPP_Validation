@@ -1,0 +1,17 @@
+{
+  "phase": "denoising",
+  "worker_id": 0,
+  "pair_id": "M09_seed42",
+  "arm": "T50",
+  "step": 4,
+  "warmup": false,
+  "unix_time": 1792151249.6433446,
+  "pid": 1393918,
+  "gpu": [
+    "0",
+    "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "103479",
+    "143771",
+    "100"
+  ]
+}

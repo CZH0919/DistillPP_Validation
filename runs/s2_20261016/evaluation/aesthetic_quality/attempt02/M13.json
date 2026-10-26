@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M13_seed42",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed42/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.662481665611267,
+      "normalized_score": 0.7662481665611267,
+      "source_returned_score": 0.7662481665611267,
+      "video_sha256": "02255a5c8baac0bd0b7ad619c9fc7b39429279fd6eafd7b50a99edfe00817f48"
+    },
+    {
+      "pair_id": "M13_seed42",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed42/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.3370689153671265,
+      "normalized_score": 0.7337068915367126,
+      "source_returned_score": 0.7337068915367126,
+      "video_sha256": "cd25c51f5fe8fcdb451dbb90d5b67cad54c377acab6a611c4dd2608606c69df7"
+    },
+    {
+      "pair_id": "M13_seed1234",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed1234/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.186192870140076,
+      "normalized_score": 0.7186192870140076,
+      "source_returned_score": 0.7186192870140076,
+      "video_sha256": "4b10754d51117f2fa035d354e2eadf212c1260c796a9fcb4eaeb5807b6706675"
+    },
+    {
+      "pair_id": "M13_seed1234",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed1234/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.514587044715881,
+      "normalized_score": 0.7514587044715881,
+      "source_returned_score": 0.7514587044715881,
+      "video_sha256": "e2fa391656c64a9a2eb1904bcdade635a96a2dee84e1bebb009dfda0f1be8c8d"
+    },
+    {
+      "pair_id": "M13_seed2026",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed2026/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.231020927429199,
+      "normalized_score": 0.7231020927429199,
+      "source_returned_score": 0.7231020927429199,
+      "video_sha256": "0f7e949d97e49c70293bdb4f14ff218cfb4d60924f0af28d7bcd2f960e4100e0"
+    },
+    {
+      "pair_id": "M13_seed2026",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M13_seed2026/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 7.939127087593079,
+      "normalized_score": 0.7939127087593079,
+      "source_returned_score": 0.7939127087593079,
+      "video_sha256": "7f1ce0437dbf1b14a747ddb8818f5261e4e433bf8de7854c46e6fdfbeebfba0b"
+    }
+  ],
+  "aggregate": 0.7478413085142771,
+  "scoring_seconds": 2.830236755311489
+}

@@ -1,0 +1,47 @@
+{
+  "status": "synced_verified",
+  "files": [
+    {
+      "path": "Project_Plan/EXPERIMENT_PLAN.md",
+      "sha256": "6f47f922818504dda41750f8834139252f97c293873977dd6008245acf6a4cbd",
+      "bytes": 22509
+    },
+    {
+      "path": "Project_Plan/OFFICIAL_QUALIFICATION_V2.md",
+      "sha256": "87e22a3efa68f391a16784bf6b8d1b245514ecf8c05a67159e6993e1323f7702",
+      "bytes": 9009
+    },
+    {
+      "path": "Project_Plan/QUALIFICATION_V2.json",
+      "sha256": "76fcd71bcf1de97f68d16bc1b17af201b0cc126e868286228779d2e3620546c0",
+      "bytes": 269933
+    },
+    {
+      "path": "Project_Progress/Total_Progress.md",
+      "sha256": "c5240c5ee24912c7490c07affb2abc0fe923197e67e5de76e519b6a2cc4c94e4",
+      "bytes": 5415
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/S2_MODEL_CALL_AUDIT.md",
+      "sha256": "2afcacf3a15800127085dbd66a9fc32f6e5b763d78b1fa796fc93d5e2a57f264",
+      "bytes": 9442
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/S2_EVALUATION_DESIGN_REVIEW.md",
+      "sha256": "95cd8640924d633b205b9b626efe5af7396c31097ec05d0f44a7dbe447002b2d",
+      "bytes": 9138
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/BASELINE_AND_PROMPT_REVIEW_20261017.json",
+      "sha256": "47c372668d31b078563fe4dd4cbaa00690cf4a26b3c513389a27c02eb17e202b",
+      "bytes": 31762
+    },
+    {
+      "path": "Project_Progress/Stage_Progress/BASELINE_CONTRACT_CONCLUSION_20261017.json",
+      "sha256": "190f67d282ba5aaa94b5ef5c40ac28e56312ec9ae118dc24c092e57eabb58ad4",
+      "bytes": 3352
+    }
+  ],
+  "new_generation_started": false,
+  "original_s2_records_modified": false
+}

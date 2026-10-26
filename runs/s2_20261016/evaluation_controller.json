@@ -1,0 +1,23 @@
+{
+  "phase": "completed",
+  "started": 1792153901.3921523,
+  "pid": 1438619,
+  "max_parallel": 2,
+  "pending": [],
+  "completed": [
+    "imaging_quality",
+    "subject_consistency",
+    "motion_smoothness",
+    "aesthetic_quality",
+    "dynamic_degree",
+    "overall_consistency"
+  ],
+  "reason": "GPU 0-4 and 7 occupied; resume only validated missing chunks on idle GPUs 6/5.",
+  "source_sha256": {
+    "resume_s2_evaluation.py": "0ad6c54841e05649217cfcb386ba5a963b82d377f7aa136ddec6a2f099769c32",
+    "resume_s2_metric.py": "1dfe9d019de45fdf4d965e2419c9c2e517feac15d5d6cedefad40de7be4d3f9f"
+  },
+  "running": {},
+  "finished": 1792154310.0245886,
+  "next_stage_started": false
+}

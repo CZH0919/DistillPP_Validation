@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "pair_id": "M05_seed42",
+  "prompt_id": "M05",
+  "stratum": "human_motion",
+  "prompt": "A person is clapping",
+  "seed": 42,
+  "worker_id": 0,
+  "global_sequence": 21,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "shared_positive_text_encoding_seconds": 0.06013883464038372,
+  "negative_text_policy": "one fixed negative embedding cached per worker; T50 only",
+  "results": {
+    "S4": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed42/attempt02/S4/result.json",
+    "T50": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M05_seed42/attempt02/T50/result.json"
+  }
+}

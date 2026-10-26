@@ -1,0 +1,16 @@
+{
+  "phase": "scoring",
+  "metric": "dynamic_degree",
+  "completed_videos": 90,
+  "reused_videos": 30,
+  "prompt_id": "M16",
+  "unix_time": 1792154190.7658856,
+  "pid": 1438657,
+  "gpu": [
+    "6",
+    "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+    "6153",
+    "143771",
+    "93"
+  ]
+}

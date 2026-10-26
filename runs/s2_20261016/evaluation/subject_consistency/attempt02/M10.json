@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M10_seed42",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed42/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9898130632936954,
+      "normalized_score": 0.9898130632936954,
+      "source_returned_score": 0.9898130632936954,
+      "video_sha256": "1c269ca6bb1dadb2e94b1a3845b4f732a9789c2b37a18c0ff1abed067df0f90b"
+    },
+    {
+      "pair_id": "M10_seed42",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed42/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9358456328511238,
+      "normalized_score": 0.9358456328511238,
+      "source_returned_score": 0.9358456328511238,
+      "video_sha256": "b5f62f4b0f2b6bc1aae00f1fe7045df6fe32d518e4dbef0ad61dc0000482976f"
+    },
+    {
+      "pair_id": "M10_seed1234",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed1234/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9602907307446003,
+      "normalized_score": 0.9602907307446003,
+      "source_returned_score": 0.9602907307446003,
+      "video_sha256": "1b77ef7d17148fbc9d7aee16c0cccabd688f01048103830307becbc19ce20472"
+    },
+    {
+      "pair_id": "M10_seed1234",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed1234/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9250234961509705,
+      "normalized_score": 0.9250234961509705,
+      "source_returned_score": 0.9250234961509705,
+      "video_sha256": "988865ae5a16158ca9edacbdf7cb68b71b27e546347be89001907658d9194c59"
+    },
+    {
+      "pair_id": "M10_seed2026",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed2026/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9679321501404047,
+      "normalized_score": 0.9679321501404047,
+      "source_returned_score": 0.9679321501404047,
+      "video_sha256": "5271a1ff0f8e162b6c0f80d8e74724d69f2ff217accdbf5f91307c64ccabbd81"
+    },
+    {
+      "pair_id": "M10_seed2026",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M10_seed2026/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9733349170535803,
+      "normalized_score": 0.9733349170535803,
+      "source_returned_score": 0.9733349170535803,
+      "video_sha256": "e76126691e22b975a701f2a136a428bd29661bf65c881498786a40ccb35bd843"
+    }
+  ],
+  "aggregate": 0.9587066650390625,
+  "scoring_seconds": 5.792657336220145
+}

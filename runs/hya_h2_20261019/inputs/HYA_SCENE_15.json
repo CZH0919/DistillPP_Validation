@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_15",
+  "prompt": "A cafeteria with long tables and benches, filled with people eating and talking. Realistic, Indoor lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 118,
+    "clip_with_special": 23
+  },
+  "hashes": {
+    "context": "f009070aeda4ca9f288acc292f7a9fe553963c607ff0bc49bed02bbde5c3c04f",
+    "mask": "b7dbc1d04d0967a950a6dbdf1c521e90f4bb033d7ae0403b9d2302776f304e18",
+    "llama_input_ids": "dbe0060801b962b9eb7f384faf4a4c36ad53c3a47171e14c8a17295fa82f0e60",
+    "pooled": "0cc29ee7e214919f6c293b67c0e1c66e693b416ee81c572bcb954fe5c171abfc",
+    "clip_input_ids": "cb3f0f2f8a35320735895b2330809a099e57f6dd71cb708f0c9f530f9eebefb9",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 32.739890933036804,
+  "llama_encode_seconds": 0.031073104590177536,
+  "clip_encode_seconds": 0.13012578897178173,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_15.ff2867d24bfc4c6190b395ca110b64db.pt",
+  "file_sha256": "c22f799abf9901252261381f9feff25ba1df9ad892ba2b1f01d029336c1f3a1d"
+}

@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b029",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792411353.8571792,
+  "admission": {
+    "index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "pid": 3042130,
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792411360.6716495
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_12",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "5a60a584063f1802f5372348c25afdb858284cb4c80e3d1a99ca7660ef27d904",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_12.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_12.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_12",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "66c4fdceba39d87d9169de8a4634f7e4272a51664a0a7402fa0db6eec2f90062",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_12.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_12.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_16",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "fb56b3afd6d4740af3289ce347c6556f2d123c81da9f33bdac0d9d7922b902d7",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_16.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_16.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_16",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "c9f9e7a4d95fe69800b9afad8c7874c3f946243e21a2efdeeff8d9093c72e8e5",
+      "metric": "scene",
+      "score": 0.375,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_16.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_16.mp4",
+        "video_results": 0.375,
+        "success_frame_count": 6,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.34375,
+  "load_scoring_seconds": 34.06717848032713,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_12.mp4",
+      "scene_frame_captions": [
+        "aerial view of green forest and road in the mountains",
+        "aerial view of green forest and road in the mountains",
+        "aerial view of green forest and road in the mountains",
+        "aerial view of green forest and road in the mountains",
+        "aerial view of green forest and road in the mountains",
+        "aerial view of green forest and road in the mountains",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the forest with green trees",
+        "aerial view of a road in the middle of a forest of green trees"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_12.mp4",
+      "scene_frame_captions": [
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains",
+        "aerial view of a road in the woods and mountains"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_16.mp4",
+      "scene_frame_captions": [
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves",
+        "an aisle in a grocery store with food on the shelves"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_16.mp4",
+      "scene_frame_captions": [
+        "people are shopping in a large supermarket with food on the shelves",
+        "people are shopping in a large supermarket with food on the shelves",
+        "people are shopping in a large supermarket with food on the shelves",
+        "a large aisle in a grocery store with food on the shelves",
+        "a large aisle in a grocery store with food on the shelves",
+        "a large aisle in a grocery store with food on the shelves",
+        "a large aisle of food in a grocery store",
+        "a large aisle of food in a grocery store",
+        "a large aisle of food in a grocery store",
+        "a person is shopping in a large supermarket with food on the shelves",
+        "a person is shopping in a large supermarket with food on the shelves",
+        "a person is shopping in a large supermarket with food on the shelves",
+        "a large aisle of food in a grocery store",
+        "a large aisle of food in a grocery store",
+        "a large aisle of food in a grocery store",
+        "a large aisle of food in a grocery store"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792411400.6829128
+}

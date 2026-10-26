@@ -1,0 +1,6 @@
+{
+  "status": "conflict",
+  "error": "ResourceConflict(\"Unrecognized process on GPU 1: [['GPU-b9157129-ac58-501d-c93d-b1cf622ff61b', '3141581', '3100']]\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_generate.py\", line 184, in main\n    ensure_exclusive(args.gpu); log('native_model_load', arm=arm)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_common.py\", line 87, in ensure_exclusive\n    raise ResourceConflict('Unrecognized process on GPU '+str(index)+': '+str(other))\nhya_h2_common.ResourceConflict: Unrecognized process on GPU 1: [['GPU-b9157129-ac58-501d-c93d-b1cf622ff61b', '3141581', '3100']]\n",
+  "time_unix": 1792424945.1373482
+}

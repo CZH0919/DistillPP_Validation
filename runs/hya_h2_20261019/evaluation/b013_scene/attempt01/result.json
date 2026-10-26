@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b013",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792412056.4858093,
+  "admission": {
+    "index": 1,
+    "uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+    "pid": 3045386,
+    "snapshot": {
+      "gpus": [
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792412061.810844
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_10",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "7ba2ae09d99bef9cc19e8395b5be899e4b7ce475fc4f94e08f0e20dbafea03bd",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_10.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_10.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_10",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "8e37f3867eec9b6ac0f1d23f68bd61ab4d02a809745b85df77add529d677af6a",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_10.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_10.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_14",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "80c3dea65f57fa4f3ef6c8fb7facf37467767be6b8c76bbfe14a17276075b407",
+      "metric": "scene",
+      "score": 0.0625,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_14.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_14.mp4",
+        "video_results": 0.0625,
+        "success_frame_count": 1,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_14",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "efc495f6af498163c658a3318a0fa764a2d33c09ffdcabf2a1f58844d055c492",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_14.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_14.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.265625,
+  "load_scoring_seconds": 17.337649047374725,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_10.mp4",
+      "scene_frame_captions": [
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a large window",
+        "a room with a table, bookshelves and a window",
+        "a room with a table, bookshelves and a window",
+        "a room with a table, bookshelves and a window",
+        "a room with a table, bookshelves and a window"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_10.mp4",
+      "scene_frame_captions": [
+        "a library with large windows and bookshelves with books on the shelves",
+        "a library with large windows and bookshelves with books on the shelves",
+        "a library with large windows and bookshelves with books on the shelves",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves, and a table in the middle of the room",
+        "a library with a large window, bookshelves, and a table in the middle of the room",
+        "a library with a large window, bookshelves, and a table in the middle of the room",
+        "a library with large bookshelves, a table, and a large window",
+        "a library with large bookshelves, a table, and a large window",
+        "a library with large bookshelves, a table, and a large window",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves and a table in the middle of the room",
+        "a library with a large window, bookshelves and a table in the middle of the room"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_14.mp4",
+      "scene_frame_captions": [
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a white toilet and sink in a small room with a shower",
+        "a bathroom with a white toilet, sink, tub and shower"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_14.mp4",
+      "scene_frame_captions": [
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower",
+        "a bathroom with a toilet, sink, and shower"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792412085.8635004
+}

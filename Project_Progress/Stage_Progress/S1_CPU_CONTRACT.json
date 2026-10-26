@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "actual_student_timesteps": [
+    1000.0,
+    937.5,
+    833.3333129882812,
+    625.0
+  ],
+  "test_scope": "unchanged source methods isolated on CPU; full-class GPU test is separate",
+  "source_sha256": "cff3143e3872463f536577b02c9a263c37f719f38430d78fc7c32ad3f42dc42d",
+  "native_step_pre_dtype": "torch.bfloat16",
+  "base_scheduler_source_sha256": "0b43c8452ee734fffbd0a753f8176a5b530980723aa54981b34a8070c68db7f7",
+  "precision_note": "Euler algebra checked in FP32; native persistent state is BF16 after step_pre and step_post",
+  "actual_student_sigmas": [
+    1.0,
+    0.9375,
+    0.8333333134651184,
+    0.625
+  ],
+  "terminal_sigma": 0,
+  "euler_equivalence_max_abs_errors": [
+    2.384185791015625e-07,
+    2.384185791015625e-07,
+    2.384185791015625e-07,
+    0.0
+  ],
+  "independent_rng_passed": true,
+  "smoke_prompt_outside_qualification_panel": true,
+  "cuda_initialized": false
+}

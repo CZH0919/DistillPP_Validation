@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "scope": "Prompt/label/implementation and CPU recomputation of saved frame captions; no new GPU evaluation.",
+  "official_prompt_pool": 86,
+  "selected_scene_prompts": 16,
+  "seeds_per_prompt": 1,
+  "official_files_byte_identical_to_used_files": {
+    "scene.py": "src/VBench/vbench/scene.py",
+    "utils.py": "src/VBench/vbench/utils.py",
+    "fullinfo.json": "src/VBench/vbench/VBench_full_info.json",
+    "all_dimension.txt": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_all_prompts.txt",
+    "hunyuan_all_dimension.txt": "Project_Plan/reference_inputs/hunyuan_accvideo_20261019/vbench_hunyuan_prompts.txt"
+  },
+  "all_dimension_alignment_rows": 946,
+  "selection_reproduced": true,
+  "generation_prompts_and_labels_correct": 16,
+  "actual_video_records_and_scoring_labels_verified": 32,
+  "official_loader_auxiliary_mapping_identical": true,
+  "recorded_frame_indices_match_official": [
+    3,
+    11,
+    19,
+    27,
+    35,
+    43,
+    51,
+    59,
+    67,
+    75,
+    83,
+    91,
+    99,
+    107,
+    115,
+    124
+  ],
+  "caption_frame_decisions_recomputed": 512,
+  "video_scores_recomputed": 32,
+  "maximum_score_difference": 0.0,
+  "T50": {
+    "hits": 106,
+    "frames": 256,
+    "mean": 0.4140625
+  },
+  "S5": {
+    "hits": 137,
+    "frames": 256,
+    "mean": 0.53515625
+  },
+  "teacher_minus_student": -0.12109375,
+  "prompt_tokens_max": {
+    "llama_with_template": 123,
+    "clip_with_special": 28
+  },
+  "score_distribution": {
+    "T50": {
+      "zero": 7,
+      "one": 5,
+      "partial": 4
+    },
+    "S5": {
+      "zero": 6,
+      "one": 6,
+      "partial": 4
+    }
+  },
+  "paper_scene_100scale": {
+    "T50": 53.88,
+    "S5": 50.75
+  },
+  "our_minus_paper_100scale": {
+    "T50": -12.473750000000003,
+    "S5": 2.765625
+  },
+  "largest_negative_prompt_contributions": [
+    {
+      "prompt_id": "HYA_SCENE_07",
+      "official_line_1based": 798,
+      "original_prompt": "classroom",
+      "generation_prompt": "A classroom with desks and a whiteboard, designed for teaching and learning. Realistic, Natural lighting, Professional",
+      "scene_label": "classroom",
+      "T50_score": 0.0,
+      "S5_score": 1.0,
+      "T50_hit_frames": 0,
+      "S5_hit_frames": 16,
+      "delta": -1.0,
+      "contribution_to_mean_difference_100scale": -6.25
+    },
+    {
+      "prompt_id": "HYA_SCENE_14",
+      "official_line_1based": 782,
+      "original_prompt": "bathroom",
+      "generation_prompt": "A bathroom with a toilet, sink, and bathtub or shower. Realistic, Indoor lighting, Casual",
+      "scene_label": "bathroom",
+      "T50_score": 0.0625,
+      "S5_score": 1.0,
+      "T50_hit_frames": 1,
+      "S5_hit_frames": 16,
+      "delta": -0.9375,
+      "contribution_to_mean_difference_100scale": -5.859375
+    },
+    {
+      "prompt_id": "HYA_SCENE_13",
+      "official_line_1based": 862,
+      "original_prompt": "windmill",
+      "generation_prompt": "A tall structure with rotating blades powered by the wind. Realistic, Natural lighting, Peaceful",
+      "scene_label": "windmill",
+      "T50_score": 0.0,
+      "S5_score": 0.75,
+      "T50_hit_frames": 0,
+      "S5_hit_frames": 12,
+      "delta": -0.75,
+      "contribution_to_mean_difference_100scale": -4.6875
+    }
+  ],
+  "no_changes_to_original_scores_or_qualification": true
+}

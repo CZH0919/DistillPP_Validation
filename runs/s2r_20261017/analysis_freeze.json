@@ -1,0 +1,15 @@
+{
+  "scope": "Frozen before first S2-R objective scores",
+  "source_sha256": {
+    "tools/s2r_statistics.py": "d9caac31bf940c8f00fbad16c32453723bcc721f925c0d78799d22da08e96ffc",
+    "tools/finalize_s2r.py": "74ddd4e3f3c9f8134c3d5b861187d4c16a7393e5e28f108c055a7109906b4b68",
+    "tools/evaluate_s2r.py": "e518bc930825d3e538479665964fb3fef731e2af38bdbe982f75d4c31b0a5c10",
+    "tools/s2r_common.py": "25cbed68ab457115723a03d4ba77ec7a356a63cbd6af1f119f60d9ba758ac832",
+    "Project_Plan/QUALIFICATION_V2.json": "27ba34f2000f4f8d97ae226f303f4243f811ed6f6555218c60d42767b2e8d3db"
+  },
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261017,
+  "quality_ci": 0.99,
+  "dynamic_ci": 0.95,
+  "s3_authorized": false
+}

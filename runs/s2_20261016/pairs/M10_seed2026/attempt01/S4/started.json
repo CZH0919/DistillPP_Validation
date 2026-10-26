@@ -1,0 +1,23 @@
+{
+  "pair_id": "M10_seed2026",
+  "prompt_id": "M10",
+  "stratum": "human_object_interaction",
+  "prompt": "A person is sweeping floor",
+  "seed": 2026,
+  "worker_id": 4,
+  "global_sequence": 18,
+  "order": [
+    "S4",
+    "T50"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+  "pid": 1394260,
+  "initial_latent_sha256": "c4de30649e899d197e10d8aabfbf5a90fe5e0627f12492f2a5dea973a8b23314",
+  "positive_context_sha256": "76233e11f60a6e0768c97cc75001149e6dcd79b5c9534b2c91b361a5b236cee5",
+  "unix_start": 1792149000.8883026,
+  "gpu_count": 1,
+  "offload": false
+}

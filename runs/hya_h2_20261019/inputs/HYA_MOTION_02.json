@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_02",
+  "prompt": "A bicycle is accelerating to gain speed. Realistic, Natural lighting, Energetic",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 113,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "19333f971121bdab56177f286041cc9162c3825476cfdf7edb0c70ce6a9b5c0f",
+    "mask": "62536f83603fe54daeab612fc58257882873088c142e7c2d1c7d792931674fd3",
+    "llama_input_ids": "10e09598fd79d2395e62b190147253f1d0c46e1a0d4943b3ec8b890d98ddef4b",
+    "pooled": "002443bd90628efc6b4142cc6d22f417da3d76ea6f712aad45546c2b40616bc1",
+    "clip_input_ids": "9066a4f03bd8d09893cfd0275b840a176265bed2dbe47a40fc5d88f03bf6a539",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 64.45679338462651,
+  "llama_encode_seconds": 0.23790223710238934,
+  "clip_encode_seconds": 0.03920048847794533,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_02.e04015959aff4b7286872b3ef9987262.pt",
+  "file_sha256": "c71bf03f5c390d5d1f02adf398ca091894cfc8b2d6b9020f45396202cd51bb13"
+}

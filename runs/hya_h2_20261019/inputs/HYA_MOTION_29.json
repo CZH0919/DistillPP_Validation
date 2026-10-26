@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_29",
+  "prompt": "A bus turns around a corner. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 110,
+    "clip_with_special": 15
+  },
+  "hashes": {
+    "context": "4db558413d20876805927ce260c969ca861b5a99af15527a978b4cb534ef1735",
+    "mask": "9e01f23810c8faebbf0403169a4754322c2508b4854da0c27800fe821e9743fc",
+    "llama_input_ids": "4cc71eba804580b07257bd21b1318c292fc2c551246d546dec614cf7f157167d",
+    "pooled": "a362ced1286383889d7fa80a8230ccb9151e3e0c8dd98cdc9a85ebac7efb6144",
+    "clip_input_ids": "308f5444bbebd35304b3e71be45b44bfc5d15d0b3876e428d535a842c47c9958",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 51.857000382617116,
+  "llama_encode_seconds": 0.0445280484855175,
+  "clip_encode_seconds": 0.1501295194029808,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_29.faa845c70b7641b297790b308ef034bc.pt",
+  "file_sha256": "e9c23c8175200e7c6cda85a51148b7ae98bee3363c482ea1a79101e9f2756df9"
+}

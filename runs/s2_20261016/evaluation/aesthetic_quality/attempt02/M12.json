@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M12_seed42",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed42/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 6.057184338569641,
+      "normalized_score": 0.6057184338569641,
+      "source_returned_score": 0.6057184338569641,
+      "video_sha256": "98ff09df864dd38952e6d59bcda7818a7c580be28e615f7d843f525541f3d0ca"
+    },
+    {
+      "pair_id": "M12_seed42",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed42/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.301576256752014,
+      "normalized_score": 0.5301576256752014,
+      "source_returned_score": 0.5301576256752014,
+      "video_sha256": "7cbe1e1b15b68e7cc8baa3fcb31a42cb62bde55695fd41f3894f48789c9e8614"
+    },
+    {
+      "pair_id": "M12_seed1234",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed1234/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.827944278717041,
+      "normalized_score": 0.5827944278717041,
+      "source_returned_score": 0.5827944278717041,
+      "video_sha256": "af6fa07523c3223315e239a721687c0f2060a68354a4bd8f24f2a6c3c85d4e31"
+    },
+    {
+      "pair_id": "M12_seed1234",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed1234/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 6.148194074630737,
+      "normalized_score": 0.6148194074630737,
+      "source_returned_score": 0.6148194074630737,
+      "video_sha256": "7c01909805b6b00e3ed28cba7b0c6058c3403b284effa8cab0e1bc7fe210ef4a"
+    },
+    {
+      "pair_id": "M12_seed2026",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed2026/attempt01/S4/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 4.306524395942688,
+      "normalized_score": 0.4306524395942688,
+      "source_returned_score": 0.4306524395942688,
+      "video_sha256": "d8d55d9415f8376e55ceadbefd40cb5dd15b991b16aad11307c161331dd65691"
+    },
+    {
+      "pair_id": "M12_seed2026",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M12_seed2026/attempt01/T50/video.mp4",
+      "metric": "aesthetic_quality",
+      "raw_score": 5.712979435920715,
+      "normalized_score": 0.5712979435920715,
+      "source_returned_score": 0.5712979435920715,
+      "video_sha256": "480ca935b4f1ab8233eaa9b812e3d59cdb7273b0ef492eced5825c5b65a69e30"
+    }
+  ],
+  "aggregate": 0.5559067130088806,
+  "scoring_seconds": 2.6280872151255608
+}

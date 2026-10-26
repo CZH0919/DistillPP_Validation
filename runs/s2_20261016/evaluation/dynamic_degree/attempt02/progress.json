@@ -1,0 +1,15 @@
+{
+  "phase": "scoring",
+  "metric": "dynamic_degree",
+  "completed_videos": 24,
+  "prompt_id": "M05",
+  "unix_time": 1792153292.5460572,
+  "pid": 1433246,
+  "gpu": [
+    "2",
+    "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "6153",
+    "143771",
+    "0"
+  ]
+}

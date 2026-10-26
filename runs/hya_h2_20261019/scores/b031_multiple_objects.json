@@ -1,0 +1,762 @@
+{
+  "status": "passed",
+  "block": "b031",
+  "metric": "multiple_objects",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792422730.0703516,
+  "admission": {
+    "index": 0,
+    "uuid": "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "pid": 3095136,
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792422736.7198546
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_OBJECTS_12",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "a9573bf57b0c52f707eb774d76f9115cb53e8c9c21cf153800ade661184b318d",
+      "metric": "multiple_objects",
+      "score": 0.4375,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_12.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_12.mp4",
+        "video_results": 0.4375,
+        "success_frame_count": 7,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_OBJECTS_12",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "bd2d2643f5c475facbf1fe6d26ee90753e0987b1dcacc81e63fb3d85fb3979bc",
+      "metric": "multiple_objects",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_12.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_12.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_OBJECTS_16",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "38cbe220267bf5725f551e8ccdf60eac74b293082f85de73f3f1a546af11d2e0",
+      "metric": "multiple_objects",
+      "score": 0.0625,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_16.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_16.mp4",
+        "video_results": 0.0625,
+        "success_frame_count": 1,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_OBJECTS_16",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "90630322cbdd7ec99e34fed9ebc1c151f31f4022056867e6e7a3d2ccd70ff82e",
+      "metric": "multiple_objects",
+      "score": 0.9375,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_16.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_16.mp4",
+        "video_results": 0.9375,
+        "success_frame_count": 15,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.609375,
+  "load_scoring_seconds": 38.027805756777525,
+  "peak_allocated_gib": 2.710690975189209,
+  "audit": [
+    {
+      "metric": "multiple_objects",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/grit_model/grit_b_densecap_objectdet.pth"
+    },
+    {
+      "grit_missing": [
+        "roi_heads.text_decoder_det.textual.object_feature_projection.0.weight",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.0.bias",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.1.weight",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.1.bias",
+        "roi_heads.text_decoder_det.textual.embedding.words.weight",
+        "roi_heads.text_decoder_det.textual.embedding.positions.weight",
+        "roi_heads.text_decoder_det.textual.embedding.layer_norm.weight",
+        "roi_heads.text_decoder_det.textual.embedding.layer_norm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.output.weight",
+        "roi_heads.text_decoder_det.textual.output.bias"
+      ],
+      "grit_verified_shared_aliases": [
+        "roi_heads.text_decoder_det.textual.object_feature_projection.0.weight",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.0.bias",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.1.weight",
+        "roi_heads.text_decoder_det.textual.object_feature_projection.1.bias",
+        "roi_heads.text_decoder_det.textual.embedding.words.weight",
+        "roi_heads.text_decoder_det.textual.embedding.positions.weight",
+        "roi_heads.text_decoder_det.textual.embedding.layer_norm.weight",
+        "roi_heads.text_decoder_det.textual.embedding.layer_norm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.0.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.1.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.2.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.3.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.4.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.query.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.query.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.key.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.key.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.value.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.self.value.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.attention.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.intermediate.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.intermediate.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.dense.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.dense.bias",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.LayerNorm.weight",
+        "roi_heads.text_decoder_det.textual.transformer.encoder.layer.5.output.LayerNorm.bias",
+        "roi_heads.text_decoder_det.textual.output.weight",
+        "roi_heads.text_decoder_det.textual.output.bias"
+      ],
+      "grit_unexpected": [],
+      "grit_incorrect_shapes": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_12.mp4",
+      "object_frame_labels": [
+        [
+          "bed",
+          "cat",
+          "chair",
+          "couch",
+          "refrigerator",
+          "tv"
+        ],
+        [
+          "bed",
+          "cat",
+          "chair",
+          "couch",
+          "refrigerator",
+          "tv"
+        ],
+        [
+          "cat",
+          "chair",
+          "couch",
+          "refrigerator",
+          "tv"
+        ],
+        [
+          "chair",
+          "couch",
+          "tv"
+        ],
+        [
+          "chair",
+          "couch",
+          "tv"
+        ],
+        [
+          "chair",
+          "couch",
+          "tv"
+        ],
+        [
+          "chair",
+          "tv"
+        ],
+        [
+          "chair",
+          "couch",
+          "tv"
+        ],
+        [
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ],
+        [
+          "bed",
+          "chair",
+          "tv"
+        ]
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_12.mp4",
+      "object_frame_labels": [
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "person",
+          "refrigerator"
+        ],
+        [
+          "bed",
+          "chair",
+          "couch",
+          "refrigerator"
+        ]
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_OBJECTS_16.mp4",
+      "object_frame_labels": [
+        [
+          "clock",
+          "keyboard",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bowl",
+          "broccoli",
+          "remote",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bowl",
+          "broccoli",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "cake",
+          "fork",
+          "mouse",
+          "sink",
+          "toothbrush",
+          "traffic light"
+        ],
+        [
+          "baseball glove",
+          "clock",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "bowl",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "bowl",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "bowl",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "bowl",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "clock",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "bowl",
+          "mouse",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "bowl",
+          "mouse",
+          "person",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "bowl",
+          "mouse",
+          "person",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "bowl",
+          "mouse",
+          "person",
+          "sink",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "hair drier",
+          "person",
+          "sink",
+          "toothbrush",
+          "traffic light"
+        ]
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_OBJECTS_16.mp4",
+      "object_frame_labels": [
+        [
+          "hair drier",
+          "person",
+          "scissors",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "cell phone",
+          "hair drier",
+          "person"
+        ],
+        [
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "bird",
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "baseball glove",
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "cell phone",
+          "hair drier",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "hair drier",
+          "mouse",
+          "person",
+          "toothbrush"
+        ],
+        [
+          "hair drier",
+          "mouse",
+          "person",
+          "toothbrush"
+        ]
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792422787.384995
+}

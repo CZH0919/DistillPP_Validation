@@ -1,0 +1,27 @@
+# Independent environment: PyIQA 0.1.13 requires transformers==4.37.2.
+# PyPI Linux x86_64 torch 2.8.0 uses CUDA 12.8 runtime dependencies.
+torch==2.8.0
+torchvision==0.23.0
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.2.3
+transformers==4.37.2
+tokenizers==0.15.2
+huggingface-hub==0.34.4
+accelerate==1.10.1
+pyiqa==0.1.13
+bitsandbytes==0.46.1
+facexlib==0.3.0
+openai-clip==1.0.1
+timm==1.0.12
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+decord==0.6.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+omegaconf==2.3.0
+easydict==1.13
+einops==0.8.2
+ftfy==6.3.1
+sentencepiece==0.2.1
+setuptools==80.9.0

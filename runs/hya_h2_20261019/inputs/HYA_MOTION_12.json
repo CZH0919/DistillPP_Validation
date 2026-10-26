@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_MOTION_12",
+  "prompt": "A bus is accelerating to gain speed. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 111,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "93f9719d286a921422ba0ce23265c4968f30ce4caa4e99f09817d8eea15e88b0",
+    "mask": "4872072049f11ac94d34754bde120b27c3509c0a1c4d4a95c682fce64966da15",
+    "llama_input_ids": "401268a89fa67bfcd6379cf62cb5d8618a29989eb82b5add8dd7177bf73bd5cf",
+    "pooled": "91abebfec7ca2951192e17963d9a67d7d4422dbb62617f4f1021b4e45e5cb7fa",
+    "clip_input_ids": "cae2b80af7f9c8ac1027c18c9a97a16685694a944f2ba1c4727cf6d85f37e1e5",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 52.06629336066544,
+  "llama_encode_seconds": 2.164850026369095,
+  "clip_encode_seconds": 0.22453929670155048,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_MOTION_12.52b662940cd742b0bb601ec9b8eae682.pt",
+  "file_sha256": "304f498f6625345d4537350f5f5d5f04c3e7788098d90442fe5f639488e5937f"
+}

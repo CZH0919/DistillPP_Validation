@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_SCENE_09",
+  "prompt": "A large iceberg floats in the water. Realistic, Natural lighting, Peaceful",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 112,
+    "clip_with_special": 16
+  },
+  "hashes": {
+    "context": "ebd445db69454f135344e5655e54bccad8e8472621ec031a3c10ad6c003c41c2",
+    "mask": "708d1c5f407dab241eb51e21f0d9bb7303fff2b149cd809d834e566b6dda7eac",
+    "llama_input_ids": "10906e980e1d93ca521455cd9cc91a1312bc09502dec9f587e60e3cfbf2335bc",
+    "pooled": "ef69375ec52c7ec84fdc8a7ca008d734f90fda628733c3d8c91063ec95c3799a",
+    "clip_input_ids": "595ff9fb0a6232928beb88db56790a0127a5356e23b5a3e8705d17a738d14432",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 76.2573917042464,
+  "llama_encode_seconds": 0.243425527587533,
+  "clip_encode_seconds": 0.22178827412426472,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_SCENE_09.45c890951cbc4c1080a59f912c3dc79d.pt",
+  "file_sha256": "d0a2b94ad8a313d1dd6ae7aa2987b68a72b77753d688584b2a564c0eff0066f1"
+}

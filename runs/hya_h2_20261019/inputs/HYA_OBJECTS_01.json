@@ -1,0 +1,30 @@
+{
+  "prompt_id": "HYA_OBJECTS_01",
+  "prompt": "A cat and a dog. Realistic, Natural lighting, Casual",
+  "seed": 2026101901,
+  "tokens": {
+    "llama_with_template": 109,
+    "clip_with_special": 14
+  },
+  "hashes": {
+    "context": "ba70e7b3fdef64b1fce7e41298bc041a7ab7046587dc6de501edb8bc64552280",
+    "mask": "85827104fe553ee67d817fe330088bc9d2d48fe13e704097cfcb1fc4017cb20b",
+    "llama_input_ids": "0bb967b953799dde790a30587cff076f4f63b21a64510fc84fdc5f140645e659",
+    "pooled": "5241c7a55effe6c5874a76423cb375219b559a990a2a25764bba4caadc17ffd0",
+    "clip_input_ids": "a95c84ed2a112981dcafb4d7b0054d95a5c59349cefc490db3ae71852106f8bb",
+    "noise": "c4429047b19bfed7cce077296d853a4c01a0e7e4fa507097113e90bf17705f7f"
+  },
+  "dtypes": {
+    "context": "torch.float16",
+    "mask": "torch.int64",
+    "llama_input_ids": "torch.int64",
+    "pooled": "torch.float16",
+    "clip_input_ids": "torch.int64",
+    "noise": "torch.float32"
+  },
+  "text_encoder_load_encode_seconds": 23.002566166222095,
+  "llama_encode_seconds": 0.3298229053616524,
+  "clip_encode_seconds": 0.026241019368171692,
+  "tensor_file": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h2_20261019/inputs/HYA_OBJECTS_01.973e2fd7c8fa4cc3a740fb8fc55e7436.pt",
+  "file_sha256": "2bca9536d3f85dd83773e0afad4dcece6742774d3b666f589160d0252875ccc2"
+}

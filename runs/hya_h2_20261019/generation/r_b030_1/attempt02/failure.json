@@ -1,0 +1,6 @@
+{
+  "status": "conflict",
+  "error": "ResourceConflict(\"Unrecognized process on GPU 7: [['GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '3139548', '25662']]\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_generate.py\", line 192, in main\n    rec = generate(row, arm, model, vae, payload, info, admitted, out, i == 0, log)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_generate.py\", line 81, in generate\n    ensure_exclusive(gpu); log_progress('model_to_gpu', prompt_id=row['id'], arm=arm)\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/hya_h2_common.py\", line 87, in ensure_exclusive\n    raise ResourceConflict('Unrecognized process on GPU '+str(index)+': '+str(other))\nhya_h2_common.ResourceConflict: Unrecognized process on GPU 7: [['GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8', '3139548', '25662']]\n",
+  "time_unix": 1792424810.0752983
+}

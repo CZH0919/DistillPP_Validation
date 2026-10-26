@@ -1,0 +1,86 @@
+{
+  "status": "failed",
+  "metric": "subject_consistency",
+  "attempt": 1,
+  "rows": [],
+  "source_sha256": "5296d67dab6f2ee4fb642aab288fa1c928bf1011e41e64efd5ecbe0b51f2ca9c",
+  "normalization": "MUSIQ raw/100 once; LAION source already /10; others unchanged",
+  "source_commit": "fd18b3d055cb0fc6f066ca90fe2c3c8cbb698490",
+  "admission": {
+    "physical_index": 1,
+    "uuid": "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+    "snapshot": {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "71654",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [
+        [
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "1689341",
+          "71642"
+        ]
+      ]
+    },
+    "pid": 1429452,
+    "lock_scope": "own project only; not a cluster reservation"
+  },
+  "model_load_seconds": 24.692548260092735,
+  "error": "RuntimeError(\"Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/evaluate_s2.py\", line 99, in main\n    monitor.check()\n  File \"/data/chenjiayu/changzihe/DistillPP_Validation/tools/s2_common.py\", line 70, in check\n    raise RuntimeError('Occupancy/progress monitor failed; own worker stops: ' + self.error)\nRuntimeError: Occupancy/progress monitor failed; own worker stops: TimeoutExpired(['nvidia-smi', '--query-gpu=index,uuid,memory.used,memory.total,utilization.gpu', '--format=csv,noheader,nounits'], 15)\n",
+  "network_attempts": []
+}

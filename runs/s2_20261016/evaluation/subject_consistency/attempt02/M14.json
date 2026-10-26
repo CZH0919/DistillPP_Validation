@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M14_seed42",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed42/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9843742780387401,
+      "normalized_score": 0.9843742780387401,
+      "source_returned_score": 0.9843742780387401,
+      "video_sha256": "9d88e11e604f5a22ddbcee7ea85b56cfc6dccc9c0ca6357575a7f82652adbcd8"
+    },
+    {
+      "pair_id": "M14_seed42",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed42/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9488095052540302,
+      "normalized_score": 0.9488095052540302,
+      "source_returned_score": 0.9488095052540302,
+      "video_sha256": "b6fc352645e2a97886f62600137dd036981551da88132e552d27a49b5f3d5123"
+    },
+    {
+      "pair_id": "M14_seed1234",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed1234/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9688358090817928,
+      "normalized_score": 0.9688358090817928,
+      "source_returned_score": 0.9688358090817928,
+      "video_sha256": "983818f48f6e6d72121cd8447ca386e1dcff9446a88c1353902d1bf449ce3d03"
+    },
+    {
+      "pair_id": "M14_seed1234",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed1234/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9709835279732942,
+      "normalized_score": 0.9709835279732942,
+      "source_returned_score": 0.9709835279732942,
+      "video_sha256": "28dc9311c24da54a4fe450a4a88140dcfcc2b36bdfcf0d9f175c00b9026413dc"
+    },
+    {
+      "pair_id": "M14_seed2026",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed2026/attempt01/S4/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9860448881983757,
+      "normalized_score": 0.9860448881983757,
+      "source_returned_score": 0.9860448881983757,
+      "video_sha256": "93b92f09573fe782111e56d3c50ca5d81981fe10a1b0a6c44ea886cae5c8fe86"
+    },
+    {
+      "pair_id": "M14_seed2026",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M14_seed2026/attempt01/T50/video.mp4",
+      "metric": "subject_consistency",
+      "raw_score": 0.9583044949918985,
+      "normalized_score": 0.9583044949918985,
+      "source_returned_score": 0.9583044949918985,
+      "video_sha256": "8e1f098a88864b18249dec00de2e1baf0e6e50f0084ec3b3d13457f098de02f1"
+    }
+  ],
+  "aggregate": 0.9695587505896887,
+  "scoring_seconds": 6.630978461354971
+}

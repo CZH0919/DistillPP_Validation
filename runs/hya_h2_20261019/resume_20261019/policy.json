@@ -1,0 +1,232 @@
+{
+  "recovery_id": "hya_h2_resume_20261019",
+  "authorized_unix": 1792423818.71373,
+  "authorization": "User requested resume of remaining six pairs and sixteen scores, avoiding GPU 0/2, detached background execution",
+  "initial_gpu_indices": [
+    3,
+    5,
+    6
+  ],
+  "allowed_gpu_preference": [
+    3,
+    5,
+    6,
+    7,
+    1,
+    4
+  ],
+  "excluded_gpu_indices": [
+    0,
+    2
+  ],
+  "maximum_workers": 3,
+  "allowed_tasks": [
+    "eval_b014_multiple_objects",
+    "eval_b028_background_consistency",
+    "eval_b028_scene",
+    "eval_b030_multiple_objects",
+    "gen_b014",
+    "gen_b028",
+    "gen_b030"
+  ],
+  "remaining_pairs": 6,
+  "remaining_videos": 12,
+  "remaining_scores": 16,
+  "already_committed_pairs": 58,
+  "already_committed_scores": 208,
+  "snapshot_before_launch": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "0",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [],
+    "time_unix": 1792423818.7067354
+  },
+  "admission_snapshots": [
+    {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792423809.3425057
+    },
+    {
+      "gpus": [
+        [
+          "0",
+          "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "1",
+          "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "3",
+          "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "4",
+          "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "5",
+          "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "6",
+          "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+          "0",
+          "143771",
+          "0"
+        ],
+        [
+          "7",
+          "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792423813.1745222
+    }
+  ],
+  "original_manifest_sha256": "9ef7e20a4cc5788a472e1ab18737713d8d701a86ae3df9d781c00f0dc99920b3",
+  "original_state_sha256": "a98760b20aa078de807a609102307f37e528c1ba998c452c0a3981c4105b06ed",
+  "preserved_files_sha256": "0537c652a70d1e627a92a9c47df0cf34e055bbc3a05f9f3006ffe2525a5d2013",
+  "resume_script_sha256": "4ad3c575511c8d5cfaf68d4c708159e4e9dc2524bc2564f44b450122eb882509",
+  "new_consecutive_conflict_limit": 2,
+  "preserve_all_attempt_history": true,
+  "S3_authorized": false
+}

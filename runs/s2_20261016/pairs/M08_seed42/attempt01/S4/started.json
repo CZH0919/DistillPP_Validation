@@ -1,0 +1,23 @@
+{
+  "pair_id": "M08_seed42",
+  "prompt_id": "M08",
+  "stratum": "human_motion",
+  "prompt": "A person is tai chi",
+  "seed": 42,
+  "worker_id": 6,
+  "global_sequence": 13,
+  "order": [
+    "T50",
+    "S4"
+  ],
+  "arm": "S4",
+  "warmup": false,
+  "status": "started",
+  "gpu_uuid": "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+  "pid": 1394336,
+  "initial_latent_sha256": "d58dda95871619b9a739a5fd138a6a45ecacdfc6329feb27179411e336be985b",
+  "positive_context_sha256": "2f5212f73a423e7bf4d08ca52f5b680d9f73c7ee6acc49f370cf28043253d284",
+  "unix_start": 1792148907.6500373,
+  "gpu_count": 1,
+  "offload": false
+}

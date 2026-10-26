@@ -1,0 +1,252 @@
+{
+  "status": "passed",
+  "block": "b020",
+  "metric": "scene",
+  "protocol_sha256": "ee18595f1a9cf868995cc47938aa3671ded8dce76b15d49398c1a97937472c59",
+  "started_unix": 1792409387.0440156,
+  "admission": {
+    "index": 2,
+    "uuid": "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+    "pid": 3038660,
+    "snapshot": {
+      "gpus": [
+        [
+          "2",
+          "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+          "0",
+          "143771",
+          "0"
+        ]
+      ],
+      "processes": [],
+      "time_unix": 1792409392.3509963
+    }
+  },
+  "rows": [
+    {
+      "prompt_id": "HYA_SCENE_03",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "4dfdf37d1af8a600adebcd377965a9930d1ffd488e38761c3cc942aeef5f8c1b",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_03.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_03.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_03",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "242963553952773529a4e9c335eabd07a58c452173ce80caa65c293426841c1e",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_03.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_03.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_07",
+      "arm": "T50",
+      "seed": 2026101901,
+      "video_sha256": "594621dc5472e7fc1d8b3088fc2091d71abf85cc9afabe4a0f5fee11fd50808b",
+      "metric": "scene",
+      "score": 0.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_07.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_07.mp4",
+        "video_results": 0.0,
+        "success_frame_count": 0,
+        "frame_count": 16
+      }
+    },
+    {
+      "prompt_id": "HYA_SCENE_07",
+      "arm": "S5",
+      "seed": 2026101901,
+      "video_sha256": "7fbd12916da80a87975a2e11fcb9dea7dc717338ad5c7b10ee10a3d769262743",
+      "metric": "scene",
+      "score": 1.0,
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_07.mp4",
+      "official_row": {
+        "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_07.mp4",
+        "video_results": 1.0,
+        "success_frame_count": 16,
+        "frame_count": 16
+      }
+    }
+  ],
+  "aggregate": 0.75,
+  "load_scoring_seconds": 20.173757433891296,
+  "peak_allocated_gib": 3.2449569702148438,
+  "audit": [
+    {
+      "metric": "scene",
+      "sampled_frame_indices": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43,
+        51,
+        59,
+        67,
+        75,
+        83,
+        91,
+        99,
+        107,
+        115,
+        124
+      ]
+    },
+    {
+      "adapter": "BertTokenizer local path",
+      "original": "bert-base-uncased",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "Tag2Text BERT local path",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/bert-base-uncased"
+    },
+    {
+      "adapter": "trusted allowlisted legacy checkpoint loader",
+      "path": "/data/chenjiayu/changzihe/DistillPP_Validation/resources/evaluation/caption_model/tag2text_swin_14m.pth"
+    },
+    {
+      "tag2text_missing_nonlearned_buffers": [
+        "visual_encoder.layers.0.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.0.blocks.1.attn_mask",
+        "visual_encoder.layers.0.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.1.blocks.1.attn_mask",
+        "visual_encoder.layers.1.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.1.attn_mask",
+        "visual_encoder.layers.2.blocks.1.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.2.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.3.attn_mask",
+        "visual_encoder.layers.2.blocks.3.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.4.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.5.attn_mask",
+        "visual_encoder.layers.2.blocks.5.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.6.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.7.attn_mask",
+        "visual_encoder.layers.2.blocks.7.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.8.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.9.attn_mask",
+        "visual_encoder.layers.2.blocks.9.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.10.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.11.attn_mask",
+        "visual_encoder.layers.2.blocks.11.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.12.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.13.attn_mask",
+        "visual_encoder.layers.2.blocks.13.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.14.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.15.attn_mask",
+        "visual_encoder.layers.2.blocks.15.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.16.attn.relative_position_index",
+        "visual_encoder.layers.2.blocks.17.attn_mask",
+        "visual_encoder.layers.2.blocks.17.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.0.attn.relative_position_index",
+        "visual_encoder.layers.3.blocks.1.attn.relative_position_index"
+      ],
+      "tag2text_unexpected": []
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_03.mp4",
+      "scene_frame_captions": [
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day",
+        "the front of a large mansion on a sunny day"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_03.mp4",
+      "scene_frame_captions": [
+        "a large mansion on a sunny day",
+        "a large mansion on a sunny day",
+        "a large mansion on a sunny day",
+        "a large mansion on a sunny day",
+        "a large mansion on a sunny day",
+        "a large mansion on a sunny day",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace",
+        "a large mansion that looks like a palace"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/T50/HYA_SCENE_07.mp4",
+      "scene_frame_captions": [
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher instructs a class of students",
+        "a teacher giving a class to a group of students",
+        "a teacher giving a class to a group of students",
+        "a teacher giving a class to a group of students",
+        "a teacher giving a class to a group of students",
+        "a teacher giving a class to a group of students",
+        "a teacher giving a class to a group of students",
+        "a teacher instructs a class of students"
+      ]
+    },
+    {
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h2_20261019/S5/HYA_SCENE_07.mp4",
+      "scene_frame_captions": [
+        "people sitting at desks in a classroom",
+        "people sitting at desks in a classroom",
+        "people sitting at desks in a classroom",
+        "people sitting at desks in a classroom",
+        "people sitting at desks in a classroom",
+        "people sitting at desks in a classroom",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks",
+        "a classroom with students sitting at their desks"
+      ]
+    }
+  ],
+  "network_attempts": [],
+  "finished_unix": 1792409421.3948753
+}

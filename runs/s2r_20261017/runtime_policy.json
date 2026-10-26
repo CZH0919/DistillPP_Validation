@@ -1,0 +1,19 @@
+{
+  "stage": "S2_R_ONLY",
+  "allowed_gpu_indexes": [
+    6
+  ],
+  "max_concurrent": 1,
+  "stable_idle_seconds": 60,
+  "conflict_cooldown_seconds": 900,
+  "deprioritize_gpu_indexes": [
+    0,
+    1
+  ],
+  "reason": "Other cards have recurrent resident tasks; keep current GPU 6 worker running and execute remaining frozen shards serially. Do not expand on momentary vacancy.",
+  "scientific_configuration_changed": false,
+  "active_workers_migrated_or_restarted": false,
+  "future_expansion": "Do not automatically try other GPUs. Only a later explicit change of resource arrangement may alter the allowlist after availability checks.",
+  "auto_expand": false,
+  "user_single_gpu_confirmed": true
+}

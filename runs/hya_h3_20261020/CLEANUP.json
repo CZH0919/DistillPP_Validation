@@ -1,0 +1,61 @@
+{
+  "status": "cleaned_redundant_student_groups",
+  "removed_files": 12,
+  "removed_mp4": 6,
+  "removed_bytes": 20998188,
+  "removed": [
+    {
+      "path": "Evaluation_Videos/hya_h3_20261020/B_S5/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/B_S5/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/B_S5/HYA_MOTION_01.json",
+      "bytes": 4267
+    },
+    {
+      "path": "runs/hya_h3_20261020/records/B_S5/HYA_MOTION_01.json",
+      "bytes": 4392
+    },
+    {
+      "path": "Evaluation_Videos/hya_h3_20261020/ZERO_L0/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/ZERO_L0/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/ZERO_L0/HYA_MOTION_01.json",
+      "bytes": 4259
+    },
+    {
+      "path": "runs/hya_h3_20261020/records/ZERO_L0/HYA_MOTION_01.json",
+      "bytes": 4387
+    },
+    {
+      "path": "Evaluation_Videos/hya_h3_20261020/DISCARD_T1/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/DISCARD_T1/HYA_MOTION_01.mp4",
+      "bytes": 3495026
+    },
+    {
+      "path": "runs/hya_h3_20261020/generation/HYA_MOTION_01/attempt01/DISCARD_T1/HYA_MOTION_01.json",
+      "bytes": 5298
+    },
+    {
+      "path": "runs/hya_h3_20261020/records/DISCARD_T1/HYA_MOTION_01.json",
+      "bytes": 5429
+    }
+  ],
+  "retained_corrected_video": "/data/chenjiayu/changzihe/DistillPP_Validation/Evaluation_Videos/hya_h3_20261020/C_K1_L010/HYA_MOTION_01.mp4",
+  "retained_logs_and_records": true,
+  "new_scores": 0,
+  "processes_stopped": true,
+  "time_unix": 1792479225.0989053
+}

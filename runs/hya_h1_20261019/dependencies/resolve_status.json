@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/data/chenjiayu/miniconda3/envs/changzihe_eval/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--dry-run",
+    "--report",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/dependencies/pip_resolution.json",
+    "--no-build-isolation",
+    "--disable-pip-version-check",
+    "--index-url",
+    "https://pypi.tuna.tsinghua.edu.cn/simple",
+    "--timeout",
+    "30",
+    "--retries",
+    "2",
+    "-c",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/runs/hya_h1_20261019/dependencies/constraints_before.txt",
+    "-r",
+    "/data/chenjiayu/changzihe/DistillPP_Validation/Project_Plan/requirements_hya_evaluation.txt"
+  ],
+  "returncode": 0,
+  "seconds": 3.3249311447143555
+}

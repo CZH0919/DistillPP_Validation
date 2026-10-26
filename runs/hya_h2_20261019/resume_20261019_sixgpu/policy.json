@@ -1,0 +1,157 @@
+{
+  "recovery_id": "hya_h2_resume_parallel_20261019",
+  "created_unix": 1792424343.8939044,
+  "authorization": "User explicitly requested more idle GPUs to finish the remaining six pairs sooner",
+  "allowed_gpu_preference": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    1
+  ],
+  "excluded_gpu_indices": [
+    0,
+    2
+  ],
+  "maximum_workers": 6,
+  "virtual_blocks": [
+    {
+      "id": "r_b014_0",
+      "shard": 0,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_02"
+      ],
+      "parent_block": "b014"
+    },
+    {
+      "id": "r_b014_1",
+      "shard": 1,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_06"
+      ],
+      "parent_block": "b014"
+    },
+    {
+      "id": "r_b028_0",
+      "shard": 2,
+      "ordinal": 5,
+      "prompt_ids": [
+        "HYA_SCENE_04"
+      ],
+      "parent_block": "b028"
+    },
+    {
+      "id": "r_b028_1",
+      "shard": 3,
+      "ordinal": 4,
+      "prompt_ids": [
+        "HYA_SCENE_08"
+      ],
+      "parent_block": "b028"
+    },
+    {
+      "id": "r_b030_0",
+      "shard": 4,
+      "ordinal": 7,
+      "prompt_ids": [
+        "HYA_OBJECTS_04"
+      ],
+      "parent_block": "b030"
+    },
+    {
+      "id": "r_b030_1",
+      "shard": 5,
+      "ordinal": 6,
+      "prompt_ids": [
+        "HYA_OBJECTS_08"
+      ],
+      "parent_block": "b030"
+    }
+  ],
+  "already_passed_tasks": 81,
+  "already_committed_pairs": 58,
+  "already_committed_scores": 208,
+  "initial_free_devices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    1
+  ],
+  "initial_snapshot": {
+    "gpus": [
+      [
+        "0",
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "12409",
+        "143771",
+        "7"
+      ],
+      [
+        "1",
+        "GPU-b9157129-ac58-501d-c93d-b1cf622ff61b",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "2",
+        "GPU-b15ccd2e-b17d-20a9-a130-b4b7eb37a074",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "3",
+        "GPU-9aa453a3-63f9-ea74-f4ce-7d119e9e69ba",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "4",
+        "GPU-490b4a76-6210-31b9-4e03-838a113cf5f4",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "5",
+        "GPU-7d459912-b567-59fb-8abf-57c18713cb84",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "6",
+        "GPU-8cf0627c-5919-bace-1c42-e5d627c36cb5",
+        "0",
+        "143771",
+        "0"
+      ],
+      [
+        "7",
+        "GPU-5e07f671-a7e1-b38d-4d14-30316dfd9ce8",
+        "0",
+        "143771",
+        "0"
+      ]
+    ],
+    "processes": [
+      [
+        "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+        "3132601",
+        "12398"
+      ]
+    ],
+    "time_unix": 1792424343.8934114
+  },
+  "original_manifest_sha256": "9ef7e20a4cc5788a472e1ab18737713d8d701a86ae3df9d781c00f0dc99920b3",
+  "script_sha256": "fb619c278a836ff09532b1d1474b4cdda6842627c05eed46e376502e78843edc",
+  "preserved_files_manifest_sha256": "0537c652a70d1e627a92a9c47df0cf34e055bbc3a05f9f3006ffe2525a5d2013",
+  "S3_authorized": false
+}

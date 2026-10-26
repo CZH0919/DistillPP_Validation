@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "pair_id": "M07_seed42",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 42,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed42/attempt01/S4/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.16806015372276306,
+      "normalized_score": 0.16806015372276306,
+      "source_returned_score": 0.16806015372276306,
+      "video_sha256": "d84a0c851d7b137fb6ba86b523caef14a213255fe83f99256c0892c3f320b06c"
+    },
+    {
+      "pair_id": "M07_seed42",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 42,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed42/attempt01/T50/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.14874760806560516,
+      "normalized_score": 0.14874760806560516,
+      "source_returned_score": 0.14874760806560516,
+      "video_sha256": "a37cf7a81bb15cb5aac7fee8408d2c71cca0ec3d6493e869a80fa58b5140d3c0"
+    },
+    {
+      "pair_id": "M07_seed1234",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 1234,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed1234/attempt01/S4/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.1527508795261383,
+      "normalized_score": 0.1527508795261383,
+      "source_returned_score": 0.1527508795261383,
+      "video_sha256": "c97a150c808bb03c4c7a369f50aabeea2c94114af6ce613c0f0630f29b7aabe5"
+    },
+    {
+      "pair_id": "M07_seed1234",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 1234,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed1234/attempt01/T50/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.16600418090820312,
+      "normalized_score": 0.16600418090820312,
+      "source_returned_score": 0.16600418090820312,
+      "video_sha256": "1773d256fe20e98a9b259cb5ba06cb7328bc87c864952476093dbd6fe91dcc9b"
+    },
+    {
+      "pair_id": "M07_seed2026",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 2026,
+      "arm": "S4",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed2026/attempt01/S4/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.18368792533874512,
+      "normalized_score": 0.18368792533874512,
+      "source_returned_score": 0.18368792533874512,
+      "video_sha256": "b54ce4b14ee2ccabe1cbe3f49e8a077cc1525eb224213f313a1b5e712dc408ea"
+    },
+    {
+      "pair_id": "M07_seed2026",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 2026,
+      "arm": "T50",
+      "video_path": "/data/chenjiayu/changzihe/DistillPP_Validation/runs/s2_20261016/pairs/M07_seed2026/attempt01/T50/video.mp4",
+      "metric": "overall_consistency",
+      "raw_score": 0.17724864184856415,
+      "normalized_score": 0.17724864184856415,
+      "source_returned_score": 0.17724864184856415,
+      "video_sha256": "3398173bfa9923f0ee18bfeae9569153c45a362cfae14184a4d4f139eb4484dd"
+    }
+  ],
+  "aggregate": 0.1660832315683365,
+  "scoring_seconds": 1.50745115801692
+}

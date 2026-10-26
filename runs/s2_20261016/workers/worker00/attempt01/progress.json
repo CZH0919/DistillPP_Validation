@@ -1,0 +1,16 @@
+{
+  "phase": "loading",
+  "worker_id": 0,
+  "pair_id": null,
+  "arm": null,
+  "step": 0,
+  "unix_time": 1792147014.7242432,
+  "pid": 1392600,
+  "gpu": [
+    "0",
+    "GPU-0b850a78-f1db-6bda-8dd5-d96296bc1bfc",
+    "59553",
+    "143771",
+    "2"
+  ]
+}

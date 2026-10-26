@@ -1,0 +1,663 @@
+{
+  "batch_id": "s2_20261016",
+  "stage": "S2_ONLY",
+  "authorized_formal_videos": 96,
+  "worker_count": 7,
+  "cpu_threads_per_worker": 4,
+  "initial_physical_gpu_candidates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "gpu_policy": "Each worker rechecks vacancy twice before load; 10-second PID watchdog; no global reservation; stop own worker on collision.",
+  "schedule_rng": "Python random.Random(2026101602); randomized strata interleaving; round-robin worker; balanced arm order in each stratum and worker",
+  "order_balance_search_iterations": 49,
+  "warmup": "One full T50 and one full S4 trajectory + VAE on independent S1 prompt/seed per worker; no formal metrics or video export.",
+  "timing": "Both DiTs/T5/VAE resident; paired same GPU; CUDA-synchronized denoise+VAE. Setup/transfer, text, load/export separate. Occupancy-thread overhead included.",
+  "timing_text": "Positive embedding computed once per pair and reused by both arms; fixed negative embedding cached once per worker. Primary excludes text.",
+  "memory": "Peak includes both co-resident models, not a standalone deployment minimum.",
+  "cold_start": "Per-worker load and first warm-up durations recorded separately, not included in formal hot timings.",
+  "speed_statistics": "median(T50 denoise+VAE)/median(S4 denoise+VAE), paired prompt-cluster stratified bootstrap 95% CI; descriptive S2 baseline only",
+  "qualification": "Existing five-metric 99% CI rule, priority fixed in baseline; dynamic 95% descriptive without threshold; no S3.",
+  "disk_budget_gib": 5,
+  "input_sha256": {
+    "Project_Plan/BASELINE_SETTINGS.json": "614b5ecb0c7b83ba3d0f648e543596b61f8b080a3bda1a0a0e0eae481353bf12",
+    "Project_Plan/PROMPTS_QUALIFICATION.json": "0564339aac19877ef03b776575eaaf4df2c97b60dc599eef2cf11ed496ad3ad0",
+    "Project_Plan/RESOURCE_MANIFEST.json": "284f74030cecb7ae3a29c7198359e599b12d8c5991be15ca11b4c5d7a67c802b",
+    "Project_Plan/WAN_KEY_RENAME_RULES.json": "3c13b14cc8f824dab0f3717021209ef9e57c38e3b2464f2ac95cd5b660183588",
+    "tools/run_s1_arm.py": "24679b34d24a97765f4ba797cc2670e370017fdce7402b8f2fe2065645ce2247",
+    "tools/s1_common.py": "8be5811a83a03c36dcc412122e11a8360134dbf617aae0b5938c1bfc0e0b4281",
+    "tools/run_s2_worker.py": "c4482222641aedbb3b28545d224d09e81fe5eaf1df7d4e48b3e3c6da77bc91e3",
+    "tools/s2_common.py": "99a9862265596874eff7df6f79e09392860a2346d938e152e36d4d42a010107a"
+  },
+  "pairs": [
+    {
+      "pair_id": "M01_seed1234",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 1234,
+      "worker_id": 0,
+      "global_sequence": 0,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M05_seed1234",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 1234,
+      "worker_id": 1,
+      "global_sequence": 1,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M12_seed1234",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 1234,
+      "worker_id": 2,
+      "global_sequence": 2,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M14_seed42",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 42,
+      "worker_id": 3,
+      "global_sequence": 3,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M03_seed2026",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 2026,
+      "worker_id": 4,
+      "global_sequence": 4,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M07_seed42",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 42,
+      "worker_id": 5,
+      "global_sequence": 5,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M12_seed42",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 42,
+      "worker_id": 6,
+      "global_sequence": 6,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M15_seed42",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 7,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M04_seed1234",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 1234,
+      "worker_id": 1,
+      "global_sequence": 8,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M08_seed1234",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 1234,
+      "worker_id": 2,
+      "global_sequence": 9,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M11_seed1234",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 1234,
+      "worker_id": 3,
+      "global_sequence": 10,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M14_seed2026",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 2026,
+      "worker_id": 4,
+      "global_sequence": 11,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M04_seed2026",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 2026,
+      "worker_id": 5,
+      "global_sequence": 12,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M08_seed42",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 42,
+      "worker_id": 6,
+      "global_sequence": 13,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M09_seed2026",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 2026,
+      "worker_id": 0,
+      "global_sequence": 14,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M13_seed42",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 42,
+      "worker_id": 1,
+      "global_sequence": 15,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M01_seed42",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 42,
+      "worker_id": 2,
+      "global_sequence": 16,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M06_seed42",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 42,
+      "worker_id": 3,
+      "global_sequence": 17,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M10_seed2026",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 2026,
+      "worker_id": 4,
+      "global_sequence": 18,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M15_seed2026",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 2026,
+      "worker_id": 5,
+      "global_sequence": 19,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M02_seed1234",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 1234,
+      "worker_id": 6,
+      "global_sequence": 20,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M05_seed42",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 21,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M10_seed42",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 42,
+      "worker_id": 1,
+      "global_sequence": 22,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M15_seed1234",
+      "prompt_id": "M15",
+      "stratum": "scene_motion",
+      "prompt": "Pacific coast, carmel by the sea ocean and waves.",
+      "seed": 1234,
+      "worker_id": 2,
+      "global_sequence": 23,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M03_seed1234",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 1234,
+      "worker_id": 3,
+      "global_sequence": 24,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M06_seed2026",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 2026,
+      "worker_id": 4,
+      "global_sequence": 25,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M12_seed2026",
+      "prompt_id": "M12",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is folding clothes",
+      "seed": 2026,
+      "worker_id": 5,
+      "global_sequence": 26,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M13_seed2026",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 2026,
+      "worker_id": 6,
+      "global_sequence": 27,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M02_seed42",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 28,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M05_seed2026",
+      "prompt_id": "M05",
+      "stratum": "human_motion",
+      "prompt": "A person is clapping",
+      "seed": 2026,
+      "worker_id": 1,
+      "global_sequence": 29,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M09_seed1234",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 1234,
+      "worker_id": 2,
+      "global_sequence": 30,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M13_seed1234",
+      "prompt_id": "M13",
+      "stratum": "scene_motion",
+      "prompt": "Campfire at night in a snowy forest with starry sky in the background.",
+      "seed": 1234,
+      "worker_id": 3,
+      "global_sequence": 31,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M01_seed2026",
+      "prompt_id": "M01",
+      "stratum": "animal_motion",
+      "prompt": "a bird soaring gracefully in the sky",
+      "seed": 2026,
+      "worker_id": 4,
+      "global_sequence": 32,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M08_seed2026",
+      "prompt_id": "M08",
+      "stratum": "human_motion",
+      "prompt": "A person is tai chi",
+      "seed": 2026,
+      "worker_id": 5,
+      "global_sequence": 33,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M10_seed1234",
+      "prompt_id": "M10",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is sweeping floor",
+      "seed": 1234,
+      "worker_id": 6,
+      "global_sequence": 34,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M16_seed1234",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 1234,
+      "worker_id": 0,
+      "global_sequence": 35,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M04_seed42",
+      "prompt_id": "M04",
+      "stratum": "animal_motion",
+      "prompt": "an elephant spraying itself with water using its trunk to cool down",
+      "seed": 42,
+      "worker_id": 1,
+      "global_sequence": 36,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M06_seed1234",
+      "prompt_id": "M06",
+      "stratum": "human_motion",
+      "prompt": "A person is stretching leg",
+      "seed": 1234,
+      "worker_id": 2,
+      "global_sequence": 37,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M11_seed2026",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 2026,
+      "worker_id": 3,
+      "global_sequence": 38,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M16_seed42",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 42,
+      "worker_id": 4,
+      "global_sequence": 39,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M03_seed42",
+      "prompt_id": "M03",
+      "stratum": "animal_motion",
+      "prompt": "a horse galloping across an open field",
+      "seed": 42,
+      "worker_id": 5,
+      "global_sequence": 40,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M07_seed1234",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 1234,
+      "worker_id": 6,
+      "global_sequence": 41,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M09_seed42",
+      "prompt_id": "M09",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is drawing",
+      "seed": 42,
+      "worker_id": 0,
+      "global_sequence": 42,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M16_seed2026",
+      "prompt_id": "M16",
+      "stratum": "scene_motion",
+      "prompt": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+      "seed": 2026,
+      "worker_id": 1,
+      "global_sequence": 43,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M02_seed2026",
+      "prompt_id": "M02",
+      "stratum": "animal_motion",
+      "prompt": "a cat drinking water",
+      "seed": 2026,
+      "worker_id": 2,
+      "global_sequence": 44,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M07_seed2026",
+      "prompt_id": "M07",
+      "stratum": "human_motion",
+      "prompt": "A person is laughing",
+      "seed": 2026,
+      "worker_id": 3,
+      "global_sequence": 45,
+      "order": [
+        "S4",
+        "T50"
+      ]
+    },
+    {
+      "pair_id": "M11_seed42",
+      "prompt_id": "M11",
+      "stratum": "human_object_interaction",
+      "prompt": "A person is playing piano",
+      "seed": 42,
+      "worker_id": 4,
+      "global_sequence": 46,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    },
+    {
+      "pair_id": "M14_seed1234",
+      "prompt_id": "M14",
+      "stratum": "scene_motion",
+      "prompt": "a drone flying over a snowy forest.",
+      "seed": 1234,
+      "worker_id": 5,
+      "global_sequence": 47,
+      "order": [
+        "T50",
+        "S4"
+      ]
+    }
+  ]
+}
