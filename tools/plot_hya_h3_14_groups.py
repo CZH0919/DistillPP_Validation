@@ -1,4 +1,4 @@
-"""Render the 14-group experiment data as one bilingual PNG using Matplotlib.
+"""Render the 14-group experiment data as a minimal monochrome table.
 
 Data are recomputed from scores.csv and timing.csv, then checked against both
 summary.json and REVIEW.json. No model imports, CUDA, or remote access.
@@ -97,7 +97,6 @@ def main(project, output, fontfile=None):
         matplotlib.use('Agg')
         from matplotlib import pyplot as plt
         from matplotlib.font_manager import FontProperties, findfont
-        from matplotlib.patches import Rectangle
         from matplotlib.transforms import Bbox
         from PIL import Image
 
@@ -119,103 +118,63 @@ def main(project, output, fontfile=None):
         bold = FontProperties(fname=str(boldfile if boldfile.is_file() else fontfile))
         warnings.filterwarnings('error', message=r'Glyph .* missing from font')
         plt.rcParams.update({'axes.unicode_minus': False, 'text.usetex': False})
-        fig = plt.figure(figsize=(20, 14.5), dpi=220, facecolor='white')
+        fig = plt.figure(figsize=(24, 12), dpi=180, facecolor='white')
         ax = fig.add_axes([0, 0, 1, 1])
         ax.set(xlim=(0, 1), ylim=(0, 1))
         ax.axis('off')
-        ink, secondary = '#1C2D40', '#526171'
-        increase, decrease, neutral = '#1E6091', '#AC4E28', '#66717D'
-        rules = '#D9E1E8'
-        boundaries = [.035, .215, .405, .595, .765, .965]
-        centers = [(a + b) / 2 for a, b in zip(boundaries, boundaries[1:])]
-        header_top, body_top, row_height = .895, .805, .0435
-        body_bottom = body_top - len(rows) * row_height
+        boundaries = [.018, .149, .350, .551, .735, .982]
+        header_top, body_top, body_bottom = .985, .920, .020
+        row_height = (body_top - body_bottom) / len(rows)
         boxes = []
 
-        def text(x, y, value, size=14, color=ink, strong=False, ha='center', bounds=None):
-            artist = ax.text(x, y, value, ha=ha, va='center', fontsize=size, color=color,
-                             fontproperties=bold if strong else normal, zorder=3)
-            boxes.append((artist, bounds or (.025, .015, .975, .985)))
+        def text(col, y, value, size=17, strong=False, bottom=0, top=1):
+            artist = ax.text(boundaries[col] + .010, y, value, ha='left',
+                             va='center', fontsize=size, color='black',
+                             fontproperties=bold if strong else normal)
+            boxes.append((artist, (boundaries[col] + .004, bottom + .002,
+                                   boundaries[col + 1] - .004, top - .002)))
             return artist
 
-        def delta_color(value):
-            return increase if value > 1e-10 else decrease if value < -1e-10 else neutral
-
-        text(.035, .958, '第1–4步 × 三种λ：14组实验数据汇总', 25, strong=True, ha='left')
-        text(.035, .925, 'HunyuanVideo T50 → AccVideo S5   |   720p · 129帧 · 24 FPS   |   seed = 2026101901',
-             12.5, color=secondary, ha='left')
-        ax.add_patch(Rectangle((boundaries[0], body_top), boundaries[-1]-boundaries[0],
-                               header_top-body_top, facecolor='#EAF0F6', edgecolor='none'))
         headings = [
-            ('Experiment', '实验组 / 介入步骤与强度', '教师 + 学生 + 12个纠偏组'),
-            ('subject_consistency', '主体一致性', '均值 · n = 32'),
-            ('multiple_objects', '多物体符合度', '均值 · n = 16'),
-            ('dynamic_degree', '动态比例', '运动护栏 · n = 32'),
-            ('Inference time', '实测推理耗时（含传输）', '中位数 · 秒 · n = 48'),
+            '组别',
+            '主体一致性（较 S5）',
+            '多物体符合度（较 S5）',
+            '动态比例（较 S5）',
+            '耗时中位数 / 秒（较 S5）',
         ]
-        for i, (english, chinese, detail) in enumerate(headings):
-            bounds = (boundaries[i]+.005, body_top+.004, boundaries[i+1]-.005, header_top-.004)
-            text(centers[i], .869, english, 14.1, strong=True, bounds=bounds)
-            text(centers[i], .843, chinese, 12.6, bounds=bounds)
-            text(centers[i], .822, detail, 10.5, color=secondary, bounds=bounds)
+        for col, heading in enumerate(headings):
+            text(col, (header_top + body_top) / 2, heading, strong=True,
+                 bottom=body_top, top=header_top)
+        ax.plot([boundaries[0], boundaries[-1]], [body_top, body_top],
+                color='#BBBBBB', lw=.8)
+
         for index, row in enumerate(rows):
             arm = row['group']
             top = body_top - index * row_height
             bottom = top - row_height
-            if arm == 'S5':
-                fill = '#EAF3FC'
-            elif arm == 'T50':
-                fill = '#F1F4F7'
-            else:
-                step = int(arm[4])
-                fill = '#FFFFFF' if step % 2 else '#F7F9FB'
-            ax.add_patch(Rectangle((boundaries[0], bottom), boundaries[-1]-boundaries[0], row_height,
-                                   facecolor=fill, edgecolor='none', zorder=0))
-            if index in (0, 2, 5, 8, 11):
-                ax.plot([boundaries[0], boundaries[-1]], [top, top], color='#A8B8C9', lw=1.0, zorder=1)
-            else:
-                ax.plot([boundaries[0], boundaries[-1]], [top, top], color=rules, lw=.45, zorder=1)
-            left_bounds = (boundaries[0]+.007, bottom+.002, boundaries[1]-.007, top-.002)
-            if arm in ('T50', 'S5'):
-                text(centers[0], top-.0145, 'Teacher T50' if arm == 'T50' else 'Student S5',
-                     15, strong=True, bounds=left_bounds)
-                text(centers[0], top-.032, '原始教师 · 50步' if arm == 'T50' else '蒸馏学生 · 5步 / 比较基准',
-                     10.8, color=secondary, bounds=left_bounds)
-            else:
-                step, strength = int(arm[4]), int(arm[-1])/10
-                text(centers[0], top-row_height/2, f'第{step}步   λ = {strength:.1f}', 14.7, bounds=left_bounds)
+            y = (top + bottom) / 2
+            baseline = arm in ('T50', 'S5')
+            label = arm if baseline else f'第{int(arm[4])}步 λ={int(arm[-1])/10:.1f}'
+            text(0, y, label, bottom=bottom, top=top)
             for col, metric in enumerate(METRICS, 1):
                 value = row['metrics'][metric]['value']
                 delta = row['metrics'][metric]['delta_vs_S5']
-                bounds = (boundaries[col]+.005, bottom+.002, boundaries[col+1]-.005, top-.002)
                 if metric == 'dynamic_degree':
-                    main, change = f'{value:.3f}%', f'Δ {delta:+.3f} pp'
+                    display = f'{value:.3f}%'
+                    if not baseline:
+                        display += f' ({delta:+.3f} pp)'
                 else:
-                    main, change = f'{value:.4f}', f'Δ {delta:+.4f}'
-                text(centers[col], top-.0145, main, 15.5, strong=arm in ('T50','S5'), bounds=bounds)
-                text(centers[col], top-.032, change, 11.6, color=delta_color(delta), bounds=bounds)
-            bounds = (boundaries[4]+.004, bottom+.002, boundaries[5]-.004, top-.002)
-            text(centers[4], top-.0145, f"{row['inference_seconds']:,.3f} s", 15.5,
-                 strong=arm in ('T50','S5'), bounds=bounds)
-            text(centers[4], top-.032,
-                 f"Δ {row['delta_seconds_vs_S5']:+,.3f} s  ({row['delta_time_percent_vs_S5']:+.2f}%)",
-                 11.2, color=delta_color(row['delta_seconds_vs_S5']), bounds=bounds)
-        ax.plot([boundaries[0], boundaries[-1]], [body_bottom, body_bottom], color='#A8B8C9', lw=1)
-        for x in boundaries[1:-1]:
-            ax.plot([x, x], [body_bottom, header_top], color=rules, lw=.6, zorder=1)
-
-        text(.035, .169, 'Δ = 当前组 − Student S5（由未舍入数据计算）', 11.6, strong=True, ha='left')
-        text(.624, .169, '+ 数值增加', 11.4, color=increase)
-        text(.744, .169, '− 数值减少', 11.4, color=decrease)
-        text(.899, .169, '0 数值持平', 11.4, color=neutral)
-        notes = [
-            '指标口径：三项指标均为原分×100；前两项Δ单位为分，dynamic_degree的Δ单位为百分点（pp）。颜色仅表示增减，不表示优劣。',
-            '时间口径：48条视频含传输推理耗时的中位数，含去噪、教师查询/纠偏、VAE及模型传输；不含加载、预热、导出与排队重试。',
-            '时间括号：相对S5的耗时变化百分比；各组沿用既有prompt与seed，主体/运动32条、多物体16条；历史批次的计时采集时段不同。',
-            '数据来源：HYA_H3_STEP24_V1 / scores.csv、timing.csv；与summary.json、REVIEW.json复核一致；全部正式样本保留。',
-        ]
-        for y, note in zip((.137, .109, .081, .053), notes):
-            text(.035, y, note, 10.4, color=secondary, ha='left')
+                    display = f'{value:.4f}'
+                    if not baseline:
+                        display += f' ({delta:+.4f})'
+                text(col, y, display, bottom=bottom, top=top)
+            time_display = f"{row['inference_seconds']:.3f}"
+            if not baseline:
+                time_display += (f" ({row['delta_seconds_vs_S5']:+.3f}; "
+                                 f"{row['delta_time_percent_vs_S5']:+.2f}%)")
+            text(4, y, time_display, bottom=bottom, top=top)
+            ax.plot([boundaries[0], boundaries[-1]], [bottom, bottom],
+                    color='#DDDDDD', lw=.55)
 
         fig.canvas.draw()
         renderer = fig.canvas.get_renderer()
@@ -230,13 +189,13 @@ def main(project, output, fontfile=None):
                     'FigureData': json.dumps(rows, ensure_ascii=False, allow_nan=False),
                     'TimeDefinition': 'median(inference_with_transfers_seconds), 48 videos per group',
                     'DeltaDefinition': 'current group minus S5; quality points, dynamic percentage points; time seconds and relative percent'}
-        fig.savefig(output, dpi=220, facecolor='white', metadata=metadata)
+        fig.savefig(output, dpi=180, facecolor='white', metadata=metadata)
         plt.close(fig)
         with Image.open(output) as saved:
-            assert saved.size == (4400, 3190)
+            assert saved.size == (4320, 2160)
             assert json.loads(saved.info['FigureData']) == rows
             saved.verify()
-        print(json.dumps({'output': str(output), 'groups': len(rows), 'png_pixels': [4400, 3190],
+        print(json.dumps({'output': str(output), 'groups': len(rows), 'png_pixels': [4320, 2160],
                           'sha256': digest(output), 'bytes': output.stat().st_size,
                           'all_text_within_cells': True, 'source_hashes': source_hashes}, indent=2))
 
